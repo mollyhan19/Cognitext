@@ -1,8 +1,7 @@
 import openai
 import json
 
-openai.api_key = 'your-api-key-here'
-
+openai.api_key = 'my-api-key-here'
 
 def extract_information(text, article_type):
     # TODO: define your prompt based on the article type and your methodology
@@ -64,14 +63,14 @@ def map_relationships(extracted_info):
 
 
 def main():
-    article_text = "Your long article text here..."
+    article_text = "long article text here..."
     article_type = "biology"
 
     extracted_info = process_large_text(article_text, article_type)
     relationships = map_relationships(extracted_info)
 
     result = {
-        "article_title": "Your Article Title",
+        "article_title": "Article Title",
         "article_type": article_type,
         "extracted_info": extracted_info,
         "relationships": relationships
