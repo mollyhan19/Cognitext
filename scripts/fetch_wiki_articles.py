@@ -10,7 +10,7 @@ def count_words(text):
     return len(text.split())
 
 # fetching article content
-def fetch_article_content(title):
+def fetch_wiki_content(title):
     page = wiki_wiki.page(title)
     if not page.exists():
         print(f"Article '{title}' does not exist.")
@@ -44,7 +44,7 @@ all_articles = {"articles": {}}
 
 # Fetch each article and append to the list
 for title in article_titles:
-    article_content = fetch_article_content(title)
+    article_content = fetch_wiki_content(title)
     if article_content:
         all_articles["articles"][title] = article_content
 
