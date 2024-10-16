@@ -5,6 +5,10 @@ Students with ADHD and attention deficits often struggle with reading comprehens
 
 The Cognitext is designed to enhance the reading experience for users, particularly those who may struggle with traditional text formats. By identifying key ideas and mapping connections between concepts, the tool aims to improve understanding and retention of complex material.
 
+Advisor: Jinho Choi, Department of Computer Science & Department of Quantitative Theory and Methods, Emory University
+
+Emory College Honors Program
+
 ## Features
 - **Information Chunking**: Breaks down text into manageable sections to facilitate easier comprehension.
 - **Summarization**: Automatically generates concise summaries of each text chunk.
