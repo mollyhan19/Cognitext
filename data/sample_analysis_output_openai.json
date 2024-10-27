@@ -1,0 +1,261 @@
+{
+  "Tardigrade": {
+    "category": "biology",
+    "relationships": {
+      "discourse_relationships": {
+        "temporal_sequence": {
+          "lifecycle": [
+            {
+              "id": "D1",
+              "evidence": "Mating occurs during the molt with the eggs being laid inside the shed cuticle of the female and then covered with sperm.",
+              "marker": "during"
+            },
+            {
+              "id": "D2",
+              "evidence": "The eggs hatch after no more than 14 days, with the young already possessing their full complement of adult cells.",
+              "marker": "after"
+            },
+            {
+              "id": "D3",
+              "evidence": "Growth to adult size occurs by enlargement of the individual cells (hypertrophy), rather than by cell division.",
+              "marker": "occurs by"
+            },
+            {
+              "id": "D4",
+              "evidence": "Tardigrades may molt up to 12 times.",
+              "marker": "may"
+            }
+          ],
+          "frequency": 4
+        },
+        "naming_origin": {
+          "etymology": [
+            {
+              "id": "D5",
+              "evidence": "Johann August Ephraim Goeze originally named the tardigrade Kleiner Wasserb\u00e4r, meaning 'little water-bear' in German.",
+              "marker": "named"
+            },
+            {
+              "id": "D6",
+              "evidence": "The name Tardigradum means 'slow walker' and was given by Lazzaro Spallanzani in 1777.",
+              "marker": "means"
+            }
+          ],
+          "frequency": 2
+        },
+        "environmental_adaptation": {
+          "survival": [
+            {
+              "id": "D7",
+              "evidence": "Tardigrades have survived all five recognized mass extinctions due to their plethora of survival characteristics.",
+              "marker": "due to"
+            },
+            {
+              "id": "D8",
+              "evidence": "Tardigrades are thought to be able to survive even complete global mass extinction events caused by astrophysical events, such as gamma-ray bursts, or large meteorite impacts.",
+              "marker": "caused by"
+            }
+          ],
+          "frequency": 2
+        }
+      },
+      "semantic_relationships": {
+        "biological_features": {
+          "anatomy": [
+            {
+              "id": "S1",
+              "evidence": "Tardigrades have barrel-shaped bodies with four pairs of stubby legs.",
+              "marker": "have"
+            },
+            {
+              "id": "S2",
+              "evidence": "The legs are without joints, while the feet have four to eight claws each.",
+              "marker": "while"
+            },
+            {
+              "id": "S3",
+              "evidence": "The cuticle contains chitin and protein and is moulted periodically.",
+              "marker": "contains"
+            },
+            {
+              "id": "S4",
+              "evidence": "The body cavity consists of a haemocoel, but the only place where a true coelom can be found is around the gonad.",
+              "marker": "consists of"
+            }
+          ],
+          "frequency": 4
+        },
+        "genetic_traits": {
+          "DNA_protection": [
+            {
+              "id": "S5",
+              "evidence": "Their DNA is further protected from radiation by a protein called 'dsup' (short for damage suppressor).",
+              "marker": "protected by"
+            },
+            {
+              "id": "S6",
+              "evidence": "The Dsup proteins of tardigrades Ramazzottius varieornatus and Hypsibius exemplaris promote survival by binding to nucleosomes and protecting chromosomal DNA from hydroxyl radicals.",
+              "marker": "promote"
+            }
+          ],
+          "frequency": 2
+        }
+      }
+    }
+  },
+  "Immortal jellyfish": {
+    "category": "biology",
+    "relationships": {
+      "discourse_relationships": {
+        "temporal_sequence": {
+          "species_classification": [
+            {
+              "id": "D1",
+              "evidence": "The species was formerly considered conspecific with T. nutricula before being reclassified as a separate species.",
+              "marker": "before"
+            }
+          ],
+          "research_progress": [
+            {
+              "id": "D2",
+              "evidence": "Until a 2006 study, it was thought that Turritopsis rubra and Turritopsis nutricula were the same species as Turritopsis dohrnii.",
+              "marker": "Until"
+            }
+          ],
+          "frequency": 2
+        },
+        "causal": {
+          "species_naming": [
+            {
+              "id": "D3",
+              "evidence": "It was named in 1883 in honour of Anton Dohrn, the founder of the Stazione Zoologica Anton Dohrn in Naples, Italy.",
+              "marker": "in honour of"
+            }
+          ],
+          "frequency": 1
+        }
+      },
+      "semantic_relationships": {
+        "hierarchical": {
+          "species_differentiation": [
+            {
+              "id": "S1",
+              "evidence": "Turritopsis rubra seems to retain fertilized eggs until the planula stage.",
+              "marker": "seems"
+            }
+          ],
+          "frequency": 1
+        },
+        "causal": {
+          "research_implication": [
+            {
+              "id": "S2",
+              "evidence": "It is not known whether or not T. rubra medusae can also transform back into polyps, however further research is still to be done.",
+              "marker": "however"
+            }
+          ],
+          "frequency": 1
+        },
+        "pathway": {
+          "life_cycle": [
+            {
+              "id": "S3",
+              "evidence": "These polyps develop over a few days into tiny 1 mm medusae, which are liberated and swim free from the parent hydroid colony.",
+              "marker": "develop"
+            }
+          ],
+          "frequency": 1
+        }
+      }
+    }
+  },
+  "Quantum biology": {
+    "category": "biology",
+    "relationships": {
+      "semantic_relationships": {
+        "causal": {
+          "quantum_mechanics_applications": [
+            {
+              "id": "S1",
+              "evidence": "Erwin Schr\u00f6dinger's 1944 book What Is Life? discussed applications of quantum mechanics in biology.",
+              "marker": "discussed applications"
+            }
+          ],
+          "quantum_ideas_in_life_sciences": [
+            {
+              "id": "S2",
+              "evidence": "Other pioneers Niels Bohr, Pascual Jordan, and Max Delbr\u00fcck argued that the quantum idea of complementarity was fundamental to the life sciences.",
+              "marker": "argued"
+            }
+          ],
+          "proton_tunneling_in_DNA_mutation": [
+            {
+              "id": "S3",
+              "evidence": "In 1963, Per-Olov L\u00f6wdin published proton tunneling as another mechanism for DNA mutation.",
+              "marker": "published"
+            }
+          ],
+          "quantum_tunneling_in_enzymatic_activities": [
+            {
+              "id": "S4",
+              "evidence": "Enzymes have been postulated to use quantum tunneling to transfer electrons in electron transport chains.",
+              "marker": "postulated"
+            },
+            {
+              "id": "S5",
+              "evidence": "studies also show that electron transfer between redox centers through quantum tunneling plays an important role in enzymatic activity of photosynthesis and cellular respiration",
+              "marker": "studies also show"
+            }
+          ],
+          "quantum_entanglement_and_coherence": [
+            {
+              "id": "S6",
+              "evidence": "It is possible that protein quaternary architectures may have adapted to enable sustained quantum entanglement and coherence",
+              "marker": "possible"
+            }
+          ],
+          "quantum_energy_transfer": [
+            {
+              "id": "S7",
+              "evidence": "These architectures might account for a greater percentage of quantum energy transfer, which occurs through electron transport and proton tunneling",
+              "marker": "might account"
+            }
+          ],
+          "frequency": 7
+        },
+        "temporal_sequence": {
+          "field_development": [
+            {
+              "id": "S8",
+              "evidence": "Quantum biology is an emerging field, in the sense that most current research is theoretical and subject to questions that require further experimentation.",
+              "marker": "is an emerging field"
+            },
+            {
+              "id": "S9",
+              "evidence": "Though the field has only recently received an influx of attention, it has been conceptualized by physicists throughout the 20th century.",
+              "marker": "has only recently received"
+            },
+            {
+              "id": "S10",
+              "evidence": "In his paper, he stated that there is a new field of study called 'quantum biology'.",
+              "marker": "stated"
+            }
+          ],
+          "frequency": 3
+        }
+      },
+      "discourse_relationships": {
+        "temporal_sequence": {
+          "historical_progression": [
+            {
+              "id": "D1",
+              "evidence": "In 1963, Per-Olov L\u00f6wdin published proton tunneling as another mechanism for DNA mutation. In 1979, the Soviet and Ukrainian physicist Alexander Davydov published the first textbook on quantum biology entitled Biology and Quantum Mechanics.",
+              "marker": "In 1963...In 1979"
+            }
+          ],
+          "frequency": 1
+        }
+      }
+    }
+  }
+}
