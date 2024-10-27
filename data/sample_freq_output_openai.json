@@ -1,0 +1,25 @@
+{
+  "category_counts": {
+    "biology": 3
+  },
+  "relationship_types": {
+    "biology": [
+      "environmental_adaptation",
+      "naming_origin",
+      "causal",
+      "temporal_sequence"
+    ]
+  },
+  "category_statistics": {
+    "biology": {
+      "total_articles": 3,
+      "relationship_counts": {
+        "temporal_sequence": 3,
+        "naming_origin": 1,
+        "environmental_adaptation": 1,
+        "causal": 1
+      },
+      "evidence_counts": 12
+    }
+  }
+}

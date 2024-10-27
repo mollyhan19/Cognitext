@@ -1,24 +1,44 @@
 import openai
-import json
+from openai import OpenAI
 
-openai.api_key = 'my-api-key-here'
+client = OpenAI()
+import json
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+api_key = os.getenv("API_KEY")
+
+'''
+def load_api_keys():
+    load_dotenv()
+    openaiapi_key = os.getenv("API_KEY")
+    rapidapi_key = os.getenv('RAPIDAPI_KEY')
+
+    # Check if either of the API keys is not found and raise an error accordingly
+    if openai_api_key is None:
+        raise ValueError("OpenAI API key not found. Please check your .env file.")
+    if rapidapi_key is None:
+        raise ValueError("RapidAPI key not found. Please check your .env file.")
+
+    return openai_api_key, rapidapi_key
+'''
 
 def extract_information(text, article_type):
     # TODO: define your prompt based on the article type and your methodology
     prompt = f"Given the following {article_type} article, please extract key concepts and their relationships:\n\n{text}"
 
     try:
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system",
-                 "content": "You are a helpful assistant that extracts key information from academic articles."},
-                {"role": "user", "content": prompt}
-            ]
-        )
-        extracted_info = response.choices[0].message['content']
+        response = client.chat.completions.create(model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system",
+             "content": "You are a helpful assistant that extracts key information from academic articles."},
+            {"role": "user", "content": prompt}
+        ])
+        extracted_info = response.choices[0].message.content
         return extracted_info
-    except openai.error.OpenAIError as e:
+    except openai.OpenAIError as e:
         print(f"API error: {e}")
         return None  # Or handle it as you see fit
     except Exception as e:

@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f3ee0b-fcc8-4e3c-afb6-f8709c84ae6e" name="Changes" comment="Updated API calls">
+      <change afterPath="$PROJECT_DIR$/data/sample_analysis_output_openai_raw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sample_freq_output_openai.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/text_sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/dependency_analysis_claude.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/dependency_analysis_openai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/fetch_wiki_samples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/text_corpus.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/text_corpus.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fetch_wiki_articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/fetch_wiki_articles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/text_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/text_processing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,20 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.fetch_articles.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.dependency_analysis.executor": "Run",
+    "Python.dependency_analysis_openai.executor": "Run",
+    "Python.fetch_articles.executor": "Run",
+    "Python.fetch_wiki_articles.executor": "Run",
+    "Python.fetch_wiki_samples.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="fetch_wiki_articles" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Cognitext" />
@@ -107,7 +120,18 @@
       <workItem from="1729053114989" duration="18000" />
       <workItem from="1729055575505" duration="688000" />
       <workItem from="1729056266578" duration="50000" />
-      <workItem from="1729056360715" duration="23000" />
+      <workItem from="1729056360715" duration="37000" />
+      <workItem from="1729195789945" duration="2280000" />
+      <workItem from="1729383924205" duration="1260000" />
+      <workItem from="1729518664286" duration="50000" />
+      <workItem from="1729518986931" duration="2000" />
+      <workItem from="1729557548512" duration="6638000" />
+      <workItem from="1729617340717" duration="763000" />
+      <workItem from="1729624915855" duration="627000" />
+      <workItem from="1729625637230" duration="2962000" />
+      <workItem from="1729741778337" duration="3281000" />
+      <workItem from="1729795706124" duration="13712000" />
+      <workItem from="1729990909250" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -133,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729056299767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated API calls">
+      <option name="closed" value="true" />
+      <created>1729056393710</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729056393710</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +178,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Cognitext$fetch_articles.coverage" NAME="fetch_articles Coverage Results" MODIFIED="1727753071606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Cognitext$fetch_wiki_articles.coverage" NAME="fetch_wiki_articles Coverage Results" MODIFIED="1729835342249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Cognitext$dependency_analysis_openai.coverage" NAME="dependency_analysis_openai Coverage Results" MODIFIED="1729995595272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Cognitext$dependency_analysis.coverage" NAME="dependency_analysis Coverage Results" MODIFIED="1729892866067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Cognitext$fetch_wiki_samples.coverage" NAME="fetch_wiki_samples Coverage Results" MODIFIED="1729835404109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
