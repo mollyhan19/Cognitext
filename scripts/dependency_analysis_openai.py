@@ -1,9 +1,12 @@
+from datetime import datetime
 from openai import OpenAI
 import json
 import os
+import re
 from dotenv import load_dotenv
 from collections import defaultdict, Counter
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional, Tuple
+from dataclasses import dataclass
 
 # Load environment variables from .env file (make sure your API key is in this file)
 load_dotenv()
@@ -14,96 +17,250 @@ def load_articles(file_path):
     with open(file_path, 'r') as file:
         data = json.load(file)
     articles = []
+
     # Extract articles from the JSON structure
     for title, article in data["articles"].items():
-        sections = [section["content"] for section in article["sections"]]
-        article_content = "\n\n".join(sections)  # Combine section contents into one string
-        # Append title and content to the articles list
+        sections_content = []
+
+        # Iterate through each section and preserve its heading
+        for section in article["sections"]:
+            for heading, content in section.items():  # Access the heading and its content
+                # Append the heading itself to make it part of the analysis
+                sections_content.append(f"Section: {heading}")
+
+                # Add the main text content
+                sections_content.extend(content["text"])
+
+                # Add subheading text, if available
+                for subheading, subcontent in content["subheadings"].items():
+                    sections_content.append(f"Subheading: {subheading}")
+                    sections_content.extend(subcontent["text"])
+
+        article_content = "\n\n".join(sections_content)  # Combine section contents into one string
+
+        # Append title, content, and category to the articles list
         articles.append({
             "title": title,
             "content": article_content,
             "category": article["category"]
         })
+
     return articles
 
-# Function to extract dependencies
-def extract_dependencies(article_content):
-    prompt = (f'''
-    Your task is to categorize and extract dependencies and relationships between key concepts from the text. For each paragraph or section, follow these steps: 
-    1. Identify relationship types: 
-    a. First, classify the relationship as either discourse (based on linguistic markers) or semantic (based on domain-specific knowledge). 
-    b. Then, specify the exact relation type (e.g., causal, temporal, hierarchical, pathway, logical, etc.).
-    2. For each relationship identified: 
-    a. Assign each relationship a unique ID (e.g., D1 for discourse, S1 for semantic).
-    b. Identify the linguistic or conceptual marker used to establish the relationship.
-    c. Provide exact text evidence showing the two related concepts and the exact sentence where they occur.
-    d. Ensure that the number of unique IDs and evidence matches the frequency of occurrences. This means each instance of a relationship should have its own unique ID and corresponding evidence.
-    3. Counting the frequency at the relationship-type level, based on the number of distinct instances (e.g., temporal_sequence: 3).
-    4. Identify any cross-section relationships.
-    
-    Output the relationships in this exact JSON structure:
-    {{
-      "discourse_relationships": {{
-        "temporal_sequence": {{
-          "lifecycle": [
-            {{
-              "id": "D1",
-              "evidence": "The eggs develop in gonads of female medusae...",
-              "marker": "develop"
-            }},
-            {{
-              "id": "D2",
-              "evidence": "Fertilized eggs develop into planula larvae...",
-              "marker": "develop into"
-            }},
-            {{
-              "id": "D3",
-              "evidence": "...which settle onto the sea floor...",
-              "marker": "settle"
-            }}
-          ],
-          "frequency": 3
-        }}
-      }}
-    }}
-    Text to analyze: {article_content}
-    ''')
+@dataclass
+class TextChunk:
+    content: str
+    paragraphs: List[str]  # Store individual paragraphs
+    paragraph_indices: List[int]  # Global paragraph indices
+    section: str
+    overlap_prev: List[str] = None  # Previous chunk's last paragraphs
+    overlap_next: List[str] = None  # Next chunk's first paragraphs
 
-    response = client.chat.completions.create(model="gpt-4-turbo",
-    messages=[
-        {"role": "system", "content": "You are an experienced linguist specializing in dependency analysis."},
-        {"role": "user", "content": prompt}
-    ],
-    max_tokens=2048,
-    temperature=0.2,
-    n=1,
-    stop=None)
-
-    return response.choices[0].message.content.strip()
+    def __post_init__(self):
+        self.overlap_prev = self.overlap_prev or []
+        self.overlap_next = self.overlap_next or []
 
 
-def process_all_articles(articles):
-    all_relationships = {}
-    for article in articles:
-        print(f"Processing article: {article['title']}")
+def preprocess_text(
+        articles_list: list,  # Changed parameter name and type hint
+        chunk_size: int = 3,
+        overlap_size: int = 1
+) -> Tuple[List[TextChunk], List[str]]:
+    chunks = []
+    sentence_mapping = []
 
-        # Extract the category
-        category = article.get("category", "Unknown")  # Default to "Unknown" if category is not found
+    # Loop through articles in list
+    for article in articles_list:
+        category = article.get("category", "unknown")
+        content = article["content"]
 
-        # Extract dependencies
-        relationships = extract_dependencies(article["content"])
+        # Split content into sections
+        sections = content.split("Section: ")
 
-        # Create a new entry for each article, including title and category
-        all_relationships[article["title"]] = {
-            "category": category,
-            "relationships": relationships
-        }
+        for section in sections:
+            if not section.strip():
+                continue
 
-    # Save results to a JSON file for easier analysis
-    with open("/Users/mollyhan/PycharmProjects/Cognitext/data/sample_analysis_output_openai_raw.json", "w") as output_file:
-        json.dump(all_relationships, output_file, indent=4)
+            # Extract paragraphs
+            paragraphs = [p.strip() for p in section.split('\n\n') if p.strip()]
+            if not paragraphs:
+                continue
 
-    print("All relationships extracted and saved to 'sample_analysis_output_openai_raw.json'.")
+            section_name = paragraphs[0] if paragraphs else "Unknown Section"
+
+            # Create chunks with overlap
+            for i in range(0, len(paragraphs), chunk_size - overlap_size):
+                chunk_paragraphs = paragraphs[i:i + chunk_size]
+                chunk_paragraph_indices = list(range(i, i + len(chunk_paragraphs)))
+
+                # Define overlaps
+                overlap_prev = paragraphs[max(0, i - overlap_size):i]
+                overlap_next = paragraphs[i + chunk_size:i + chunk_size + overlap_size]
+
+                chunk = TextChunk(
+                    content="\n\n".join(chunk_paragraphs),
+                    paragraphs=chunk_paragraphs,
+                    paragraph_indices=chunk_paragraph_indices,
+                    section=section_name,
+                    overlap_prev=overlap_prev,
+                    overlap_next=overlap_next
+                )
+                chunks.append(chunk)
+
+    return chunks, sentence_mapping
+
+# Functions to extract dependencies
+
+def extract_concepts(chunk: TextChunk):
+    """
+    Extract key concepts from a chunk and ground them in evidence.
+    """
+    # TODO: prompt engineering
+    # Example LLM prompt for concept extraction
+    prompt = f"""
+    Analyze the following text and extract key concepts. For each concept:
+    1. Provide the concept name.
+    2. Specify the location (sentence or paragraph index).
+    3. Include the exact sentence(s) as evidence.
+
+    Text:
+    {chunk.content}
+    """
+
+    response = client.chat.completions.create(
+        model="gpt-4-turbo",
+        messages=[{"role": "system", "content": "You are an expert at analyzing text and extracting meaningful relationships between concepts, with a special focus on making complex information more understandable. "},
+                  {"role": "user", "content": prompt}],
+        max_tokens=1024,
+        temperature=0.2,
+        n=1,
+        stop=None)
+
+    # Process the response into a structured format
+    response_content = response.choices[0].message.content.strip()
+    try:
+        # Handle case where response might include markdown code blocks
+        if response_content.startswith("```") and response_content.endswith("```"):
+            response_content = response_content[3:-3].strip()
+        if response_content.startswith("```json"):
+            response_content = response_content[7:].strip()
+
+        concepts = json.loads(response_content)
+        return concepts
+    except json.JSONDecodeError:
+        print(f"Error parsing response: {response_content}")
+        return []
+
+def extract_relations(chunk: TextChunk, concepts: List[dict]):
+    """
+    Extract relationships between concepts within the chunk.
+    """
+    # Example LLM prompt for relation extraction
+    concept_names = ", ".join([c["concept"] for c in concepts])
+    prompt = f"""
+    Analyze the following text and identify relationships between these concepts:
+    {concept_names}
+
+    For each relationship:
+    1. Specify the type of relationship (e.g., causal, hierarchical).
+    2. List the two related concepts.
+    3. Provide the sentence(s) as evidence.
+
+    Text:
+    {chunk.content}
+    """
+    response = client.chat.completions.create(
+        model="gpt-4-turbo",
+        messages=[{"role": "system",
+                   "content": "You are an expert at analyzing text and extracting meaningful relationships between concepts, with a special focus on making complex information more understandable. "},
+                  {"role": "user", "content": prompt}],
+        max_tokens=2048,
+        temperature=0.2,
+        n=1,
+        stop=None)
+
+    response_content = response.choices[0].message.content.strip()
+    try:
+        if response_content.startswith("```") and response_content.endswith("```"):
+            response_content = response_content[3:-3].strip()
+        if response_content.startswith("```json"):
+            response_content = response_content[7:].strip()
+
+        relations = json.loads(response_content)
+        return relations
+    except json.JSONDecodeError:
+        print(f"Error parsing response: {response_content}")
+        return []
+
+def analyze_overlaps(chunk: TextChunk, concepts: List[dict], relations: List[dict]):
+    """
+    Identify connections between concepts and relationships across overlapping chunks.
+    """
+    # Example LLM prompt for analyzing overlaps
+    prompt = f"""
+    Compare the following text with its overlapping paragraphs from adjacent chunks. 
+    Based on the concepts and relationships provided, identify connections between chunks.
+
+    Overlap Previous:
+    {" ".join(chunk.overlap_prev)}
+
+    Current Text:
+    {chunk.content}
+
+    Overlap Next:
+    {" ".join(chunk.overlap_next)}
+
+    Concepts:
+    {", ".join([c["concept"] for c in concepts])}
+
+    Relationships:
+    {relations}
+
+    For each connection:
+    1. Specify the related concepts.
+    2. State the type of connection (e.g., shared context, causal link).
+    3. Provide evidence from both chunks.
+    """
+
+    response = client.chat.completions.create(
+        model="gpt-4-turbo",
+        messages=[{"role": "system",
+                   "content": "You are an expert at analyzing text and extracting meaningful relationships between concepts, with a special focus on making complex information more understandable. "},
+                  {"role": "user", "content": prompt}],
+        max_tokens=4096,
+        temperature=0.2,
+        n=1,
+        stop=None)
+
+    response_content = response.choices[0].message.content.strip()
+    try:
+        if "```" in response_content:
+            response_content = response_content.split("```")[1]
+            if response_content.startswith("json"):
+                response_content = response_content[4:]
+
+        response_content = response_content.strip()
+        overlaps = json.loads(response_content)
+        return overlaps
+    except json.JSONDecodeError:
+        print(f"Error parsing response: {response_content}")
+        return []
+
+def process_chunk(chunk: TextChunk):
+    # Step 1: Extract concepts
+    concepts = extract_concepts(chunk)
+
+    # Step 2: Extract intra-chunk relationships
+    relations = extract_relations(chunk, concepts)
+
+    # Step 3: Analyze overlaps for inter-chunk connections
+    overlaps = analyze_overlaps(chunk, concepts, relations)
+
+    return {
+        "concepts": concepts,
+        "relations": relations,
+        "overlaps": overlaps
+    }
 
 def clean_markdown_json(json_str: str) -> str:
     """
@@ -180,151 +337,43 @@ def load_and_parse_json(file_path: str) -> Dict[str, Any]:
         raise json.JSONDecodeError(f"Error parsing JSON file: {str(e)}", e.doc, e.pos)
 
 
-def save_formatted_json(data: Dict[str, Any], file_path: str) -> None:
-    """
-    Save data to JSON file with proper formatting
-    """
-    try:
-        with open(file_path, "w") as output_file:
-            json.dump(data, output_file, indent=2)
-        print(f"Successfully saved formatted data to '{file_path}'")
-    except Exception as e:
-        print(f"Error saving to file: {str(e)}")
+def process_and_save_results(articles_list: list, output_path: str):
+    chunks, _ = preprocess_text(articles_list, chunk_size=2, overlap_size=1)
 
-
-def verify_parsed_data(parsed_data: Dict[str, Any]) -> None:
-    """
-    Verify the structure of parsed data
-    """
-    print("\nVerifying parsed data structure:")
-    for title, content in parsed_data.items():
-        print(f"\nArticle: {title}")
-        print(f"Category: {content.get('category')}")
-        relationships = content.get('relationships', {})
-        if isinstance(relationships, dict):
-            print("Relationships successfully parsed as dictionary")
-            if 'discourse_relationships' in relationships:
-                print("Found discourse_relationships structure")
-        else:
-            print(f"Relationships type: {type(relationships)}")
-
-
-def analyze_category_frequencies(data: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    Analyze frequencies and patterns within categories.
-    """
-    analysis = {
-        "category_counts": Counter(),
-        "relationship_types": defaultdict(set),
-        "category_statistics": {}
+    results = {
+        "analysis_date": datetime.now().isoformat(),
+        "articles": {}
     }
 
-    for title, content in data.items():
-        # Extract category from each article's content
-        category = content.get("category", "unknown")
+    for article in articles_list:
+        article_results = {
+            "title": article["title"],
+            "category": article["category"],
+            "chunks": []
+        }
 
-        # Increment count of articles per category
-        analysis["category_counts"][category] += 1
+        # Process chunks for this article
+        article_chunks = [c for c in chunks if c.content in article["content"]]
+        for chunk in article_chunks:
+            concepts = extract_concepts(chunk)
+            relations = extract_relations(chunk, concepts)
+            overlaps = analyze_overlaps(chunk, concepts, relations)
 
-        # Initialize category-specific statistics if not already set
-        if category not in analysis["category_statistics"]:
-            analysis["category_statistics"][category] = {
-                "total_articles": 0,
-                "relationship_counts": defaultdict(int),
-                "evidence_counts": 0
+            chunk_analysis = {
+                "section": chunk.section,
+                "concepts": concepts,
+                "relations": relations,
+                "overlaps": overlaps
             }
+            article_results["chunks"].append(chunk_analysis)
 
-        category_stats = analysis["category_statistics"][category]
-        category_stats["total_articles"] += 1
+        results["articles"][article["title"]] = article_results
 
-        # Process relationships within each article
-        relationships = content.get("relationships", {})
-        discourse_rels = relationships.get("discourse_relationships", {})
-
-        # Count different types of discourse relationships
-        for rel_type, rel_content in discourse_rels.items():
-            # Add to relationship types
-            analysis["relationship_types"][category].add(rel_type)
-            category_stats["relationship_counts"][rel_type] += 1
-
-            # Count evidence instances
-            if isinstance(rel_content, dict):
-                for subtype in rel_content.values():
-                    if isinstance(subtype, list):
-                        category_stats["evidence_counts"] += len(subtype)
-
-    # Convert sets to lists for JSON serialization
-    analysis["relationship_types"] = {category: list(types) for category, types in
-                                      analysis["relationship_types"].items()}
-
-    return analysis
-
-'''
-def print_category_analysis(analysis: Dict[str, Any]) -> None:
-    """
-    Print readable analysis of the categorized data
-    """
-    print("\nCategory Analysis Summary:")
-    print("=" * 50)
-
-    # Print category counts
-    print("\nArticles per Category:")
-    for category, count in analysis["category_counts"].items():
-        print(f"{category}: {count} articles")
-
-    print("\nDetailed Category Statistics:")
-    print("=" * 50)
-    for category, stats in analysis["category_statistics"].items():
-        print(f"\n{category}:")
-        print(f"Total Articles: {stats['total_articles']}")
-        print(f"Total Evidence Instances: {stats['evidence_counts']}")
-        print("Relationship Types:")
-        for rel_type, count in stats['relationship_counts'].items():
-            print(f"  - {rel_type}: {count} instances")
-'''
+    # Save results
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
 
 # Main script execution
 if __name__ == "__main__":
-    # articles = load_articles("/Users/mollyhan/PycharmProjects/Cognitext/data/text_sample.json")
-    # process_all_articles(articles)
-
-    # input_file = "/Users/mollyhan/PycharmProjects/Cognitext/data/sample_analysis_output_openai_raw.json"
-    # output_file = "/Users/mollyhan/PycharmProjects/Cognitext/data/sample_analysis_output_openai.json"
-    # analysis_output = "/Users/mollyhan/PycharmProjects/Cognitext/data/sample_freq_output_openai.json"
-
-    # Load and parse the JSON with category organization
-    # parsed_data = load_and_parse_json(input_file)
-    # Save the categorized data
-    # save_formatted_json(parsed_data, output_file)
-
-    # Perform category analysis
-    # category_analysis = analyze_category_frequencies(parsed_data)
-
-    # Save the analysis
-    # save_formatted_json(category_analysis, analysis_output)
-
-    # Print readable analysis
-    # print_category_analysis(category_analysis)
-
-
-
-    # Paths to files
-    input_file = "/Users/mollyhan/PycharmProjects/Cognitext/data/sample_analysis_output_openai.json"
-    analysis_output = "/Users/mollyhan/PycharmProjects/Cognitext/data/sample_freq_output_openai.json"
-
-    # Load the pre-formatted JSON with categorized data
-    with open(input_file, 'r') as f:
-        parsed_data = json.load(f)
-
-    # Perform category analysis
-    category_analysis = analyze_category_frequencies(parsed_data)
-
-    # Save the analysis results
-    save_formatted_json(category_analysis, analysis_output)
-
-    # Print a readable version of the analysis
-    # print_category_analysis(category_analysis)
-
-
-
-
+    articles = load_articles("/Users/mollyhan/PycharmProjects/Cognitext/data/text_sample.json")
+    process_and_save_results(articles, "/Users/mollyhan/PycharmProjects/Cognitext/data/sample_analysis_output_chunked_openai.json")

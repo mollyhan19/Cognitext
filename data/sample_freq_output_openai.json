@@ -1,25 +1,264 @@
 {
   "category_counts": {
-    "biology": 3
+    "biology": 7,
+    "computer_science": 7,
+    "history": 7,
+    "philosophy": 7,
+    "political_science": 7,
+    "linguistics": 7,
+    "arts": 7,
+    "math/stats": 7,
+    "health/medicine": 7,
+    "general": 7
   },
   "relationship_types": {
     "biology": [
-      "environmental_adaptation",
-      "naming_origin",
       "causal",
+      "temporal",
+      "logical",
+      "hierarchical",
+      "pathway",
+      "temporal_sequence"
+    ],
+    "computer_science": [
+      "causal",
+      "temporal",
+      "logical",
+      "hierarchical",
+      "pathway",
+      "temporal_sequence"
+    ],
+    "history": [
+      "source_citation",
+      "initiation_of_events",
+      "uncertainty",
+      "causal",
+      "inspiration",
+      "cause_effect",
+      "logical",
+      "hierarchical",
+      "pathway",
+      "temporal_sequence",
+      "mutual_benefit"
+    ],
+    "philosophy": [
+      "causal",
+      "logical_sequence",
+      "identity",
+      "material_constitution",
+      "temporal",
+      "logical",
+      "hierarchical",
+      "identity_concept",
+      "pathway",
+      "temporal_sequence",
+      "cultural_persistence"
+    ],
+    "political_science": [
+      "causal",
+      "comparison",
+      "identity",
+      "logical_sequence",
+      "logical",
+      "hierarchical",
+      "pathway",
+      "temporal_sequence",
+      "explanation"
+    ],
+    "linguistics": [
+      "adoption_process",
+      "equivalence",
+      "causal",
+      "logical_sequence",
+      "standardization",
+      "preference",
+      "difficulty_increase",
+      "logical",
+      "hierarchical",
+      "pathway",
+      "temporal_sequence"
+    ],
+    "arts": [
+      "causal",
+      "contrast",
+      "hierarchical",
+      "pathway",
+      "temporal_sequence"
+    ],
+    "math/stats": [
+      "definition",
+      "equivalence",
+      "causal",
+      "pathway",
+      "logical",
+      "causal_relationship",
+      "hierarchical",
+      "hierarchical_relationship",
+      "temporal_sequence",
+      "topological",
+      "logical_explanation"
+    ],
+    "health/medicine": [
+      "application",
+      "equivalence",
+      "causal",
+      "contrast",
+      "hierarchical",
+      "pathway",
+      "temporal_sequence"
+    ],
+    "general": [
+      "causal",
+      "contrast",
+      "logical",
+      "hierarchical",
+      "pathway",
       "temporal_sequence"
     ]
   },
   "category_statistics": {
     "biology": {
-      "total_articles": 3,
+      "total_articles": 7,
       "relationship_counts": {
-        "temporal_sequence": 3,
-        "naming_origin": 1,
-        "environmental_adaptation": 1,
-        "causal": 1
+        "temporal_sequence": 38,
+        "causal": 20,
+        "pathway": 8,
+        "hierarchical": 7,
+        "temporal": 1,
+        "logical": 1
       },
-      "evidence_counts": 12
+      "evidence_counts": 75
+    },
+    "computer_science": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "temporal_sequence": 29,
+        "causal": 21,
+        "hierarchical": 10,
+        "pathway": 10,
+        "logical": 3,
+        "temporal": 1
+      },
+      "evidence_counts": 74
+    },
+    "history": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "temporal_sequence": 42,
+        "causal": 20,
+        "hierarchical": 6,
+        "inspiration": 4,
+        "logical": 4,
+        "initiation_of_events": 3,
+        "mutual_benefit": 3,
+        "source_citation": 2,
+        "pathway": 2,
+        "cause_effect": 2,
+        "uncertainty": 1
+      },
+      "evidence_counts": 89
+    },
+    "philosophy": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "causal": 22,
+        "temporal_sequence": 17,
+        "hierarchical": 9,
+        "logical": 7,
+        "logical_sequence": 6,
+        "pathway": 3,
+        "cultural_persistence": 2,
+        "temporal": 2,
+        "identity_concept": 1,
+        "material_constitution": 1,
+        "identity": 1
+      },
+      "evidence_counts": 71
+    },
+    "political_science": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "temporal_sequence": 18,
+        "causal": 14,
+        "hierarchical": 10,
+        "logical": 9,
+        "logical_sequence": 4,
+        "pathway": 3,
+        "comparison": 3,
+        "identity": 1,
+        "explanation": 1
+      },
+      "evidence_counts": 63
+    },
+    "linguistics": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "temporal_sequence": 27,
+        "causal": 12,
+        "hierarchical": 8,
+        "standardization": 4,
+        "pathway": 3,
+        "logical": 2,
+        "logical_sequence": 2,
+        "adoption_process": 1,
+        "equivalence": 1,
+        "preference": 1,
+        "difficulty_increase": 1
+      },
+      "evidence_counts": 62
+    },
+    "arts": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "temporal_sequence": 47,
+        "causal": 20,
+        "hierarchical": 8,
+        "pathway": 6,
+        "contrast": 2
+      },
+      "evidence_counts": 83
+    },
+    "math/stats": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "temporal_sequence": 25,
+        "causal": 15,
+        "hierarchical": 7,
+        "logical_explanation": 3,
+        "causal_relationship": 3,
+        "definition": 3,
+        "hierarchical_relationship": 2,
+        "topological": 2,
+        "logical": 2,
+        "pathway": 2,
+        "equivalence": 2
+      },
+      "evidence_counts": 66
+    },
+    "health/medicine": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "causal": 28,
+        "temporal_sequence": 14,
+        "hierarchical": 12,
+        "pathway": 8,
+        "contrast": 2,
+        "equivalence": 1,
+        "application": 1
+      },
+      "evidence_counts": 66
+    },
+    "general": {
+      "total_articles": 7,
+      "relationship_counts": {
+        "causal": 28,
+        "temporal_sequence": 24,
+        "hierarchical": 9,
+        "logical": 2,
+        "pathway": 2,
+        "contrast": 1
+      },
+      "evidence_counts": 66
     }
   }
 }

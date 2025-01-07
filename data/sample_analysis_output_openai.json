@@ -2,260 +2,525 @@
   "Tardigrade": {
     "category": "biology",
     "relationships": {
-      "discourse_relationships": {
-        "temporal_sequence": {
-          "lifecycle": [
+      "concept_registry": [
+        {
+          "concept_id": "Tardigrade",
+          "first_appearance": {
+            "section": "Naming",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
             {
-              "id": "D1",
-              "evidence": "Mating occurs during the molt with the eggs being laid inside the shed cuticle of the female and then covered with sperm.",
-              "marker": "during"
+              "section": "Description",
+              "paragraph": 1
             },
             {
-              "id": "D2",
-              "evidence": "The eggs hatch after no more than 14 days, with the young already possessing their full complement of adult cells.",
-              "marker": "after"
+              "section": "Habitat",
+              "paragraph": 1
             },
             {
-              "id": "D3",
-              "evidence": "Growth to adult size occurs by enlargement of the individual cells (hypertrophy), rather than by cell division.",
-              "marker": "occurs by"
+              "section": "Anatomy and morphology",
+              "paragraph": 1
             },
             {
-              "id": "D4",
-              "evidence": "Tardigrades may molt up to 12 times.",
-              "marker": "may"
+              "section": "Reproduction",
+              "paragraph": 1
+            },
+            {
+              "section": "Ecology and life history",
+              "paragraph": 1
+            },
+            {
+              "section": "Physiology",
+              "paragraph": 1
+            },
+            {
+              "section": "Taxonomy",
+              "paragraph": 1
+            },
+            {
+              "section": "Evolutionary history",
+              "paragraph": 1
+            },
+            {
+              "section": "Genomes and genome sequencing",
+              "paragraph": 1
+            },
+            {
+              "section": "Ecological importance",
+              "paragraph": 1
             }
           ],
-          "frequency": 4
+          "brief_explanation": "Microscopic, water-dwelling, eight-legged animals known for extreme survival capabilities."
         },
-        "naming_origin": {
-          "etymology": [
-            {
-              "id": "D5",
-              "evidence": "Johann August Ephraim Goeze originally named the tardigrade Kleiner Wasserb\u00e4r, meaning 'little water-bear' in German.",
-              "marker": "named"
-            },
-            {
-              "id": "D6",
-              "evidence": "The name Tardigradum means 'slow walker' and was given by Lazzaro Spallanzani in 1777.",
-              "marker": "means"
-            }
-          ],
-          "frequency": 2
+        {
+          "concept_id": "Cryptobiosis",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A metabolic state of life entered by an organism in response to adverse environmental conditions."
         },
-        "environmental_adaptation": {
-          "survival": [
-            {
-              "id": "D7",
-              "evidence": "Tardigrades have survived all five recognized mass extinctions due to their plethora of survival characteristics.",
-              "marker": "due to"
-            },
-            {
-              "id": "D8",
-              "evidence": "Tardigrades are thought to be able to survive even complete global mass extinction events caused by astrophysical events, such as gamma-ray bursts, or large meteorite impacts.",
-              "marker": "caused by"
-            }
-          ],
-          "frequency": 2
+        {
+          "concept_id": "Eutely",
+          "first_appearance": {
+            "section": "Anatomy and morphology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Condition where all adult individuals of a species have the same number of cells."
         }
-      },
-      "semantic_relationships": {
-        "biological_features": {
-          "anatomy": [
-            {
-              "id": "S1",
-              "evidence": "Tardigrades have barrel-shaped bodies with four pairs of stubby legs.",
-              "marker": "have"
-            },
-            {
-              "id": "S2",
-              "evidence": "The legs are without joints, while the feet have four to eight claws each.",
-              "marker": "while"
-            },
-            {
-              "id": "S3",
-              "evidence": "The cuticle contains chitin and protein and is moulted periodically.",
-              "marker": "contains"
-            },
-            {
-              "id": "S4",
-              "evidence": "The body cavity consists of a haemocoel, but the only place where a true coelom can be found is around the gonad.",
-              "marker": "consists of"
+      ],
+      "relations": [
+        {
+          "relation_id": "relation_1",
+          "source": {
+            "concept": "Tardigrade",
+            "location": {
+              "section": "Naming",
+              "paragraph": 1
             }
-          ],
-          "frequency": 4
+          },
+          "target": {
+            "concept": "Cryptobiosis",
+            "location": {
+              "section": "Physiology",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "Survival mechanism",
+          "readable_statement": "Tardigrades utilize cryptobiosis to survive extreme conditions.",
+          "evidence": "Tardigrades can survive in extreme environments that would kill almost any other animal.",
+          "is_domain_specific": true,
+          "crosses_paragraphs": true
         },
-        "genetic_traits": {
-          "DNA_protection": [
+        {
+          "relation_id": "relation_2",
+          "source": {
+            "concept": "Tardigrade",
+            "location": {
+              "section": "Anatomy and morphology",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "Eutely",
+            "location": {
+              "section": "Anatomy and morphology",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "Biological characteristic",
+          "readable_statement": "All adult tardigrades of the same species exhibit eutely, having the same number of cells.",
+          "evidence": "All adult tardigrades of the same species have the same number of cells.",
+          "is_domain_specific": true,
+          "crosses_paragraphs": false
+        }
+      ],
+      "concept_chains": [
+        {
+          "chain_id": "chain_1",
+          "description": "Tardigrade survival mechanisms",
+          "components": [
             {
-              "id": "S5",
-              "evidence": "Their DNA is further protected from radiation by a protein called 'dsup' (short for damage suppressor).",
-              "marker": "protected by"
+              "concept": "Tardigrade",
+              "location": {
+                "section": "Naming",
+                "paragraph": 1
+              },
+              "role": "start"
             },
             {
-              "id": "S6",
-              "evidence": "The Dsup proteins of tardigrades Ramazzottius varieornatus and Hypsibius exemplaris promote survival by binding to nucleosomes and protecting chromosomal DNA from hydroxyl radicals.",
-              "marker": "promote"
+              "concept": "Cryptobiosis",
+              "location": {
+                "section": "Physiology",
+                "paragraph": 1
+              },
+              "role": "end"
             }
           ],
-          "frequency": 2
+          "chain_summary": "Tardigrades utilize a state called cryptobiosis to survive extreme environmental conditions."
         }
-      }
+      ]
     }
   },
   "Immortal jellyfish": {
     "category": "biology",
     "relationships": {
-      "discourse_relationships": {
-        "temporal_sequence": {
-          "species_classification": [
+      "concept_registry": [
+        {
+          "concept_id": "Turritopsis dohrnii",
+          "first_appearance": {
+            "section": "Taxonomy",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
             {
-              "id": "D1",
-              "evidence": "The species was formerly considered conspecific with T. nutricula before being reclassified as a separate species.",
-              "marker": "before"
+              "section": "Description",
+              "paragraph": 1
+            },
+            {
+              "section": "Life cycle",
+              "paragraph": 1
+            },
+            {
+              "section": "Biological immortality",
+              "paragraph": 1
+            },
+            {
+              "section": "Ecology",
+              "paragraph": 1
+            },
+            {
+              "section": "Habitat",
+              "paragraph": 1
             }
           ],
-          "research_progress": [
-            {
-              "id": "D2",
-              "evidence": "Until a 2006 study, it was thought that Turritopsis rubra and Turritopsis nutricula were the same species as Turritopsis dohrnii.",
-              "marker": "Until"
-            }
-          ],
-          "frequency": 2
+          "brief_explanation": "A species of jellyfish known for its unique ability to revert to its juvenile polyp stage after reaching adulthood."
         },
-        "causal": {
-          "species_naming": [
+        {
+          "concept_id": "Turritopsis rubra",
+          "first_appearance": {
+            "section": "Taxonomy",
+            "paragraph": 2
+          },
+          "subsequent_mentions": [
             {
-              "id": "D3",
-              "evidence": "It was named in 1883 in honour of Anton Dohrn, the founder of the Stazione Zoologica Anton Dohrn in Naples, Italy.",
-              "marker": "in honour of"
+              "section": "Life cycle",
+              "paragraph": 1
             }
           ],
-          "frequency": 1
+          "brief_explanation": "A species of jellyfish closely related to Turritopsis dohrnii, previously thought to be the same species."
+        },
+        {
+          "concept_id": "medusa",
+          "first_appearance": {
+            "section": "Description",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Life cycle",
+              "paragraph": 1
+            },
+            {
+              "section": "Biological immortality",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "The adult, bell-shaped, free-swimming stage in the life cycle of a jellyfish."
+        },
+        {
+          "concept_id": "polyp",
+          "first_appearance": {
+            "section": "Description",
+            "paragraph": 2
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Life cycle",
+              "paragraph": 1
+            },
+            {
+              "section": "Biological immortality",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "The juvenile, sessile stage of a jellyfish, which can bud to produce new medusae."
         }
-      },
-      "semantic_relationships": {
-        "hierarchical": {
-          "species_differentiation": [
-            {
-              "id": "S1",
-              "evidence": "Turritopsis rubra seems to retain fertilized eggs until the planula stage.",
-              "marker": "seems"
+      ],
+      "relations": [
+        {
+          "relation_id": "r1",
+          "source": {
+            "concept": "Turritopsis dohrnii",
+            "location": {
+              "section": "Taxonomy",
+              "paragraph": 1
             }
-          ],
-          "frequency": 1
+          },
+          "target": {
+            "concept": "Turritopsis rubra",
+            "location": {
+              "section": "Taxonomy",
+              "paragraph": 2
+            }
+          },
+          "relation_type": "species differentiation",
+          "readable_statement": "Turritopsis dohrnii was formerly considered the same species as Turritopsis rubra.",
+          "evidence": "Until a 2006 study, it was thought that Turritopsis rubra and Turritopsis nutricula were the same species as Turritopsis dohrnii.",
+          "is_domain_specific": true,
+          "crosses_paragraphs": false
         },
-        "causal": {
-          "research_implication": [
-            {
-              "id": "S2",
-              "evidence": "It is not known whether or not T. rubra medusae can also transform back into polyps, however further research is still to be done.",
-              "marker": "however"
+        {
+          "relation_id": "r2",
+          "source": {
+            "concept": "medusa",
+            "location": {
+              "section": "Description",
+              "paragraph": 1
             }
-          ],
-          "frequency": 1
-        },
-        "pathway": {
-          "life_cycle": [
-            {
-              "id": "S3",
-              "evidence": "These polyps develop over a few days into tiny 1 mm medusae, which are liberated and swim free from the parent hydroid colony.",
-              "marker": "develop"
+          },
+          "target": {
+            "concept": "polyp",
+            "location": {
+              "section": "Description",
+              "paragraph": 2
             }
-          ],
-          "frequency": 1
+          },
+          "relation_type": "life cycle stages",
+          "readable_statement": "The medusa stage of Turritopsis dohrnii can develop into the polyp stage.",
+          "evidence": "Turritopsis dohrnii also has a bottom-living polyp form, or hydroid, which consists of stolons that run along the substrate and upright branches with feeding polyps that can produce medusa buds.",
+          "is_domain_specific": true,
+          "crosses_paragraphs": false
         }
-      }
+      ],
+      "concept_chains": [
+        {
+          "chain_id": "chain1",
+          "description": "Connection between Turritopsis dohrnii and its life cycle stages across different sections.",
+          "components": [
+            {
+              "concept": "Turritopsis dohrnii",
+              "location": {
+                "section": "Taxonomy",
+                "paragraph": 1
+              },
+              "role": "start"
+            },
+            {
+              "concept": "medusa",
+              "location": {
+                "section": "Description",
+                "paragraph": 1
+              },
+              "role": "intermediate"
+            },
+            {
+              "concept": "polyp",
+              "location": {
+                "section": "Description",
+                "paragraph": 2
+              },
+              "role": "end"
+            }
+          ],
+          "chain_summary": "Turritopsis dohrnii, initially described in the Taxonomy section, undergoes a life cycle that includes both medusa and polyp stages, as detailed in the Description section."
+        }
+      ]
     }
   },
   "Quantum biology": {
     "category": "biology",
     "relationships": {
-      "semantic_relationships": {
-        "causal": {
-          "quantum_mechanics_applications": [
+      "concept_registry": [
+        {
+          "concept_id": "quantum_biology",
+          "first_appearance": {
+            "section": "History",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
             {
-              "id": "S1",
-              "evidence": "Erwin Schr\u00f6dinger's 1944 book What Is Life? discussed applications of quantum mechanics in biology.",
-              "marker": "discussed applications"
+              "section": "History",
+              "paragraph": 1
             }
           ],
-          "quantum_ideas_in_life_sciences": [
-            {
-              "id": "S2",
-              "evidence": "Other pioneers Niels Bohr, Pascual Jordan, and Max Delbr\u00fcck argued that the quantum idea of complementarity was fundamental to the life sciences.",
-              "marker": "argued"
-            }
-          ],
-          "proton_tunneling_in_DNA_mutation": [
-            {
-              "id": "S3",
-              "evidence": "In 1963, Per-Olov L\u00f6wdin published proton tunneling as another mechanism for DNA mutation.",
-              "marker": "published"
-            }
-          ],
-          "quantum_tunneling_in_enzymatic_activities": [
-            {
-              "id": "S4",
-              "evidence": "Enzymes have been postulated to use quantum tunneling to transfer electrons in electron transport chains.",
-              "marker": "postulated"
-            },
-            {
-              "id": "S5",
-              "evidence": "studies also show that electron transfer between redox centers through quantum tunneling plays an important role in enzymatic activity of photosynthesis and cellular respiration",
-              "marker": "studies also show"
-            }
-          ],
-          "quantum_entanglement_and_coherence": [
-            {
-              "id": "S6",
-              "evidence": "It is possible that protein quaternary architectures may have adapted to enable sustained quantum entanglement and coherence",
-              "marker": "possible"
-            }
-          ],
-          "quantum_energy_transfer": [
-            {
-              "id": "S7",
-              "evidence": "These architectures might account for a greater percentage of quantum energy transfer, which occurs through electron transport and proton tunneling",
-              "marker": "might account"
-            }
-          ],
-          "frequency": 7
+          "brief_explanation": "An emerging field that applies quantum mechanics to biological problems."
         },
-        "temporal_sequence": {
-          "field_development": [
+        {
+          "concept_id": "enzyme_catalysis",
+          "first_appearance": {
+            "section": "Enzyme catalysis",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
             {
-              "id": "S8",
-              "evidence": "Quantum biology is an emerging field, in the sense that most current research is theoretical and subject to questions that require further experimentation.",
-              "marker": "is an emerging field"
-            },
-            {
-              "id": "S9",
-              "evidence": "Though the field has only recently received an influx of attention, it has been conceptualized by physicists throughout the 20th century.",
-              "marker": "has only recently received"
-            },
-            {
-              "id": "S10",
-              "evidence": "In his paper, he stated that there is a new field of study called 'quantum biology'.",
-              "marker": "stated"
+              "section": "Enzyme catalysis",
+              "paragraph": 1
             }
           ],
-          "frequency": 3
-        }
-      },
-      "discourse_relationships": {
-        "temporal_sequence": {
-          "historical_progression": [
+          "brief_explanation": "Biological process where enzymes speed up chemical reactions, potentially using quantum tunneling."
+        },
+        {
+          "concept_id": "ferritin",
+          "first_appearance": {
+            "section": "Ferritin",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
             {
-              "id": "D1",
-              "evidence": "In 1963, Per-Olov L\u00f6wdin published proton tunneling as another mechanism for DNA mutation. In 1979, the Soviet and Ukrainian physicist Alexander Davydov published the first textbook on quantum biology entitled Biology and Quantum Mechanics.",
-              "marker": "In 1963...In 1979"
+              "section": "Ferritin",
+              "paragraph": 1
             }
           ],
-          "frequency": 1
+          "brief_explanation": "An iron storage protein that exhibits quantum mechanical properties."
+        },
+        {
+          "concept_id": "olfaction",
+          "first_appearance": {
+            "section": "Sensory processes",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Sensory processes",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "The sense of smell, potentially influenced by quantum mechanics."
+        },
+        {
+          "concept_id": "vision",
+          "first_appearance": {
+            "section": "Sensory processes",
+            "paragraph": 2
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Sensory processes",
+              "paragraph": 2
+            }
+          ],
+          "brief_explanation": "The process of converting light signals to neural signals, possibly using quantum effects."
+        },
+        {
+          "concept_id": "photosynthesis",
+          "first_appearance": {
+            "section": "Energy transfer",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Energy transfer",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "The process by which plants convert light energy into chemical energy, showing signs of quantum coherence."
+        },
+        {
+          "concept_id": "mitochondria",
+          "first_appearance": {
+            "section": "Energy transfer",
+            "paragraph": 2
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Energy transfer",
+              "paragraph": 2
+            }
+          ],
+          "brief_explanation": "Organelles that produce energy in cells, potentially using quantum tunneling."
+        },
+        {
+          "concept_id": "magnetoreception",
+          "first_appearance": {
+            "section": "Information encoding",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Information encoding",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "The ability to navigate using Earth's magnetic field, possibly through quantum effects."
+        },
+        {
+          "concept_id": "DNA_mutation",
+          "first_appearance": {
+            "section": "Information encoding",
+            "paragraph": 2
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Information encoding",
+              "paragraph": 2
+            }
+          ],
+          "brief_explanation": "Changes in the DNA sequence, potentially caused by quantum tunneling."
         }
-      }
+      ],
+      "relations": [
+        {
+          "relation_id": "r1",
+          "source": {
+            "concept": "quantum_biology",
+            "location": {
+              "section": "History",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "enzyme_catalysis",
+            "location": {
+              "section": "Enzyme catalysis",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "application of concept",
+          "readable_statement": "Quantum biology applies concepts of quantum mechanics to biological problems such as enzyme catalysis.",
+          "evidence": "Quantum biology is an emerging field... Enzymes have been postulated to use quantum tunneling...",
+          "is_domain_specific": true,
+          "crosses_paragraphs": true
+        },
+        {
+          "relation_id": "r2",
+          "source": {
+            "concept": "quantum_biology",
+            "location": {
+              "section": "History",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "ferritin",
+            "location": {
+              "section": "Ferritin",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "application of concept",
+          "readable_statement": "Quantum biology studies include the quantum mechanical properties of ferritin.",
+          "evidence": "Quantum biology is an emerging field... Ferritin is a quantum biological agent.",
+          "is_domain_specific": true,
+          "crosses_paragraphs": true
+        }
+      ],
+      "concept_chains": [
+        {
+          "chain_id": "chain1",
+          "description": "Quantum biology's influence across different biological processes",
+          "components": [
+            {
+              "concept": "quantum_biology",
+              "location": {
+                "section": "History",
+                "paragraph": 1
+              },
+              "role": "start"
+            },
+            {
+              "concept": "enzyme_catalysis",
+              "location": {
+                "section": "Enzyme catalysis",
+                "paragraph": 1
+              },
+              "role": "intermediate"
+            },
+            {
+              "concept": "ferritin",
+              "location": {
+                "section": "Ferritin",
+                "paragraph": 1
+              },
+              "role": "end"
+            }
+          ],
+          "chain_summary": "Quantum biology, an emerging field, applies quantum mechanics to various biological processes such as enzyme catalysis and the properties of ferritin."
+        }
+      ]
     }
   }
 }
