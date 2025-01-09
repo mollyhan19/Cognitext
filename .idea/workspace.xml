@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13f3ee0b-fcc8-4e3c-afb6-f8709c84ae6e" name="Changes" comment="Update data-driven method">
-      <change afterPath="$PROJECT_DIR$/scripts/cache_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/concept_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/entity_extraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/entity_linking_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/readability_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/relation_extraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/token_count.py" afterDir="false" />
+    <list default="true" id="13f3ee0b-fcc8-4e3c-afb6-f8709c84ae6e" name="Changes" comment="Update entity linking &amp; RE implementation &amp; results">
+      <change afterPath="$PROJECT_DIR$/documentation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sample_analysis_output_openai.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample_analysis_output_openai.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sample_analysis_output_openai_raw.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample_analysis_output_openai_raw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sample_freq_output_openai.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample_freq_output_openai.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/text_corpus.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/text_corpus.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/text_sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/text_sample.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/dependency_analysis_openai.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/dependency_analysis_openai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fetch_wiki_articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/fetch_wiki_articles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fetch_wiki_samples.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/fetch_wiki_samples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cache_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/cache_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/entity_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/entity_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/entity_linking_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/entity_linking_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +53,7 @@
     &quot;Python.dependency_analysis.executor&quot;: &quot;Run&quot;,
     &quot;Python.dependency_analysis_openai.executor&quot;: &quot;Run&quot;,
     &quot;Python.dependency_analysis_openai_old.executor&quot;: &quot;Run&quot;,
+    &quot;Python.entity_extraction.executor&quot;: &quot;Run&quot;,
     &quot;Python.entity_linking.executor&quot;: &quot;Run&quot;,
     &quot;Python.entity_linking_main.executor&quot;: &quot;Run&quot;,
     &quot;Python.fetch_articles.executor&quot;: &quot;Run&quot;,
@@ -83,6 +73,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts/sec-level" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="fetch_wiki_articles" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Cognitext" />
@@ -156,7 +151,8 @@
       <workItem from="1733084751819" duration="5000" />
       <workItem from="1733205281148" duration="22120000" />
       <workItem from="1734032323511" duration="5003000" />
-      <workItem from="1736230603882" duration="5000" />
+      <workItem from="1736230603882" duration="19508000" />
+      <workItem from="1736321396236" duration="3340000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -214,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729995880624</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update entity linking &amp; RE implementation &amp; results">
+      <option name="closed" value="true" />
+      <created>1736230672793</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736230672793</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,12 +228,13 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Updated API calls" />
     <MESSAGE value="Update data-driven method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update data-driven method" />
+    <MESSAGE value="Update entity linking &amp; RE implementation &amp; results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update entity linking &amp; RE implementation &amp; results" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Cognitext$fetch_articles.coverage" NAME="fetch_articles Coverage Results" MODIFIED="1727753071606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Cognitext$concept_graph.coverage" NAME="concept_graph Coverage Results" MODIFIED="1733263197153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Cognitext$entity_linking_main.coverage" NAME="entity_linking_main Coverage Results" MODIFIED="1734036675352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Cognitext$entity_linking_main.coverage" NAME="entity_linking_main Coverage Results" MODIFIED="1736381627988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Cognitext$readability_calculator.coverage" NAME="readability_calculator Coverage Results" MODIFIED="1730833112003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Cognitext$dependency_analysis.coverage" NAME="dependency_analysis Coverage Results" MODIFIED="1729892866067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Cognitext$fetch_wiki_samples.coverage" NAME="fetch_wiki_samples Coverage Results" MODIFIED="1733210377551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
@@ -239,5 +244,6 @@
     <SUITE FILE_PATH="coverage/Cognitext$dependency_analysis_openai.coverage" NAME="dependency_analysis_openai Coverage Results" MODIFIED="1732045542114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Cognitext$entity_linking.coverage" NAME="entity_linking Coverage Results" MODIFIED="1733207363865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Cognitext$relation_extraction.coverage" NAME="relation_extraction Coverage Results" MODIFIED="1733260799649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Cognitext$entity_extraction.coverage" NAME="entity_extraction Coverage Results" MODIFIED="1736320337334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
