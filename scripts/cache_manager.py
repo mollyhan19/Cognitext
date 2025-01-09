@@ -8,7 +8,7 @@ from typing import List, Dict
 
 
 class CacheManager:
-    def __init__(self, cache_dir="cache", version="3.0"):  # Added version parameter
+    def __init__(self, cache_dir="cache", version="5.0"):  # Added version parameter
         self.version = version
         self.base_cache_dir = Path(cache_dir)
         self.cache_dir = self.base_cache_dir / f"v{version}"  # Add version to path
