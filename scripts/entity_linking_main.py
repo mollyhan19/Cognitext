@@ -3,7 +3,7 @@ import os
 import json
 from datetime import datetime
 from entity_extraction import OptimizedEntityExtractor, TextChunk
-from typing import Dict
+from typing import Dict, List
 
 def process_article_by_paragraphs(article_title: str, article_data: Dict, extractor: OptimizedEntityExtractor):
     """Process an article paragraph by paragraph with surrounding context."""
@@ -98,6 +98,95 @@ def process_article_by_paragraphs(article_title: str, article_data: Dict, extrac
         "entities": sorted_entities
     }
 
+def process_article_by_sections(title, article, extractor):
+    print(f"Processing article by sections: {title}")
+    print(f"Category: {article.get('category', 'Unknown')}")
+    
+    results = []
+    sections = article.get('sections', [])[:4] # only process first 4 sections for analysis
+    print(f"Total sections to process: {len(sections)}")
+    
+    for i, section in enumerate(sections, 1):
+        try:
+            # Get section data
+            section_title = section.get('section_title', '')
+            content = section.get('content', [])
+            subsections = section.get('subsections', [])
+            
+            print(f"Processing section {i}: {section_title}")
+            
+            # Process main section content
+            if content:
+                section_text = '\n'.join(content)
+                if section_text.strip():
+                    entities = process_text(section_text, extractor)
+                    section_result = {
+                        'section_title': section_title,
+                        'text': section_text,
+                        'entities': entities
+                    }
+                    results.append(section_result)
+            
+            # Process subsections if they exist
+            for subsection in subsections:
+                sub_title = subsection.get('section_title', '')
+                sub_content = subsection.get('content', [])
+                if sub_content:
+                    sub_text = '\n'.join(sub_content)
+                    if sub_text.strip():
+                        entities = process_text(sub_text, extractor)
+                        subsection_result = {
+                            'section_title': f"{section_title} - {sub_title}",
+                            'text': sub_text,
+                            'entities': entities
+                        }
+                        results.append(subsection_result)
+                        
+        except Exception as e:
+            print(f"Error processing section {i}: {str(e)}")
+            continue
+    
+    return {
+        'title': title,
+        'sections': results
+    }
+
+def process_text(text: str, extractor: OptimizedEntityExtractor) -> List[Dict]:
+    """
+    Process text to extract entities using the OptimizedEntityExtractor.
+    
+    Args:
+        text (str): The text to process
+        extractor (OptimizedEntityExtractor): The entity extractor instance
+        
+    Returns:
+        list: A list of extracted entities with their details
+    """
+    try:
+        # Create a TextChunk for the text
+        chunk = TextChunk(
+            content=text,
+            section_name="current_section",  # You might want to pass this as a parameter
+            heading_level="main",
+            section_text=[text],  # Wrap in list as expected by TextChunk
+            section_index=0,
+            overlap_prev=None,
+            overlap_next=None
+        )
+        
+        # Process the section
+        extractor.process_section(chunk)
+        
+        # Get the processed entities
+        entities = extractor.get_sorted_entities()
+        
+        return entities
+        
+    except Exception as e:
+        print(f"Error in process_text: {str(e)}")
+        return []
+
+'''
 def process_article_by_sections(article_title: str, article_data: Dict, extractor) -> Dict:
     """Process article section by section."""
     print(f"\nProcessing article by sections: {article_title}")
@@ -170,16 +259,43 @@ def process_article_by_sections(article_title: str, article_data: Dict, extracto
             "category": article_data["category"],
             "error": str(e)
         }
+'''
 
-def save_and_summarize_results(results: Dict, output_path: str):
+
+def save_and_summarize_results(results: List[Dict], output_path: str):
     """Save results to file and print summary."""
-    print("\nSaving results to JSON file...")
-    output = {
-        "timestamp": datetime.now().isoformat(),
-        "analysis_results": results
+    if results is None:
+        results = []
+    
+    # Calculate totals - handle both possible result structures
+    total_entities = 0
+    for doc in results:
+        if 'sections' in doc:  # For section-based results
+            total_entities += sum(len(section.get('entities', [])) for section in doc['sections'])
+        elif 'entities' in doc:  # For paragraph-based results
+            total_entities += len(doc['entities'])
+
+    # Create summary
+    summary = {
+        'documents': results,
+        'summary': {
+            'total_entities': total_entities,
+            'total_documents': len(results)
+        }
     }
 
-    with open(output_path, "w", encoding="utf-8") as f:
+    # Save results to file
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(summary, f, indent=4, ensure_ascii=False)
+
+    # Print summary
+    print("\nResults Summary:")
+    print(f"Total documents processed: {len(results)}")
+    print(f"Total entities found: {total_entities}")
+
+    
+'''
+with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
     print("Results saved successfully!")
 
@@ -199,8 +315,10 @@ def save_and_summarize_results(results: Dict, output_path: str):
                 f"{app.get('section', '')} {app.get('paragraph', '')}"
                 for app in entity["appearances"]
             ))
+'''
 
 
+'''
 def main(processing_mode='paragraph'):
     """
     Main function to process articles with context, either by paragraph or by section.
@@ -220,14 +338,140 @@ def main(processing_mode='paragraph'):
     try:
         with open("/Users/mollyhan/PycharmProjects/Cognitext/data/text_sample.json", "r", encoding="utf-8") as f:
             data = json.load(f)
-            print(f"Found {len(data['articles'])} articles to process")
+            if isinstance(data, list):
+                print(f"Found {len(data)} articles to process")
+            else:
+                print("Unexpected data format.")
+                return
     except FileNotFoundError:
         print("Input JSON file not found")
         return
-
+    
+    print("\nArticle structure:")
+    print(json.dumps(data[0]['sections'][0], indent=2))
+    
     results = {}
     articles_processed = 0
 
+    for article in data:
+        title = article['title']
+        print(f"Processing article: {title}")
+        if processing_mode == 'section':
+            results[title] = process_article_by_sections(title, article, extractor)
+        else:
+            results[title] = process_article_by_paragraphs(title, article, extractor)
+        articles_processed += 1
+    
+    output_path = "/Users/mollyhan/PycharmProjects/Cognitext/data/entity_analysis_sec_results.json"
+    save_and_summarize_results(results, output_path)
+'''
+
+def main(processing_mode='section'):
+    # Initialize the entity extractor
+    api_key = os.getenv('OpenAI_API_KEY')
+    if not api_key:
+        raise ValueError("OpenAI API key not found. Please set OpenAI_API_KEY environment variable.")
+    
+    # Initialize the entity extractor with your actual API key
+    extractor = OptimizedEntityExtractor(
+        api_key=api_key,
+        cache_version="8.0"
+    )
+    
+    # Load your articles
+    with open('data/text_sample.json', 'r', encoding='utf-8') as f:
+        articles = json.load(f)
+    
+    results = []
+    
+    for article in articles:
+        title = article.get('title', 'Untitled')
+        print(f"\nProcessing article: {title}")
+        
+        # Reset entity tracking for new article
+        extractor.reset_tracking()
+        
+        # Process article based on mode
+        if processing_mode == 'section':
+            processed_result = process_article_by_sections(title, article, extractor)
+        else:
+            processed_result = process_article_by_paragraphs(title, article, extractor)
+            
+        # Add to results
+        results.append(processed_result)
+        
+        # Debug print
+        entities = processed_result.get('entities', [])
+        print(f"\nFound {len(entities)} entities in article {title}")
+        for entity in entities[:5]:  # Show top 5 entities
+            print(f"- {entity['id']} (frequency: {entity['frequency']})")
+    
+    # Save results
+    output_path = "/Users/mollyhan/PycharmProjects/Cognitext/data/entity_analysis_sec_results.json"
+    save_and_summarize_results(results, output_path)
+
+    
+
+'''
+    # Get first article
+    first_article_title = next(iter(data["articles"]))
+    first_article = data["articles"][first_article_title]
+
+    # Process just first two sections for testing
+    print(f"\nProcessing first two sections of: {first_article_title}")
+
+    for section_idx, section in enumerate(first_article["sections"][:3], 1):
+        for heading, content in section.items():
+            print(f"\nProcessing section {section_idx}: {heading}")
+
+            # Create TextChunk object for the section
+            chunk = TextChunk(
+                content="\n".join(content.get("text", [])),
+                section_name=heading,
+                heading_level="main",
+                section_text=content.get("text", []),
+                section_index=section_idx,
+                overlap_prev={"section": first_article["sections"][section_idx - 2]} if section_idx > 1 else None,
+                overlap_next={"section": first_article["sections"][section_idx]} if section_idx < len(
+                    first_article["sections"]) - 1 else None
+            )
+
+            # Process the section using the TextChunk
+            extractor.process_section(chunk)
+
+            # Process subheadings if they exist
+            if content.get("subheadings"):
+                for subheading, subcontent in content["subheadings"].items():
+                    print(f"  Processing subsection: {subheading}")
+
+                    sub_chunk = TextChunk(
+                        content="\n".join(subcontent.get("text", [])),
+                        section_name=f"{heading} - {subheading}",
+                        heading_level="sub",
+                        section_text=subcontent.get("text", []),
+                        section_index=section_idx,
+                        overlap_prev={"main_section": content["text"][-1]} if content["text"] else None,
+                        overlap_next=None
+                    )
+
+                    extractor.process_section(sub_chunk)
+
+            # Print current state of entities after each section
+            print("\nCurrent Entity State after section:")
+            for entity_id, entity in extractor.entities.items():
+                print(f"\nEntity: {entity_id}")
+                print(f"Variants: {entity.variants}")
+                print(f"Appearances: {entity.appearances}")
+
+    print("\nFinal Entity State:")
+    sorted_entities = extractor.get_sorted_entities()
+    for entity in sorted_entities[:10]:  # Print top 10 entities
+        print(f"\nEntity ID: {entity['id']}")
+        print(f"Frequency: {entity['frequency']}")
+        print(f"Variants: {entity['variants']}")
+        print(f"Appearances: {entity['appearances']}")
+    
+        
     analysis_metadata = {
         "processing_mode": processing_mode,
         "timestamp": datetime.now().isoformat(),
@@ -278,7 +522,7 @@ def main(processing_mode='paragraph'):
         output_path = "/Users/mollyhan/PycharmProjects/Cognitext/data/entity_analysis_para_results.json"
     else:
         output_path = "/Users/mollyhan/PycharmProjects/Cognitext/data/entity_analysis_sec_results.json"
-
+    
     # Save results with enhanced metadata
     print("\nSaving results to JSON file...")
     output = {
@@ -321,6 +565,8 @@ def main(processing_mode='paragraph'):
                 ))
 
     print("\nProcess completed successfully!")
-
+    '''
+    
 if __name__ == "__main__":
     main(processing_mode='section')  # or 'paragraph'
+

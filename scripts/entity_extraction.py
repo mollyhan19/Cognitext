@@ -122,8 +122,9 @@ class OptimizedEntityExtractor:
         """Cache API calls in memory."""
         response = self.client.chat.completions.create(
             model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2
+            messages=[{"role": "user", "content": prompt},
+                      {"role": "system", "content": "You are an expert at analyzing text and extracting meaningful relationships between concepts, with a special focus on making complex information more understandable. "}],
+            temperature=0.1
         )
         return response.choices[0].message.content
 
@@ -247,34 +248,6 @@ class OptimizedEntityExtractor:
             "context": "Why this concept is essential for understanding the topic",
             }}
         ]
-        
-        
-        1. CONCEPT IDENTIFICATION:
-        - Extract only distinct, well-defined units of knowledge
-        - Each concept should represent ONE specific concept, process, or entity
-        - Split compound concepts if they represent separate important concepts
-
-        2. Focus on: 
-        - Foundational concepts that other ideas build upon
-        - Core processes or mechanisms that explain how something works
-        - Key principles or theories that frame the topic
-        - Defining characteristics or properties that distinguish important elements
-        - Consider how concepts in this section relate to the section topic: {section_name}
-        
-        3. VARIANT CONSOLIDATION:
-        When matching concepts:
-        - Combine variant lists only for true matches
-        - Preserve the more common/standard form as primary
-        - Remove duplicates and near-duplicates
-
-        Output format:
-        [
-            {{
-            "entity": "main_form",
-            "variants": ["true conceptual variations only"],
-            "context": "Why this concept is essential for understanding the topic",
-            }}
-        ]
 
         Section text:
         {full_section_text}
@@ -282,15 +255,22 @@ class OptimizedEntityExtractor:
 
         try:
             response = self._cached_api_call(prompt)
+            print(f"\n=== Raw GPT Response for Section {section_name} ===")
+            print(response)
+            print("=" * 50)
+
             entities = json.loads(OptimizedEntityExtractor.clean_markdown_json(response))
 
-            # Cache results
-            self.memory_cache[full_section_text] = entities
-            self.cache_manager.cache_entities(full_section_text, entities)
+            # Print parsed entities for this section
+            print(f"\nParsed Entities for Section {section_name}:")
+            for entity in entities:
+                print(f"- Entity: {entity['entity']}")
+                print(f"  Variants: {entity['variants']}")
+                print(f"  Context: {entity['context']}\n")
 
             return entities
         except Exception as e:
-            print(f"  [S{section_index}] Error extracting entities: {str(e)}")
+            print(f"Error extracting entities: {str(e)}")
             return []
 
     def reset_tracking(self):

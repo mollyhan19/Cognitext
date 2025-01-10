@@ -13,33 +13,34 @@ wiki_wiki = wikipediaapi.Wikipedia('fetching_wiki_samples')
 seed_articles = {
     "biology": [
         "Tardigrade"
-    ],
-    "computer science": [
-        "Greedy search"
     ]
 }
 
-# Function to fetch article content
 def fetch_article_content(title, category):
     page = wiki_wiki.page(title)
     if not page.exists():
         print(f"Page {title} does not exist.")
         return None
-    
-    # Extract the opening section
-        # Extract the opening section as a pseudo-section
+
+    # Helper function to split content into paragraphs
+    def split_into_paragraphs(text):
+        paragraphs = [p.strip() for p in text.split('\n') if p.strip()]
+        return paragraphs
+
+    # Extract the opening section as a pseudo-section
     opening_section = {
         "section_title": "Introduction",
-        "content": page.summary,
+        "content": split_into_paragraphs(page.summary),
         "subsections": []
     }
 
+    # Function to extract sections and subsections
     def extract_sections(section):
         sections_list = []
         for s in section.sections:
             sections_list.append({
                 "section_title": s.title,
-                "content": s.text,
+                "content": split_into_paragraphs(s.text),
                 "subsections": extract_sections(s)
             })
         return sections_list
@@ -60,7 +61,6 @@ def fetch_article_content(title, category):
         "sections": sections
     }
     return article_data
-
 
 # Store all articles data
 all_articles_data = []

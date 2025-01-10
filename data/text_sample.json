@@ -1,146 +1,213 @@
-{
-    "articles": {
-        "Tardigrade": {
-            "schema": {
-                "schema_type": "WikiArticles",
-                "schema_version": "1.0"
+[
+    {
+        "schema": {
+            "schema_type": "WikiArticles",
+            "schema_version": "1.0"
+        },
+        "title": "Tardigrade",
+        "category": "biology",
+        "sections": [
+            {
+                "section_title": "Introduction",
+                "content": [
+                    "Tardigrades ( ), known colloquially as water bears or moss piglets, are a phylum of eight-legged segmented micro-animals. They were first described by the German zoologist Johann August Ephraim Goeze in 1773, who called them Kleiner Wasserb\u00e4r 'little water bear'. In 1776, the Italian biologist Lazzaro Spallanzani named them Tardigrada, which means 'slow walker'.",
+                    "They live in diverse regions of Earth's biosphere \u2013 mountaintops, the deep sea, tropical rainforests, and the Antarctic. Tardigrades are among the most resilient animals known, with individual species able to survive extreme conditions \u2013 such as exposure to extreme temperatures, extreme pressures (both high and low), air deprivation, radiation, dehydration, and starvation \u2013 that would quickly kill most other forms of life. Tardigrades have survived exposure to outer space.",
+                    "There are about 1,500 known species in the phylum Tardigrada, a part of the superphylum Ecdysozoa. The earliest known fossil is from the Cambrian, some 500 million years ago. They lack several of the Hox genes found in arthropods, and the middle region of the body corresponding to an arthropod's thorax and abdomen. Instead, most of their body is homologous to an arthropod's head.",
+                    "Tardigrades are usually about 0.5 mm (0.02 in) long when fully grown. They are short and plump, with four pairs of legs, each ending in claws (usually four to eight) or sticky pads. Tardigrades are prevalent in mosses and lichens and can readily be collected and viewed under a low-power microscope, making them accessible to students and amateur scientists. Their clumsy crawling and their well-known ability to survive life-stopping events have brought them into science fiction and popular culture including items of clothing, statues, soft toys and crochet patterns."
+                ],
+                "subsections": []
             },
-            "title": "Tardigrade",
-            "category": "biology",
-            "sections": [
-                {
-                    "heading: Naming": {
-                        "text": [
-                            "Johann August Ephraim Goeze originally named the tardigrade Kleiner Wasserbär, meaning 'little water-bear' in German (today, they are often referred to in German as Bärtierchen 'little bear-animal'). The name water-bear comes from the way they walk, reminiscent of a bear's gait. The name Tardigradum means 'slow walker' and was given by Lazzaro Spallanzani in 1777.[10]"
+            {
+                "section_title": "Description",
+                "content": [],
+                "subsections": [
+                    {
+                        "section_title": "Body structure",
+                        "content": [
+                            "Tardigrades have a short plump body with four pairs of hollow unjointed legs. Most range from 0.1 to 0.5 mm (0.004 to 0.02 in) in length, although the largest species may reach 1.3 mm (0.051 in). The body cavity is a haemocoel, an open circulatory system, filled with a colourless fluid. The body covering is a cuticle that is replaced when the animal moults; it contains hardened (sclerotised) proteins and chitin but is not calcified. Each leg ends in one or more claws according to the species; in some species, the claws are modified as sticky pads. In marine species, the legs are telescopic. There are no lungs, gills, or blood vessels, so tardigrades rely on diffusion through the cuticle and body cavity for gas exchange."
                         ],
-                        "subheadings": {}
-                    }
-                },
-                {
-                    "heading: Description": {
-                        "text": [
-                            "The largest adults may reach a body length of 2.0 mm (0.079 in), the smallest below 0.1 mm (0.0039 in). Newly hatched tardigrades may be smaller than 0.05 mm (0.0020 in). For comparison, grass pollen is typically 0.025–0.04 mm (0.00098–0.00157 in)."
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Nervous system and senses",
+                        "content": [
+                            "The tardigrade nervous system has a pair of ventral nerve cords with a pair of ganglia serving each pair of legs. The nerve cords end near the mouth at a pair of subpharyngeal (or suboesophageal) ganglia. These are connected by paired commissures (either side of the tube from the mouth to the pharynx) to the dorsally located cerebral ganglion or 'brain'. Also in the head are two eyespots in the brain, and several sensory cirri and pairs of hollow antenna-like clavae which may be chemoreceptors."
                         ],
-                        "subheadings": {}
-                    }
-                },
-                {
-                    "heading: Habitat": {
-                        "text": [
-                            "Tardigrades are often found on lichens and mosses‍— for example, by soaking a piece of moss in water.[19] Other environments in which they are found include dunes and coasts generally, soil, leaf litter, and marine or freshwater sediments, where they may occur quite frequently, up to 25,000 animals per litre (95,000 animals per gallon). One tardigrade, Echiniscoides wyethi,[20] may be found on barnacles.[21]",
-                            "With the exception of 62 known species that live exclusively in freshwater, all non-marine tardigrades are found in terrestrial environments. Because the majority of the marine species belongs to Heterotardigrada, the most ancestral class, it confirms the phylum's marine origin.[22]"
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Locomotion",
+                        "content": [
+                            "Although the body is flexible and fluid-filled, locomotion does not operate mainly hydrostatically. Instead, as in arthropods, the muscles (sometimes just one or a few cells) work in antagonistic pairs that make each leg step backwards and forwards; there are also some flexors that work against hydrostatic pressure of the haemocoel. The claws help to stop the legs sliding during walking, and are used for gripping."
                         ],
-                        "subheadings": {}
-                    }
-                },
-                {
-                    "heading: Anatomy and morphology": {
-                        "text": [
-                            "Tardigrades have barrel-shaped bodies with four pairs of stubby legs. Most range from 0.3 to 0.5 mm (0.012 to 0.020 in) in length, although the largest species may reach 1.2 mm (0.047 in).[10] The body consists of a head, three body segments each with a pair of legs, and a caudal segment with a fourth pair of legs. The legs are without joints, while the feet have four to eight claws each. The cuticle contains chitin and protein and is moulted periodically. The first three pairs of legs are directed downward along the sides and are the primary means of locomotion, while the fourth pair is directed backward on the last segment of the trunk and is used primarily for grasping the substrate.[23]",
-                            "Tardigrades lack several Hox genes and a large intermediate region of the body axis. In insects, this corresponds to the entire thorax and the abdomen. Practically the whole body, except for the last pair of legs, is made up of just the segments that are homologous to the head region in arthropods.[24]",
-                            "All adult tardigrades of the same species have the same number of cells (see eutely). Some species have as many as 40,000 cells in each adult, while others have far fewer.[25][26]",
-                            "The body cavity consists of a haemocoel, but the only place where a true coelom can be found is around the gonad. No respiratory organs were found, with gas exchange able to occur across the entirety of the body. Some tardigrades have three tubular glands associated with the rectum; these may be excretory organs similar to the Malpighian tubules of arthropods, although the details remain unclear.[27] Also, nephridia are absent.[28]",
-                            "The tubular mouth is armed with stylets, which are used to pierce cells, algae, or small invertebrates on which the tardigrades feed, releasing the body fluids or cell contents. The mouth opens into a triradiate, muscular, sucking pharynx. The stylets are lost when the animal molts, and a new pair is secreted from a pair of glands that lie on either side of the mouth. The pharynx connects to a short esophagus, and then to an intestine that occupies much of the length of the body, which is the main site of digestion. The intestine opens, via a short rectum, to an anus located at the terminal end of the body. Some species only defecate when they molt, leaving the feces behind with the shed cuticle.[27]",
-                            "The tardigrade nervous system consists primarily of the brain and four segmental ganglia associated with the four body segments.[29] The brain comprises about 1% of the total body volume.[30] The brain develops in a bilaterally symmetric pattern.[31] Tardigrades have a dorsal brain atop a paired ventral nervous system. The brain includes multiple lobes, mostly consisting of three bilaterally paired clusters of neurons.[32] The brain is attached to a large ganglion below the esophagus, from which a double ventral nerve cord runs the length of the body. The cord possesses one ganglion per segment, each of which produces lateral nerve fibres that run into the limbs. Many species possess a pair of rhabdomeric pigment-cup eyes, and numerous sensory bristles are on the head and body.[33]",
-                            "Tardigrades all possess a buccopharyngeal apparatus (swallowing device made of muscles and spines that activates an inner jaw and begins digestion and movement along the throat and intestine[34]) which, along with the claws, is used to differentiate species."
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Feeding and excretion",
+                        "content": [
+                            "Tardigrades feed by sucking animal or plant cell fluids, or on detritus. A pair of stylets pierce the prey; the pharynx muscles then pump the fluids from the prey into the gut. A pair of salivary glands secrete a digestive fluid into the mouth, and produce replacement stylets each time the animal moults. Non-marine species have excretory Malpighian tubules where the intestine joins the hindgut. Some species have excretory or other glands between or at the base of the legs."
                         ],
-                        "subheadings": {}
-                    }
-                },
-                {
-                    "heading: Reproduction": {
-                        "text": [
-                            "Tardigrades are oviparous, and fertilization is usually external. Mating occurs during the molt with the eggs being laid inside the shed cuticle of the female and then covered with sperm. A few species have internal fertilization, with mating occurring before the female fully sheds her cuticle. In most cases, the eggs are left inside the shed cuticle to develop, but some species attach them to a nearby substrate.[27]",
-                            "The eggs hatch after no more than 14 days, with the young already possessing their full complement of adult cells. Growth to adult size occurs by enlargement of the individual cells (hypertrophy), rather than by cell division. Tardigrades may molt up to 12 times.[27]",
-                            "Tardigrades tend to court before mating. Courtship is an early step in mating and was first observed in tardigrades in 1895. Research shows that up to nine males aggregate around a female to mate.[35]"
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Reproduction and life cycle",
+                        "content": [
+                            "Most tardigrades have both male and female animals which copulate by a variety of methods. The females lay eggs; those of Austeruseus faeroensis are spherical, 80 \u03bcm in diameter, with a knobbled surface. In other species the eggs can be ovoid, as in Hypsibius annulatus, or may be spherical with pyramidal or bottle-shaped surface ornamentation. Some species appear to have no males, suggesting that parthenogenesis is common.",
+                            "Both sexes have a single gonad (an ovary or testis) located above the intestine. A pair of ducts run from the testis, opening through a single gonopore in front of the anus. Females have a single oviduct opening either just above the anus or directly into the rectum, which forms a cloaca.",
+                            "The male may place his sperm into the cloaca, or may penetrate the female's cuticle and place the sperm straight into her body cavity, for it to fertilise the eggs directly in the ovary. A third mechanism in species such as H. annulatus is for the male to place the sperm under the female's cuticle; when she moults, she lays eggs into the cast cuticle, where they are fertilised. Courtship occurs in some aquatic tardigrades, with the male stroking his partner with his cirri to stimulate her to lay eggs; fertilisation is then external.",
+                            "Up to 30 eggs are laid, depending on the species. Terrestrial tardigrade eggs have drought-resistant shells. Aquatic species either glue their eggs to a substrate or leave them in a cast cuticle. The eggs hatch within 14 days, the hatchlings using their stylets to open their egg shells."
                         ],
-                        "subheadings": {}
+                        "subsections": []
                     }
-                },
-                {
-                    "heading: Ecology and life history": {
-                        "text": [
-                            "Most tardigrades are phytophagous (plant eaters) or bacteriophagous (bacteria eaters), but some are carnivorous to the extent that they eat smaller species of tardigrades (for example, Milnesium tardigradum).[36][37] In addition, a few extant species, such as Tetrakentron synaptae, alongside the undescribed Cambrian “Orsten” tardigrade, are parasitic.[38][39]",
-                            "Tardigrades share morphological characteristics with many species that differ largely by class. Biologists have a difficult time finding verification among tardigrade species because of this relationship.[clarification needed] These animals are most closely related to the early evolution of arthropods.[40] Tardigrade fossils go as far back as the Cretaceous period in North America. Tardigrades are considered cosmopolitan and can be located in regions all over the world. The eggs and cysts of tardigrades are so durable that they can be carried great distances on the feet of other animals.[17]",
-                            "Tardigrades have survived all five recognized mass extinctions due to their plethora of survival characteristics, including the ability to survive conditions that would be fatal to almost all other animals (see the next section).",
-                            "The lifespan of tardigrades ranges from three to four months for some species, up to two years for other species, not counting their time in dormant states.[41]"
+                ]
+            },
+            {
+                "section_title": "Ecology and life history",
+                "content": [
+                    "Tardigrades as a group are cosmopolitan, living in many environments on land, in freshwater, and in the sea. Their eggs and resistant life-cycle stages (cysts and tuns) are small and durable enough to enable long-distance transport, whether on the feet of other animals or by the wind.",
+                    "Individual species have more specialised distributions, many being both regional and limited to a single type of habitat, such as mountains. Some species have wide distributions: for instance, Echiniscus lineatus is pantropical. Halobiotus is restricted to cold Holarctic seas. Species such as Borealibius and Echiniscus lapponicus have a discontinuous distribution, being both polar and on tall mountains. This could be a result of long-distance transport by the wind, or the remains of an ancient geographic range when the climate was colder. A small percentage of species may be cosmopolitan.",
+                    "The majority of species live in damp habitats such as on lichens, liverworts, and mosses, and directly in soil and leaf litter. In freshwater and the sea they live on and in the bottom, such as in between particles or around seaweeds. More specialised habitats include hot springs and as parasites or commensals of marine invertebrates. In soil there can be as many as 300,000 per square metre; on mosses they can reach a density of over 2 million per square metre.",
+                    "Tardigrades are host to many microbial symbionts and parasites. In glacial environments, the bacterial genera Flavobacterium, Ferruginibacter, and Polaromonas are common in tardigrades' microbiomes. Many tardigrades are predatory; Milnesium lagniappe includes other tardigrades such as Macrobiotus acadianus among its prey. Tardigrades consume prey such as nematodes, and are themselves predated upon by soil arthropods including mites, spiders and cantharid beetle larvae.",
+                    "With the exception of 62 exclusively freshwater species, all non-marine tardigrades are found in terrestrial environments. Because the majority of the marine species belongs to Heterotardigrada, the most ancestral class, the phylum evidently has a marine origin."
+                ],
+                "subsections": []
+            },
+            {
+                "section_title": "Environmental tolerance",
+                "content": [
+                    "Tardigrades are not considered universally extremophilic because they are not adapted to exploit many of the extreme conditions that their environmental tolerance has been measured in, only to endure them. This means that their chances of dying increase the longer they are exposed to theses extreme environments, whereas true extremophiles thrive there."
+                ],
+                "subsections": [
+                    {
+                        "section_title": "Dehydrated 'tun' state",
+                        "content": [
+                            "Tardigrades are capable of suspending their metabolism, going into a state of cryptobiosis. Terrestrial and freshwater tardigrades are able to tolerate long periods when water is not available, such as when the moss or pond they are living in dries out, by drawing their legs in and forming a desiccated cyst, the cryptobiotic 'tun' state, where no metabolic activity takes place. In this state, they can go without food or water for several years. Further, in that state they become highly resistant to environmental stresses, including temperatures from as low as \u2212272 \u00b0C (\u2212458 \u00b0F) to as much as +149 \u00b0C (300 \u00b0F) (at least for short periods of time), lack of oxygen, vacuum, ionising radiation, and high pressure."
                         ],
-                        "subheadings": {}
-                    }
-                },
-                {
-                    "heading: Physiology": {
-                        "text": [
-                            "Scientists have reported tardigrades in hot springs, in glacial cryoconite holes, on top of the Himalayas[42][43] (6,000 m; 20,000 ft, above sea level), and in the deep sea (−4,000 m; −13,000 ft); from the polar regions to the equator, under layers of solid ice, and in ocean sediments. Many species can be found in milder environments such as lakes, ponds, and meadows, while others can be found in stone walls and roofs. Tardigrades are most common in moist environments but can stay active wherever they can retain at least some moisture.",
-                            "Tardigrades are thought to be able to survive even complete global mass extinction events caused by astrophysical events, such as gamma-ray bursts, or large meteorite impacts.[11][12] Some of them can withstand extremely cold temperatures down to 0.01 K (−460 °F; −273 °C) (close to absolute zero), while others can withstand extremely hot temperatures up to 420 K (300 °F; 150 °C)[44][45] for several minutes, pressures about six times greater than those found in the deepest ocean trenches, ionizing radiation at doses hundreds of times higher than the lethal dose for a human, and the vacuum of outer space.[46] Tardigrades that live in harsh conditions undergo an annual process of cyclomorphosis, allowing for survival in subzero temperatures.[47]",
-                            "They are not considered extremophilic because they are not adapted to exploit these conditions, only to endure them. This means that their chances of dying increase the longer they are exposed to the extreme environments,[10] whereas true extremophiles thrive in a physically or geochemically extreme environment that would harm most other organisms.[3][48][49]",
-                            "Tardigrades are one of the few groups of species that are capable of suspending their metabolism (see Cryptobiosis). While in this state, their metabolism lowers to less than 0.01% of normal and their water content can drop to 1% of normal,[46] and they can go without food or water for more than 30 years, only to later rehydrate, forage, and reproduce.[3][50][51][52][53] Many species of tardigrade can survive in a dehydrated state up to five years, or longer in exceptional cases.[54][55] Depending on the environment, they may enter this state via anhydrobiosis, allowing tardigrades, along with some other micro-metazoans (such as worms, rotifers, and crustaceans), protozoans and plants, the ability to survive in habitats that might otherwise be fatal. In addition to offering protection from desiccation and freezing under normal circumstances, anhydrobiosis also permits resistance to unnatural abiotic extremes such as subzero temperatures,[56] cryobiosis, osmobiosis, or anoxybiosis.",
-                            "Their ability to remain desiccated for such long periods of time was thought to be dependent on high levels of the nonreducing disaccharide trehalose,[57] which is commonly seen in other organisms that survive desiccation, and tardigrades have trehalase genes.[58] However, it has been seen that in both tardigrades and bdelloid rotifers, there is only a partial capability to synthesize trehalose in quantities that may contribute to desiccation tolerance.[57][59]",
-                            "In response to this finding, more research was done on how these animals survived such extreme conditions. It was found that intrinsically disordered proteins (IDPs) were highly expressed in response to desiccation in tardigrades. Additionally, three new IDPs were found to be specific to tardigrades and coined tardigrade specific proteins (TDPs). These TDPs may maintain the structure of membranes by associating with the polar heads of the phospholipids bilayers, avoiding structural damage upon rehydration.[60] Also, TDPs, being highly hydrophilic, are thought to be involved in a vitrification mechanism, where a glass-like matrix forms within cells to protect the cellular contents upon desiccation.[61] Their DNA is further protected from radiation by a protein called \"dsup\" (short for damage suppressor).[62][63] In this cryptobiotic state, the tardigrade is known as a \"tun\".[64] Mitochondria and muscle contraction due to mitochondria are essential for tardigrade to enter the \"tun\" state of anhydrobiosis.[65]",
-                            "Tardigrades can survive in extreme environments that would kill almost any other animal.[58] Extremes at which tardigrades can survive include those of:",
-                            "Research published in 2020 shows that tardigrades are sensitive to high temperatures. Researchers showed it takes 48 hours at 37.1 °C (98.8 °F) to kill half of active tardigrades that have not been acclimated to heat. Acclimation boosted the temperature needed to kill half of active tardigrades to 37.6 °C (99.7 °F). Tardigrades in the \"tun\" state fared a bit better, tolerating higher temperatures. It took heating to 82.7 °C (180.9 °F) to kill half of \"tun\"-state tardigrades within one hour. Longer exposure time decreased the temperature needed for lethality, though. For 24 hours of exposure, 63.1 °C (145.6 °F) was enough to kill half of the \"tun\"-state tardigrades.[69]",
-                            "In 2021 scientists reported they had cooled down a tardigrade of the species Ramazzottius varieornatus to 10 millikelvin above absolute zero, and put it under extremely low pressure of 0.000006 millibars. After 420 hours, the animal was brought back to life again.[70]"
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Surviving other stresses",
+                        "content": [
+                            "Marine tardigrades such as Halobiotus crispae alternate each year (cyclomorphosis) between an active summer morph and a hibernating winter morph (a pseudosimplex) that can resist freezing and low salinity, but which remains active throughout. Reproduction however takes place only in the summer morph.",
+                            "Tardigrades can survive impacts up to about 900 metres per second (3,000 ft/s), and momentary shock pressures up to about 1.14 gigapascals (165,000 psi)."
                         ],
-                        "subheadings": {
-                            "subheading: Survival after exposure to outer space": {
-                                "text": [
-                                    "Tardigrades are the first known animal to survive after exposure to outer space.[80] In September 2007, dehydrated tardigrades were taken into low Earth orbit on the FOTON-M3 mission carrying the BIOPAN astrobiology payload. For 10 days, groups of tardigrades, some of them previously dehydrated, some of them not, were exposed to the hard vacuum of outer space, or vacuum and solar UV radiation.[81][3][82][83] Back on Earth, more than 68% of the subjects protected from solar UV radiation were reanimated within 30 minutes following rehydration; although subsequent mortality was high, many of these produced viable embryos.[81][80]",
-                                    "In contrast, hydrated samples exposed to the combined effect of vacuum and full solar UV radiation had significantly reduced survival, with only three subjects of Milnesium tardigradum surviving.[81] Also, it was found that the space vacuum did not have a significant effect on egg-laying in either R. coronifer or M. tardigradum. However, M. tardigradum exposed to UV radiation had a lower egg laying rate.[84] In May 2011, Italian scientists sent tardigrades on board the International Space Station along with extremophiles on STS-134, the final flight of Space Shuttle Endeavour.[85][86][87] Their conclusion was that microgravity and cosmic radiation \"did not significantly affect survival of tardigrades in flight, and stated that tardigrades represent a useful animal for space research.\"[88][89]",
-                                    "In November 2011, they were among the organisms to be sent by the U.S.-based Planetary Society on the Russian Fobos-Grunt mission's Living Interplanetary Flight Experiment to Phobos; however, the launch failed. In August 2019, scientists reported that a capsule containing tardigrades in a cryptobiotic state may have survived for a while on the Moon after the April 2019 crash landing of Beresheet, a failed Israeli lunar lander, but in May 2021 it was reported that they were unlikely to have survived the impact.[90][91][72]",
-                                    "In recent years, there has also been increased speculation regarding tardigrades' ability to survive on Mars without any life support systems,[92] but it would still \"need stuff to eat\" to survive.[93]"
-                                ]
-                            }
-                        }
-                    }
-                },
-                {
-                    "heading: Taxonomy": {
-                        "text": [
-                            "Scientists have conducted morphological and molecular studies to understand how tardigrades relate to other lineages of ecdysozoan animals. Two plausible placements have been proposed: tardigrades are either most closely related to Arthropoda and Onychophora, or to nematodes. Evidence for the former is a common result of morphological studies; evidence for the latter is found in genomic analysis.[94]",
-                            "Water bears (Tardigrada)",
-                            "Velvet worms (Onychophora)",
-                            "Arthropods (Arthropoda)",
-                            "The minute sizes of tardigrades and their membranous integuments make their fossilization both difficult to detect and highly unusual. The only known fossil specimens are those from mid-Cambrian deposits in Siberia (Orsten fauna) and a few rare specimens from Cretaceous and Neogene amber.[95][96]",
-                            "The Siberian tardigrade fossils differ from living tardigrades in several ways. They have three pairs of legs rather than four, they have a simplified head morphology, and they have no posterior head appendages, but they share with modern tardigrades their columnar cuticle construction.[97] Scientists think they represent a stem group of living tardigrades.[95]"
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Exposure to space",
+                        "content": [
+                            "Tardigrades have survived exposure to space. In 2007, dehydrated tardigrades were taken on the FOTON-M3 mission and exposed to vacuum, or to both vacuum and solar ultraviolet, for 10 days. Back on Earth, more than 68% of the subjects protected from ultraviolet were reanimated by rehydration, and many produced viable embryos.",
+                            "In contrast, hydrated samples exposed to vacuum and solar ultraviolet survived poorly, with only three subjects of Milnesium tardigradum surviving. The space vacuum did not much affect egg-laying in either R. coronifer or M. tardigradum, whereas UV radiation reduced egg-laying in M. tardigradum. In 2011, tardigrades went on the International Space Station STS-134, showing that they could survive microgravity and cosmic radiation, and should be suitable model organisms.",
+                            "In 2019, a capsule containing tardigrades in a cryptobiotic state was on board the Israeli lunar lander Beresheet which crashed on the Moon."
                         ],
-                        "subheadings": {}
-                    }
-                },
-                {
-                    "heading: Evolutionary history": {
-                        "text": [
-                            "There are multiple lines of evidence that tardigrades are secondarily miniaturized from a larger ancestor,[98] probably a lobopodian and perhaps resembling Aysheaia, which many analyses place close to the divergence of the tardigrade lineage.[99][100] An alternative hypothesis derives tactopoda from a clade encompassing dinocaridids and Opabinia.[101] A 2023 analysis concluded, on the basis of numerous morphological similarities, that luolishaniids, a group of Cambrian lobopodians, might be the closest known relatives of Tardigrada.[102]",
-                            "The oldest remains of modern tardigrades are those of Milnesium swolenskyi, belonging to the living genus Milnesium known from a Late Cretaceous (Turonian) aged specimen of New Jersey amber, around 90 million years old. Another fossil species, Beorn leggi, is known from a Late Campanian (~72 million years old) specimen of Canadian amber, belonging to the family Hypsibiidae.[103] The related hypsibioidean Aerobius dactylus was found in the same amber piece.[104][105] The youngest known fossil tadigrade genus, Paradoryphoribius, was discovered in amber dated to about 16 Ma.[96]",
-                            "The enigmatic panarthropod Sialomorpha found in 30-million year old Dominican amber, while not classifiable as a tardigrade, shows some apparent affinities.[106][107]"
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Damage protection proteins",
+                        "content": [
+                            "Tardigrades' ability to remain desiccated for long periods of time was thought to depend on high levels of the sugar trehalose, common in organisms that survive desiccation. However, tardigrades do not synthesize enough trehalose for this function. Instead, tardigrades produce intrinsically disordered proteins in response to desiccation. Three of these are specific to tardigrades and have been called tardigrade specific proteins. These may protect membranes from damage by associating with the polar heads of lipid molecules. The proteins may also form a glass-like matrix that protects cytoplasm from damage during desiccation.",
+                            "Anhydrobiosis in response to desiccation has a complex molecular basis; in Hypsibius exemplaris, 1,422 genes are upregulated during the process. Of those, 406 are specific to tardigrades, 55 being intrinsically disordered and the others globular with unknown functions.",
+                            "Tardigrades possess a cold shock protein; Maria Kamilari and colleagues propose (2019) that this may serve \"as a RNA-chaperone involved in regulation of translation [of RNA code to proteins] following freezing.\"",
+                            "Tardigrade DNA is protected from radiation by the Dsup (\"damage suppressor\") protein. The Dsup proteins of Ramazzottius varieornatus and H. exemplaris promote survival by binding to nucleosomes and protecting chromosomal DNA from hydroxyl radicals. The Dsup protein of R. varieornatus confers resistance to ultraviolet-C by upregulating DNA repair genes.",
+                            "Some of these proteins are of interest to biomedical research. Potential is seen in Dsup's ability to protect against damage; in CAHS and LEA's ability to protect from desiccation; and some CAHS proteins could serve to prevent programmed cell death (apoptosis)."
                         ],
-                        "subheadings": {}
+                        "subsections": []
                     }
-                },
-                {
-                    "heading: Genomes and genome sequencing": {
-                        "text": [
-                            "Tardigrade genomes vary in size, from about 75 to 800 megabase pairs of DNA.[108] Hypsibius exemplaris (formerly Hypsibius dujardini) has a compact genome of 100 megabase pairs[94] and a generation time of about two weeks; it can be cultured indefinitely and cryopreserved.[109]",
-                            "The genome of Ramazzottius varieornatus, one of the most stress-tolerant species of tardigrades, was sequenced by a team of researchers from the University of Tokyo in 2015. While previous research had claimed that around one-sixth of the genome had been acquired from other organisms,[110] it is now known that less than 1.2% of its genes were the result of horizontal gene transfer. They also found evidence of a loss of gene pathways that are known to promote damage due to stress. This study also found a high expression of novel tardigrade-unique proteins, including Damage suppressor (Dsup),[111] which was shown to protect against DNA damage from X-ray radiation. The same team applied the Dsup protein to human cultured cells and found that it suppressed X-ray damage to the human cells by around 40%.[63] While the exact mechanism of DNA protection is largely unknown, the results from an August 2020 study suggest that strong electrostatic attractions along with high protein flexibility help form a molecular aggregate, which allows Dsup to shield DNA.[112]",
-                            "The Dsup proteins of tardigrades Ramazzottius varieornatus and Hypsibius exemplaris promote survival by binding to nucleosomes and protecting chromosomal DNA from hydroxyl radicals.[113] The Dsup protein of R. varieornatus also confers resistance to ultraviolet-C by upregulating DNA repair genes that protect the genomic DNA from the damages introduced by UV irradiation.[114]"
+                ]
+            },
+            {
+                "section_title": "Taxonomic history",
+                "content": [
+                    "In 1773, Johann August Ephraim Goeze named the tardigrade Kleiner Wasserb\u00e4r, meaning 'little water-bear' in German (today, Germans often call them B\u00e4rtierchen 'little bear-animal'). The name water bear comes from the way they walk, reminiscent of a bear's gait. The name Tardigradum means 'slow walker' and was given by Lazzaro Spallanzani in 1776. In 1834, C.A.S. Schulze gave the first formal description of a tardigrade, Macrobiotus hufelandi, in a work subtitled \"a new animal from the crustacean class, capable of reviving after prolonged asphyxia and dryness\". This was soon followed by descriptions of species including Echiniscus testudo, Milnesium tardigradum, Hypsibius dujardini, and Ramazzottius oberhaeuseri by L.M.F. Doy\u00e8re in 1840. All four of these are now the nominal species for higher tardigrade taxa. The zoologist Hartmut Greven wrote that \"The unanimous opinion of all later researchers is that Doy\u00e8re's 1842 dissertation Memoire sur les Tardigrades is an indisputable milestone in tardigradology\".",
+                    "Ferdinand Richters worked on the taxonomy of tardigrades from 1900 to 1913, with studies of Nordic, Arctic, marine, and South American species; he described many species at this time, and in 1926 proposed the class Eutardigrada. In 1927, Ernst Marcus created the class Heterotardigrada. and in 1929 a monograph on tardigrades which Greven describes as \"comprehensive\" and \"unsurpassed today\". In 1937 Gilbert Rahm, studying the fauna of Japan's hot springs, distinguished the class Mesotardigrada, with a single species Thermozodium esakii; its validity is now doubted.",
+                    "In 1962, Giuseppe Ramazzotti proposed the phylum Tardigrada.",
+                    "In 2019, Noemi Guil and colleagues proposed to promote the order Apochela to the new class Apotardigrada. There are some 1,488 described species of tardigrades, organised into 160 genera and 36 families."
+                ],
+                "subsections": []
+            },
+            {
+                "section_title": "Evolution",
+                "content": [],
+                "subsections": [
+                    {
+                        "section_title": "Evolutionary history",
+                        "content": [
+                            "Tardigrade fossils are rare. The only known specimens are those from mid-Cambrian deposits in Siberia (in the Orsten fauna) and a few specimens in amber from the Cretaceous of North America and the Neogene of Dominica. The Siberian fossils differ from living tardigrades in several ways. They have three pairs of legs rather than four, they have a simplified head morphology, and they have no posterior head appendages, but they share with modern tardigrades their columnar cuticle construction. Scientists think they represent a stem group of living tardigrades.",
+                            "Multiple lines of evidence show that tardigrades are secondarily miniaturised from a larger ancestor, probably a lobopodian, perhaps resembling the mid-Cambrian Aysheaia, which many analyses place close to the divergence of the tardigrade lineage. An alternative hypothesis derives tactopoda from a clade encompassing dinocaridids and Opabinia. The enigmatic panarthropodan Sialomorpha found in 30-million year old Dominican amber, while not a tardigrade, shows some apparent affinities. A 2023 morphological analysis concluded that luolishaniids, a group of Cambrian lobopodians, might be the tardigrades' closest known relatives.",
+                            "The oldest remains of modern tardigrades are those of Milnesium swolenskyi, belonging to the living genus Milnesium known from a Late Cretaceous (Turonian) aged specimen of New Jersey amber, around 90 mya. Another fossil species, Beorn leggi, is known from a Late Campanian (~72 mya) specimen of Canadian amber, belonging to the family Hypsibiidae. The related hypsibioidean Aerobius dactylus was found in the same amber piece. The youngest known fossil tadigrade genus, Paradoryphoribius, was discovered in amber dated to about 16 mya.",
+                            "Morphological and molecular phylogenetics studies have attempted to define how tardigrades relate to other ecdysozoan groups; alternative placements have been proposed within the Panarthropoda. The Tactopoda hypothesis holds that Tardigrada are sister to Arthropoda; the Antennopoda hypothesis is that Tardigrada are sister to (Onychophora + Arthropoda; and the Lobopodia (sensu Smith & Goldstein 2017) hypothesis is that Tardigrada are sister to Onychophora. The relationships have been debated on the basis of conflicting evidence."
                         ],
-                        "subheadings": {}
-                    }
-                },
-                {
-                    "heading: Ecological importance": {
-                        "text": [
-                            "Many organisms that live in aquatic environments feed on species such as nematodes, tardigrades, bacteria, algae, mites, and collembolans.[115] Tardigrades work as pioneer species by inhabiting new developing environments. This movement attracts other invertebrates to populate that space, while also attracting predators.[40] They contribute to ecosystems by being predators of plant parasitic nematodes, which helps decrease biomass within the soil."
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Genomics",
+                        "content": [
+                            "Tardigrade genomes vary widely in size. Hypsibius exemplaris (part of the Hypsibius dujardini group) has a compact genome of 100 megabase pairs and a generation time of about two weeks; it can be cultured indefinitely and cryopreserved. The genome of Ramazzottius varieornatus, one of the most stress-tolerant species of tardigrades, is about half as big, at 55 Mb. About 1.6% of its genes are the result of horizontal gene transfer from other species, not implying any dramatic effect.",
+                            "Genomic studies across different tardigrade groups help reconstruct the evolution of their genome, such as the relationship of tardigrade body segments to those of other Panarthropoda. A 2023 review concludes that despite the diversity of body plan among the Panarthropoda, the tardigrade body plan maps best with \"a simple one-to-one alignment of anterior segments\". Such studies may eventually reveal how they miniaturised themselves from larger ecdysozoans.",
+                            "Tardigrades lack several of the Hox genes found in arthropods, and a large intermediate region of the body axis. In insects, this corresponds to the entire thorax and abdomen. Practically the whole body, except for the last pair of legs, is made up of just the segments that are homologous to the head region in arthropods. This implies that tardigrades evolved from an ancestral ecdysozoan with a longer body and more segments."
                         ],
-                        "subheadings": {}
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Phylogeny",
+                        "content": [
+                            "In 2012, the phylogeny of the phylum was studied using molecular markers (ribosomal RNA), finding that the Heterotardigrada and Arthrotardigrada seemed to be paraphyletic.",
+                            "In 2018, a report integrating multiple morphological and molecular studies concluded that while the Arthrotardigrada appear to be paraphyletic, the Heterotardigrada is an accepted clade. All the lower-level taxa have been much reorganised, but the major groupings remain in place."
+                        ],
+                        "subsections": []
                     }
-                },
-                {
-                    "heading: In popular culture": {
-                        "text": [],
-                        "subheadings": {}
+                ]
+            },
+            {
+                "section_title": "In culture and society",
+                "content": [],
+                "subsections": [
+                    {
+                        "section_title": "Early 20th century beginnings",
+                        "content": [
+                            "Possibly the first time that tardigrades appear in non-scientific literature is in the short-story \"Bathybia\" by the geologist and explorer Douglas Mawson. Published in the 1908 book Aurora Australis and printed in the Antarctic, it deals with an expedition to the South Pole where the team encounters giant mushrooms and arthropods. The team watches a giant tardigrade fighting a similarly enormous rotifer; another giant water bear bites a man's toe, rendering him comatose for half an hour with its anaesthetic bite. Finally, a four-foot-long tardigrade, waking from hibernation, scares the narrator from his sleep, and he realizes it was all a dream."
+                        ],
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "Popularity",
+                        "content": [
+                            "Tardigrades are common in mosses and lichens on walls and roofs, and can readily be collected and viewed under a low-power microscope. If they are dry, they can be reanimated on a microscope slide by adding a little water, making them accessible to beginning students and amateur scientists. Current Biology attributed their popularity to \"their clumsy crawling [which] is about as adorable as can be.\" The zoologists James F. Fleming and Kazuhuru Arakawa called them \"a charismatic phylum\". They have been famous for their ability to survive life-stopping events such as being dried out since Spallanzani first resuscitated them from some dry sediment in a gutter in the 18th century. In 2015, the astrophysicist and science communicator Neil deGrasse Tyson described Earth as \"the planet of the tardigrades\", and they were nominated for the American Name Society's Name of the Year Award. Live Science notes that they are popular enough to appear on merchandise like clothes, earrings, and keychains, with crochet patterns for people to make their own tardigrade. The Dutch artist Arno Coenen created statues for St Eusebius' Church, Arnhem of microscopic organisms including a tardigrade and a coronavirus."
+                        ],
+                        "subsections": []
+                    },
+                    {
+                        "section_title": "From science to popular culture",
+                        "content": [
+                            "The tardigrades' traits, including their ability to survive extreme conditions, have earned them a place in science fiction and other pop culture. The musician Cosmo Sheldrake imagines himself as a robust tardigrade in his 2015 \"Tardigrade Song\". He sings \"If I were a tardigrade ... Pressure wouldn't squash me and fire couldn't burn ... I can live life in vacuums for years with no drink (A ha)\".",
+                            "The biologists Mark Blaxter and Arakawa Kazuharu describe tardigrades' transition to science fiction and fantasy as resulting in \"rare but entertaining walk-on parts\". They note that in the 2015 sci-fi horror film Harbinger Down, the protagonists have to deal with tardigrades that have mutated through Cold War experiments into intelligent and deadly shapeshifters.",
+                            "In the 2017 Star Trek: Discovery, the alien \"Ripper\" creature is a huge but as The Routledge Handbook of Star Trek writes \"generally recognisable\" version of a terrestrial tardigrade. The protagonist, the xeno-anthropologist Michael Burnham, explains that the Ripper can \"incorporate foreign DNA into its own genome via horizontal gene transfer. When Ripper borrows DNA from the mycelium [of its symbiotic fungi], he's granted an all-access travel pass\". The scholar of science in popular culture Lisa Meinecke, in Fighting for the Future: Essays on Star Trek: Discovery, writes that the animal shares some of the real tardigrade's characteristics, including \"its physical resilience to extreme environmental\" stresses. She adds that while taking on fungal DNA is \"ostensibly grounded\" in science, it equally carries a \"mystical impetus of what [the French philosophers] Deleuze and Guattari call a becoming\", an entanglement of species that changes those involved \"and ties together all life\". The border of that symbiosis is the \"Outsider or Anomalous\", which stabilises the system and embodies its future possibilities. The characters Burnham and Stamets see that the tardigrade plays this 'Outsider' role."
+                        ],
+                        "subsections": []
                     }
-                }
-            ]
-        }
+                ]
+            },
+            {
+                "section_title": "See also",
+                "content": [
+                    "List of tardigrades of South Africa",
+                    "Panspermia"
+                ],
+                "subsections": []
+            },
+            {
+                "section_title": "References",
+                "content": [],
+                "subsections": []
+            },
+            {
+                "section_title": "External links",
+                "content": [
+                    "Tardigrada Register Archived 2015-03-20 at the Wayback Machine",
+                    "NASA Astronomy Picture of the Day: Tardigrade in Moss (6 March 2013)"
+                ],
+                "subsections": []
+            }
+        ]
     }
-}
+]
