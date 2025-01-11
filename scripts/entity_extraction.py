@@ -9,8 +9,11 @@ from cache_manager import CacheManager
 class Entity:
     id: str
     frequency: int = 0
+    section_count: int = 0
     variants: Set[str] = field(default_factory=set)
-    appearances: List[Dict] = field(default_factory=list)
+    appearances: List[Dict] = field(default_factory=list) # increment each time the concept or its variant is extracted
+    sections_seen: Set[int] = field(default_factory=set) # track the number of unique sections in which the entity appears
+    builds_on: Set[str] = field(default_factory=set)  
 
     def __post_init__(self):
         # Normalize the ID
@@ -32,38 +35,44 @@ class Entity:
         return term
     
     def add_appearance(self, appearance: Dict, variant: str):
-        """Add a new appearance and ensure variant is from known variants."""
+        """
+        Add a new appearance and update frequencies.
+        Args:
+            appearance: Dict containing appearance details
+            variant: The form of the concept that was found (original or variant)
+        """
         variant = self.normalize_term(variant)
 
-        # Only use variants that are registered or the main ID
-        if variant != self.id and variant not in self.variants:
-            print(f"Warning: Unregistered variant '{variant}' for {self.id}, defaulting to main form")
-            variant = self.id  # Always default to main form if variant not recognized
+        self.variants.add(variant)
+        
+        # Update frequency
+        self.frequency += 1
 
-        section = appearance.get("section", "")
-        # Check if this exact variant already appears in this section
-        existing_in_section = any(
-            app.get("section") == section and
-            app.get("variant") == variant
-            for app in self.appearances
-        )
-
-        if not existing_in_section:
-            appearance["variant"] = variant
-            self.appearances.append(appearance)
-            self.frequency += 1
-            print(f"Added appearance for '{variant}' in section {section}")
+        # Increment section frequency if it's a new section
+        section = appearance.get("section_index")
+        if section not in self.sections_seen:
+            self.section_count += 1
+            self.sections_seen.add(section)
+        
+        # Add appearance
+        self.appearances.append({
+            **appearance,
+            "variant": variant
+        })
 
     def merge_from(self, other: 'Entity'):
         """Merge another entity into this one"""
         # Merge variants
         self.variants.update(other.variants)
-        # Add unique appearances
-        for app in other.appearances:
+        # Merge sections seen
+        self.sections_seen.update(other.sections_seen)
+        # Update section count
+        self.section_count = len(self.sections_seen)
+        self.builds_on.update(other.builds_on)
+        for app in other.appearances: # Add unique appearances
             self.add_appearance(app, app.get("variant", ""))
         # Update frequency
         self.frequency = len(self.appearances)
-
 
     def merge_from(self, other: 'Entity'):
         """Merge another entity into this one"""
@@ -128,19 +137,34 @@ class OptimizedEntityExtractor:
         )
         return response.choices[0].message.content
 
-    def clean_markdown_json(json_str: str) -> str:
+    @staticmethod
+    def clean_markdown_json(response: str) -> str:
         """Clean JSON string from markdown formatting."""
-        if json_str.startswith('```'):
-            parts = json_str.split('```')
+        # Remove markdown code blocks if present
+        if '```' in response:
+            # Split by code blocks and get the content
+            parts = response.split('```')
+            # Get the part that's between the first and second ``` markers
             if len(parts) >= 3:
-                json_str = parts[1]
+                response = parts[1]
             else:
-                json_str = parts[-1]
-
-            if '\n' in json_str:
-                json_str = json_str.split('\n', 1)[1]
-
-        return json_str.replace('```', '').strip()
+                response = parts[-1]
+            
+            # Remove any language identifier (e.g., 'json')
+            if '\n' in response:
+                response = response.split('\n', 1)[1]
+        
+        # Remove any remaining ``` markers
+        response = response.replace('```', '')
+        
+        # Strip whitespace
+        response = response.strip()
+        
+        # If the response starts with a newline, remove it
+        if response.startswith('\n'):
+            response = response[1:]
+        
+        return response
 
     def extract_entities_from_paragraph(self, paragraph: str, para_num: int) -> List[Dict]:
         """Extract entities from a paragraph with caching."""
@@ -226,26 +250,34 @@ class OptimizedEntityExtractor:
 
         print(f"  [S{section_index}] Making API call for entity extraction")
         prompt = f"""
-        Extract key concepts that are crucial for understanding the main ideas in this section using the following strict guidelines. Each concept should represent a distinct unit of knowledge or understanding.
+        Extract key concepts that are crucial for understanding the main ideas in this section using the following strict guidelines. Each concept should represent a distinct unit of knowledge that significantly contributes to understanding the topic.
         Section name: {section_name}
 
         Focus on: 
-        1. Foundational concepts that other ideas build upon
-        2. Core processes or mechanisms that explain how something works
-        3. Key principles or theories that frame the topic
-        4. Critical relationships between ideas
-        5. Defining characteristics or properties that distinguish important elements
-        
-        Important guidelines: 
-        - Properties/attributes of a concept should be separate concepts if they represent important distinct ideas. (e.g., "tardigrade nervous system" is different from "tardigrade") 
-        - Different states/processes should be separate concepts when they represent distinct phenomena (e.g., "active tardigrades" vs "dormant tardigrades") 
+        1. Primary concepts that form the foundation of understanding.
+            - Core ideas that other concepts build upon
+            - Essential principles or characteristics
+            - Distinctive features and capabilities  
+            - Key classifications or categories
+        2. Critical processes or mechanisms that explain the main ideas.
+            - How things work or interact
+            - Key sequences or developments
+        3. Supporting structures and systems
+            - Component parts and organization
+            - Essential subsystems
+            - Related elements and factors
 
+        Guidelines for concept selection:
+            - Include concepts necessary for understanding later topics
+            - Include concepts that explain key "how" or "why" aspects
+            - Exclude purely descriptive or anecdotal details unless they define the topic
+                
         Output format:
         [
             {{
             "entity": "main_form",
-            "variants": ["true conceptual variations only"],
             "context": "Why this concept is essential for understanding the topic",
+            "builds_on": ["list of prerequisite concepts if any"]
             }}
         ]
 
@@ -260,14 +292,6 @@ class OptimizedEntityExtractor:
             print("=" * 50)
 
             entities = json.loads(OptimizedEntityExtractor.clean_markdown_json(response))
-
-            # Print parsed entities for this section
-            print(f"\nParsed Entities for Section {section_name}:")
-            for entity in entities:
-                print(f"- Entity: {entity['entity']}")
-                print(f"  Variants: {entity['variants']}")
-                print(f"  Context: {entity['context']}\n")
-
             return entities
         except Exception as e:
             print(f"Error extracting entities: {str(e)}")
@@ -330,7 +354,7 @@ class OptimizedEntityExtractor:
         )
 
         if cache_key in self.memory_cache:
-            print("  Using memory cache for list comparison")
+            print("Using memory cache for list comparison")
             return self.memory_cache[cache_key]
 
         # Check file cache
@@ -341,126 +365,176 @@ class OptimizedEntityExtractor:
             return cached_result
 
         print("  Making API call for list comparison")
+        # Create a sample output format without f-string
+        sample_output = {
+            "water bear": "tardigrade",
+            "tardigrade species": "tardigrade"
+        }
+
+        # Normalize case for comparison
+        normalized_list1 = [
+            {
+                "entity": ent["entity"].lower(),
+                "context": ent["context"]
+            }
+            for ent in list1
+        ]
+        
+        normalized_list2 = [
+            {
+                "entity": ent["entity"].lower(),
+                "context": ent["context"]
+            }
+            for ent in list2
+        ]
+
         prompt = f"""
         Compare these two lists of concepts and identify which ones represent EXACTLY the same abstract idea or unit of knowledge.
+        If a concept in List 2 matches one in List 1, it should be treated as a variant of that concept.
         
         Guidelines for matching:
-        - Match terms that refer to exactly the same concept even if worded differently
-        - Common variations of the same term should be matched (e.g., hyphenated vs non-hyphenated)
-        - Different languages or regional terms for the same concept should be matched
+        1. Match concepts that: 
+            - Refer to exactly the same concept
+            - Are synonyms or alternative expressions
+            - Mean the same thing in different contexts
         
-        Do NOT match concepts that:
-        - Are merely related or connected (e.g., "tardigrade anatomy" ≠ "tardigrade")
-        - Have a hierarchical relationship
-        - Represent different aspects of the same topic
+        2. Do NOT match concepts that:
+            - Are merely related or connected (e.g., "tardigrade anatomy" ≠ "tardigrade")
+            - Have a hierarchical relationship
+            - Represent different aspects of the same topic
         
-        Return a JSON dictionary mapping List 2 concepts to their EXACT matches in List 1.
-        Only include pairs with complete conceptual equivalence.
+        Return a simple dictionary mapping concepts from List 2 to their matches in List 1.
+        If no match exists, don't include that concept.
+
+        Example output format:
+        {json.dumps(sample_output, indent=2)}
 
         List 1:
-        {json.dumps(list1, indent=2)}
+        {json.dumps(normalized_list1, indent=2)}
 
         List 2:
-        {json.dumps(list2, indent=2)}
+        {json.dumps(normalized_list2, indent=2)}
         """
 
         try:
             response = self._cached_api_call(prompt)
-            matches = json.loads(OptimizedEntityExtractor.clean_markdown_json(response))
+            matches = json.loads(self.clean_markdown_json(response))
 
-            # Cache results
-            self.memory_cache[cache_key] = matches
-            self.cache_manager.cache_comparison(list1, list2, matches)
 
-            return matches
+            original_case_matches = {}
+            for new_entity in list2:
+                if new_entity["entity"].lower() in matches:
+                    # Find original case in list1
+                    for orig_entity in list1:
+                        if orig_entity["entity"].lower() == matches[new_entity["entity"].lower()]:
+                            original_case_matches[new_entity["entity"]] = orig_entity["entity"]
+                            break
+            return original_case_matches
         except Exception as e:
             print(f"Error comparing entity lists: {str(e)}")
             return {}
 
     def process_section(self, chunk: TextChunk):
-        
+        """Process a section and merge with existing entities."""
         try:
             new_entities = self.extract_entities_from_section(
-            {"text": chunk.section_text, "subheadings": {}},
-            chunk.section_name,
-            chunk.section_index
+                {"text": chunk.section_text, "subheadings": {}},
+                chunk.section_name,
+                chunk.section_index
             )
 
-            appearance = {
-                "section": chunk.section_name,
-                "heading_level": chunk.heading_level,
-                "section_index": chunk.section_index
-            }
-
+            # Create case-insensitive lookup dictionary
+            entities_lookup = {k.lower(): k for k in self.entities.keys()}
+            
             # For first section, initialize entities
             if not self.entities:
-                for new_entity in new_entities:
-                    entity_id = new_entity["entity"].lower()
-                    entity = Entity(
-                        id=entity_id,
-                        variants={entity_id} | {v.lower() for v in new_entity["variants"]}
-                    )
-                    entity.add_appearance(appearance, entity_id)
-                    self.entities[entity_id] = entity
+                for entity in new_entities:
+                    try:
+                        new_entity = Entity(id=entity["entity"])
+                        appearance = {
+                            "section": chunk.section_name,
+                            "section_index": chunk.section_index,
+                            "heading_level": chunk.heading_level,
+                            "variant": entity["entity"],
+                            "context": entity.get("context", "")
+                        }
+                        new_entity.add_appearance(appearance, entity["entity"])
+                        if "builds_on" in entity:
+                            new_entity.builds_on.update(entity["builds_on"])
+                        self.entities[entity["entity"]] = new_entity
+                    except Exception as e:
+                        print(f"Warning: Could not process initial entity: {str(e)}")
+                        continue
                 return
 
-            # For subsequent sections, use LLM to compare with existing entities
-            existing_entities = [
-                {
-                    "entity": ent.id,
-                    "variants": list(ent.variants),
-                    "context": "Previously identified concept"
-                }
-                for ent in self.entities.values()
-            ]
+            # For subsequent sections
+            try:
+                existing_entities = [
+                    {
+                        "entity": ent.id,
+                        "context": "Previously identified concept"
+                    }
+                    for ent in self.entities.values()
+                ]
 
-            # Get semantic matches from LLM
-            matches = self.compare_concept_lists(existing_entities, new_entities)
+                # Get semantic matches
+                matches = self.compare_concept_lists(existing_entities, new_entities)
+                print(f"\nFound matches: {json.dumps(matches, indent=2)}")
+                
+                # Process each new entity
+                for new_entity in new_entities:
+                    try:
+                        entity_id = new_entity["entity"]
+                        appearance = {
+                            "section": chunk.section_name,
+                            "section_index": chunk.section_index,
+                            "heading_level": chunk.heading_level,
+                            "variant": entity_id,
+                            "context": new_entity.get("context", "")
+                        }
 
-            for new_entity in new_entities:
-                entity_id = self.normalize_term(new_entity["entity"])
-                variants = {self.normalize_term(v) for v in new_entity["variants"]}
-                variants.add(entity_id)  # Add main form as a variant
+                        if entity_id in matches:
+                            existing_id = matches[entity_id]
+                            print(f"\nMerging '{entity_id}' into existing concept '{existing_id}'")
+                            
+                            # Look up the actual key using case-insensitive comparison
+                            actual_key = entities_lookup.get(existing_id.lower())
+                            
+                            if actual_key:
+                                self.entities[actual_key].add_appearance(appearance, entity_id)
+                                if "builds_on" in new_entity:
+                                    self.entities[actual_key].builds_on.update(new_entity["builds_on"])
+                                print(f"Successfully merged '{entity_id}' as variant")
+                            else:
+                                # If no match found, create new entity
+                                print(f"No case-insensitive match found for '{existing_id}', creating new entity")
+                                new_entity_obj = Entity(id=entity_id)
+                                new_entity_obj.add_appearance(appearance, entity_id)
+                                if "builds_on" in new_entity:
+                                    new_entity_obj.builds_on.update(new_entity["builds_on"])
+                                self.entities[entity_id] = new_entity_obj
+                        else:
+                            # Create new entity
+                            print(f"\nCreating new entity '{entity_id}'")
+                            new_entity_obj = Entity(id=entity_id)
+                            new_entity_obj.add_appearance(appearance, entity_id)
+                            if "builds_on" in new_entity:
+                                new_entity_obj.builds_on.update(new_entity["builds_on"])
+                            self.entities[entity_id] = new_entity_obj
+                            print(f"Successfully created new entity")
 
-                # Enhanced matching logic
-                matched_entity = None
-                for existing_id, existing_entity in self.entities.items():
-                    # Check main forms
-                    if entity_id == existing_entity.id:
-                        matched_entity = existing_entity
-                        break
-                    
-                    # Check variants both ways
-                    if (entity_id in existing_entity.variants or
-                        any(v in existing_entity.variants for v in variants) or
-                        existing_entity.id in variants):
-                        matched_entity = existing_entity
-                        break
+                    except Exception as e:
+                        print(f"\nError processing entity:")
+                        print(f"Entity data: {json.dumps(new_entity, indent=2)}")
+                        print(f"Current entities: {list(self.entities.keys())}")
+                        print(f"Error details: {str(e)}")
+                        continue
 
-                appearance = {
-                    "section": chunk.section_name,
-                    "heading_level": chunk.heading_level,
-                    "section_index": chunk.section_index
-                }
-
-                if matched_entity:
-                    # Update existing entity
-                    matched_entity.variants.update(variants)
-                    matched_entity.add_appearance(appearance, entity_id)
-                    print(f"Updated entity: {matched_entity.id} with new variants")
-                else:
-                    # Create new entity
-                    new_entity_obj = Entity(
-                        id=entity_id,
-                        variants=variants
-                    )
-                    new_entity_obj.add_appearance(appearance, entity_id)
-                    self.entities[entity_id] = new_entity_obj
-                    print(f"Created new entity: {entity_id}")
+            except Exception as e:
+                print(f"Error in section processing: {str(e)}")
 
         except Exception as e:
-            print(f"Error processing section {chunk.section_name}: {str(e)}")
-            raise
+            print(f"Error in main section processing: {str(e)}")
 
     def are_concepts_related(self, concept1: str, concept2: str) -> bool:
         """Determine if two concepts are semantically related."""
@@ -562,25 +636,34 @@ class OptimizedEntityExtractor:
                 print(f"New entity: {entity_id}")
                 print(f"Initial frequency: {entity.frequency}")
 
-
     def get_sorted_entities(self) -> List[Dict]:
         """Return entities sorted by frequency."""
         sorted_entities = sorted(
-            self.entities.values(),
-            key=lambda x: x.frequency,  # Now using explicit frequency
+            self.entities.values(), 
+            key=lambda x: (x.section_count, x.frequency), 
             reverse=True
         )
 
         return [
-            {
-                "id": entity.id,
-                "frequency": entity.frequency,
-                "variants": list(entity.variants),
-                "appearances": entity.appearances
-            }
-            for entity in sorted_entities
-        ]
-
+        {
+            "id": entity.id,
+            "frequency": entity.frequency,
+            "section_count": entity.section_count,
+            "variants": list(entity.variants),
+            "appearances": [
+                {
+                    "section": app["section"],
+                    "section_index": app["section_index"],
+                    "variant": app["variant"],
+                    "context": app.get("context", "")
+                }
+                for app in entity.appearances
+            ],
+            "builds_on": list(entity.builds_on)
+        }
+        for entity in sorted_entities
+    ]
+    
     def normalize_term(self, term: str) -> str:
         """Enhanced term normalization."""
         term = term.lower().strip()

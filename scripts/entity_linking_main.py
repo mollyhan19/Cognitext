@@ -100,56 +100,44 @@ def process_article_by_paragraphs(article_title: str, article_data: Dict, extrac
 
 def process_article_by_sections(title, article, extractor):
     print(f"Processing article by sections: {title}")
-    print(f"Category: {article.get('category', 'Unknown')}")
     
-    results = []
-    sections = article.get('sections', [])[:4] # only process first 4 sections for analysis
+    sections = article.get('sections', []) # only process first 4 sections for analysis
     print(f"Total sections to process: {len(sections)}")
+
+    # Reset entity tracking for new article
+    extractor.reset_tracking()
     
-    for i, section in enumerate(sections, 1):
+    for section_idx, section in enumerate(sections, 1):
         try:
-            # Get section data
+            section_text = []
             section_title = section.get('section_title', '')
-            content = section.get('content', [])
-            subsections = section.get('subsections', [])
+
+            # Get section data
+            main_content = section.get('content', [])
+            section_text.extend(main_content)
             
-            print(f"Processing section {i}: {section_title}")
+            # Add subsection content
+            for subsection in section.get('subsections', []):
+                section_text.extend(subsection.get('content', []))
             
-            # Process main section content
-            if content:
-                section_text = '\n'.join(content)
-                if section_text.strip():
-                    entities = process_text(section_text, extractor)
-                    section_result = {
-                        'section_title': section_title,
-                        'text': section_text,
-                        'entities': entities
-                    }
-                    results.append(section_result)
-            
-            # Process subsections if they exist
-            for subsection in subsections:
-                sub_title = subsection.get('section_title', '')
-                sub_content = subsection.get('content', [])
-                if sub_content:
-                    sub_text = '\n'.join(sub_content)
-                    if sub_text.strip():
-                        entities = process_text(sub_text, extractor)
-                        subsection_result = {
-                            'section_title': f"{section_title} - {sub_title}",
-                            'text': sub_text,
-                            'entities': entities
-                        }
-                        results.append(subsection_result)
+            # Process the combined section text
+            if section_text:
+                print(f"\nProcessing section {section_idx}: {section_title}")
+                combined_text = "\n".join(section_text)
+                chunk = TextChunk(
+                    content=combined_text,
+                    section_name=section_title,
+                    heading_level="main",
+                    section_text=section_text,
+                    section_index=section_idx  # Pass the 1-based index
+                )
+                extractor.process_section(chunk)
                         
         except Exception as e:
-            print(f"Error processing section {i}: {str(e)}")
+            print(f"Error processing section {section_idx}: {str(e)}")
             continue
     
-    return {
-        'title': title,
-        'sections': results
-    }
+    return extractor.get_sorted_entities()  # Get final merged entities
 
 def process_text(text: str, extractor: OptimizedEntityExtractor) -> List[Dict]:
     """
@@ -261,37 +249,80 @@ def process_article_by_sections(article_title: str, article_data: Dict, extracto
         }
 '''
 
+def build_concept_hierarchy(results: List[Dict]) -> Dict:
+    """Build a hierarchical structure of concepts based on builds_on relationships."""
+    hierarchy = {}
+    
+    # First pass: create nodes for all concepts
+    for entity in results:
+        hierarchy[entity['id']] = {
+            'children': [],  # Change from set() to list
+            'parents': []    # Change from set() to list
+        }
+    
+    # Second pass: establish relationships
+    for entity in results:
+        for parent in entity.get('builds_on', []):  # Add get() with default empty list
+            if parent.lower() in hierarchy:  # Convert to lowercase for comparison
+                parent_key = parent.lower()
+                child_key = entity['id'].lower()
+                # Add to lists if not already present
+                if child_key not in hierarchy[parent_key]['children']:
+                    hierarchy[parent_key]['children'].append(child_key)
+                if parent_key not in hierarchy[child_key]['parents']:
+                    hierarchy[child_key]['parents'].append(parent_key)
+    
+    return hierarchy
+
+def print_concept_hierarchy(hierarchy: Dict, root_concepts=None, level=0):
+    """Print the concept hierarchy in a tree-like format."""
+    if root_concepts is None:
+        # Start with concepts that have no parents
+        root_concepts = [concept for concept, data in hierarchy.items() 
+                        if not data['parents']]
+    
+    for concept in root_concepts:
+        print("  " * level + "└─ " + concept)
+        children = hierarchy[concept]['children']
+        if children:
+            print_concept_hierarchy(hierarchy, children, level + 1)
 
 def save_and_summarize_results(results: List[Dict], output_path: str):
     """Save results to file and print summary."""
-    if results is None:
-        results = []
-    
-    # Calculate totals - handle both possible result structures
-    total_entities = 0
-    for doc in results:
-        if 'sections' in doc:  # For section-based results
-            total_entities += sum(len(section.get('entities', [])) for section in doc['sections'])
-        elif 'entities' in doc:  # For paragraph-based results
-            total_entities += len(doc['entities'])
+    print("\nFinal Results:")
+    print("=" * 50)
 
-    # Create summary
+    for entity in results:
+        print(f"\nConcept: {entity['id']}")
+        print(f"Total Occurrences: {entity['frequency']}")
+        print(f"Unique Sections: {entity['section_count']}")
+        if entity.get('variants'):
+            print(f"Variants: {', '.join(entity['variants'])}")
+        if entity.get('sections_seen'):
+            print(f"Appears in sections: {', '.join(map(str, entity['sections_seen']))}")
+        if entity.get('builds_on'):
+            print(f"Builds on concepts: {', '.join(entity['builds_on'])}")
+    
+    print("\nSummary:")
+    print(f"Total unique concepts: {len(results)}")
+
+    # Create hierarchical view of concepts
+    print("\nConcept Hierarchy:")
+    hierarchy = build_concept_hierarchy(results)
+    print_concept_hierarchy(hierarchy)
+
+    # Save results
     summary = {
-        'documents': results,
+        'entities': results,
         'summary': {
-            'total_entities': total_entities,
-            'total_documents': len(results)
+            'total_entities': len(results),
+            'hierarchy': hierarchy
         }
     }
 
     # Save results to file
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(summary, f, indent=4, ensure_ascii=False)
-
-    # Print summary
-    print("\nResults Summary:")
-    print(f"Total documents processed: {len(results)}")
-    print(f"Total entities found: {total_entities}")
 
     
 '''
@@ -382,7 +413,7 @@ def main(processing_mode='section'):
     with open('data/text_sample.json', 'r', encoding='utf-8') as f:
         articles = json.load(f)
     
-    results = []
+    all_results = []
     
     for article in articles:
         title = article.get('title', 'Untitled')
@@ -393,22 +424,21 @@ def main(processing_mode='section'):
         
         # Process article based on mode
         if processing_mode == 'section':
-            processed_result = process_article_by_sections(title, article, extractor)
+            entities = process_article_by_sections(title, article, extractor)
         else:
             processed_result = process_article_by_paragraphs(title, article, extractor)
+            entities = processed_result.get('entities', [])
             
-        # Add to results
-        results.append(processed_result)
-        
-        # Debug print
-        entities = processed_result.get('entities', [])
         print(f"\nFound {len(entities)} entities in article {title}")
         for entity in entities[:5]:  # Show top 5 entities
             print(f"- {entity['id']} (frequency: {entity['frequency']})")
+
+        # Add to results
+        all_results.extend(entities)
     
     # Save results
     output_path = "/Users/mollyhan/PycharmProjects/Cognitext/data/entity_analysis_sec_results.json"
-    save_and_summarize_results(results, output_path)
+    save_and_summarize_results(all_results, output_path)
 
     
 
