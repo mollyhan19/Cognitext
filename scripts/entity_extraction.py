@@ -25,14 +25,8 @@ class Entity:
 
     @staticmethod
     def normalize_term(term: str) -> str:
-        """Normalize a term by handling common variations."""
-        term = term.lower().strip()
-        # Handle plural forms of common words
-        if term.endswith('s'):
-            singular = term[:-1]
-            if singular in {'tardigrade', 'concept', 'feature', 'process'}:
-                return singular
-        return term
+        """Normalize a term """
+        return term.strip()
     
     def add_appearance(self, appearance: Dict, variant: str):
         """
@@ -109,6 +103,7 @@ class TextChunk:
     heading_level: str  # 'main' or 'sub'
     section_text: List[str]  # All paragraphs in the section
     section_index: int
+    paragraph_index: int = 1
     overlap_prev: Dict = None  # Previous section's content
     overlap_next: Dict = None  # Next section's content
 
@@ -117,7 +112,7 @@ class TextChunk:
         self.overlap_next = self.overlap_next or {}
 
 class OptimizedEntityExtractor:
-    def __init__(self, api_key: str, cache_version: str = "8.0", cleanup_interval: int = 3):
+    def __init__(self, api_key: str, cache_version: str = "9.0", cleanup_interval: int = 3):
         self.client = OpenAI(api_key=api_key)
         self.cache_manager = CacheManager(version=cache_version)
         self.memory_cache = {}
@@ -166,7 +161,7 @@ class OptimizedEntityExtractor:
         
         return response
 
-    def extract_entities_from_paragraph(self, paragraph: str, para_num: int) -> List[Dict]:
+    def extract_entities_from_paragraph(self, paragraph: str, para_num: int, section_name: str, section_index: int, heading_level: str = "main") -> List[Dict]:
         """Extract entities from a paragraph with caching."""
         # Check memory cache
         if paragraph in self.memory_cache:
@@ -182,26 +177,42 @@ class OptimizedEntityExtractor:
 
         print(f"  [P{para_num}] Making API call for entity extraction")
         prompt = f"""
-        Extract key concepts that are crucial for understanding the main ideas in this paragraph. Each concept should represent a distinct unit of knowledge or understanding.
-        Focus on: 
-        1. Foundational concepts that other ideas build upon
-        2. Core processes or mechanisms that explain how something works
-        3. Key principles or theories that frame the topic
-        4. Critical relationships between ideas
-        5. Defining characteristics or properties that distinguish important elements
-        
-        Important guidelines: 
-        - Properties/attributes of a concept should be separate concepts if they represent important distinct ideas. (e.g., "tardigrade nervous system" is different from "tardigrade") 
-        - Different states/processes should be separate concepts when they represent distinct phenomena (e.g., "active tardigrades" vs "dormant tardigrades") 
+        Extract key concepts from the provided text using the following guidelines. The extracted concepts will be used for relation extraction and visualizations to aid educational comprehension.
 
-        Output format:
+        **Context:**
+        The extracted concepts should represent distinct units of knowledge that contribute to understanding the main ideas and relationships in the text.
+
+        **Focus Areas:**
+        1. **Foundational Concepts:**
+        - Identify core ideas and principles that are central to the topic.
+        - Highlight any unique characteristics or classifications.
+
+        2. **Processes and Mechanisms:**
+        - Extract descriptions of processes, or mechanisms that explain how things work or interact.
+        - Emphasize key development and sequences. 
+
+        3. **Supporting Structures:**
+        - Identify component parts, subsystems, and organizational structures.
+        - Include related elements and factors that contribute to the main ideas.
+
+        4. **Contextual Attributes:**
+        - Include measurements, scales, or any quantitative data that define key aspects.
+        - Extract comparative information or examples that illustrate differences or similarities.
+
+        **Guidelines:**
+        - Concepts should be clearly defined and relevant to understanding potential relationships in the text.
+        - Include concepts that explain key "how" or "why" aspects
+        - Exclude purely anecdotal details unless they are crucial for defining a concept.
+
+        **Output Format:** 
         [
             {{
             "entity": "main_form",
-            "variants": ["true conceptual variations only"],
             "context": "Why this concept is essential for understanding the topic",
+            "builds_on": ["list of prerequisite concepts if any"]
             }}
         ]
+
         Paragraph:
         {paragraph}
         """
@@ -250,29 +261,35 @@ class OptimizedEntityExtractor:
 
         print(f"  [S{section_index}] Making API call for entity extraction")
         prompt = f"""
-        Extract key concepts that are crucial for understanding the main ideas in this section using the following strict guidelines. Each concept should represent a distinct unit of knowledge that significantly contributes to understanding the topic.
-        Section name: {section_name}
 
-        Focus on: 
-        1. Primary concepts that form the foundation of understanding.
-            - Core ideas that other concepts build upon
-            - Essential principles or characteristics
-            - Distinctive features and capabilities  
-            - Key classifications or categories
-        2. Critical processes or mechanisms that explain the main ideas.
-            - How things work or interact
-            - Key sequences or developments
-        3. Supporting structures and systems
-            - Component parts and organization
-            - Essential subsystems
-            - Related elements and factors
+        Extract key concepts from the provided text using the following guidelines. The extracted concepts will be used for relation extraction and visualizations to aid educational comprehension.
 
-        Guidelines for concept selection:
-            - Include concepts necessary for understanding later topics
-            - Include concepts that explain key "how" or "why" aspects
-            - Exclude purely descriptive or anecdotal details unless they define the topic
-                
-        Output format:
+        **Context:**
+        The extracted concepts should represent distinct units of knowledge that contribute to understanding the main ideas and relationships in the text.
+
+        **Focus Areas:**
+        1. **Foundational Concepts:**
+        - Identify core ideas and principles that are central to the topic.
+        - Highlight any unique characteristics or classifications.
+
+        2. **Processes and Mechanisms:**
+        - Extract descriptions of processes, or mechanisms that explain how things work or interact.
+        - Emphasize key development and sequences. 
+
+        3. **Supporting Structures:**
+        - Identify component parts, subsystems, and organizational structures.
+        - Include related elements and factors that contribute to the main ideas.
+
+        4. **Contextual Attributes:**
+        - Include measurements, scales, or any quantitative data that define key aspects.
+        - Extract comparative information or examples that illustrate differences or similarities.
+
+        **Guidelines:**
+        - Concepts should be clearly defined and relevant to understanding potential relationships in the text.
+        - Include concepts that explain key "how" or "why" aspects
+        - Exclude purely anecdotal details unless they are crucial for defining a concept.
+
+        **Output Format:** 
         [
             {{
             "entity": "main_form",
@@ -535,31 +552,6 @@ class OptimizedEntityExtractor:
 
         except Exception as e:
             print(f"Error in main section processing: {str(e)}")
-
-    def are_concepts_related(self, concept1: str, concept2: str) -> bool:
-        """Determine if two concepts are semantically related."""
-        # Define related concept groups
-        related_groups = [
-            {"tardigrade", "water bear", "moss piglet", "tardigrada"},
-            {"dna", "genetic", "genome", "chromosomal"},
-            {"survival", "resistance", "tolerance", "adaptation"},
-            # Add more related concept groups as needed
-        ]
-
-        # Normalize concepts
-        c1 = self.normalize_term(concept1)
-        c2 = self.normalize_term(concept2)
-
-        # Check if concepts are in the same group
-        for group in related_groups:
-            if c1 in group and c2 in group:
-                return True
-
-        # Check if one concept contains the other (for compound terms)
-        if c1 in c2 or c2 in c1:
-            return True
-
-        return False
     
     def process_all_sections(self, chunks: List[TextChunk]):
         """Process all sections with periodic cleanup."""
@@ -575,67 +567,134 @@ class OptimizedEntityExtractor:
         self.cleanup_entities()
         print(f"Processing complete. Final unique entities: {len(self.entities)}")
 
-    def process_paragraph(self, paragraph: str, para_num: int):
-        """Process paragraph and update entity tracking."""
-        new_entities = self.extract_entities_from_paragraph(paragraph, para_num)
 
-        # For first paragraph, initialize entities
-        if not self.entities:
-            for new_entity in new_entities:
-                entity_id = new_entity["entity"]
-                entity = Entity(
-                    id=entity_id,
-                    variants={entity_id} | set(new_entity["variants"])
-                )
-                entity.add_appearance({
-                    "paragraph": para_num,
-                    "form": entity_id
-                })
-                self.entities[entity_id] = entity
-            return
+    def process_paragraph(self, chunk: TextChunk):
+        """Process a paragraph and update entity tracking."""
+        try:
+            # 1. Extract raw entities from GPT
+            print("\n=== Raw GPT Extraction ===")
+            new_entities = self.extract_entities_from_paragraph(
+                paragraph=chunk.content,
+                para_num=chunk.paragraph_index,
+                section_name=chunk.section_name,
+                section_index=chunk.section_index,
+                heading_level=chunk.heading_level
+            )
+            print("Raw entities extracted:")
+            print(json.dumps(new_entities, indent=2))
+            print("=" * 50)
 
-        # For subsequent paragraphs, compare with existing entities
-        existing_entities = [
-            {"entity": ent.id, "variants": list(ent.variants)}
-            for ent in self.entities.values()
-        ]
+            # Create case-insensitive lookup dictionary
+            entities_lookup = {k.lower(): k for k in self.entities.keys()}
+            
+            # For first paragraph, initialize entities
+            if not self.entities:
+                print("\n=== Initializing First Entities ===")
+                for entity in new_entities:
+                    try:
+                        # Keep the original entity casing
+                        new_entity = Entity(id=entity["entity"])  # This should keep the original casing
+                        appearance = {
+                            "section": chunk.section_name,
+                            "section_index": chunk.section_index,
+                            "paragraph_index": chunk.paragraph_index,
+                            "heading_level": chunk.heading_level,
+                            "variant": entity["entity"],
+                            "context": entity.get("context", "")
+                        }
+                        new_entity.add_appearance(appearance, entity["entity"])
+                        if "builds_on" in entity:
+                            new_entity.builds_on.update(entity["builds_on"])
+                        self.entities[entity["entity"]] = new_entity  # Store with original casing
+                        print(f"Added initial entity: {entity['entity']}")
+                    except Exception as e:
+                        print(f"Warning: Could not process initial entity: {str(e)}")
+                        continue
+                return
 
-        # Get matches between existing and new entities
-        matches = self.compare_concept_lists(existing_entities, new_entities)
+            # For subsequent paragraphs
+            try:
+                # 2. Get existing entities for comparison
+                print("\n=== Matching Against Existing Entities ===")          
+                existing_entities = [
+                    {
+                        "entity": ent.id,
+                        "context": "Previously identified concept"
+                    }
+                    for ent in self.entities.values()
+                ]
 
-        # Process each new entity
-        for new_entity in new_entities:
-            entity_id = new_entity["entity"]
-            appearance = {
-                "paragraph": para_num,
-                "form": entity_id
-            }
+                # Print the existing entities
+                print("Existing entities for comparison:")
+                print(json.dumps(existing_entities, indent=2))
 
-            if entity_id in matches and matches[entity_id] is not None:
-                # Found a match - merge with existing entity
-                existing_id = matches[entity_id]
-                existing_entity = self.entities[existing_id]
+                # Print the new entities
+                print("New entities for comparison:")
+                print(json.dumps(new_entities, indent=2))
 
-                # Update variants
-                existing_entity.variants.add(entity_id)
-                existing_entity.variants.update(new_entity["variants"])
+                # 3. Find matches
+                print("\nLooking for matches...")
+                matches = self.compare_concept_lists(existing_entities, new_entities)
+                print("Found matches:")
+                print(json.dumps(matches, indent=2))
+                
+                # 4. Process each new entity
+                print("\n=== Processing New Entities ===")
+                for new_entity in new_entities:
+                    try:
+                        entity_id = new_entity["entity"]
+                        print(f"\nProcessing: {entity_id}")
+                        
+                        appearance = {
+                            "section": chunk.section_name,
+                            "section_index": chunk.section_index,
+                            "paragraph_index": chunk.paragraph_index,
+                            "heading_level": chunk.heading_level,
+                            "variant": entity_id,
+                            "context": new_entity.get("context", "")
+                        }
 
-                # Add new appearance
-                existing_entity.add_appearance(appearance)
+                        if entity_id in matches:
+                            existing_id = matches[entity_id]
+                            print(f"Matched with existing: {existing_id}")
+                            
+                            if existing_id in self.entities:
+                                print(f"Merging '{entity_id}' as variant of '{existing_id}'")
+                                self.entities[existing_id].add_appearance(appearance, entity_id)
+                                if "builds_on" in new_entity:
+                                    self.entities[existing_id].builds_on.update(new_entity["builds_on"])
+                                print("Merge complete")
+                            else:
+                                print(f"ERROR: Matched entity '{existing_id}' not found in entities!")
+                                print(f"Available entities: {list(self.entities.keys())}")
+                        else:
+                            print("No match found, creating new entity")
+                            new_entity_obj = Entity(id=entity_id)
+                            new_entity_obj.add_appearance(appearance, entity_id)
+                            if "builds_on" in new_entity:
+                                new_entity_obj.builds_on.update(new_entity["builds_on"])
+                            self.entities[entity_id] = new_entity_obj
 
-                print(f"Merged entity: {entity_id} -> {existing_id}")
-                print(f"Updated frequency: {existing_entity.frequency}")
-            else:
-                # No match - create new entity
-                entity = Entity(
-                    id=entity_id,
-                    variants={entity_id} | set(new_entity["variants"])
-                )
-                entity.add_appearance(appearance)
-                self.entities[entity_id] = entity
-                print(f"New entity: {entity_id}")
-                print(f"Initial frequency: {entity.frequency}")
+                    except Exception as e:
+                        print(f"\nError processing entity in paragraph {chunk.paragraph_index}:")
+                        print(f"Entity data: {json.dumps(new_entity, indent=2)}")
+                        print(f"Error details: {str(e)}")
+                        continue
 
+                # 5. Print final state
+                print("\n=== Final State After Processing ===")
+                print("Current entities:")
+                for ent_id, ent in self.entities.items():
+                    print(f"- {ent_id} (variants: {ent.variants}, frequency: {ent.frequency})")
+                print("=" * 50)
+
+            except Exception as e:
+                print(f"Error processing paragraph {chunk.paragraph_index}: {str(e)}")
+
+        except Exception as e:
+            print(f"Error in paragraph processing: {str(e)}")
+
+    
     def get_sorted_entities(self) -> List[Dict]:
         """Return entities sorted by frequency."""
         sorted_entities = sorted(
@@ -663,28 +722,6 @@ class OptimizedEntityExtractor:
         }
         for entity in sorted_entities
     ]
-    
-    def normalize_term(self, term: str) -> str:
-        """Enhanced term normalization."""
-        term = term.lower().strip()
-        
-        # Remove common suffixes that don't change the core meaning
-        suffixes_to_remove = ['um', 'us', 'a', 'ae']
-        for suffix in suffixes_to_remove:
-            if term.endswith(suffix) and len(term) > len(suffix) + 3:  # Ensure we don't over-trim
-                potential_root = term[:-len(suffix)]
-                # Only remove if the root is substantial enough
-                if len(potential_root) > 3:
-                    term = potential_root
-                    break
-        
-        # Handle plural forms more generally
-        if term.endswith('s') and not term.endswith('ss'):  # Don't strip 'ss'
-            singular = term[:-1]
-            if len(singular) > 3:  # Only strip 's' if result is substantial
-                term = singular
-        
-        return term
 
     def validate_appearances(self):
         """Validate that all appearance variants are registered."""
@@ -705,26 +742,6 @@ class OptimizedEntityExtractor:
                 print(f"  Section: {invalid['section']}, Invalid variant: {invalid['invalid_variant']}")
         
         return len(invalid_appearances) == 0
-    
-    def are_terms_equivalent(self, term1: str, term2: str) -> bool:
-        """Check if two terms are semantically equivalent."""
-        # Normalize both terms
-        norm1 = self.normalize_term(term1)
-        norm2 = self.normalize_term(term2)
-        
-        # Direct match after normalization
-        if norm1 == norm2:
-            return True
-        
-        # Check if one term contains the other (for compound terms)
-        if norm1 in norm2 or norm2 in norm1:
-            # Only consider it a match if the longer term is not significantly longer
-            longer = max(len(norm1), len(norm2))
-            shorter = min(len(norm1), len(norm2))
-            if longer <= shorter * 1.5:  # Arbitrary threshold, can be adjusted
-                return True
-        
-        return False
 
     def cleanup_entities(self):
         """Merge any duplicate entities that were missed during processing."""

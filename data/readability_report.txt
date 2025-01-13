@@ -1,0 +1,165 @@
+=== Wikipedia Articles Readability Analysis ===
+
+Overall Statistics:
+Total articles analyzed: 3
+Total sections analyzed: 34
+
+Difficulty Level Distribution:
+Graduate/Professional: 16 sections (47.1%)
+High School: 8 sections (23.5%)
+College: 8 sections (23.5%)
+Elementary: 1 sections (2.9%)
+Middle School: 1 sections (2.9%)
+
+Article-by-Article Analysis:
+
+Tardigrade:
+Category: biology
+Average difficulty: Graduate/Professional
+Sections:
+  - heading: Naming
+    Difficulty: High School
+    Grade Level: 9.1
+    Words: 50
+  - heading: Description
+    Difficulty: Elementary
+    Grade Level: 3.5
+    Words: 33
+  - heading: Habitat
+    Difficulty: College
+    Grade Level: 15.4
+    Words: 94
+  - heading: Anatomy and morphology
+    Difficulty: College
+    Grade Level: 14.7
+    Words: 540
+  - heading: Reproduction
+    Difficulty: High School
+    Grade Level: 10.6
+    Words: 212
+  - heading: Ecology and life history
+    Difficulty: Graduate/Professional
+    Grade Level: 19.5
+    Words: 188
+  - heading: Physiology
+    Difficulty: Graduate/Professional
+    Grade Level: 21.6
+    Words: 733
+  - heading: Physiology -> subheading: Survival after exposure to outer space
+    Difficulty: Graduate/Professional
+    Grade Level: 26.8
+    Words: 307
+  - heading: Taxonomy
+    Difficulty: Graduate/Professional
+    Grade Level: 17.0
+    Words: 154
+  - heading: Evolutionary history
+    Difficulty: Graduate/Professional
+    Grade Level: 20.1
+    Words: 169
+  - heading: Genomes and genome sequencing
+    Difficulty: College
+    Grade Level: 15.3
+    Words: 246
+  - heading: Ecological importance
+    Difficulty: Graduate/Professional
+    Grade Level: 17.5
+    Words: 58
+
+Immortal jellyfish:
+Category: biology
+Average difficulty: High School
+Sections:
+  - heading: Taxonomy
+    Difficulty: High School
+    Grade Level: 9.5
+    Words: 78
+  - heading: Description
+    Difficulty: College
+    Grade Level: 12.8
+    Words: 158
+  - heading: Distribution and invasion
+    Difficulty: College
+    Grade Level: 13.9
+    Words: 110
+  - heading: Life cycle
+    Difficulty: High School
+    Grade Level: 11.9
+    Words: 152
+  - heading: Life cycle -> subheading: Biological immortality
+    Difficulty: Graduate/Professional
+    Grade Level: 17.7
+    Words: 363
+  - heading: Ecology -> subheading: Diet
+    Difficulty: Middle School
+    Grade Level: 7.2
+    Words: 107
+  - heading: Ecology -> subheading: Predation
+    Difficulty: High School
+    Grade Level: 10.4
+    Words: 74
+  - heading: Ecology -> subheading: Habitat
+    Difficulty: High School
+    Grade Level: 10.2
+    Words: 53
+  - heading: Genomic analysis
+    Difficulty: Graduate/Professional
+    Grade Level: 16.7
+    Words: 120
+  - heading: Culturing
+    Difficulty: High School
+    Grade Level: 11.6
+    Words: 90
+
+Quantum biology:
+Category: biology
+Average difficulty: Graduate/Professional
+Sections:
+  - heading: History
+    Difficulty: College
+    Grade Level: 14.8
+    Words: 184
+  - heading: Enzyme catalysis
+    Difficulty: Graduate/Professional
+    Grade Level: 25.6
+    Words: 256
+  - heading: Enzyme catalysis -> subheading: Ferritin
+    Difficulty: Graduate/Professional
+    Grade Level: 30.4
+    Words: 498
+  - heading: Sensory processes -> subheading: Olfaction
+    Difficulty: Graduate/Professional
+    Grade Level: 20.3
+    Words: 274
+  - heading: Sensory processes -> subheading: Vision
+    Difficulty: College
+    Grade Level: 13.7
+    Words: 216
+  - heading: Energy transfer -> subheading: Photosynthesis
+    Difficulty: Graduate/Professional
+    Grade Level: 22.5
+    Words: 876
+  - heading: Energy transfer -> subheading: Mitochondria
+    Difficulty: Graduate/Professional
+    Grade Level: 21.5
+    Words: 356
+  - heading: Energy transfer -> subheading: Molecular solitons in proteins
+    Difficulty: Graduate/Professional
+    Grade Level: 17.2
+    Words: 84
+  - heading: Information encoding -> subheading: Magnetoreception
+    Difficulty: Graduate/Professional
+    Grade Level: 18.7
+    Words: 344
+  - heading: Information encoding -> subheading: DNA mutation
+    Difficulty: High School
+    Grade Level: 11.9
+    Words: 280
+  - heading: Other
+    Difficulty: College
+    Grade Level: 13.6
+    Words: 19
+  - heading: Other -> subheading: Pseudoscience
+    Difficulty: Graduate/Professional
+    Grade Level: 17.5
+    Words: 54

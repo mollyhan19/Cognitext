@@ -1,0 +1,789 @@
+{
+  "Tardigrade": {
+    "category": "biology",
+    "relationships": {
+      "concept_registry": [
+        {
+          "concept_id": "Tardigrade",
+          "first_appearance": {
+            "section": "Naming",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Description",
+              "paragraph": 1
+            },
+            {
+              "section": "Habitat",
+              "paragraph": 1
+            },
+            {
+              "section": "Anatomy and morphology",
+              "paragraph": 1
+            },
+            {
+              "section": "Reproduction",
+              "paragraph": 1
+            },
+            {
+              "section": "Ecology and life history",
+              "paragraph": 1
+            },
+            {
+              "section": "Physiology",
+              "paragraph": 1
+            },
+            {
+              "section": "Taxonomy",
+              "paragraph": 1
+            },
+            {
+              "section": "Evolutionary history",
+              "paragraph": 1
+            },
+            {
+              "section": "Genomes and genome sequencing",
+              "paragraph": 1
+            },
+            {
+              "section": "Ecological importance",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "Microscopic, water-dwelling, segmented animals with eight legs, known for extreme survival capabilities."
+        },
+        {
+          "concept_id": "Kleiner Wasserb\u00e4r",
+          "first_appearance": {
+            "section": "Naming",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Original German name for tardigrades, meaning 'little water-bear'."
+        },
+        {
+          "concept_id": "B\u00e4rtierchen",
+          "first_appearance": {
+            "section": "Naming",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Modern German term for tardigrades, translating to 'little bear-animal'."
+        },
+        {
+          "concept_id": "Tardigradum",
+          "first_appearance": {
+            "section": "Naming",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Scientific name for tardigrades, meaning 'slow walker', given by Lazzaro Spallanzani."
+        },
+        {
+          "concept_id": "Cryptobiosis",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A metabolic state of life entered by tardigrades where metabolic processes stop, allowing them to survive extreme conditions."
+        },
+        {
+          "concept_id": "Eutely",
+          "first_appearance": {
+            "section": "Anatomy and morphology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Condition where all adult individuals of a species have the same number of cells."
+        },
+        {
+          "concept_id": "Hox genes",
+          "first_appearance": {
+            "section": "Anatomy and morphology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A group of related genes that control the body plan of an embryo along the head-tail axis."
+        },
+        {
+          "concept_id": "Haemocoel",
+          "first_appearance": {
+            "section": "Anatomy and morphology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "The primary body cavity of most invertebrates, containing circulatory fluid."
+        },
+        {
+          "concept_id": "Coelom",
+          "first_appearance": {
+            "section": "Anatomy and morphology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A fluid-filled body cavity formed within the mesoderm, used for the circulation of nutrients and gases."
+        },
+        {
+          "concept_id": "Nephridia",
+          "first_appearance": {
+            "section": "Anatomy and morphology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Excretory organs that filter fluid in the body cavity."
+        },
+        {
+          "concept_id": "Stylets",
+          "first_appearance": {
+            "section": "Anatomy and morphology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Sharp, piercing structures used by tardigrades for feeding."
+        },
+        {
+          "concept_id": "Parthenogenesis",
+          "first_appearance": {
+            "section": "Reproduction",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A form of asexual reproduction where an egg develops into a complete individual without being fertilized."
+        },
+        {
+          "concept_id": "Oviparous",
+          "first_appearance": {
+            "section": "Reproduction",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Animals that lay eggs, with embryos developing outside the mother's body."
+        },
+        {
+          "concept_id": "Phytophagous",
+          "first_appearance": {
+            "section": "Ecology and life history",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Plant-eating organisms."
+        },
+        {
+          "concept_id": "Bacteriophagous",
+          "first_appearance": {
+            "section": "Ecology and life history",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Bacteria-eating organisms."
+        },
+        {
+          "concept_id": "Carnivorous",
+          "first_appearance": {
+            "section": "Ecology and life history",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Organisms that eat other animals."
+        },
+        {
+          "concept_id": "Extremophile",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Organisms that thrive in physically or geochemically extreme conditions that are detrimental to most life on Earth."
+        },
+        {
+          "concept_id": "Anhydrobiosis",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A cryptobiotic state of life entered by organisms in response to severe desiccation."
+        },
+        {
+          "concept_id": "Trehalose",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A type of sugar involved in the high stress resistance of some organisms, including tardigrades."
+        },
+        {
+          "concept_id": "Intrinsically disordered proteins (IDPs)",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Proteins that lack a fixed or ordered three-dimensional structure."
+        },
+        {
+          "concept_id": "Tardigrade-specific proteins (TDPs)",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "Unique proteins found in tardigrades that are thought to protect them during desiccation."
+        },
+        {
+          "concept_id": "Damage suppressor (Dsup)",
+          "first_appearance": {
+            "section": "Genomes and genome sequencing",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A protein found in tardigrades that helps protect their DNA from damage."
+        },
+        {
+          "concept_id": "Cryptobiotic state",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A state of life entered by tardigrades where metabolic processes are halted, allowing survival through extreme conditions."
+        },
+        {
+          "concept_id": "Tun",
+          "first_appearance": {
+            "section": "Physiology",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [],
+          "brief_explanation": "A term used to describe a tardigrade in its cryptobiotic state."
+        }
+      ],
+      "relations": [
+        {
+          "relation_id": "rel1",
+          "source": {
+            "concept": "Tardigrade",
+            "location": {
+              "section": "Naming",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "Kleiner Wasserb\u00e4r",
+            "location": {
+              "section": "Naming",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "is also known as",
+          "readable_statement": "Tardigrades are also known as Kleiner Wasserb\u00e4r.",
+          "evidence": "Johann August Ephraim Goeze originally named the tardigrade Kleiner Wasserb\u00e4r, meaning 'little water-bear' in German.",
+          "is_domain_specific": false,
+          "crosses_paragraphs": false
+        },
+        {
+          "relation_id": "rel2",
+          "source": {
+            "concept": "Tardigrade",
+            "location": {
+              "section": "Naming",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "B\u00e4rtierchen",
+            "location": {
+              "section": "Naming",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "is also referred to as",
+          "readable_statement": "Tardigrades are often referred to as B\u00e4rtierchen in German.",
+          "evidence": "Today, they are often referred to in German as B\u00e4rtierchen 'little bear-animal'.",
+          "is_domain_specific": false,
+          "crosses_paragraphs": false
+        },
+        {
+          "relation_id": "rel3",
+          "source": {
+            "concept": "Tardigrade",
+            "location": {
+              "section": "Naming",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "Tardigradum",
+            "location": {
+              "section": "Naming",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "is scientifically named",
+          "readable_statement": "Tardigrades are scientifically named Tardigradum, which means 'slow walker'.",
+          "evidence": "The name Tardigradum means 'slow walker' and was given by Lazzaro Spallanzani in 1777.",
+          "is_domain_specific": true,
+          "crosses_paragraphs": false
+        },
+        {
+          "relation_id": "rel4",
+          "source": {
+            "concept": "Tardigrade",
+            "location": {
+              "section": "Physiology",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "Cryptobiosis",
+            "location": {
+              "section": "Physiology",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "can enter state of",
+          "readable_statement": "Tardigrades can enter a state of cryptobiosis to survive extreme conditions.",
+          "evidence": "Tardigrades are one of the few groups of species that are capable of suspending their metabolism (see Cryptobiosis).",
+          "is_domain_specific": true,
+          "crosses_paragraphs": false
+        }
+      ],
+      "concept_chains": [
+        {
+          "chain_id": "chain1",
+          "description": "Naming and scientific terminology of Tardigrades",
+          "components": [
+            {
+              "concept": "Tardigrade",
+              "location": {
+                "section": "Naming",
+                "paragraph": 1
+              },
+              "role": "start"
+            },
+            {
+              "concept": "Kleiner Wasserb\u00e4r",
+              "location": {
+                "section": "Naming",
+                "paragraph": 1
+              },
+              "role": "intermediate"
+            },
+            {
+              "concept": "B\u00e4rtierchen",
+              "location": {
+                "section": "Naming",
+                "paragraph": 1
+              },
+              "role": "intermediate"
+            },
+            {
+              "concept": "Tardigradum",
+              "location": {
+                "section": "Naming",
+                "paragraph": 1
+              },
+              "role": "end"
+            }
+          ],
+          "chain_summary": "Tardigrades, originally named Kleiner Wasserb\u00e4r and referred to as B\u00e4rtierchen, are scientifically known as Tardigradum."
+        }
+      ]
+    }
+  },
+  "Immortal jellyfish": {
+    "category": "biology",
+    "relationships": {
+      "concept_registry": [
+        {
+          "concept_id": "Turritopsis dohrnii",
+          "first_appearance": {
+            "section": "Taxonomy",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Description",
+              "paragraph": 1
+            },
+            {
+              "section": "Distribution and invasion",
+              "paragraph": 1
+            },
+            {
+              "section": "Life cycle",
+              "paragraph": 1
+            },
+            {
+              "section": "Biological immortality",
+              "paragraph": 1
+            },
+            {
+              "section": "Ecology",
+              "paragraph": 1
+            },
+            {
+              "section": "Habitat",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "A species of jellyfish known for its unique ability to revert to a polyp state, potentially granting it biological immortality."
+        },
+        {
+          "concept_id": "Turritopsis nutricula",
+          "first_appearance": {
+            "section": "Taxonomy",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Taxonomy",
+              "paragraph": 2
+            }
+          ],
+          "brief_explanation": "A species of jellyfish initially thought to be the same as Turritopsis dohrnii."
+        },
+        {
+          "concept_id": "Turritopsis rubra",
+          "first_appearance": {
+            "section": "Taxonomy",
+            "paragraph": 2
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Life cycle",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "A species of jellyfish closely related to Turritopsis dohrnii, with unresolved questions about its ability to revert to a polyp state."
+        },
+        {
+          "concept_id": "medusa",
+          "first_appearance": {
+            "section": "Description",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Life cycle",
+              "paragraph": 1
+            },
+            {
+              "section": "Biological immortality",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "The adult, free-swimming stage of a jellyfish, characterized by a bell-shaped body."
+        },
+        {
+          "concept_id": "polyp",
+          "first_appearance": {
+            "section": "Description",
+            "paragraph": 2
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Life cycle",
+              "paragraph": 1
+            },
+            {
+              "section": "Biological immortality",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "The sessile, juvenile stage of a jellyfish, which can bud into medusae under certain conditions."
+        }
+      ],
+      "relations": [
+        {
+          "relation_id": "relation_1",
+          "source": {
+            "concept": "Turritopsis dohrnii",
+            "location": {
+              "section": "Taxonomy",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "Turritopsis nutricula",
+            "location": {
+              "section": "Taxonomy",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "previously considered same species",
+          "readable_statement": "Turritopsis dohrnii was formerly considered the same species as Turritopsis nutricula.",
+          "evidence": "The species was formerly considered conspecific with T. nutricula before being reclassified as a separate species.",
+          "is_domain_specific": true,
+          "crosses_paragraphs": false
+        },
+        {
+          "relation_id": "relation_2",
+          "source": {
+            "concept": "medusa",
+            "location": {
+              "section": "Description",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "polyp",
+            "location": {
+              "section": "Description",
+              "paragraph": 2
+            }
+          },
+          "relation_type": "developmental transformation",
+          "readable_statement": "The medusa stage of Turritopsis dohrnii can transform back into the polyp stage.",
+          "evidence": "Turritopsis dohrnii also has a bottom-living polyp form, or hydroid, which consists of stolons that run along the substrate and upright branches with feeding polyps that can produce medusa buds.",
+          "is_domain_specific": true,
+          "crosses_paragraphs": true
+        }
+      ],
+      "concept_chains": [
+        {
+          "chain_id": "chain_1",
+          "description": "Transformation from medusa to polyp in Turritopsis dohrnii",
+          "components": [
+            {
+              "concept": "medusa",
+              "location": {
+                "section": "Description",
+                "paragraph": 1
+              },
+              "role": "start"
+            },
+            {
+              "concept": "polyp",
+              "location": {
+                "section": "Description",
+                "paragraph": 2
+              },
+              "role": "end"
+            }
+          ],
+          "chain_summary": "In Turritopsis dohrnii, the medusa stage can revert back to the polyp stage, a unique biological process that contributes to its potential immortality."
+        }
+      ]
+    }
+  },
+  "Quantum biology": {
+    "category": "biology",
+    "relationships": {
+      "concept_registry": [
+        {
+          "concept_id": "quantum_biology",
+          "first_appearance": {
+            "section": "History",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "History",
+              "paragraph": 1
+            },
+            {
+              "section": "Enzyme catalysis",
+              "paragraph": 1
+            },
+            {
+              "section": "Ferritin",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "An interdisciplinary field combining quantum physics and biology, exploring quantum phenomena within biological systems."
+        },
+        {
+          "concept_id": "quantum_tunneling",
+          "first_appearance": {
+            "section": "Enzyme catalysis",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Ferritin",
+              "paragraph": 1
+            },
+            {
+              "section": "Mitochondria",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "A quantum mechanical phenomenon where particles pass through a potential barrier that they classically shouldn't be able to pass."
+        },
+        {
+          "concept_id": "electron_transport",
+          "first_appearance": {
+            "section": "Enzyme catalysis",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Photosynthesis",
+              "paragraph": 1
+            },
+            {
+              "section": "Mitochondria",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "A series of chemical reactions during which electrons are transferred from one molecule to another, used in cellular respiration and photosynthesis."
+        },
+        {
+          "concept_id": "ferritin",
+          "first_appearance": {
+            "section": "Ferritin",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Ferritin",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "A protein complex that stores iron and releases it in a controlled fashion."
+        },
+        {
+          "concept_id": "photosynthesis",
+          "first_appearance": {
+            "section": "Photosynthesis",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Photosynthesis",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "The process by which green plants and some other organisms use sunlight to synthesize nutrients from carbon dioxide and water."
+        },
+        {
+          "concept_id": "mitochondria",
+          "first_appearance": {
+            "section": "Mitochondria",
+            "paragraph": 1
+          },
+          "subsequent_mentions": [
+            {
+              "section": "Mitochondria",
+              "paragraph": 1
+            }
+          ],
+          "brief_explanation": "Organelles known as the powerhouses of the cell, where respiration and energy production occur."
+        }
+      ],
+      "relations": [
+        {
+          "relation_id": "r1",
+          "source": {
+            "concept": "quantum_biology",
+            "location": {
+              "section": "History",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "quantum_tunneling",
+            "location": {
+              "section": "Enzyme catalysis",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "application of concept",
+          "readable_statement": "Quantum biology applies the concept of quantum tunneling in enzyme catalysis.",
+          "evidence": "Quantum biology is an emerging field... Enzymes have been postulated to use quantum tunneling...",
+          "is_domain_specific": true,
+          "crosses_paragraphs": true
+        },
+        {
+          "relation_id": "r2",
+          "source": {
+            "concept": "quantum_tunneling",
+            "location": {
+              "section": "Enzyme catalysis",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "electron_transport",
+            "location": {
+              "section": "Photosynthesis",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "mechanism in process",
+          "readable_statement": "Quantum tunneling is a mechanism in the electron transport process in photosynthesis.",
+          "evidence": "Quantum tunneling to transfer electrons... Photosynthesis refers to the biological process...",
+          "is_domain_specific": true,
+          "crosses_paragraphs": true
+        },
+        {
+          "relation_id": "r3",
+          "source": {
+            "concept": "electron_transport",
+            "location": {
+              "section": "Photosynthesis",
+              "paragraph": 1
+            }
+          },
+          "target": {
+            "concept": "mitochondria",
+            "location": {
+              "section": "Mitochondria",
+              "paragraph": 1
+            }
+          },
+          "relation_type": "shared process",
+          "readable_statement": "Both photosynthesis and mitochondria involve the electron transport process.",
+          "evidence": "Photosynthesis refers to the biological process... Mitochondria have been demonstrated to utilize...",
+          "is_domain_specific": true,
+          "crosses_paragraphs": true
+        }
+      ],
+      "concept_chains": [
+        {
+          "chain_id": "chain1",
+          "description": "Linking quantum biology through quantum tunneling to electron transport in photosynthesis and mitochondria.",
+          "components": [
+            {
+              "concept": "quantum_biology",
+              "location": {
+                "section": "History",
+                "paragraph": 1
+              },
+              "role": "start"
+            },
+            {
+              "concept": "quantum_tunneling",
+              "location": {
+                "section": "Enzyme catalysis",
+                "paragraph": 1
+              },
+              "role": "intermediate"
+            },
+            {
+              "concept": "electron_transport",
+              "location": {
+                "section": "Photosynthesis",
+                "paragraph": 1
+              },
+              "role": "intermediate"
+            },
+            {
+              "concept": "mitochondria",
+              "location": {
+                "section": "Mitochondria",
+                "paragraph": 1
+              },
+              "role": "end"
+            }
+          ],
+          "chain_summary": "Quantum biology's theoretical frameworks, such as quantum tunneling, underpin mechanisms in both photosynthesis and mitochondrial electron transport, illustrating the interconnectedness of quantum mechanics and biological processes."
+        }
+      ]
+    }
+  }
+}

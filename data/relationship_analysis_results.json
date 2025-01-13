@@ -1,0 +1,90 @@
+{
+  "Tardigrade": {
+    "relationships": {
+      "relationships": [
+        {
+          "source_concept": "Tardigrade",
+          "target_concept": "Survival characteristics",
+          "relationship_type": "Dependency",
+          "relationship_description": "Tardigrades have a variety of survival characteristics that allow them to live in extreme environments.",
+          "evidence": "Tardigrades have survived all five recognized mass extinctions due to their plethora of survival characteristics, including the ability to survive conditions that would be fatal to almost all other animals.",
+          "location": {
+            "paragraph": 21
+          },
+          "comprehension_value": "Understanding the survival characteristics of tardigrades helps explain their ability to survive in extreme environments and their resilience throughout history."
+        },
+        {
+          "source_concept": "Tardigrade body segments",
+          "target_concept": "Hox genes",
+          "relationship_type": "Influence",
+          "relationship_description": "The absence of certain Hox genes in tardigrades influences their body structure, specifically the number of body segments they have.",
+          "evidence": "Tardigrades lack several Hox genes and a large intermediate region of the body axis. Practically the whole body, except for the last pair of legs, is made up of just the segments that are homologous to the head region in arthropods.",
+          "location": {
+            "paragraph": 6
+          },
+          "comprehension_value": "This relationship helps explain the unique body structure of tardigrades and how genetics influence physical characteristics."
+        },
+        {
+          "source_concept": "Tardigrade size",
+          "target_concept": "Various environments",
+          "relationship_type": "Adaptation",
+          "relationship_description": "The small size of tardigrades allows them to adapt and survive in a variety of environments.",
+          "evidence": "The largest adults may reach a body length of 2.0 mm (0.079 in), the smallest below 0.1 mm (0.0039 in). Newly hatched tardigrades may be smaller than 0.05 mm (0.0020 in).",
+          "location": {
+            "paragraph": 2
+          },
+          "comprehension_value": "Understanding the small size of tardigrades helps explain their ability to inhabit diverse environments, from mosses to marine sediments."
+        },
+        {
+          "source_concept": "Tardigrade",
+          "target_concept": "Tardigrade fossils",
+          "relationship_type": "Historical",
+          "relationship_description": "Tardigrade fossils provide evidence of the historical existence and evolution of tardigrades.",
+          "evidence": "Tardigrade fossils go as far back as the Cretaceous period in North America. Tardigrades are considered cosmopolitan and can be located in regions all over the world.",
+          "location": {
+            "paragraph": 16
+          },
+          "comprehension_value": "This relationship helps provide a historical context for the existence and distribution of tardigrades."
+        },
+        {
+          "source_concept": "Tardigrade",
+          "target_concept": "Vacuum of outer space",
+          "relationship_type": "Survival",
+          "relationship_description": "Tardigrades have the ability to survive in the vacuum of outer space.",
+          "evidence": "Tardigrades are the first known animal to survive after exposure to outer space.",
+          "location": {
+            "paragraph": 28
+          },
+          "comprehension_value": "This relationship highlights the extreme survival capabilities of tardigrades, even in conditions that are typically inhospitable to life."
+        }
+      ]
+    },
+    "analysis": {
+      "total_relationships": 5,
+      "relationship_types": {
+        "Dependency": 1,
+        "Influence": 1,
+        "Adaptation": 1,
+        "Historical": 1,
+        "Survival": 1
+      },
+      "most_connected_concepts": {
+        "Tardigrade": 3,
+        "Survival characteristics": 1,
+        "Tardigrade body segments": 1,
+        "Hox genes": 1,
+        "Tardigrade size": 1,
+        "Various environments": 1,
+        "Tardigrade fossils": 1,
+        "Vacuum of outer space": 1
+      },
+      "paragraph_distribution": {
+        "21": 1,
+        "6": 1,
+        "2": 1,
+        "16": 1,
+        "28": 1
+      }
+    }
+  }
+}
