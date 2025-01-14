@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import os
 import json
 from datetime import datetime
-from entity_extraction import OptimizedEntityExtractor, TextChunk
+from entity_extraction import OptimizedEntityExtractor, TextChunk, RelationTracker
 from typing import Dict, List
 
 def process_article_by_paragraphs(title: str, article: Dict, extractor: OptimizedEntityExtractor):
@@ -184,7 +184,7 @@ def print_concept_hierarchy(hierarchy: Dict, root_concepts=None, level=0):
         if children:
             print_concept_hierarchy(hierarchy, children, level + 1)
 
-def save_and_summarize_results(results: List[Dict], output_path: str, processing_mode: str, article_title: str, category: str):
+def save_entity_results(results: List[Dict], output_path: str, processing_mode: str, article_title: str, category: str):
     """Save results to file and print summary."""
     print("\nFinal Results for Article:", article_title)
     print("=" * 50)
@@ -207,6 +207,77 @@ def save_and_summarize_results(results: List[Dict], output_path: str, processing
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(existing_data, f, indent=4, ensure_ascii=False)
 
+def save_relation_results(all_articles_relations: Dict[str, Dict], articles_data: Dict, processing_mode: str):
+    """Save local, global and master relations to separate files."""
+    timestamp = datetime.now().isoformat()
+    base_path = "data/relations"
+    os.makedirs(base_path, exist_ok=True)
+
+    local_relations = {
+        title: {
+            "category": articles_data[title]["category"],
+            "relations": article_relations['local_relations']
+        }
+        for title, article_relations in all_articles_relations.items()
+    }
+    
+    global_relations = {
+        title: {
+            "category": articles_data[title]["category"],
+            "relations": article_relations['global_relations']
+        }
+        for title, article_relations in all_articles_relations.items()
+    }
+    
+    master_relations = {
+        title: {
+            "category": articles_data[title]["category"],
+            "relations": article_relations['master_relations']
+        }
+        for title, article_relations in all_articles_relations.items()
+    }
+
+    # Save local relations
+    local_path = os.path.join(base_path, f"local_relations_{processing_mode}.json")
+    with open(local_path, 'w', encoding='utf-8') as f:
+        json.dump({
+            'metadata': {
+                'type': 'local_relations',
+                'processing_mode': processing_mode,
+                'timestamp': timestamp
+            },
+            'articles': local_relations
+        }, f, indent=4)
+
+    # Save global relations
+    global_path = os.path.join(base_path, f"global_relations_{processing_mode}.json")
+    with open(global_path, 'w', encoding='utf-8') as f:
+        json.dump({
+            'metadata': {
+                'type': 'global_relations',
+                'processing_mode': processing_mode,
+                'timestamp': timestamp
+            },
+            'articles': global_relations
+        }, f, indent=4)
+
+    # Save master relations
+    master_path = os.path.join(base_path, f"master_relations_{processing_mode}.json")
+    with open(master_path, 'w', encoding='utf-8') as f:
+        json.dump({
+            'metadata': {
+                'type': 'master_relations',
+                'processing_mode': processing_mode,
+                'timestamp': timestamp
+            },
+            'articles': master_relations
+        }, f, indent=4)
+
+    print(f"\nSaved relation results to:")
+    print(f"- Local relations: {local_path}")
+    print(f"- Global relations: {global_path}")
+    print(f"- Master relations: {master_path}")
+
 
 def main(processing_mode='section'):
     # Initialize the entity extractor
@@ -221,34 +292,49 @@ def main(processing_mode='section'):
     )
     
     # Load your articles
-    with open('data/text_sample.json', 'r', encoding='utf-8') as f:
+    with open('data/text_sample2.json', 'r', encoding='utf-8') as f:
         data = json.load(f)  # Load the entire JSON
         articles = data.get('articles', {})  # Access the 'articles' key
 
     output_path = f"data/entity_analysis_{processing_mode}_results.json"  # Define output path
+
+    all_relation_results = {}
+    articles_data = {}
 
     for title, article in articles.items():  # Iterate over the items in the articles dictionary
         print(f"\nProcessing article: {title}")
         
         # Reset entity tracking for new article
         extractor.reset_tracking()
+        extractor.relation_tracker = RelationTracker()
 
         category = article.get('category', 'Uncategorized')
+        
+        # Store article data for later use
+        articles_data[title] = {
+            "category": category
+        }
         
         if processing_mode == 'section':
             entities = process_article_by_sections(title, article, extractor)
         else:  # paragraph mode
             entities = process_article_by_paragraphs(title, article, extractor)
             
-        print(f"\nFound {len(entities)} entities in article {title}")
-        for entity in entities[:5]:  # Show top 5 entities
-            print(f"- {entity['id']} (frequency: {entity['frequency']})")
-
-        # Save results for the current article
-        save_and_summarize_results(entities, output_path, processing_mode, title, category)  # Save after each article
+        # Final global relation extraction
+        final_global_relations = extractor.extract_global_relations(entities)
+        extractor.relation_tracker.add_global_relations(final_global_relations)
+        extractor.relation_tracker.merge_relations()
         
-        # relation_output_path = f"data/relation_analysis_{processing_mode}_results.json"
-        # extractor.save_relations(relation_output_path, processing_mode, title)
+        # Store results for this article
+        all_relation_results[title] = extractor.get_all_relations()
+        save_entity_results(entities, output_path, processing_mode, title, category)  # Save after each article
+
+    save_relation_results(all_relation_results, articles_data, processing_mode)
+    
+
+        # print(f"\nFound {len(entities)} entities in article {title}")
+        # for entity in entities[:5]:  # Show top 5 entities
+            # print(f"- {entity['id']} (frequency: {entity['frequency']})")
 
 if __name__ == "__main__":
-    main(processing_mode='paragraph')  # 'section' or 'paragraph'
+    main(processing_mode='section')  # 'section' or 'paragraph'

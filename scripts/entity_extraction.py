@@ -92,16 +92,51 @@ class TextChunk:
         self.overlap_prev = self.overlap_prev or {}
         self.overlap_next = self.overlap_next or {}
 
+@dataclass
 class Relation:
-    source_concept: str
-    target_concept: str
-    relation_type: str
+    source: str
+    relation_type: str 
+    target: str
     evidence: str
     section_index: int
     section_name: str
     confidence: float = 1.0
-    is_cross_section: bool = False
+    
+    def __eq__(self, other):
+        """Consider relations equal if they have same source, type, and target."""
+        return (self.source.lower() == other.source.lower() and
+                self.relation_type.lower() == other.relation_type.lower() and
+                self.target.lower() == other.target.lower())
+    
+    def __hash__(self):
+        """Hash based on normalized source, type, and target."""
+        return hash((self.source.lower(), self.relation_type.lower(), self.target.lower()))
 
+class RelationTracker:
+    def __init__(self, periodic_extraction_threshold: int = 3):
+        self.local_relations = []  # All local relations from sections
+        self.global_relations = []  # Relations from global extraction
+        self.master_relations = []  # Merged local and global relations
+        self.sections_processed = 0
+        self.periodic_extraction_threshold = periodic_extraction_threshold
+
+    def add_local_relations(self, relations: List[Relation]):
+        """Add relations extracted from a section."""
+        self.local_relations.extend(relations)
+        self.sections_processed += 1
+        self.merge_relations()  # Update master relations
+
+    def add_global_relations(self, relations: List[Relation]):
+        """Add relations from global extraction."""
+        self.global_relations.extend(relations)
+        self.merge_relations()  # Update master relations
+
+    def merge_relations(self):
+        """Merge local and global relations into master list, avoiding duplicates."""
+        # Convert to sets to remove duplicates
+        all_relations = set(self.local_relations) | set(self.global_relations)
+        self.master_relations = list(all_relations)
+    
 class OptimizedEntityExtractor:
     def __init__(self, api_key: str, cache_version: str = "10.0"):
         self.client = OpenAI(api_key=api_key)
@@ -111,9 +146,7 @@ class OptimizedEntityExtractor:
 
         self.sections_processed = 0
 
-        self.local_relations = []  # Store section-level relations
-        self.global_relations = [] # Store cross-section relations
-        self.extracted_sections = set()  # Track processed sections
+        self.relation_tracker = RelationTracker()
 
     @lru_cache(maxsize=1000)
     def _cached_api_call(self, prompt: str) -> str:
@@ -221,7 +254,7 @@ class OptimizedEntityExtractor:
             print(f"  [P{para_num}] Error extracting entities: {str(e)}")
             return []
 
-    def extract_entities_from_section(self, section_content: Dict, section_name: str, section_index: int) -> List[Dict]:
+    def extract_entities_from_section(self, section_content: List[str], section_name: str, section_index: int) -> List[Dict]:
         """Extract entities from a section with caching."""
         # Combine all text in the section including subheadings
         section_text = []
@@ -249,6 +282,7 @@ class OptimizedEntityExtractor:
             print(f"  [S{section_index}] Using file cache for entity extraction")
             self.memory_cache[full_section_text] = cached_result
             return cached_result
+
 
         print(f"  [S{section_index}] Making API call for entity extraction")
         prompt = f"""
@@ -291,11 +325,12 @@ class OptimizedEntityExtractor:
 
         try:
             response = self._cached_api_call(prompt)
-            print(f"\n=== Raw GPT Response for Section {section_name} ===")
-            print(response)
-            print("=" * 50)
-
             entities = json.loads(OptimizedEntityExtractor.clean_markdown_json(response))
+            
+            # Cache results
+            self.memory_cache[full_section_text] = entities
+            self.cache_manager.cache_entities(full_section_text, entities)
+            
             return entities
         except Exception as e:
             print(f"Error extracting entities: {str(e)}")
@@ -304,34 +339,38 @@ class OptimizedEntityExtractor:
     def reset_tracking(self):
         """Reset entity tracking to start fresh."""
         self.entities = {}
-    
+
     def reset_relation_tracking(self):
         """Reset entity tracking to start fresh."""
         self.relations = {}
 
-
-    def extract_local_relations(self, text: str, section_concepts: List[Dict], section_info: Dict) -> List[Relation]:
+    def extract_local_relations(self, text: str, concepts: List[Dict], section_info: Dict) -> List[Relation]:
         """Extract relationships between concepts within a section."""
+
+        print(f"  Making API call for local relation extraction")
         prompt = f"""
-        Extract relationships between these concepts within this section of text.
-        Focus on relationships that are explicitly mentioned or strongly implied.
+        Extract key relationships between these available concepts using the following guidelines. The extracted relations will be used for visualizations to aid educational comprehension.
         
-        Concepts available:
-        {[c["entity"] for c in section_concepts]}
+        **Context:**
+        The extracted relations should represent meaningful connections that contribute to understanding the main ideas in the text.
         
-        Guidelines:
-        1. Only extract relationships with clear textual evidence
-        2. Relationships should help explain how concepts connect
-        3. Focus on direct relationships visible in this section
-        
-        Return JSON format:
+        **Guidelines:**
+        - Ensure that the relations are clearly defined and relevant to the text's main ideas.
+        - Focus on capturing a variety of relationship types without restricting to specific categories.
+        - Avoid speculative relationships; only include those with explicit or strong implicit textual support.
+
+
+        Available Concepts:
+        {json.dumps([c["id"] for c in concepts], indent=2)}
+
+        **Output Format:** 
         {{
             "relations": [
                 {{
-                    "source": "concept1",
-                    "target": "concept2",
-                    "relation_type": "describes the relationship",
-                    "evidence": "exact text supporting this relationship"
+                    "source": "source concept",
+                    "relation_type": "type of relationship",
+                    "target": "target concept",
+                    "evidence": "text evidence for this relationship"
                 }}
             ]
         }}
@@ -339,7 +378,7 @@ class OptimizedEntityExtractor:
         Section Text:
         {text}
         """
-        
+
         try:
             response = self._cached_api_call(prompt)
             relations_data = json.loads(self.clean_markdown_json(response))
@@ -347,9 +386,9 @@ class OptimizedEntityExtractor:
             relations = []
             for rel in relations_data["relations"]:
                 relation = Relation(
-                    source_concept=rel["source"],
-                    target_concept=rel["target"],
+                    source=rel["source"],
                     relation_type=rel["relation_type"],
+                    target=rel["target"],
                     evidence=rel["evidence"],
                     section_index=section_info["section_index"],
                     section_name=section_info["section_name"]
@@ -357,48 +396,41 @@ class OptimizedEntityExtractor:
                 relations.append(relation)
             
             return relations
+                
         except Exception as e:
-            print(f"Error extracting local relations: {str(e)}")
+            print(f"Error extracting section relations: {str(e)}")
             return []
         
-    def extract_global_relations(self) -> List[Relation]:
-        """Extract relationships between concepts across sections."""
-        # Only extract global relations after processing multiple sections
-        if len(self.extracted_sections) < 2:
-            return []
-            
-        concepts_by_section = {}
-        for entity in self.entities.values():
-            for appearance in entity.appearances:
-                section_idx = appearance["section_index"]
-                if section_idx not in concepts_by_section:
-                    concepts_by_section[section_idx] = set()
-                concepts_by_section[section_idx].add(entity.id)
-
+    def extract_global_relations(self, master_concepts: List[Dict]) -> List[Relation]:
+        print(f"  Making API call for global relation extraction")
+        """Extract global relationships using all processed concepts."""
         prompt = f"""
-        Analyze potential relationships between concepts that appear in different sections.
-        Focus on high-level relationships that span multiple sections.
+        Extract global relationships using all processed concepts. The focus is on identifying high-level connections that span across sections or paragraphs, providing a comprehensive understanding of how concepts interrelate on a broader scale.
         
-        Concepts by section:
-        {json.dumps(concepts_by_section, indent=2)}
-        
-        Prior local relationships found:
-        {json.dumps([(r.source_concept, r.relation_type, r.target_concept) for r in self.local_relations], indent=2)}
-        
-        Return only cross-section relationships in JSON format:
+        **Context:**
+        The extracted global relationships should illustrate overarching connections that tie together multiple sections, enhancing the reader’s comprehension of the text as a whole.
+
+        **Guidelines:**
+        - Identify relationships that are significant at a higher level, beyond individual sections or paragraphs.
+        - Include relationships that show how concepts influence each other across different contexts or sections.
+        - Ensure each identified relationship is supported by reasoning or textual evidence, highlighting the connection’s relevance to the overall content.
+
+        Available Concepts:
+        {json.dumps([c["id"] for c in master_concepts], indent=2)}
+
+        Return in JSON format:
         {{
             "relations": [
                 {{
-                    "source": "concept1",
-                    "target": "concept2", 
-                    "relation_type": "relationship description",
-                    "evidence": "reasoning for this relationship",
-                    "sections_involved": [section_numbers]
+                    "source": "source concept",
+                    "relation_type": "type of relationship",
+                    "target": "target concept",
+                    "evidence": "reasoning for this relationship"
                 }}
             ]
         }}
         """
-        
+
         try:
             response = self._cached_api_call(prompt)
             relations_data = json.loads(self.clean_markdown_json(response))
@@ -406,21 +438,56 @@ class OptimizedEntityExtractor:
             relations = []
             for rel in relations_data["relations"]:
                 relation = Relation(
-                    source_concept=rel["source"],
-                    target_concept=rel["target"],
+                    source=rel["source"],
                     relation_type=rel["relation_type"],
+                    target=rel["target"],
                     evidence=rel["evidence"],
-                    section_index=-1,  # Indicates cross-section
-                    section_name="cross-section",
-                    is_cross_section=True
+                    section_index=-1,  # Indicates global relation
+                    section_name="global"
                 )
                 relations.append(relation)
-                
+            
             return relations
+                
         except Exception as e:
             print(f"Error extracting global relations: {str(e)}")
             return []
     
+    def get_all_relations(self) -> Dict:
+        """Get all three types of relations."""
+        return {
+            "local_relations": [
+                {
+                    "source": rel.source,
+                    "relation_type": rel.relation_type,
+                    "target": rel.target,
+                    "evidence": rel.evidence,
+                    "section_name": rel.section_name,
+                    "section_index": rel.section_index
+                }
+                for rel in self.relation_tracker.local_relations
+            ],
+            "global_relations": [
+                {
+                    "source": rel.source,
+                    "relation_type": rel.relation_type,
+                    "target": rel.target,
+                    "evidence": rel.evidence,
+                }
+                for rel in self.relation_tracker.global_relations
+            ],
+            "master_relations": [
+                {
+                    "source": rel.source,
+                    "relation_type": rel.relation_type,
+                    "target": rel.target,
+                    "evidence": rel.evidence,
+                    "section_name": rel.section_name,
+                    "section_index": rel.section_index
+                }
+                for rel in self.relation_tracker.master_relations
+            ]
+        }
 
     def compare_concept_lists(self, list1: List[Dict], list2: List[Dict]) -> Dict[str, str]:
         """Compare two lists of entities with caching."""
@@ -526,7 +593,7 @@ class OptimizedEntityExtractor:
             entities_lookup = {k.lower(): k for k in self.entities.keys()}
             
             # For first section, initialize entities
-            if not self.entities:
+            if chunk.section_index == 1 and not self.entities:
                 for entity in new_entities:
                     try:
                         new_entity = Entity(id=entity["entity"])
@@ -546,78 +613,96 @@ class OptimizedEntityExtractor:
                         print(f"Warning: Could not process initial entity: {str(e)}")
                         continue
                 return
-
-            # For subsequent sections
-            try:
-                existing_entities = [
-                    {
-                        "entity": ent.id,
-                        "context": "Previously identified concept"
-                    }
-                    for ent in self.entities.values()
-                ]
-
-                # Get semantic matches
-                matches = self.compare_concept_lists(existing_entities, new_entities)
-                print(f"\nFound matches: {json.dumps(matches, indent=2)}")
-                
-                # Process each new entity
-                for new_entity in new_entities:
-                    try:
-                        entity_id = new_entity["entity"]
-                        appearance = {
-                            "section": chunk.section_name,
-                            "section_index": chunk.section_index,
-                            "heading_level": chunk.heading_level,
-                            "variant": entity_id,
-                            "context": new_entity.get("context", "")
+            else: 
+                # For subsequent sections
+                try:
+                    existing_entities = [
+                        {
+                            "entity": ent.id,
+                            "context": "Previously identified concept"
                         }
+                        for ent in self.entities.values()
+                    ]
 
-                        if entity_id in matches:
-                            existing_id = matches[entity_id]
-                            print(f"\nMerging '{entity_id}' into existing concept '{existing_id}'")
-                            
-                            # Look up the actual key using case-insensitive comparison
-                            actual_key = entities_lookup.get(existing_id.lower())
-                            
-                            if actual_key:
-                                self.entities[actual_key].add_appearance(appearance, entity_id)
-                                if "builds_on" in new_entity:
-                                    self.entities[actual_key].builds_on.update(new_entity["builds_on"])
-                                print(f"Successfully merged '{entity_id}' as variant")
+                    # Get semantic matches
+                    matches = self.compare_concept_lists(existing_entities, new_entities)
+                    print(f"\nFound matches: {json.dumps(matches, indent=2)}")
+                    
+                    # Process each new entity
+                    for new_entity in new_entities:
+                        try:
+                            entity_id = new_entity["entity"]
+                            appearance = {
+                                "section": chunk.section_name,
+                                "section_index": chunk.section_index,
+                                "heading_level": chunk.heading_level,
+                                "variant": entity_id,
+                                "context": new_entity.get("context", "")
+                            }
+
+                            if entity_id in matches:
+                                existing_id = matches[entity_id]
+                                print(f"\nMerging '{entity_id}' into existing concept '{existing_id}'")
+                                
+                                # Look up the actual key using case-insensitive comparison
+                                actual_key = entities_lookup.get(existing_id.lower())
+                                
+                                if actual_key:
+                                    self.entities[actual_key].add_appearance(appearance, entity_id)
+                                    if "builds_on" in new_entity:
+                                        self.entities[actual_key].builds_on.update(new_entity["builds_on"])
+                                    print(f"Successfully merged '{entity_id}' as variant")
+                                else:
+                                    # If no match found, create new entity
+                                    print(f"No case-insensitive match found for '{existing_id}', creating new entity")
+                                    new_entity_obj = Entity(id=entity_id)
+                                    new_entity_obj.add_appearance(appearance, entity_id)
+                                    if "builds_on" in new_entity:
+                                        new_entity_obj.builds_on.update(new_entity["builds_on"])
+                                    self.entities[entity_id] = new_entity_obj
                             else:
-                                # If no match found, create new entity
-                                print(f"No case-insensitive match found for '{existing_id}', creating new entity")
+                                # Create new entity
+                                print(f"\nCreating new entity '{entity_id}'")
                                 new_entity_obj = Entity(id=entity_id)
                                 new_entity_obj.add_appearance(appearance, entity_id)
                                 if "builds_on" in new_entity:
                                     new_entity_obj.builds_on.update(new_entity["builds_on"])
                                 self.entities[entity_id] = new_entity_obj
-                        else:
-                            # Create new entity
-                            print(f"\nCreating new entity '{entity_id}'")
-                            new_entity_obj = Entity(id=entity_id)
-                            new_entity_obj.add_appearance(appearance, entity_id)
-                            if "builds_on" in new_entity:
-                                new_entity_obj.builds_on.update(new_entity["builds_on"])
-                            self.entities[entity_id] = new_entity_obj
-                            print(f"Successfully created new entity")
+                                print(f"Successfully created new entity")
 
-                    except Exception as e:
-                        print(f"\nError processing entity:")
-                        print(f"Entity data: {json.dumps(new_entity, indent=2)}")
-                        print(f"Current entities: {list(self.entities.keys())}")
-                        print(f"Error details: {str(e)}")
-                        continue
+                        except Exception as e:
+                            print(f"\nError processing entity: {str(e)}")
+                            continue
 
-            except Exception as e:
-                print(f"Error in section processing: {str(e)}")
+                except Exception as e:
+                    print(f"Error in section processing: {str(e)}")
+
+            section_concepts = [
+                {"id": ent.id, "variants": list(ent.variants)}
+                for ent in self.entities.values()
+                if any(app["section_index"] == chunk.section_index for app in ent.appearances)
+            ]
+            
+            section_relations = self.extract_local_relations(
+                chunk.content,  # Use the raw content for relation extraction
+                section_concepts,
+                {
+                    "section_index": chunk.section_index,
+                    "section_name": chunk.section_name
+                }
+            )
+            
+            # Add to relation tracker
+            self.relation_tracker.add_local_relations(section_relations)
+            
+            # Periodic global relation extraction
+            if (self.relation_tracker.sections_processed % 
+                self.relation_tracker.periodic_extraction_threshold == 0):
+                global_relations = self.extract_global_relations(self.get_sorted_entities())
+                self.relation_tracker.add_global_relations(global_relations)
 
         except Exception as e:
             print(f"Error in main section processing: {str(e)}")
-
-        # relations = self.extract_relations(chunk.content, chunk.section_index)
-        # self.store_relations(relations, chunk.section_name, chunk.section_index)
     
     '''
     def store_relations(self, relations: List[Relation], section_name: str, section_index: int):
@@ -637,7 +722,6 @@ class OptimizedEntityExtractor:
         """Process a paragraph and update entity tracking."""
         try:
             # 1. Extract raw entities from GPT
-            print("\n=== Raw GPT Extraction ===")
             new_entities = self.extract_entities_from_paragraph(
                 paragraph=chunk.content,
                 para_num=chunk.paragraph_index,
@@ -645,9 +729,6 @@ class OptimizedEntityExtractor:
                 section_index=chunk.section_index,
                 heading_level=chunk.heading_level
             )
-            print("Raw entities extracted:")
-            print(json.dumps(new_entities, indent=2))
-            print("=" * 50)
 
             # Create case-insensitive lookup dictionary
             entities_lookup = {k.lower(): k for k in self.entities.keys()}
