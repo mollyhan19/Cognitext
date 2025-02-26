@@ -1,0 +1,4714 @@
+{
+    "metadata": {
+        "type": "master_relations",
+        "processing_mode": "section",
+        "timestamp": "2025-01-14T02:38:10.683855"
+    },
+    "articles": {
+        "P versus NP problem": {
+            "category": "computer science",
+            "relations": [
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "impact on cryptography",
+                    "target": "public-key cryptography"
+                },
+                {
+                    "source": "languages in p",
+                    "relation_type": "expressible in",
+                    "target": "first-order logic with least fixed-point combinator"
+                },
+                {
+                    "source": "reduction",
+                    "relation_type": "methodology",
+                    "target": "np-hard problems"
+                },
+                {
+                    "source": "np-hard problems",
+                    "relation_type": "are at least as hard as",
+                    "target": "NP problems"
+                },
+                {
+                    "source": "polynomial-time algorithms",
+                    "relation_type": "subset",
+                    "target": "class p"
+                },
+                {
+                    "source": "first-order logic",
+                    "relation_type": "characterizes",
+                    "target": "languages in p"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "reformulated as",
+                    "target": "existential second-order logic"
+                },
+                {
+                    "source": "np-complete problems",
+                    "relation_type": "has no known polynomial-time algorithm for",
+                    "target": "polynomial-time algorithms"
+                },
+                {
+                    "source": "deterministic computer model",
+                    "relation_type": "is used in analyzing",
+                    "target": "resources in computation"
+                },
+                {
+                    "source": "verification vs. computation",
+                    "relation_type": "contrast with",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "class P",
+                    "relation_type": "is defined in terms of",
+                    "target": "polynomial running time"
+                },
+                {
+                    "source": "class np",
+                    "relation_type": "is related to",
+                    "target": "verification vs. computation"
+                },
+                {
+                    "source": "verification vs. computation",
+                    "relation_type": "conceptual distinction",
+                    "target": "class np"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "implication of complexity classes",
+                    "target": "class p"
+                },
+                {
+                    "source": "kurt g\u00f6del",
+                    "relation_type": "inquired about",
+                    "target": "co-NP-complete"
+                },
+                {
+                    "source": "donald knuth's belief",
+                    "relation_type": "is cautious about",
+                    "target": "p = np"
+                },
+                {
+                    "source": "exhaustive search",
+                    "relation_type": "is a method related to",
+                    "target": "p \u2260 np"
+                },
+                {
+                    "source": "algorithms",
+                    "relation_type": "are evaluated based on their",
+                    "target": "resource requirements"
+                },
+                {
+                    "source": "stephen cook",
+                    "relation_type": "pioneering work",
+                    "target": "np-completeness"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "implication of complexity classes",
+                    "target": "class np"
+                },
+                {
+                    "source": "class p",
+                    "relation_type": "subset",
+                    "target": "class np"
+                },
+                {
+                    "source": "media attention",
+                    "relation_type": "public perception",
+                    "target": "millennium prize problems"
+                },
+                {
+                    "source": "quantum computation",
+                    "relation_type": "contrast",
+                    "target": "classical computation"
+                },
+                {
+                    "source": "p = np",
+                    "relation_type": "would change the value of",
+                    "target": "creative leaps"
+                },
+                {
+                    "source": "reduction",
+                    "relation_type": "methodology",
+                    "target": "np-complete problems"
+                },
+                {
+                    "source": "polynomial-time reduction",
+                    "relation_type": "method for proving complexity",
+                    "target": "np-completeness"
+                },
+                {
+                    "source": "class NP",
+                    "relation_type": "is defined by problems that can be",
+                    "target": "verified in polynomial time"
+                },
+                {
+                    "source": "operations research problems",
+                    "relation_type": "are examples of",
+                    "target": "np-complete problems"
+                },
+                {
+                    "source": "randomized algorithms",
+                    "relation_type": "is a type of computation that differs from",
+                    "target": "Turing machine model"
+                },
+                {
+                    "source": "quantum computation",
+                    "relation_type": "potential solution for",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "computational complexity theory",
+                    "relation_type": "deals with",
+                    "target": "resources required during computation"
+                },
+                {
+                    "source": "purported proofs",
+                    "relation_type": "are compiled by",
+                    "target": "Gerhard J. Woeginger"
+                },
+                {
+                    "source": "np-complete problems",
+                    "relation_type": "are reducible to",
+                    "target": "any other NP problem"
+                },
+                {
+                    "source": "Turing machine",
+                    "relation_type": "is used to verify",
+                    "target": "NP-complete problems"
+                },
+                {
+                    "source": "DLIN",
+                    "relation_type": "is not equal to",
+                    "target": "NLIN"
+                },
+                {
+                    "source": "class EXPTIME",
+                    "relation_type": "is defined as",
+                    "target": "set of all decision problems with exponential running time"
+                },
+                {
+                    "source": "graph isomorphism problem",
+                    "relation_type": "affects",
+                    "target": "polynomial time hierarchy"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "has implications for",
+                    "target": "implications of p vs np"
+                },
+                {
+                    "source": "p = np",
+                    "relation_type": "could lead to",
+                    "target": "cryptography impact"
+                },
+                {
+                    "source": "class p",
+                    "relation_type": "is a subset of",
+                    "target": "class np"
+                },
+                {
+                    "source": "languages in np",
+                    "relation_type": "correspond to",
+                    "target": "polynomial hierarchy (ph)"
+                },
+                {
+                    "source": "systematic methods",
+                    "relation_type": "are used to analyze",
+                    "target": "algorithms"
+                },
+                {
+                    "source": "generalized sudoku problem",
+                    "relation_type": "example of NP-completeness",
+                    "target": "class np"
+                },
+                {
+                    "source": "quantum computation",
+                    "relation_type": "is a type of computation that differs from",
+                    "target": "Turing machine model"
+                },
+                {
+                    "source": "integer factorization problem",
+                    "relation_type": "is solved by",
+                    "target": "Shor's algorithm"
+                },
+                {
+                    "source": "algorithm description",
+                    "relation_type": "describes",
+                    "target": "input and output"
+                },
+                {
+                    "source": "polls on p vs np",
+                    "relation_type": "reflects confidence in",
+                    "target": "p \u2260 np"
+                },
+                {
+                    "source": "purported proofs",
+                    "relation_type": "are claims about",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "millennium prize problems",
+                    "relation_type": "categorization",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is one of the",
+                    "target": "Millennium Prize Problems"
+                },
+                {
+                    "source": "finite number of possible grids",
+                    "relation_type": "is a characteristic of",
+                    "target": "fixed size Sudoku"
+                },
+                {
+                    "source": "empirical average-case complexity",
+                    "relation_type": "evaluation method",
+                    "target": "algorithms for np-complete problems"
+                },
+                {
+                    "source": "polynomial hierarchy (ph)",
+                    "relation_type": "establishes that",
+                    "target": "NP = co-NP"
+                },
+                {
+                    "source": "#P class",
+                    "relation_type": "consists of",
+                    "target": "counting problems"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "introduced by",
+                    "target": "stephen cook"
+                },
+                {
+                    "source": "g\u00f6del's thoughts on computational complexity",
+                    "relation_type": "suggest that",
+                    "target": "p = np"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is believed to be",
+                    "target": "P \u2260 NP"
+                },
+                {
+                    "source": "p = np",
+                    "relation_type": "would imply",
+                    "target": "many other startling results"
+                },
+                {
+                    "source": "big O notation",
+                    "relation_type": "hides constant that depends on",
+                    "target": "number of vertices in H"
+                },
+                {
+                    "source": "NP-complete problems",
+                    "relation_type": "may have effective approaches in practice through",
+                    "target": "algorithms for NP-complete problems"
+                },
+                {
+                    "source": "average-case complexity",
+                    "relation_type": "evaluation of algorithms",
+                    "target": "empirical average-case complexity"
+                },
+                {
+                    "source": "np-completeness",
+                    "relation_type": "relationship",
+                    "target": "verification vs. computation"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "influences",
+                    "target": "np-completeness"
+                },
+                {
+                    "source": "turing machine",
+                    "relation_type": "model for computation",
+                    "target": "deterministic computer model"
+                },
+                {
+                    "source": "empirical average-case complexity",
+                    "relation_type": "can be surprisingly low for",
+                    "target": "algorithms for NP-complete problems"
+                },
+                {
+                    "source": "simplex algorithm",
+                    "relation_type": "is an example of",
+                    "target": "algorithms for NP-complete problems"
+                },
+                {
+                    "source": "cryptography impact",
+                    "relation_type": "influence",
+                    "target": "p \u2260 np"
+                },
+                {
+                    "source": "real-world experience",
+                    "relation_type": "is aligned with",
+                    "target": "existence of hard-to-solve problems with easy-to-verify solutions"
+                },
+                {
+                    "source": "quantum computation",
+                    "relation_type": "alternative approach",
+                    "target": "polynomial-time algorithms"
+                },
+                {
+                    "source": "verification vs. computation",
+                    "relation_type": "contrasts with",
+                    "target": "class p"
+                },
+                {
+                    "source": "undecidable problems",
+                    "relation_type": "relationship with verification",
+                    "target": "undecidable but verifiable problems"
+                },
+                {
+                    "source": "generalized sudoku problem",
+                    "relation_type": "may be in",
+                    "target": "class p"
+                },
+                {
+                    "source": "undecidable but verifiable problems",
+                    "relation_type": "example of",
+                    "target": "hilbert's tenth problem"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "has implications for",
+                    "target": "mathematics, cryptography, algorithm research, artificial intelligence, game theory, multimedia processing, philosophy, economics"
+                },
+                {
+                    "source": "fixed size Sudoku",
+                    "relation_type": "is in",
+                    "target": "class p"
+                },
+                {
+                    "source": "algorithms for np-complete problems",
+                    "relation_type": "application",
+                    "target": "real-world experience"
+                },
+                {
+                    "source": "3-SAT",
+                    "relation_type": "is a special case of",
+                    "target": "Boolean satisfiability"
+                },
+                {
+                    "source": "stephen cook",
+                    "relation_type": "pioneering contributions",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "verification vs. computation",
+                    "relation_type": "contrast",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "john von neumann",
+                    "relation_type": "historical context",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "cryptography impact",
+                    "relation_type": "application",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "consequence",
+                    "target": "millennium prize problems"
+                },
+                {
+                    "source": "Turing machine model",
+                    "relation_type": "is the basis for defining",
+                    "target": "P and NP"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "part of",
+                    "target": "millennium prize problems"
+                },
+                {
+                    "source": "creative leaps",
+                    "relation_type": "influence on research",
+                    "target": "research exploration"
+                },
+                {
+                    "source": "verifier",
+                    "relation_type": "is used to determine",
+                    "target": "membership in class NP"
+                },
+                {
+                    "source": "np-completeness",
+                    "relation_type": "is a concept that helps understand",
+                    "target": "P = NP question"
+                },
+                {
+                    "source": "john nash",
+                    "relation_type": "theoretical implications",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "cryptography impact",
+                    "relation_type": "dependent on",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "EXPTIME-complete problems",
+                    "relation_type": "have a polynomial-time many-one reduction to",
+                    "target": "every problem in EXPTIME"
+                },
+                {
+                    "source": "polynomial time",
+                    "relation_type": "is the time complexity associated with",
+                    "target": "class P"
+                },
+                {
+                    "source": "least fixed-point combinator",
+                    "relation_type": "used in",
+                    "target": "first-order logic"
+                },
+                {
+                    "source": "polynomial time",
+                    "relation_type": "is a characteristic of",
+                    "target": "class P"
+                },
+                {
+                    "source": "algorithms for np-complete problems",
+                    "relation_type": "development of",
+                    "target": "polynomial-time algorithms"
+                },
+                {
+                    "source": "millennium prize problems",
+                    "relation_type": "significance in mathematics",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "class np",
+                    "relation_type": "set of languages expressible in",
+                    "target": "existential second-order logic"
+                },
+                {
+                    "source": "undecidable problems",
+                    "relation_type": "cannot be completely solved by",
+                    "target": "any algorithm"
+                },
+                {
+                    "source": "elementary - solve for x",
+                    "relation_type": "investigates",
+                    "target": "mathematicians"
+                },
+                {
+                    "source": "hilbert's tenth problem",
+                    "relation_type": "is",
+                    "target": "RE-complete"
+                },
+                {
+                    "source": "np-complete problems",
+                    "relation_type": "subset of",
+                    "target": "np-hard problems"
+                },
+                {
+                    "source": "polynomial-time solution",
+                    "relation_type": "dependency",
+                    "target": "class p"
+                },
+                {
+                    "source": "#P-complete problems",
+                    "relation_type": "are among the hardest problems in",
+                    "target": "#P"
+                },
+                {
+                    "source": "Boolean satisfiability problem",
+                    "relation_type": "is NP-complete by",
+                    "target": "Cook\u2013Levin theorem"
+                },
+                {
+                    "source": "EXPTIME-complete problems",
+                    "relation_type": "are in",
+                    "target": "class EXPTIME"
+                },
+                {
+                    "source": "np-completeness",
+                    "relation_type": "is a concept within",
+                    "target": "computational complexity theory"
+                },
+                {
+                    "source": "complexity theory",
+                    "relation_type": "foundation for various classes",
+                    "target": "class p"
+                },
+                {
+                    "source": "non-constructive proofs",
+                    "relation_type": "may result in",
+                    "target": "p = np"
+                },
+                {
+                    "source": "Sudoku",
+                    "relation_type": "leads to a polynomial-time solution for",
+                    "target": "3-SAT"
+                },
+                {
+                    "source": "graph minor problem",
+                    "relation_type": "can be solved in",
+                    "target": "polynomial algorithm"
+                },
+                {
+                    "source": "p \u2260 np",
+                    "relation_type": "would represent",
+                    "target": "advancement in computational complexity theory"
+                },
+                {
+                    "source": "stephen cook's perspective",
+                    "relation_type": "aligns with",
+                    "target": "p = np"
+                },
+                {
+                    "source": "undecidable problems",
+                    "relation_type": "broader category",
+                    "target": "complexity theory"
+                },
+                {
+                    "source": "implications of p vs np",
+                    "relation_type": "consequence of unresolved problems",
+                    "target": "millennium prize problems"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is a question about",
+                    "target": "p \u2260 np"
+                },
+                {
+                    "source": "program number m",
+                    "relation_type": "is generated by",
+                    "target": "b bits long"
+                },
+                {
+                    "source": "verification vs. computation",
+                    "relation_type": "is a central theme of",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "r vs. re problem",
+                    "relation_type": "analogous to",
+                    "target": "class p"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "implication",
+                    "target": "np-complete problems"
+                },
+                {
+                    "source": "graph isomorphism problem",
+                    "relation_type": "example of complexity",
+                    "target": "np-intermediate problems"
+                },
+                {
+                    "source": "stephen cook",
+                    "relation_type": "contribution",
+                    "target": "computational complexity theory"
+                },
+                {
+                    "source": "class np",
+                    "relation_type": "consists of",
+                    "target": "decision problems whose positive solutions are verifiable in polynomial time"
+                },
+                {
+                    "source": "deterministic polynomial-time Turing machine",
+                    "relation_type": "is characterized by",
+                    "target": "halting on all inputs and running in polynomial time"
+                },
+                {
+                    "source": "integer factorization problem",
+                    "relation_type": "is solved by",
+                    "target": "general number field sieve"
+                },
+                {
+                    "source": "complexity theory",
+                    "relation_type": "foundation for",
+                    "target": "computational complexity theory"
+                },
+                {
+                    "source": "us government",
+                    "relation_type": "involved in",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "existential second-order logic",
+                    "relation_type": "restricted to exclude",
+                    "target": "universal quantification over relations, functions, and subsets"
+                },
+                {
+                    "source": "exponential time complexity",
+                    "relation_type": "characteristic of",
+                    "target": "np-hard problems"
+                },
+                {
+                    "source": "reduction",
+                    "relation_type": "method for",
+                    "target": "np-completeness"
+                },
+                {
+                    "source": "impracticality of the algorithm",
+                    "relation_type": "is due to",
+                    "target": "enormous constants"
+                },
+                {
+                    "source": "millennium prize problems",
+                    "relation_type": "includes",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "quantum computation",
+                    "relation_type": "advancement in algorithms",
+                    "target": "shor's algorithm"
+                },
+                {
+                    "source": "incompatible students problem",
+                    "relation_type": "is an example of",
+                    "target": "class np"
+                },
+                {
+                    "source": "quantum computation",
+                    "relation_type": "alternative approach",
+                    "target": "exponential time complexity"
+                },
+                {
+                    "source": "generalized sudoku problem",
+                    "relation_type": "is a type of",
+                    "target": "class np"
+                },
+                {
+                    "source": "media attention",
+                    "relation_type": "is received by",
+                    "target": "purported proofs"
+                },
+                {
+                    "source": "undecidable problems",
+                    "relation_type": "contrast",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "NP-completeness",
+                    "relation_type": "is characterized by",
+                    "target": "being in NP and polynomial-time reducible to any NP problem"
+                },
+                {
+                    "source": "finite number of possible grids",
+                    "relation_type": "constraint in problem-solving",
+                    "target": "table lookup"
+                },
+                {
+                    "source": "p \u2260 np",
+                    "relation_type": "is supported by",
+                    "target": "lack of polynomial-time algorithms for NP-complete problems"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is part of",
+                    "target": "complexity theory"
+                },
+                {
+                    "source": "vp vs. vnp problem",
+                    "relation_type": "unsolved",
+                    "target": "algebraic complexity theory"
+                },
+                {
+                    "source": "exponential time complexity",
+                    "relation_type": "contrasts with",
+                    "target": "polynomial time"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "central to",
+                    "target": "elementary - solve for x"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "consequence",
+                    "target": "implications of p vs np"
+                },
+                {
+                    "source": "vp vs. vnp problem",
+                    "relation_type": "similar to",
+                    "target": "r vs. re problem"
+                },
+                {
+                    "source": "polynomial-time algorithms",
+                    "relation_type": "runs forever when",
+                    "target": "running forever"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is studied in",
+                    "target": "computational complexity theory"
+                },
+                {
+                    "source": "mathematical sciences",
+                    "relation_type": "include the study of",
+                    "target": "computational complexity theory"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is a central question in",
+                    "target": "computational complexity theory"
+                },
+                {
+                    "source": "mathematicians",
+                    "relation_type": "hired by",
+                    "target": "us government"
+                },
+                {
+                    "source": "proof techniques",
+                    "relation_type": "are insufficient for",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "average-case complexity",
+                    "relation_type": "dimension",
+                    "target": "empirical average-case complexity"
+                },
+                {
+                    "source": "polynomial time",
+                    "relation_type": "defines",
+                    "target": "class p"
+                },
+                {
+                    "source": "the simpsons - treehouse of horror vi",
+                    "relation_type": "references",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "generalized sudoku problem",
+                    "relation_type": "example of",
+                    "target": "np-complete problems"
+                },
+                {
+                    "source": "np-complete problems",
+                    "relation_type": "subset of",
+                    "target": "class np"
+                },
+                {
+                    "source": "average-case complexity",
+                    "relation_type": "is related to",
+                    "target": "p \u2260 np"
+                },
+                {
+                    "source": "np-intermediate problems",
+                    "relation_type": "is exemplified by",
+                    "target": "integer factorization problem"
+                },
+                {
+                    "source": "Sudoku",
+                    "relation_type": "is reducible to",
+                    "target": "Latin squares"
+                },
+                {
+                    "source": "np-complete problems",
+                    "relation_type": "includes",
+                    "target": "Karp's 21 NP-complete problems"
+                },
+                {
+                    "source": "linear time on a multitape Turing machine",
+                    "relation_type": "is a substitution for",
+                    "target": "polynomial time"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is associated with",
+                    "target": "undecidable problems"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is related to",
+                    "target": "np-complete problems"
+                },
+                {
+                    "source": "decision problem",
+                    "relation_type": "is defined as",
+                    "target": "a problem that outputs 'yes' or 'no'"
+                },
+                {
+                    "source": "polynomial-time solution",
+                    "relation_type": "characteristic of",
+                    "target": "class p"
+                },
+                {
+                    "source": "table lookup",
+                    "relation_type": "is a method for solving",
+                    "target": "fixed size Sudoku"
+                },
+                {
+                    "source": "np-completeness",
+                    "relation_type": "foundation for algorithms",
+                    "target": "algorithms for np-complete problems"
+                },
+                {
+                    "source": "turing machine",
+                    "relation_type": "model for",
+                    "target": "deterministic computer model"
+                },
+                {
+                    "source": "co-NP-complete",
+                    "relation_type": "related to",
+                    "target": "automated discovery of mathematical proofs"
+                },
+                {
+                    "source": "russell impagliazzo's five worlds",
+                    "relation_type": "explore scenarios of",
+                    "target": "average-case complexity"
+                },
+                {
+                    "source": "polynomial-time algorithms",
+                    "relation_type": "are related to",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "Presburger arithmetic",
+                    "relation_type": "requires more than",
+                    "target": "exponential run time"
+                },
+                {
+                    "source": "class p",
+                    "relation_type": "consists of",
+                    "target": "decision problems solvable on a deterministic sequential machine"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "independently defined by",
+                    "target": "leonid levin"
+                },
+                {
+                    "source": "np-intermediate problems",
+                    "relation_type": "is exemplified by",
+                    "target": "graph isomorphism problem"
+                },
+                {
+                    "source": "finite structures",
+                    "relation_type": "include",
+                    "target": "linear order relation"
+                },
+                {
+                    "source": "class NP",
+                    "relation_type": "is defined as",
+                    "target": "the set of languages with a polynomial-time verifier"
+                },
+                {
+                    "source": "g\u00f6del's thoughts on computational complexity",
+                    "relation_type": "philosophical perspective",
+                    "target": "undecidability"
+                },
+                {
+                    "source": "Cobham's thesis",
+                    "relation_type": "assumption in",
+                    "target": "complexity theory"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is a type of",
+                    "target": "millennium prize problems"
+                },
+                {
+                    "source": "graph isomorphism problem",
+                    "relation_type": "is believed to be",
+                    "target": "not NP-complete"
+                },
+                {
+                    "source": "polynomial-time algorithms",
+                    "relation_type": "conditional on",
+                    "target": "P = NP"
+                },
+                {
+                    "source": "reduction",
+                    "relation_type": "provides a method to show",
+                    "target": "problems are NP-complete"
+                },
+                {
+                    "source": "class p",
+                    "relation_type": "is related to",
+                    "target": "verification vs. computation"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is a major unsolved problem in",
+                    "target": "theoretical computer science"
+                },
+                {
+                    "source": "co-np-complete",
+                    "relation_type": "relationship to NP",
+                    "target": "class np"
+                },
+                {
+                    "source": "generalized sudoku problem",
+                    "relation_type": "has a legal solution",
+                    "target": "legal solution"
+                },
+                {
+                    "source": "polynomial-time solution",
+                    "relation_type": "can be derived from",
+                    "target": "Sudoku"
+                },
+                {
+                    "source": "#P problems",
+                    "relation_type": "are at least as hard as",
+                    "target": "corresponding NP problems"
+                },
+                {
+                    "source": "complexity classes",
+                    "relation_type": "are defined by",
+                    "target": "resource requirements"
+                },
+                {
+                    "source": "kurt g\u00f6del",
+                    "relation_type": "foundational influence",
+                    "target": "automated discovery of mathematical proofs"
+                },
+                {
+                    "source": "kurt g\u00f6del",
+                    "relation_type": "influences",
+                    "target": "undecidable problems"
+                },
+                {
+                    "source": "class P",
+                    "relation_type": "is the set of",
+                    "target": "languages decided by a deterministic polynomial-time Turing machine"
+                },
+                {
+                    "source": "polynomial-time algorithms",
+                    "relation_type": "solution type",
+                    "target": "np-complete problems"
+                },
+                {
+                    "source": "polynomial-time reduction",
+                    "relation_type": "is a method for",
+                    "target": "proving NP-completeness"
+                },
+                {
+                    "source": "Millennium Prize Problems",
+                    "relation_type": "carries a prize of",
+                    "target": "US$1,000,000 for the first correct solution"
+                },
+                {
+                    "source": "john nash",
+                    "relation_type": "speculated about",
+                    "target": "p \u2260 np"
+                },
+                {
+                    "source": "john von neumann",
+                    "relation_type": "corresponded with",
+                    "target": "kurt g\u00f6del"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "may be independent of",
+                    "target": "independence from axiom systems"
+                },
+                {
+                    "source": "r vs. re problem",
+                    "relation_type": "analogous to",
+                    "target": "class np"
+                },
+                {
+                    "source": "p versus np problem",
+                    "relation_type": "is undecidable under",
+                    "target": "undecidability"
+                },
+                {
+                    "source": "complexity theory",
+                    "relation_type": "framework for understanding",
+                    "target": "p versus np problem"
+                },
+                {
+                    "source": "stephen cook",
+                    "relation_type": "contributor to",
+                    "target": "computational complexity theory"
+                },
+                {
+                    "source": "polynomial algorithm",
+                    "relation_type": "may be impractical due to",
+                    "target": "big O notation"
+                },
+                {
+                    "source": "integer factorization problem",
+                    "relation_type": "is the basis of",
+                    "target": "RSA algorithm"
+                },
+                {
+                    "source": "time hierarchy theorem",
+                    "relation_type": "implies that",
+                    "target": "EXPTIME-complete problems cannot be solved in significantly less than exponential time"
+                }
+            ]
+        },
+        "Lost Colony of Roanoke": {
+            "category": "history",
+            "relations": [
+                {
+                    "source": "george bancroft",
+                    "relation_type": "emphasized",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "expedition",
+                    "relation_type": "logistical challenges",
+                    "target": "supply challenges"
+                },
+                {
+                    "source": "american horror story",
+                    "relation_type": "features a narrative about",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "ralph lane",
+                    "relation_type": "led",
+                    "target": "expedition"
+                },
+                {
+                    "source": "artifacts at Site X",
+                    "relation_type": "indicate",
+                    "target": "small group of colonists"
+                },
+                {
+                    "source": "wahunsenacawh",
+                    "relation_type": "was the leader of",
+                    "target": "powhatan religion"
+                },
+                {
+                    "source": "shifts in power dynamics",
+                    "relation_type": "led to",
+                    "target": "military engagements"
+                },
+                {
+                    "source": "hopewell and moonlight",
+                    "relation_type": "were part of",
+                    "target": "resupply mission"
+                },
+                {
+                    "source": "gold signet ring",
+                    "relation_type": "discovered by",
+                    "target": "David Sutton Phelps Jr."
+                },
+                {
+                    "source": "X-ray analysis",
+                    "relation_type": "revealed",
+                    "target": "gold signet ring"
+                },
+                {
+                    "source": "conflict escalation",
+                    "relation_type": "caused by",
+                    "target": "economic motivations"
+                },
+                {
+                    "source": "roanoke colony",
+                    "relation_type": "was associated with",
+                    "target": "sir walter raleigh"
+                },
+                {
+                    "source": "spanish threat",
+                    "relation_type": "is a concern for",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "epidemic impact",
+                    "relation_type": "affected",
+                    "target": "native american relations"
+                },
+                {
+                    "source": "sir richard grenville",
+                    "relation_type": "attempted to resupply",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "native american tribes",
+                    "relation_type": "cultural interaction",
+                    "target": "cultural exchange"
+                },
+                {
+                    "source": "jamestown settlement",
+                    "relation_type": "comparative analysis",
+                    "target": "virginia colony"
+                },
+                {
+                    "source": "queen elizabeth i",
+                    "relation_type": "divided charter between",
+                    "target": "adrian gilbert"
+                },
+                {
+                    "source": "David Sutton Phelps Jr.",
+                    "relation_type": "organized excavation",
+                    "target": "Cape Creek in Buxton, North Carolina"
+                },
+                {
+                    "source": "virginia dare",
+                    "relation_type": "was born to",
+                    "target": "eleanor dare"
+                },
+                {
+                    "source": "expedition",
+                    "relation_type": "departed on",
+                    "target": "date of departure"
+                },
+                {
+                    "source": "native american tribes",
+                    "relation_type": "made contact with",
+                    "target": "expedition"
+                },
+                {
+                    "source": "Site X",
+                    "relation_type": "excavated by",
+                    "target": "archaeologists"
+                },
+                {
+                    "source": "shoreline erosion",
+                    "relation_type": "explains deficiency in evidence",
+                    "target": "archaeological evidence for the Lost Colony"
+                },
+                {
+                    "source": "samuel mace's 1602 voyage",
+                    "relation_type": "is speculated to involve",
+                    "target": "kidnapping of Powhatans"
+                },
+                {
+                    "source": "inscribed stones",
+                    "relation_type": "are claimed to be written by",
+                    "target": "eleanor dare"
+                },
+                {
+                    "source": "supply challenges",
+                    "relation_type": "resulted in",
+                    "target": "food acquisition strategies"
+                },
+                {
+                    "source": "samuel purchas",
+                    "relation_type": "wrote about",
+                    "target": "virginia's claim"
+                },
+                {
+                    "source": "fort raleigh national historic site",
+                    "relation_type": "designated as",
+                    "target": "national park service administration"
+                },
+                {
+                    "source": "croatoan",
+                    "relation_type": "was a location associated with",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "Ivor No\u00ebl Hume",
+                    "relation_type": "made finds",
+                    "target": "archaeological research on Roanoke Island"
+                },
+                {
+                    "source": "john white",
+                    "relation_type": "led a second expedition to",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "archaeological research on roanoke island",
+                    "relation_type": "evidence of historical events",
+                    "target": "artifacts at site x"
+                },
+                {
+                    "source": "return to england",
+                    "relation_type": "included",
+                    "target": "native american tribes"
+                },
+                {
+                    "source": "archaeological research on roanoke island",
+                    "relation_type": "evidence of historical events",
+                    "target": "archaeological evidence"
+                },
+                {
+                    "source": "genetic research initiatives",
+                    "relation_type": "modern implications",
+                    "target": "dna testing challenges"
+                },
+                {
+                    "source": "conflict escalation",
+                    "relation_type": "impact on relations",
+                    "target": "native american relations"
+                },
+                {
+                    "source": "legacy of the colony",
+                    "relation_type": "includes",
+                    "target": "introduction of crops"
+                },
+                {
+                    "source": "z\u00fa\u00f1iga map",
+                    "relation_type": "was based on",
+                    "target": "john smith's map"
+                },
+                {
+                    "source": "landfall",
+                    "relation_type": "named",
+                    "target": "port ferdinando"
+                },
+                {
+                    "source": "search mission challenges",
+                    "relation_type": "were faced during",
+                    "target": "return to england"
+                },
+                {
+                    "source": "archaeological evidence",
+                    "relation_type": "supports the theory of",
+                    "target": "assimilation with native american tribes"
+                },
+                {
+                    "source": "virginia dare",
+                    "relation_type": "is a significant figure in",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "richard hakluyt",
+                    "relation_type": "campaigning for",
+                    "target": "england to capitalize on verrazano's isthmus"
+                },
+                {
+                    "source": "raleigh's charter",
+                    "relation_type": "expected to establish base for",
+                    "target": "privateers"
+                },
+                {
+                    "source": "native american relations",
+                    "relation_type": "influenced by",
+                    "target": "cultural exchange"
+                },
+                {
+                    "source": "cultural symbolism",
+                    "relation_type": "is represented by",
+                    "target": "virginia dare"
+                },
+                {
+                    "source": "adrian gilbert",
+                    "relation_type": "received patent for",
+                    "target": "newfoundland"
+                },
+                {
+                    "source": "failed resupply attempts",
+                    "relation_type": "were caused by",
+                    "target": "spanish armada"
+                },
+                {
+                    "source": "failed resupply attempts",
+                    "relation_type": "cause of abandonment",
+                    "target": "evacuation of the colony"
+                },
+                {
+                    "source": "fleet composition",
+                    "relation_type": "includes",
+                    "target": "seven ships"
+                },
+                {
+                    "source": "y chromosome and mitochondrial dna",
+                    "relation_type": "more reliable than",
+                    "target": "autosomal DNA"
+                },
+                {
+                    "source": "john white",
+                    "relation_type": "leadership influence",
+                    "target": "leadership structure"
+                },
+                {
+                    "source": "native american tribes",
+                    "relation_type": "are potential assimilators of",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "Talcott Williams",
+                    "relation_type": "discovered",
+                    "target": "Native American burial site"
+                },
+                {
+                    "source": "investors for colony",
+                    "relation_type": "sought by",
+                    "target": "sir walter raleigh"
+                },
+                {
+                    "source": "william strachey",
+                    "relation_type": "wrote about",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "genetic research initiatives",
+                    "relation_type": "motivated by",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "george bancroft",
+                    "relation_type": "published an account of",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "roanoke colony",
+                    "relation_type": "is also known as",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "evacuation of the colony",
+                    "relation_type": "resulted from",
+                    "target": "supply challenges"
+                },
+                {
+                    "source": "sir walter raleigh",
+                    "relation_type": "initiated",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "cittie of raleigh",
+                    "relation_type": "was intended to be established by",
+                    "target": "john white"
+                },
+                {
+                    "source": "anglo-spanish war",
+                    "relation_type": "delayed the return of",
+                    "target": "john white"
+                },
+                {
+                    "source": "roanoke colony",
+                    "relation_type": "was linked to the search for",
+                    "target": "sassafras"
+                },
+                {
+                    "source": "expedition",
+                    "relation_type": "consisted of",
+                    "target": "fleet composition"
+                },
+                {
+                    "source": "raleigh's charter",
+                    "relation_type": "required establishment of",
+                    "target": "a colony by 1591"
+                },
+                {
+                    "source": "native american tribes",
+                    "relation_type": "cultural exchange",
+                    "target": "cultural exchange"
+                },
+                {
+                    "source": "sir walter raleigh",
+                    "relation_type": "forbidden to leave",
+                    "target": "queen's side"
+                },
+                {
+                    "source": "secotan chieftain",
+                    "relation_type": "represented by",
+                    "target": "native american tribes"
+                },
+                {
+                    "source": "roanoke colony",
+                    "relation_type": "established by",
+                    "target": "virginia colony"
+                },
+                {
+                    "source": "virginia dare",
+                    "relation_type": "symbol of colonization",
+                    "target": "legacy of the colony"
+                },
+                {
+                    "source": "native american tribes",
+                    "relation_type": "interacted with",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "anglo-spanish war",
+                    "relation_type": "contextual influence on",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "base camp establishment",
+                    "relation_type": "led to",
+                    "target": "fortification practices"
+                },
+                {
+                    "source": "charter",
+                    "relation_type": "enabled",
+                    "target": "cittie of raleigh"
+                },
+                {
+                    "source": "virginia dare",
+                    "relation_type": "symbol of colonial legacy",
+                    "target": "legacy of the colony"
+                },
+                {
+                    "source": "croatoan",
+                    "relation_type": "is associated with",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "lost colony",
+                    "relation_type": "is associated with",
+                    "target": "croatoan message"
+                },
+                {
+                    "source": "sir francis bacon's criticism",
+                    "relation_type": "criticized",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "ralph lane",
+                    "relation_type": "faced challenges with",
+                    "target": "native american tribes"
+                },
+                {
+                    "source": "failed resupply attempts",
+                    "relation_type": "contributing factor",
+                    "target": "evacuation of the colony"
+                },
+                {
+                    "source": "jamestown settlement",
+                    "relation_type": "was established after",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "sir walter raleigh",
+                    "relation_type": "delegated missions to",
+                    "target": "associates"
+                },
+                {
+                    "source": "storm impact",
+                    "relation_type": "affected",
+                    "target": "voyage timeline"
+                },
+                {
+                    "source": "lost colony",
+                    "relation_type": "resulted from",
+                    "target": "roanoke colony"
+                },
+                {
+                    "source": "queen elizabeth i",
+                    "relation_type": "supported",
+                    "target": "sir walter raleigh"
+                },
+                {
+                    "source": "croatoan",
+                    "relation_type": "was a clue found by",
+                    "target": "john white"
+                },
+                {
+                    "source": "roanoke colony",
+                    "relation_type": "was established by",
+                    "target": "raleigh's charter"
+                },
+                {
+                    "source": "return to england",
+                    "relation_type": "necessitated by",
+                    "target": "fleet composition"
+                },
+                {
+                    "source": "john white",
+                    "relation_type": "leadership impact",
+                    "target": "leadership structure"
+                },
+                {
+                    "source": "virginia dare",
+                    "relation_type": "was described by",
+                    "target": "george bancroft"
+                },
+                {
+                    "source": "conflict escalation",
+                    "relation_type": "impact on survival",
+                    "target": "native american relations"
+                },
+                {
+                    "source": "sir walter raleigh",
+                    "relation_type": "foundational role",
+                    "target": "cittie of raleigh"
+                },
+                {
+                    "source": "roanoke colony",
+                    "relation_type": "was governed by",
+                    "target": "ralph lane"
+                },
+                {
+                    "source": "wahunsenacawh's attack",
+                    "relation_type": "is linked to",
+                    "target": "david beers quinn's theory"
+                },
+                {
+                    "source": "lawson's investigation",
+                    "relation_type": "led to",
+                    "target": "19th century scholarly analyses"
+                },
+                {
+                    "source": "cora tree",
+                    "relation_type": "is hypothesized to be connected to",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "drought in tidewater",
+                    "relation_type": "environmental impact",
+                    "target": "food acquisition strategies"
+                },
+                {
+                    "source": "sir humphrey gilbert",
+                    "relation_type": "claimed territory",
+                    "target": "st. john's, newfoundland"
+                },
+                {
+                    "source": "david beers quinn's theory",
+                    "relation_type": "suggests",
+                    "target": "assimilation with native american tribes"
+                },
+                {
+                    "source": "expedition fleet",
+                    "relation_type": "departed for",
+                    "target": "chesapeake bay"
+                },
+                {
+                    "source": "Scott Dawson's book",
+                    "relation_type": "describes efforts",
+                    "target": "finding artifacts relating to the Lost Colony"
+                },
+                {
+                    "source": "beechtown settlement",
+                    "relation_type": "is linked to",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "paul green's play",
+                    "relation_type": "is based on",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "lane colony",
+                    "relation_type": "was abandoned due to",
+                    "target": "hostilities with native americans"
+                },
+                {
+                    "source": "queen elizabeth i",
+                    "relation_type": "impressed by",
+                    "target": "expedition"
+                },
+                {
+                    "source": "ananias dare",
+                    "relation_type": "was declared legally dead by",
+                    "target": "john dare"
+                },
+                {
+                    "source": "drought in tidewater",
+                    "relation_type": "studied through",
+                    "target": "growth rings analysis"
+                },
+                {
+                    "source": "lost colony",
+                    "relation_type": "investigated by",
+                    "target": "lawson's investigation"
+                },
+                {
+                    "source": "roanoke colony",
+                    "relation_type": "was founded by",
+                    "target": "sir walter raleigh"
+                },
+                {
+                    "source": "relations with native americans",
+                    "relation_type": "were attempted to be established with",
+                    "target": "croatoan"
+                },
+                {
+                    "source": "queen elizabeth i",
+                    "relation_type": "granted charter to",
+                    "target": "sir humphrey gilbert"
+                },
+                {
+                    "source": "hatteras island",
+                    "relation_type": "was visited by",
+                    "target": "john lawson"
+                },
+                {
+                    "source": "virginia dare",
+                    "relation_type": "symbolized",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "samuel mace expedition",
+                    "relation_type": "was funded by",
+                    "target": "sir walter raleigh"
+                },
+                {
+                    "source": "roanoke colony",
+                    "relation_type": "historical significance",
+                    "target": "lost colony"
+                },
+                {
+                    "source": "expedition",
+                    "relation_type": "strategic planning",
+                    "target": "fleet composition"
+                },
+                {
+                    "source": "sir walter raleigh",
+                    "relation_type": "received lands to",
+                    "target": "the south"
+                },
+                {
+                    "source": "sir walter raleigh",
+                    "relation_type": "sought to find",
+                    "target": "el dorado"
+                },
+                {
+                    "source": "anglo-spanish war",
+                    "relation_type": "contextual influence",
+                    "target": "privateers"
+                },
+                {
+                    "source": "expedition",
+                    "relation_type": "followed",
+                    "target": "transatlantic voyage route"
+                },
+                {
+                    "source": "drought in tidewater",
+                    "relation_type": "environmental challenge",
+                    "target": "food acquisition strategies"
+                },
+                {
+                    "source": "conspiracy theory",
+                    "relation_type": "is proposed by",
+                    "target": "lee miller"
+                },
+                {
+                    "source": "virginia dare",
+                    "relation_type": "is celebrated on",
+                    "target": "virginia dare's birthday celebrations"
+                },
+                {
+                    "source": "military engagements",
+                    "relation_type": "escalation of conflict",
+                    "target": "conflict escalation"
+                },
+                {
+                    "source": "dna testing challenges",
+                    "relation_type": "arise from",
+                    "target": "genetic point of comparison"
+                },
+                {
+                    "source": "First Colony Foundation",
+                    "relation_type": "examined",
+                    "target": "John White's map"
+                },
+                {
+                    "source": "investors for colony",
+                    "relation_type": "funded",
+                    "target": "expedition"
+                },
+                {
+                    "source": "expedition",
+                    "relation_type": "made landfall at",
+                    "target": "landfall"
+                }
+            ]
+        },
+        "Consociationalism": {
+            "category": "political_science",
+            "relations": [
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "balance of power"
+                },
+                {
+                    "source": "decentralized government",
+                    "relation_type": "promotes",
+                    "target": "equality in cabinet"
+                },
+                {
+                    "source": "international actors",
+                    "relation_type": "play a role in",
+                    "target": "power-sharing agreements"
+                },
+                {
+                    "source": "stability",
+                    "relation_type": "is a goal of",
+                    "target": "democratic governance"
+                },
+                {
+                    "source": "favourable conditions for consociationalism",
+                    "relation_type": "includes",
+                    "target": "socioeconomic equality"
+                },
+                {
+                    "source": "motivation of elites",
+                    "relation_type": "necessary for",
+                    "target": "conflict regulation"
+                },
+                {
+                    "source": "balkanised social structure",
+                    "relation_type": "challenges",
+                    "target": "stability"
+                },
+                {
+                    "source": "leadership of deferential segments",
+                    "relation_type": "necessary for",
+                    "target": "democratic consociational power-sharing"
+                },
+                {
+                    "source": "consociational democracy",
+                    "relation_type": "differs from",
+                    "target": "consensus democracy"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "proportional representation"
+                },
+                {
+                    "source": "centripetalism",
+                    "relation_type": "alternative to",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "can lead to",
+                    "target": "sectarianism"
+                },
+                {
+                    "source": "self-interest",
+                    "relation_type": "motivates",
+                    "target": "political parties"
+                },
+                {
+                    "source": "favourable conditions for consociationalism",
+                    "relation_type": "includes",
+                    "target": "small population size"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is exemplified by",
+                    "target": "Dayton Agreement"
+                },
+                {
+                    "source": "South African Constitution of 1983",
+                    "relation_type": "applied",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "political science",
+                    "relation_type": "studies",
+                    "target": "democratic governance"
+                },
+                {
+                    "source": "fractured societies",
+                    "relation_type": "can benefit from",
+                    "target": "stability"
+                },
+                {
+                    "source": "favourable conditions for consociationalism",
+                    "relation_type": "includes",
+                    "target": "multiple balance of power"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "developed to reconcile",
+                    "target": "societal fragmentation"
+                },
+                {
+                    "source": "presence of external threats",
+                    "relation_type": "necessitates",
+                    "target": "overarching loyalties to the state"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "corporatism"
+                },
+                {
+                    "source": "role of social elites",
+                    "relation_type": "critical for",
+                    "target": "political accommodation in the netherlands"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is characterized by",
+                    "target": "internal divisions"
+                },
+                {
+                    "source": "goals of consociationalism",
+                    "relation_type": "include",
+                    "target": "stability"
+                },
+                {
+                    "source": "goals of consociationalism",
+                    "relation_type": "supports",
+                    "target": "stability"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is applied in",
+                    "target": "post-conflict state-building"
+                },
+                {
+                    "source": "economic corporatism",
+                    "relation_type": "was designed to regulate",
+                    "target": "class conflict"
+                },
+                {
+                    "source": "external facilitation",
+                    "relation_type": "enhances",
+                    "target": "post-conflict state-building"
+                },
+                {
+                    "source": "criticism of consociationalism",
+                    "relation_type": "is related to",
+                    "target": "applicability to democratic political systems"
+                },
+                {
+                    "source": "consociation",
+                    "relation_type": "describes",
+                    "target": "self-governing congregational churches"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is organized along",
+                    "target": "confessionalism"
+                },
+                {
+                    "source": "favourable conditions for consociationalism",
+                    "relation_type": "includes",
+                    "target": "presence of external threats"
+                },
+                {
+                    "source": "positive external regulating pressures",
+                    "relation_type": "provides incentives for",
+                    "target": "acceptance of consociation"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "leads to",
+                    "target": "clientele politics"
+                },
+                {
+                    "source": "internal divisions",
+                    "relation_type": "challenges",
+                    "target": "stability"
+                },
+                {
+                    "source": "confessionalism",
+                    "relation_type": "related to",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "favourable conditions for consociationalism",
+                    "relation_type": "includes",
+                    "target": "segmental isolation of ethnic communities"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "coalition cabinets"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "equality in cabinet"
+                },
+                {
+                    "source": "corporatism",
+                    "relation_type": "related to",
+                    "target": "economic corporatism"
+                },
+                {
+                    "source": "stability of subcultures",
+                    "relation_type": "necessary for",
+                    "target": "democratic consociational power-sharing"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "associated with",
+                    "target": "fragile states"
+                },
+                {
+                    "source": "role of social elites",
+                    "relation_type": "focus of",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "elements of direct democracy"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is argued to be",
+                    "target": "more realistic option"
+                },
+                {
+                    "source": "internal divisions",
+                    "relation_type": "are addressed by",
+                    "target": "goals of consociationalism"
+                },
+                {
+                    "source": "netherlands",
+                    "relation_type": "example of",
+                    "target": "consociational state"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "proportional employment"
+                },
+                {
+                    "source": "concurrent majority",
+                    "relation_type": "is a principle of",
+                    "target": "consensus democracy"
+                },
+                {
+                    "source": "boston synod of 1662",
+                    "relation_type": "debated",
+                    "target": "consociation"
+                },
+                {
+                    "source": "political parties",
+                    "relation_type": "cross-cut",
+                    "target": "divisions"
+                },
+                {
+                    "source": "corporatism",
+                    "relation_type": "complements",
+                    "target": "economic corporatism"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "oversized cabinets"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "contrasts with",
+                    "target": "integrationist approaches"
+                },
+                {
+                    "source": "consociational state",
+                    "relation_type": "characterized by",
+                    "target": "power-sharing agreements"
+                },
+                {
+                    "source": "criticism of consociationalism",
+                    "relation_type": "highlights challenges in",
+                    "target": "mixed results of consociational arrangements"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is analogous to",
+                    "target": "corporatism"
+                },
+                {
+                    "source": "myth of consociationalism",
+                    "relation_type": "challenges the effectiveness of",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "decentralized government",
+                    "relation_type": "promotes",
+                    "target": "self-governing congregational churches"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is a form of",
+                    "target": "democratic power sharing"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "neutral head of state"
+                },
+                {
+                    "source": "internal divisions",
+                    "relation_type": "contributes to",
+                    "target": "stability"
+                },
+                {
+                    "source": "concurrent majority",
+                    "relation_type": "can be a precursor to",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "focuses on",
+                    "target": "divisions"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is criticized by",
+                    "target": "African National Congress (ANC)"
+                },
+                {
+                    "source": "non-territorial pillars",
+                    "relation_type": "characterized by",
+                    "target": "balkanised social structure"
+                },
+                {
+                    "source": "peace agreements",
+                    "relation_type": "often utilize",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "two-state solution",
+                    "relation_type": "is an alternative to",
+                    "target": "consociational democracy"
+                },
+                {
+                    "source": "tradition of elite accommodation",
+                    "relation_type": "supports",
+                    "target": "transformative aspect of consociationalism"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "influences",
+                    "target": "democratic power sharing"
+                },
+                {
+                    "source": "post-conflict state-building",
+                    "relation_type": "utilizes",
+                    "target": "external facilitation"
+                },
+                {
+                    "source": "external facilitation",
+                    "relation_type": "enhances",
+                    "target": "favourable conditions for consociationalism"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "decentralized government"
+                },
+                {
+                    "source": "internal divisions",
+                    "relation_type": "exacerbates",
+                    "target": "sectarianism"
+                },
+                {
+                    "source": "self-governing congregational churches",
+                    "relation_type": "empowered by",
+                    "target": "civil legislature and magistracy"
+                },
+                {
+                    "source": "democracy",
+                    "relation_type": "questioned by",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "judicial review"
+                },
+                {
+                    "source": "favourable conditions for consociationalism",
+                    "relation_type": "includes",
+                    "target": "moderate multi-party system"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "discussed by",
+                    "target": "arend lijphart"
+                },
+                {
+                    "source": "internal divisions",
+                    "relation_type": "affects",
+                    "target": "stability"
+                },
+                {
+                    "source": "multiple balance of power",
+                    "relation_type": "necessary for",
+                    "target": "democratic consociational power-sharing"
+                },
+                {
+                    "source": "external facilitation",
+                    "relation_type": "is utilized by",
+                    "target": "international actors"
+                },
+                {
+                    "source": "Islamic Republic of Afghanistan",
+                    "relation_type": "was described as",
+                    "target": "consociational"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "referendums"
+                },
+                {
+                    "source": "criticism of consociationalism",
+                    "relation_type": "highlights",
+                    "target": "mixed results of consociational arrangements"
+                },
+                {
+                    "source": "political accommodation in the netherlands",
+                    "relation_type": "influenced",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "transformative aspect of consociationalism",
+                    "relation_type": "can lead to",
+                    "target": "role of social elites"
+                },
+                {
+                    "source": "power-sharing agreements",
+                    "relation_type": "facilitates",
+                    "target": "post-conflict state-building"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "incongruent bicameralism"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "enables",
+                    "target": "democratic power sharing"
+                },
+                {
+                    "source": "favourable conditions for consociationalism",
+                    "relation_type": "includes",
+                    "target": "tradition of elite accommodation"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "rigid constitution"
+                },
+                {
+                    "source": "consociational state",
+                    "relation_type": "includes",
+                    "target": "political and economic representation"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "characterized by",
+                    "target": "independent central bank"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is a form of",
+                    "target": "power-sharing agreements"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "criticized for",
+                    "target": "internal divisions"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "dependent on",
+                    "target": "external support"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is exemplified by",
+                    "target": "Good Friday Agreement"
+                },
+                {
+                    "source": "mixed results of consociational arrangements",
+                    "relation_type": "are observed in",
+                    "target": "post-conflict state-building"
+                },
+                {
+                    "source": "High Representative",
+                    "relation_type": "is an example of",
+                    "target": "international actors"
+                },
+                {
+                    "source": "consociationalism",
+                    "relation_type": "is exemplified by",
+                    "target": "Ohrid Agreement"
+                },
+                {
+                    "source": "international actors",
+                    "relation_type": "support",
+                    "target": "power-sharing agreements"
+                },
+                {
+                    "source": "mixed results of consociational arrangements",
+                    "relation_type": "reflects",
+                    "target": "transformative aspect of consociationalism"
+                },
+                {
+                    "source": "criticism of consociationalism",
+                    "relation_type": "contrasts with",
+                    "target": "majoritarian democracy"
+                },
+                {
+                    "source": "economic corporatism",
+                    "relation_type": "intersects with",
+                    "target": "corporatism"
+                },
+                {
+                    "source": "majoritarian democracy",
+                    "relation_type": "is preferred over",
+                    "target": "consociationalism"
+                },
+                {
+                    "source": "role of social elites",
+                    "relation_type": "influences",
+                    "target": "motivation of elites"
+                },
+                {
+                    "source": "South African government",
+                    "relation_type": "attempted to reform",
+                    "target": "apartheid into consociational democracy"
+                },
+                {
+                    "source": "favourable conditions for consociationalism",
+                    "relation_type": "includes",
+                    "target": "overarching loyalties to the state"
+                },
+                {
+                    "source": "gerhard lehmbruch",
+                    "relation_type": "suggests",
+                    "target": "precursors of consociationalism"
+                },
+                {
+                    "source": "transformative aspect of consociationalism",
+                    "relation_type": "contributes to",
+                    "target": "stability for peace-building"
+                },
+                {
+                    "source": "presence of external threats",
+                    "relation_type": "necessitates",
+                    "target": "multiple balance of power"
+                },
+                {
+                    "source": "john mcgarry and brendan o'leary",
+                    "relation_type": "trace back",
+                    "target": "consociationalism"
+                }
+            ]
+        },
+        "Fluxus": {
+            "category": "arts",
+            "relations": [
+                {
+                    "source": "fluxus movement timeline",
+                    "relation_type": "defined by",
+                    "target": "1962 to 1978"
+                },
+                {
+                    "source": "joseph beuys",
+                    "relation_type": "exemplifies",
+                    "target": "fluxus approach"
+                },
+                {
+                    "source": "japanese culture",
+                    "relation_type": "corresponds with",
+                    "target": "fluxus approach"
+                },
+                {
+                    "source": "fluxlist",
+                    "relation_type": "online community created by",
+                    "target": "original fluxus artists"
+                },
+                {
+                    "source": "shibumi",
+                    "relation_type": "involves",
+                    "target": "appreciation of bare objects"
+                },
+                {
+                    "source": "fluxus festivals",
+                    "relation_type": "showcase for",
+                    "target": "performance art"
+                },
+                {
+                    "source": "gilbert and lila silverman collection",
+                    "relation_type": "historical collection of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "experimental art performances",
+                    "relation_type": "includes",
+                    "target": "fluxus events"
+                },
+                {
+                    "source": "anti-art",
+                    "relation_type": "conceptual link to",
+                    "target": "readymades"
+                },
+                {
+                    "source": "themes of decay and inadequacy of modernity",
+                    "relation_type": "explored through",
+                    "target": "fluxus art"
+                },
+                {
+                    "source": "maciunas",
+                    "relation_type": "accused of",
+                    "target": "accusations against maciunas"
+                },
+                {
+                    "source": "fluxhousing co-operatives",
+                    "relation_type": "demonstrates",
+                    "target": "flux communes"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is a community of",
+                    "target": "artists, composers, designers, and poets"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "influences",
+                    "target": "experimental art performances"
+                },
+                {
+                    "source": "video art",
+                    "relation_type": "evolves from",
+                    "target": "intermedia"
+                },
+                {
+                    "source": "zen buddhism",
+                    "relation_type": "influenced",
+                    "target": "chance and indeterminacy"
+                },
+                {
+                    "source": "fluxus events",
+                    "relation_type": "included",
+                    "target": "fluxfests"
+                },
+                {
+                    "source": "role of women in fluxus",
+                    "relation_type": "significant aspect of",
+                    "target": "fluxus movement timeline"
+                },
+                {
+                    "source": "yoko ono",
+                    "relation_type": "recommended",
+                    "target": "maciunas"
+                },
+                {
+                    "source": "fluxhousing co-operatives",
+                    "relation_type": "established by",
+                    "target": "maciunas"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "utilizes",
+                    "target": "minimal performances"
+                },
+                {
+                    "source": "readymades",
+                    "relation_type": "challenged",
+                    "target": "notion of art"
+                },
+                {
+                    "source": "post-war disenchantment",
+                    "relation_type": "context for",
+                    "target": "fluxus movement"
+                },
+                {
+                    "source": "fluxus manifesto",
+                    "relation_type": "was proposed by",
+                    "target": "george maciunas"
+                },
+                {
+                    "source": "political stance",
+                    "relation_type": "advocated by",
+                    "target": "george maciunas"
+                },
+                {
+                    "source": "event scores",
+                    "relation_type": "are a type of",
+                    "target": "performance art"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is associated with",
+                    "target": "video art"
+                },
+                {
+                    "source": "pantonomic essence of japanese art",
+                    "relation_type": "describes",
+                    "target": "relationship between nature, art, and life"
+                },
+                {
+                    "source": "collaboration",
+                    "relation_type": "central to",
+                    "target": "fluxus festivals"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is a discourse on",
+                    "target": "discourse on failure"
+                },
+                {
+                    "source": "chance and indeterminacy",
+                    "relation_type": "explored in",
+                    "target": "experimental composition"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "shifted towards",
+                    "target": "shift towards publication"
+                },
+                {
+                    "source": "fluxus manifesto",
+                    "relation_type": "defines",
+                    "target": "fluxus as a laboratory"
+                },
+                {
+                    "source": "event scores",
+                    "relation_type": "included in",
+                    "target": "grapefruit"
+                },
+                {
+                    "source": "fluxus as a laboratory",
+                    "relation_type": "metaphor for",
+                    "target": "collective authorship"
+                },
+                {
+                    "source": "jean brown",
+                    "relation_type": "collector of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxorchestra performance",
+                    "relation_type": "featured",
+                    "target": "yoko ono"
+                },
+                {
+                    "source": "event scores",
+                    "relation_type": "characteristic of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "political stance",
+                    "relation_type": "reflected in",
+                    "target": "maciunas' agitprop approach"
+                },
+                {
+                    "source": "events",
+                    "relation_type": "involves",
+                    "target": "audience integration"
+                },
+                {
+                    "source": "2023",
+                    "relation_type": "year of",
+                    "target": "cd release"
+                },
+                {
+                    "source": "fluxus sound works",
+                    "relation_type": "included in",
+                    "target": "fluxus & neofluxus / stolen symphony"
+                },
+                {
+                    "source": "experimental art performances",
+                    "relation_type": "are emphasized by",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "collaboration",
+                    "relation_type": "core principle of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus as a laboratory",
+                    "relation_type": "conceptual framework for",
+                    "target": "fluxus events"
+                },
+                {
+                    "source": "fluxus movement timeline",
+                    "relation_type": "documents",
+                    "target": "development of fluxus"
+                },
+                {
+                    "source": "fluxhousing co-operatives",
+                    "relation_type": "example of",
+                    "target": "flux communes"
+                },
+                {
+                    "source": "humor",
+                    "relation_type": "integral to",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus & neofluxus / stolen symphony",
+                    "relation_type": "format",
+                    "target": "cd release"
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "influence on",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "zen buddhism",
+                    "relation_type": "influences",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is described as",
+                    "target": "a laboratory"
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "is the founder of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "avant-garde art in japan",
+                    "relation_type": "tends toward",
+                    "target": "informal elements"
+                },
+                {
+                    "source": "themes of decay and inadequacy of modernity",
+                    "relation_type": "adopted from",
+                    "target": "Duchamp and Dada"
+                },
+                {
+                    "source": "maciunas",
+                    "relation_type": "insisted on",
+                    "target": "unity in fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "emphasizes",
+                    "target": "anti-art"
+                },
+                {
+                    "source": "collaboration",
+                    "relation_type": "central to",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "henry cowell",
+                    "relation_type": "influenced",
+                    "target": "event scores"
+                },
+                {
+                    "source": "dada",
+                    "relation_type": "predecessor of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is associated with",
+                    "target": "conceptual art"
+                },
+                {
+                    "source": "los angeles philharmonic fluxus festival",
+                    "relation_type": "event celebrating",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "political stance",
+                    "relation_type": "reflection of",
+                    "target": "maciunas' agitprop approach"
+                },
+                {
+                    "source": "readymades",
+                    "relation_type": "influenced",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "role of women in fluxus",
+                    "relation_type": "highlights",
+                    "target": "yoko ono"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "characterized by",
+                    "target": "characteristics of fluxus artists"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "challenges",
+                    "target": "notions of representation"
+                },
+                {
+                    "source": "maciunas' death",
+                    "relation_type": "marks",
+                    "target": "decline of fluxus"
+                },
+                {
+                    "source": "fluxkits",
+                    "relation_type": "developed by",
+                    "target": "maciunas"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "includes",
+                    "target": "humor"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is characterized by",
+                    "target": "simplicity"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "shares similarities with",
+                    "target": "dada"
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "influences",
+                    "target": "fluxus manifesto"
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "influence on",
+                    "target": "fluxus manifesto"
+                },
+                {
+                    "source": "fluxus festivals",
+                    "relation_type": "gave rise to",
+                    "target": "a loose but robust community"
+                },
+                {
+                    "source": "zen buddhism",
+                    "relation_type": "philosophical foundation for",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "experiences",
+                    "target": "resistance to pigeonholing"
+                },
+                {
+                    "source": "abstract expressionism",
+                    "relation_type": "preceded",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "dada",
+                    "relation_type": "precursor to",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is characterized by",
+                    "target": "do-it-yourself approach"
+                },
+                {
+                    "source": "post-fluxus community",
+                    "relation_type": "emerged from",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "avant-garde art in japan",
+                    "relation_type": "influenced by",
+                    "target": "gutai group"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "lacks",
+                    "target": "lack of leadership"
+                },
+                {
+                    "source": "fluxus festivals",
+                    "relation_type": "platform for",
+                    "target": "experimental art performances"
+                },
+                {
+                    "source": "gutai group",
+                    "relation_type": "predecessor of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxkits",
+                    "relation_type": "produced by",
+                    "target": "george maciunas"
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "influenced",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "involves",
+                    "target": "acts of excommunication"
+                },
+                {
+                    "source": "Sub Rosa records",
+                    "relation_type": "released",
+                    "target": "fluxus sound works"
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "key participant in",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is associated with",
+                    "target": "performance art"
+                },
+                {
+                    "source": "dada",
+                    "relation_type": "predecessor to",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "inclusivity of fluxus",
+                    "relation_type": "significant for",
+                    "target": "significance of female membership"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "influences",
+                    "target": "conceptual art"
+                },
+                {
+                    "source": "something else press",
+                    "relation_type": "is a publisher of",
+                    "target": "fluxus editions"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "lacks",
+                    "target": "lack of consistent identity"
+                },
+                {
+                    "source": "collaboration",
+                    "relation_type": "core principle of",
+                    "target": "fluxus events"
+                },
+                {
+                    "source": "post-fluxus community",
+                    "relation_type": "evolution from",
+                    "target": "fluxus movement"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "has a complexity in",
+                    "target": "unified history"
+                },
+                {
+                    "source": "audience integration",
+                    "relation_type": "emphasized in",
+                    "target": "fluxus performances"
+                },
+                {
+                    "source": "found objects",
+                    "relation_type": "utilized in",
+                    "target": "fluxus art"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is presented in",
+                    "target": "events"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "incorporates",
+                    "target": "found objects"
+                },
+                {
+                    "source": "flux communes",
+                    "relation_type": "aimed to bridge",
+                    "target": "artist community and surrounding society"
+                },
+                {
+                    "source": "fluxus manifesto",
+                    "relation_type": "articulates",
+                    "target": "anti-art"
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "founder of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "produced",
+                    "target": "intermedia"
+                },
+                {
+                    "source": "readymades",
+                    "relation_type": "related to",
+                    "target": "anti-art"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is characterized by",
+                    "target": "performative essence"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "eliminates",
+                    "target": "boundaries between art and life"
+                },
+                {
+                    "source": "shock factor",
+                    "relation_type": "is utilized by",
+                    "target": "nam june paik"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is influenced by",
+                    "target": "john cage"
+                },
+                {
+                    "source": "jon hendricks",
+                    "relation_type": "curator of",
+                    "target": "gilbert and lila silverman collection"
+                },
+                {
+                    "source": "gutai group",
+                    "relation_type": "promotes",
+                    "target": "avant-garde art in japan"
+                },
+                {
+                    "source": "fluxus festivals",
+                    "relation_type": "showcase",
+                    "target": "fluxus events"
+                },
+                {
+                    "source": "marcel duchamp",
+                    "relation_type": "influenced",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxwedding",
+                    "relation_type": "event performed by",
+                    "target": "george maciunas"
+                },
+                {
+                    "source": "maciunas' agitprop approach",
+                    "relation_type": "informs",
+                    "target": "political stance"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "associated with",
+                    "target": "associated artists"
+                },
+                {
+                    "source": "post-fluxus community",
+                    "relation_type": "emerges from",
+                    "target": "fluxus movement timeline"
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "coined",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is similar to",
+                    "target": "dada"
+                },
+                {
+                    "source": "role of women in fluxus",
+                    "relation_type": "illustrated by",
+                    "target": "yoko ono"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "promotes",
+                    "target": "anti-commercialism"
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "promotes",
+                    "target": "inclusivity of fluxus"
+                },
+                {
+                    "source": "maciunas' agitprop approach",
+                    "relation_type": "influenced",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "collective authorship",
+                    "relation_type": "promoted by",
+                    "target": "maciunas"
+                },
+                {
+                    "source": "maciunas' death",
+                    "relation_type": "marked the end of",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "influences",
+                    "target": "chance and indeterminacy"
+                },
+                {
+                    "source": "political stance",
+                    "relation_type": "expressed through",
+                    "target": "maciunas' agitprop approach"
+                },
+                {
+                    "source": "post-war disenchantment",
+                    "relation_type": "influences",
+                    "target": "commitment to Buddhism and Zen"
+                },
+                {
+                    "source": "nam june paik",
+                    "relation_type": "is a notable figure in",
+                    "target": "fluxus"
+                },
+                {
+                    "source": "collage",
+                    "relation_type": "is a creative form adopted by",
+                    "target": "fluxus practitioners"
+                },
+                {
+                    "source": "role of women in fluxus",
+                    "relation_type": "significant aspect of",
+                    "target": "fluxus movement"
+                },
+                {
+                    "source": "fluxkits",
+                    "relation_type": "are a type of",
+                    "target": "fluxus boxes"
+                },
+                {
+                    "source": "collaboration",
+                    "relation_type": "central theme in",
+                    "target": "fluxus"
+                }
+            ]
+        },
+        "Mandelbrot set": {
+            "category": "math/stats",
+            "relations": [
+                {
+                    "source": "bifurcation locus",
+                    "relation_type": "describes behavior of",
+                    "target": "quadratic polynomial"
+                },
+                {
+                    "source": "cultural references",
+                    "relation_type": "influence the perception of",
+                    "target": "fractals"
+                },
+                {
+                    "source": "iteration of the quadratic map",
+                    "relation_type": "applies to",
+                    "target": "complex plane"
+                },
+                {
+                    "source": "robert w. brooks and peter matelski",
+                    "relation_type": "defined and drew",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is named after",
+                    "target": "benoit mandelbrot"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "centerpiece of",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "example of c = 1",
+                    "relation_type": "is not an element of",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "cubic connectedness locus",
+                    "relation_type": "involves",
+                    "target": "critical points"
+                },
+                {
+                    "source": "fractals",
+                    "relation_type": "is a concept studied within",
+                    "target": "chaos theory"
+                },
+                {
+                    "source": "tricorn fractal",
+                    "relation_type": "is connectedness locus of",
+                    "target": "anti-holomorphic family"
+                },
+                {
+                    "source": "dynamics in one complex variable",
+                    "relation_type": "is a field of study related to",
+                    "target": "complex functions"
+                },
+                {
+                    "source": "Mandelbrot set",
+                    "relation_type": "is popular for",
+                    "target": "aesthetic appeal"
+                },
+                {
+                    "source": "Mandelbrot set",
+                    "relation_type": "is defined by",
+                    "target": "complex numbers c"
+                },
+                {
+                    "source": "algorithm for computing the mandelbrot set",
+                    "relation_type": "is a practical application of",
+                    "target": "computer-graphics demo"
+                },
+                {
+                    "source": "visual representations",
+                    "relation_type": "enhance the understanding of",
+                    "target": "fractals"
+                },
+                {
+                    "source": "period-q bulbs",
+                    "relation_type": "are tangent to",
+                    "target": "main cardioid"
+                },
+                {
+                    "source": "adrien douady and john h. hubbard",
+                    "relation_type": "advanced the understanding of",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "p/q-limb",
+                    "relation_type": "has diameter that tends to",
+                    "target": "zero"
+                },
+                {
+                    "source": "iteration of the quadratic map",
+                    "relation_type": "is a method for exploring",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "algorithm for computing the mandelbrot set",
+                    "relation_type": "is a practical application of",
+                    "target": "complex functions"
+                },
+                {
+                    "source": "connectedness locus",
+                    "relation_type": "is a characteristic of",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "became prominent as",
+                    "target": "computer-graphics demo"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "named in honor of",
+                    "target": "benoit mandelbrot"
+                },
+                {
+                    "source": "scientific american",
+                    "relation_type": "featured article on",
+                    "target": "algorithm for computing the mandelbrot set"
+                },
+                {
+                    "source": "Mandelbrot set",
+                    "relation_type": "corresponds to",
+                    "target": "Julia set"
+                },
+                {
+                    "source": "escape condition",
+                    "relation_type": "determines the end of",
+                    "target": "iteration of the quadratic map"
+                },
+                {
+                    "source": "pseudocode",
+                    "relation_type": "describes the process of",
+                    "target": "escape time algorithm"
+                },
+                {
+                    "source": "self-similarity",
+                    "relation_type": "is a defining feature of",
+                    "target": "fractals"
+                },
+                {
+                    "source": "Benoit Mandelbrot",
+                    "relation_type": "obtained",
+                    "target": "high-quality visualizations"
+                },
+                {
+                    "source": "Mandelbrot set",
+                    "relation_type": "is self-similar under magnification in the neighborhoods of",
+                    "target": "Misiurewicz points"
+                },
+                {
+                    "source": "bifurcation locus",
+                    "relation_type": "is the boundary of",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "influences",
+                    "target": "media adaptations"
+                },
+                {
+                    "source": "hyperbolic components",
+                    "relation_type": "are interior components of",
+                    "target": "Mandelbrot set"
+                },
+                {
+                    "source": "benoit mandelbrot",
+                    "relation_type": "is a key figure in",
+                    "target": "fractal geometry"
+                },
+                {
+                    "source": "dynamical systems",
+                    "relation_type": "are studied through",
+                    "target": "iteration of the quadratic map"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "originates from",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "chaos theory",
+                    "relation_type": "is related to",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is a subject of",
+                    "target": "cultural references"
+                },
+                {
+                    "source": "algorithm for computing the mandelbrot set",
+                    "relation_type": "enables visualization of",
+                    "target": "computer-graphics demo"
+                },
+                {
+                    "source": "color palette",
+                    "relation_type": "is used to assign colors based on",
+                    "target": "iteration limit"
+                },
+                {
+                    "source": "benoit mandelbrot",
+                    "relation_type": "is associated with",
+                    "target": "chaos theory"
+                },
+                {
+                    "source": "quaternions",
+                    "relation_type": "extend",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "interest in complex dynamics and abstract mathematics",
+                    "relation_type": "increased during",
+                    "target": "work of douady and hubbard"
+                },
+                {
+                    "source": "heinz-otto peitgen and peter richter",
+                    "relation_type": "popularized the concepts of",
+                    "target": "fractal geometry"
+                },
+                {
+                    "source": "multibrot sets",
+                    "relation_type": "have central region as",
+                    "target": "epicycloid"
+                },
+                {
+                    "source": "Mandelbrot set",
+                    "relation_type": "is a type of",
+                    "target": "fractal structure"
+                },
+                {
+                    "source": "bulbs",
+                    "relation_type": "characterized by",
+                    "target": "antennae"
+                },
+                {
+                    "source": "self-similarity",
+                    "relation_type": "is a property of",
+                    "target": "fractals"
+                },
+                {
+                    "source": "dynamical formula for uniformisation",
+                    "relation_type": "arises from",
+                    "target": "proof of the connectedness of m"
+                },
+                {
+                    "source": "quadratic polynomial",
+                    "relation_type": "gives rise to",
+                    "target": "attracting cycles"
+                },
+                {
+                    "source": "multibrot sets",
+                    "relation_type": "have central region as",
+                    "target": "hypocycloid"
+                },
+                {
+                    "source": "robert w. brooks and peter matelski",
+                    "relation_type": "are key figures in",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "hyperbolic components",
+                    "relation_type": "are part of",
+                    "target": "connectedness locus"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is a type of",
+                    "target": "fractals"
+                },
+                {
+                    "source": "algorithm for computing the mandelbrot set",
+                    "relation_type": "enables",
+                    "target": "visual representations"
+                },
+                {
+                    "source": "iteration limit",
+                    "relation_type": "is a parameter in",
+                    "target": "escape time algorithm"
+                },
+                {
+                    "source": "power variable",
+                    "relation_type": "modifies the behavior of",
+                    "target": "iteration of the quadratic map"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is the connectedness locus of",
+                    "target": "julia set"
+                },
+                {
+                    "source": "bifurcation locus",
+                    "relation_type": "is a concept within",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is a specific example of",
+                    "target": "fractals"
+                },
+                {
+                    "source": "centers of hyperbolic components",
+                    "relation_type": "are points where",
+                    "target": "inner Fatou domain has a super-attracting cycle"
+                },
+                {
+                    "source": "bifurcation locus",
+                    "relation_type": "influences",
+                    "target": "hyperbolic components"
+                },
+                {
+                    "source": "Julia set",
+                    "relation_type": "is obtained by varying",
+                    "target": "initial value of z"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is contained in",
+                    "target": "closed disk of radius 2"
+                },
+                {
+                    "source": "burning ship fractal",
+                    "relation_type": "is obtained by iterating",
+                    "target": "specific function"
+                },
+                {
+                    "source": "benoit mandelbrot",
+                    "relation_type": "contributed to the development of",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is represented in",
+                    "target": "media adaptations"
+                },
+                {
+                    "source": "Mandelbrot set",
+                    "relation_type": "is an example of",
+                    "target": "mathematical visualization"
+                },
+                {
+                    "source": "Mandelbrot set",
+                    "relation_type": "was first defined by",
+                    "target": "Robert W. Brooks and Peter Matelski"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is referenced in",
+                    "target": "media adaptations"
+                },
+                {
+                    "source": "main cardioid",
+                    "relation_type": "is a region of parameters for",
+                    "target": "attracting fixed point"
+                },
+                {
+                    "source": "mathematical studies",
+                    "relation_type": "encompasses",
+                    "target": "dynamics in one complex variable"
+                },
+                {
+                    "source": "rotation number",
+                    "relation_type": "determined by",
+                    "target": "numbering antennas"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is featured in",
+                    "target": "visual representations"
+                },
+                {
+                    "source": "Farey addition",
+                    "relation_type": "used to determine",
+                    "target": "largest bulb"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is connected",
+                    "target": "connectedness of m"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is a specific example of",
+                    "target": "fractal geometry"
+                },
+                {
+                    "source": "fractal geometry",
+                    "relation_type": "is influenced by",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "connectedness of m",
+                    "relation_type": "is a property of",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "Fibonacci sequence",
+                    "relation_type": "manifests in",
+                    "target": "periods of circular bulbs"
+                },
+                {
+                    "source": "iteration of the quadratic map",
+                    "relation_type": "is part of the process in",
+                    "target": "escape time algorithm"
+                },
+                {
+                    "source": "chaos theory",
+                    "relation_type": "is a branch of",
+                    "target": "dynamical systems"
+                },
+                {
+                    "source": "scientific american",
+                    "relation_type": "popularized concepts of",
+                    "target": "complex dynamics and fractal geometry"
+                },
+                {
+                    "source": "iteration of the quadratic map",
+                    "relation_type": "is a method used in",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "gradient boundaries",
+                    "relation_type": "highlighted by",
+                    "target": "animations"
+                },
+                {
+                    "source": "connectedness locus",
+                    "relation_type": "is a concept within",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "bifurcation",
+                    "relation_type": "occurs at",
+                    "target": "c_pq"
+                },
+                {
+                    "source": "hyperbolic components",
+                    "relation_type": "connected to",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "Hausdorff dimension",
+                    "relation_type": "of the boundary of the Mandelbrot set equals",
+                    "target": "2"
+                },
+                {
+                    "source": "conformal isomorphism",
+                    "relation_type": "is constructed between",
+                    "target": "complement of the mandelbrot set and the complement of the closed unit disk"
+                },
+                {
+                    "source": "adrien douady and john h. hubbard",
+                    "relation_type": "established properties of",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "satellite",
+                    "relation_type": "is a type of",
+                    "target": "hyperbolic component"
+                },
+                {
+                    "source": "attracting cycles",
+                    "relation_type": "exhibit",
+                    "target": "rotational motion"
+                },
+                {
+                    "source": "rational number",
+                    "relation_type": "bifurcates into",
+                    "target": "hyperbolic components"
+                },
+                {
+                    "source": "benoit mandelbrot",
+                    "relation_type": "first visualized",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "fractals",
+                    "relation_type": "are explored in",
+                    "target": "mathematical studies"
+                },
+                {
+                    "source": "point c in mandelbrot set",
+                    "relation_type": "must satisfy",
+                    "target": "escape to infinity"
+                },
+                {
+                    "source": "period-2 bulb",
+                    "relation_type": "is attached to",
+                    "target": "main cardioid"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is visualized using",
+                    "target": "escape time algorithm"
+                },
+                {
+                    "source": "escape time algorithm",
+                    "relation_type": "performs calculations on",
+                    "target": "complex plane"
+                },
+                {
+                    "source": "connectedness locus",
+                    "relation_type": "is related to",
+                    "target": "julia set"
+                },
+                {
+                    "source": "example of c = -1",
+                    "relation_type": "is an element of",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "interest in complex dynamics and abstract mathematics",
+                    "relation_type": "is driven by",
+                    "target": "examples like c = 1 and c = -1"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is a specific instance of",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "fractal geometry",
+                    "relation_type": "is a broader field encompassing",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "density of hyperbolicity",
+                    "relation_type": "is a problem related to",
+                    "target": "hyperbolic components"
+                },
+                {
+                    "source": "color representation",
+                    "relation_type": "is based on",
+                    "target": "escape condition"
+                },
+                {
+                    "source": "chaos theory",
+                    "relation_type": "informs the understanding of",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "multibrot sets",
+                    "relation_type": "are obtained by varying",
+                    "target": "exponents in multibrot sets"
+                },
+                {
+                    "source": "complex dynamics",
+                    "relation_type": "involves the study of",
+                    "target": "iteration of the quadratic map"
+                },
+                {
+                    "source": "yoccoz-inequality",
+                    "relation_type": "estimates",
+                    "target": "size of p/q-limb"
+                },
+                {
+                    "source": "Mandelbrot locally connected (mlc)",
+                    "relation_type": "is a conjecture about",
+                    "target": "Mandelbrot set"
+                },
+                {
+                    "source": "Mandelbrot set",
+                    "relation_type": "exhibits",
+                    "target": "great complexity"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is a subset of",
+                    "target": "complex dynamics"
+                },
+                {
+                    "source": "critical points",
+                    "relation_type": "are essential for determining",
+                    "target": "attracting fixed point"
+                },
+                {
+                    "source": "heinz-otto peitgen and peter richter",
+                    "relation_type": "promoted",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is described in",
+                    "target": "mathematical structure"
+                },
+                {
+                    "source": "density of hyperbolicity",
+                    "relation_type": "affects",
+                    "target": "centers of hyperbolic components"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "has cultural references in",
+                    "target": "cultural references"
+                },
+                {
+                    "source": "mandelbrot set",
+                    "relation_type": "is defined as",
+                    "target": "bounded sequence"
+                },
+                {
+                    "source": "mandelbrot curves",
+                    "relation_type": "are constructed as",
+                    "target": "limit set of a sequence of plane algebraic curves"
+                },
+                {
+                    "source": "intersection of m with the real axis",
+                    "relation_type": "corresponds to",
+                    "target": "logistic family"
+                },
+                {
+                    "source": "media adaptations",
+                    "relation_type": "reflects the cultural significance of",
+                    "target": "fractals"
+                },
+                {
+                    "source": "p/q-limb",
+                    "relation_type": "has",
+                    "target": "antennae"
+                },
+                {
+                    "source": "Mandelbrot set images",
+                    "relation_type": "reveal",
+                    "target": "infinitely complicated boundary"
+                },
+                {
+                    "source": "julia set",
+                    "relation_type": "is related to",
+                    "target": "mandelbrot set"
+                },
+                {
+                    "source": "multibrot sets",
+                    "relation_type": "are connectedness loci for",
+                    "target": "julia sets"
+                }
+            ]
+        },
+        "Cryotherapy": {
+            "category": "health/medicine",
+            "relations": [
+                {
+                    "source": "fight or flight response",
+                    "relation_type": "results in",
+                    "target": "extreme focus and sense of euphoria"
+                },
+                {
+                    "source": "fight or flight response",
+                    "relation_type": "interacts with",
+                    "target": "thermoregulation"
+                },
+                {
+                    "source": "mental health support",
+                    "relation_type": "is linked to",
+                    "target": "therapeutic health benefits"
+                },
+                {
+                    "source": "temperature reduction",
+                    "relation_type": "minimizes",
+                    "target": "muscle spasms"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "decreases",
+                    "target": "temperature reduction"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "utilizes",
+                    "target": "cold chambers"
+                },
+                {
+                    "source": "vasoconstriction and vasodilation",
+                    "relation_type": "are physiological responses of",
+                    "target": "cold application"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "affects",
+                    "target": "range of motion"
+                },
+                {
+                    "source": "whole-body cryotherapy",
+                    "relation_type": "decreases",
+                    "target": "recovery time"
+                },
+                {
+                    "source": "electric cryotherapy chambers",
+                    "relation_type": "uses",
+                    "target": "cooling agent"
+                },
+                {
+                    "source": "tetrafluoroethane and dimethyl ether",
+                    "relation_type": "components of",
+                    "target": "cold aerosol sprays"
+                },
+                {
+                    "source": "partial body cryotherapy",
+                    "relation_type": "is a type of",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "musculoskeletal injury",
+                    "relation_type": "is treated by",
+                    "target": "treatment methods"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "is a type of",
+                    "target": "cold therapy"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "can have",
+                    "target": "adverse effects"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "includes",
+                    "target": "cold chambers"
+                },
+                {
+                    "source": "inflammatory response",
+                    "relation_type": "is affected by",
+                    "target": "vasoconstriction and vasodilation"
+                },
+                {
+                    "source": "circulatory system activation",
+                    "relation_type": "facilitated by",
+                    "target": "blood vessel expansion"
+                },
+                {
+                    "source": "cryosurgery",
+                    "relation_type": "has",
+                    "target": "contraindications"
+                },
+                {
+                    "source": "muscle recovery",
+                    "relation_type": "is affected by",
+                    "target": "range of motion"
+                },
+                {
+                    "source": "recovery acceleration",
+                    "relation_type": "enhanced by",
+                    "target": "healing and muscle fiber regeneration"
+                },
+                {
+                    "source": "session frequency",
+                    "relation_type": "is important for",
+                    "target": "healing process"
+                },
+                {
+                    "source": "ice packs and ice baths",
+                    "relation_type": "examples of",
+                    "target": "cold therapy"
+                },
+                {
+                    "source": "cold therapy",
+                    "relation_type": "method of",
+                    "target": "treatment methods"
+                },
+                {
+                    "source": "temperature reduction",
+                    "relation_type": "causes",
+                    "target": "blood vessel constriction"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "is used for",
+                    "target": "post-surgical management"
+                },
+                {
+                    "source": "historical development of cryotherapy",
+                    "relation_type": "informs",
+                    "target": "current treatment methods"
+                },
+                {
+                    "source": "swelling and edema",
+                    "relation_type": "prolongs",
+                    "target": "recovery acceleration"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "has therapeutic health benefits for",
+                    "target": "pain management"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "is a treatment for",
+                    "target": "total knee arthroplasty"
+                },
+                {
+                    "source": "whole-body cryotherapy",
+                    "relation_type": "is a variant of",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "thermoregulation",
+                    "relation_type": "protects",
+                    "target": "vital organs"
+                },
+                {
+                    "source": "pain intensity",
+                    "relation_type": "is reduced by",
+                    "target": "analgesics consumption"
+                },
+                {
+                    "source": "cooling agent",
+                    "relation_type": "provides",
+                    "target": "safe, breathable environment"
+                },
+                {
+                    "source": "historical development of cryotherapy",
+                    "relation_type": "introduced to",
+                    "target": "Europe, US and Australia"
+                },
+                {
+                    "source": "temperature reduction",
+                    "relation_type": "causes",
+                    "target": "swelling and edema"
+                },
+                {
+                    "source": "vasoconstriction and vasodilation",
+                    "relation_type": "mechanism of",
+                    "target": "inflammatory response"
+                },
+                {
+                    "source": "inflammatory response",
+                    "relation_type": "affected by",
+                    "target": "vasoconstriction and vasodilation"
+                },
+                {
+                    "source": "physiologic effects of cold application",
+                    "relation_type": "include",
+                    "target": "vasoconstriction"
+                },
+                {
+                    "source": "financial implications",
+                    "relation_type": "are influenced by",
+                    "target": "cost-effectiveness"
+                },
+                {
+                    "source": "vasoconstriction and vasodilation",
+                    "relation_type": "includes",
+                    "target": "blood vessel expansion"
+                },
+                {
+                    "source": "evaporation cooling mechanism",
+                    "relation_type": "used in",
+                    "target": "cold aerosol sprays"
+                },
+                {
+                    "source": "cryosurgery",
+                    "relation_type": "requires",
+                    "target": "precautions"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "has no significant effect on",
+                    "target": "range of motion"
+                },
+                {
+                    "source": "electric cryotherapy chambers",
+                    "relation_type": "designed for",
+                    "target": "therapeutic health benefits"
+                },
+                {
+                    "source": "electric cryotherapy chambers",
+                    "relation_type": "triggers",
+                    "target": "fight or flight response"
+                },
+                {
+                    "source": "continuous cryotherapy",
+                    "relation_type": "is not cost-effective compared to",
+                    "target": "traditional cryotherapy"
+                },
+                {
+                    "source": "cold aerosol sprays",
+                    "relation_type": "relieves",
+                    "target": "trigger points"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "is a type of",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "vasoconstriction and vasodilation",
+                    "relation_type": "are processes of",
+                    "target": "thermoregulation"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "affects",
+                    "target": "swelling and edema"
+                },
+                {
+                    "source": "cold aerosol sprays",
+                    "relation_type": "used for",
+                    "target": "short-term pain relief"
+                },
+                {
+                    "source": "circulatory system activation",
+                    "relation_type": "encourages",
+                    "target": "healing and muscle fiber regeneration"
+                },
+                {
+                    "source": "adverse effects of ice pack therapy",
+                    "relation_type": "are considerations in",
+                    "target": "efficacy of ice pack therapy"
+                },
+                {
+                    "source": "therapeutic health benefits",
+                    "relation_type": "includes",
+                    "target": "recovery acceleration"
+                },
+                {
+                    "source": "cryosurgery",
+                    "relation_type": "is a method that involves",
+                    "target": "extreme cold application"
+                },
+                {
+                    "source": "inflammatory response",
+                    "relation_type": "releases",
+                    "target": "igf-1"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "influences",
+                    "target": "therapeutic health benefits"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "utilizes",
+                    "target": "conduction"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "affects",
+                    "target": "pain intensity"
+                },
+                {
+                    "source": "exposure duration",
+                    "relation_type": "affects",
+                    "target": "therapeutic health benefits"
+                },
+                {
+                    "source": "mental health support",
+                    "relation_type": "enhanced by",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "musculoskeletal injury",
+                    "relation_type": "triggers",
+                    "target": "inflammatory response"
+                },
+                {
+                    "source": "cold aerosol sprays",
+                    "relation_type": "produces",
+                    "target": "physiological effects"
+                },
+                {
+                    "source": "ice packs and ice baths",
+                    "relation_type": "are types of",
+                    "target": "cold therapy"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "is associated with",
+                    "target": "swelling and edema"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "is a method for",
+                    "target": "treatment methods"
+                },
+                {
+                    "source": "adverse effects of ice pack therapy",
+                    "relation_type": "are minimal in",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "is effective for",
+                    "target": "decreasing muscle soreness"
+                },
+                {
+                    "source": "cryotherapy treatment",
+                    "relation_type": "involves",
+                    "target": "methods of achieving subzero temperatures"
+                },
+                {
+                    "source": "extreme cold application",
+                    "relation_type": "causes",
+                    "target": "intracellular ice formation"
+                },
+                {
+                    "source": "vasoconstriction and vasodilation",
+                    "relation_type": "includes",
+                    "target": "blood vessel constriction"
+                },
+                {
+                    "source": "extreme cooling",
+                    "relation_type": "causes",
+                    "target": "blood vessel constriction"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "is shown to",
+                    "target": "manage muscle soreness"
+                },
+                {
+                    "source": "clinical trials",
+                    "relation_type": "evaluate",
+                    "target": "efficacy and therapeutic outcomes"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "is a type of",
+                    "target": "treatment methods"
+                },
+                {
+                    "source": "cryosurgery",
+                    "relation_type": "application of",
+                    "target": "extreme cold application"
+                },
+                {
+                    "source": "temperature reduction",
+                    "relation_type": "minimizes",
+                    "target": "hypoxic cell death"
+                },
+                {
+                    "source": "cold aerosol sprays",
+                    "relation_type": "results in",
+                    "target": "short-term effect"
+                },
+                {
+                    "source": "financial implications",
+                    "relation_type": "are related to",
+                    "target": "cost-effectiveness"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "may lead to",
+                    "target": "eczema symptom reduction"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "has an effect on",
+                    "target": "inflammatory response"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "has therapeutic benefits for",
+                    "target": "therapeutic health benefits"
+                },
+                {
+                    "source": "inflammatory response",
+                    "relation_type": "can cause",
+                    "target": "swelling and edema"
+                },
+                {
+                    "source": "vasoconstriction",
+                    "relation_type": "leads to",
+                    "target": "decreased blood flow"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "similar to",
+                    "target": "cold aerosol sprays"
+                },
+                {
+                    "source": "liquid nitrogen",
+                    "relation_type": "is commonly used in",
+                    "target": "cryosurgery"
+                },
+                {
+                    "source": "clinical trials",
+                    "relation_type": "provide evidence for",
+                    "target": "efficacy of cryotherapy"
+                },
+                {
+                    "source": "blood vessel constriction",
+                    "relation_type": "leads to",
+                    "target": "muscle spasms"
+                },
+                {
+                    "source": "RICE method",
+                    "relation_type": "was rescinded due to",
+                    "target": "inflammatory response"
+                },
+                {
+                    "source": "blood vessel expansion",
+                    "relation_type": "increases",
+                    "target": "anti-inflammatory proteins (IL-10)"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "affects",
+                    "target": "analgesics consumption"
+                },
+                {
+                    "source": "historical development of cryotherapy",
+                    "relation_type": "was initiated by",
+                    "target": "Toshima Yamaguchi"
+                },
+                {
+                    "source": "blood vessel expansion",
+                    "relation_type": "follows",
+                    "target": "blood vessel constriction"
+                },
+                {
+                    "source": "cold aerosol sprays",
+                    "relation_type": "improves",
+                    "target": "range of motion"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "provides",
+                    "target": "mental health support"
+                },
+                {
+                    "source": "intracellular ice formation",
+                    "relation_type": "affects",
+                    "target": "degree of damage"
+                },
+                {
+                    "source": "musculoskeletal injury",
+                    "relation_type": "leads to",
+                    "target": "muscle recovery"
+                },
+                {
+                    "source": "fight or flight response",
+                    "relation_type": "causes",
+                    "target": "increased levels of dopamine and Norepinephrine"
+                },
+                {
+                    "source": "swelling and edema",
+                    "relation_type": "is mitigated by",
+                    "target": "cold therapy"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "involves",
+                    "target": "extreme cooling"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "is a form of",
+                    "target": "cold therapy"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "affects",
+                    "target": "length of hospital stay"
+                },
+                {
+                    "source": "whole-body cryotherapy",
+                    "relation_type": "has positive effect on",
+                    "target": "muscle soreness"
+                },
+                {
+                    "source": "anti-inflammatory proteins (il-10)",
+                    "relation_type": "produced during",
+                    "target": "inflammatory response"
+                },
+                {
+                    "source": "anti-inflammatory proteins (il-10)",
+                    "relation_type": "result from",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "musculoskeletal injury",
+                    "relation_type": "leads to",
+                    "target": "swelling and edema"
+                },
+                {
+                    "source": "inflammatory response",
+                    "relation_type": "is influenced by",
+                    "target": "cold therapy"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "is a form of",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "affects",
+                    "target": "blood loss"
+                },
+                {
+                    "source": "thermoregulation",
+                    "relation_type": "promotes",
+                    "target": "increased blood flow and delivery of nutrients"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "involves",
+                    "target": "treatment methods"
+                },
+                {
+                    "source": "mental health support",
+                    "relation_type": "can be enhanced by",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "cryosurgery",
+                    "relation_type": "has",
+                    "target": "procedure characteristics"
+                },
+                {
+                    "source": "safety precautions",
+                    "relation_type": "are necessary to prevent",
+                    "target": "adverse events"
+                },
+                {
+                    "source": "contraindications",
+                    "relation_type": "include",
+                    "target": "patients with cardiovascular disease"
+                },
+                {
+                    "source": "cryosurgery",
+                    "relation_type": "is used to treat",
+                    "target": "cancerous lesions"
+                },
+                {
+                    "source": "extreme cooling",
+                    "relation_type": "utilized in",
+                    "target": "electric cryotherapy chambers"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "is used to treat",
+                    "target": "musculoskeletal injury"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "accelerates",
+                    "target": "recovery acceleration"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "aids in",
+                    "target": "muscle recovery"
+                },
+                {
+                    "source": "muscle recovery",
+                    "relation_type": "is enhanced by",
+                    "target": "recovery acceleration"
+                },
+                {
+                    "source": "ice pack therapy",
+                    "relation_type": "has implications for",
+                    "target": "efficacy of ice pack therapy"
+                },
+                {
+                    "source": "continuous cryotherapy",
+                    "relation_type": "has financial implications compared to",
+                    "target": "traditional cryotherapy"
+                },
+                {
+                    "source": "cryotherapy",
+                    "relation_type": "has therapeutic health benefits for",
+                    "target": "blood loss"
+                },
+                {
+                    "source": "cryosurgery",
+                    "relation_type": "is a specialized application of",
+                    "target": "cryotherapy"
+                },
+                {
+                    "source": "igf-1",
+                    "relation_type": "initiates",
+                    "target": "termination of damaged tissue"
+                }
+            ]
+        },
+        "Mandela effect": {
+            "category": "general",
+            "relations": [
+                {
+                    "source": "trauma history",
+                    "relation_type": "affects",
+                    "target": "false memory syndrome"
+                },
+                {
+                    "source": "gist representation",
+                    "relation_type": "is related to",
+                    "target": "false memory"
+                },
+                {
+                    "source": "emotional influence on memory",
+                    "relation_type": "affects",
+                    "target": "memory recall"
+                },
+                {
+                    "source": "gist representation",
+                    "relation_type": "stores",
+                    "target": "false memories"
+                },
+                {
+                    "source": "skeleton theory",
+                    "relation_type": "is divided into",
+                    "target": "acquisition processes"
+                },
+                {
+                    "source": "metamemory beliefs",
+                    "relation_type": "influence",
+                    "target": "false memory"
+                },
+                {
+                    "source": "presupposition",
+                    "relation_type": "creates",
+                    "target": "false effect"
+                },
+                {
+                    "source": "hypnotic state",
+                    "relation_type": "is induced by",
+                    "target": "hypnosis"
+                },
+                {
+                    "source": "source-monitoring failures",
+                    "relation_type": "are a type of",
+                    "target": "memory deficits"
+                },
+                {
+                    "source": "memory retrieval",
+                    "relation_type": "is affected by",
+                    "target": "activation of associated information"
+                },
+                {
+                    "source": "trauma history",
+                    "relation_type": "increases vulnerability to",
+                    "target": "false memory"
+                },
+                {
+                    "source": "source misattribution",
+                    "relation_type": "leads to",
+                    "target": "false recognition"
+                },
+                {
+                    "source": "memory implantation studies",
+                    "relation_type": "demonstrate",
+                    "target": "mandela effect"
+                },
+                {
+                    "source": "memory enhancement techniques",
+                    "relation_type": "are used in",
+                    "target": "therapy-induced memory recovery"
+                },
+                {
+                    "source": "Mandela effect",
+                    "relation_type": "illustrates",
+                    "target": "false memory"
+                },
+                {
+                    "source": "true effect",
+                    "relation_type": "contrasts with",
+                    "target": "false effect"
+                },
+                {
+                    "source": "true effect",
+                    "relation_type": "enhances",
+                    "target": "memory retrieval"
+                },
+                {
+                    "source": "semantic relatedness",
+                    "relation_type": "influences",
+                    "target": "activation of associated information"
+                },
+                {
+                    "source": "memory recall",
+                    "relation_type": "can be influenced by",
+                    "target": "therapist suggestions"
+                },
+                {
+                    "source": "guided imagery",
+                    "relation_type": "is a technique for",
+                    "target": "memory retrieval"
+                },
+                {
+                    "source": "creative imagination",
+                    "relation_type": "contributes to",
+                    "target": "false memory syndrome"
+                },
+                {
+                    "source": "creative imagination",
+                    "relation_type": "contributes to",
+                    "target": "false memory"
+                },
+                {
+                    "source": "therapist suggestions",
+                    "relation_type": "can lead to",
+                    "target": "false memory"
+                },
+                {
+                    "source": "repressed memory therapy",
+                    "relation_type": "utilizes",
+                    "target": "narco-analysis"
+                },
+                {
+                    "source": "therapists",
+                    "relation_type": "can create",
+                    "target": "false memory"
+                },
+                {
+                    "source": "repressed memory therapy",
+                    "relation_type": "utilizes",
+                    "target": "dream interpretation"
+                },
+                {
+                    "source": "dissociation",
+                    "relation_type": "contributes to",
+                    "target": "false memory"
+                },
+                {
+                    "source": "semantic relatedness",
+                    "relation_type": "increases likelihood of",
+                    "target": "false memory"
+                },
+                {
+                    "source": "research methodologies",
+                    "relation_type": "are used in",
+                    "target": "cognitive neuroscience"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "is influenced by",
+                    "target": "activation of associated information"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "is influenced by",
+                    "target": "suggestibility"
+                },
+                {
+                    "source": "memory retrieval",
+                    "relation_type": "is affected by",
+                    "target": "mood"
+                },
+                {
+                    "source": "strength hypothesis",
+                    "relation_type": "states",
+                    "target": "rational behavior"
+                },
+                {
+                    "source": "loftus and palmer study",
+                    "relation_type": "demonstrates effects of",
+                    "target": "verb influence"
+                },
+                {
+                    "source": "memory research",
+                    "relation_type": "includes studies on",
+                    "target": "false memory"
+                },
+                {
+                    "source": "Loftus and Palmer study",
+                    "relation_type": "demonstrates",
+                    "target": "verb influence"
+                },
+                {
+                    "source": "retrieval processes",
+                    "relation_type": "results in",
+                    "target": "accurate memory or false memory"
+                },
+                {
+                    "source": "loftus and palmer study",
+                    "relation_type": "illustrates",
+                    "target": "framing effects"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "is influenced by",
+                    "target": "source misattribution"
+                },
+                {
+                    "source": "acquisition processes",
+                    "relation_type": "includes",
+                    "target": "stimulus selection"
+                },
+                {
+                    "source": "psychological implications",
+                    "relation_type": "arise from",
+                    "target": "false memory"
+                },
+                {
+                    "source": "verbatim representation",
+                    "relation_type": "applies to",
+                    "target": "verbatim traces"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "is a factor in",
+                    "target": "legal cases involving false memories"
+                },
+                {
+                    "source": "fuzzy-trace theory",
+                    "relation_type": "explains",
+                    "target": "gist representation"
+                },
+                {
+                    "source": "gist representation",
+                    "relation_type": "contrasts with",
+                    "target": "verbatim representation"
+                },
+                {
+                    "source": "social desirability",
+                    "relation_type": "influences",
+                    "target": "false memory"
+                },
+                {
+                    "source": "hypnosis",
+                    "relation_type": "utilizes",
+                    "target": "suggestion patterns"
+                },
+                {
+                    "source": "repressed memory therapy",
+                    "relation_type": "utilizes",
+                    "target": "guided imagery"
+                },
+                {
+                    "source": "memory implantation studies",
+                    "relation_type": "demonstrate",
+                    "target": "false memory"
+                },
+                {
+                    "source": "Mandela effect",
+                    "relation_type": "demonstrates",
+                    "target": "false memory"
+                },
+                {
+                    "source": "social reinforcement",
+                    "relation_type": "influences",
+                    "target": "false memories"
+                },
+                {
+                    "source": "skeleton theory",
+                    "relation_type": "is divided into",
+                    "target": "retrieval processes"
+                },
+                {
+                    "source": "skeleton theory",
+                    "relation_type": "explains",
+                    "target": "memory recall"
+                },
+                {
+                    "source": "social reinforcement",
+                    "relation_type": "contributes to",
+                    "target": "memory recall"
+                },
+                {
+                    "source": "emotional influence on memory",
+                    "relation_type": "interacts with",
+                    "target": "trauma history"
+                },
+                {
+                    "source": "hypnosis",
+                    "relation_type": "is related to",
+                    "target": "dissociation"
+                },
+                {
+                    "source": "public attitudes towards false memory implantation",
+                    "relation_type": "reflect concerns about",
+                    "target": "ethical issues of recovered-memory therapy"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "influences",
+                    "target": "eyewitness testimony"
+                },
+                {
+                    "source": "fuzzy-trace theory",
+                    "relation_type": "proposes",
+                    "target": "verbatim representation"
+                },
+                {
+                    "source": "hypnotic suggestions",
+                    "relation_type": "produce",
+                    "target": "false memory"
+                },
+                {
+                    "source": "social reinforcement",
+                    "relation_type": "can enhance",
+                    "target": "false memory"
+                },
+                {
+                    "source": "therapy-induced memory recovery",
+                    "relation_type": "is involved in",
+                    "target": "legal cases involving false memories"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "is associated with",
+                    "target": "PTSD"
+                },
+                {
+                    "source": "source misattribution",
+                    "relation_type": "is a challenge in",
+                    "target": "memory recall"
+                },
+                {
+                    "source": "false effect",
+                    "relation_type": "impairs",
+                    "target": "memory retrieval"
+                },
+                {
+                    "source": "fuzzy-trace theory",
+                    "relation_type": "explains",
+                    "target": "false memory"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "affects",
+                    "target": "eyewitness testimony"
+                },
+                {
+                    "source": "verbatim representation",
+                    "relation_type": "contrasts with",
+                    "target": "gist representation"
+                },
+                {
+                    "source": "repressed memory therapy",
+                    "relation_type": "utilizes",
+                    "target": "hypnosis"
+                },
+                {
+                    "source": "incorporation of misinformation",
+                    "relation_type": "is a consequence of",
+                    "target": "activation of associated information"
+                },
+                {
+                    "source": "fuzzy-trace theory",
+                    "relation_type": "proposes",
+                    "target": "gist representation"
+                },
+                {
+                    "source": "therapeutic strategies",
+                    "relation_type": "can help differentiate between",
+                    "target": "false memory and real recall"
+                },
+                {
+                    "source": "lost-in-the-mall technique",
+                    "relation_type": "can cause",
+                    "target": "false memory"
+                },
+                {
+                    "source": "presupposition",
+                    "relation_type": "creates",
+                    "target": "true effect"
+                },
+                {
+                    "source": "gist representation",
+                    "relation_type": "applies to",
+                    "target": "gist traces"
+                },
+                {
+                    "source": "sleep deprivation",
+                    "relation_type": "increases risk of",
+                    "target": "false memories"
+                },
+                {
+                    "source": "source misattribution",
+                    "relation_type": "is related to",
+                    "target": "memory retrieval"
+                },
+                {
+                    "source": "framing effects",
+                    "relation_type": "affect",
+                    "target": "suggestibility"
+                },
+                {
+                    "source": "false memory syndrome",
+                    "relation_type": "is a type of",
+                    "target": "false memory"
+                },
+                {
+                    "source": "hypnosis",
+                    "relation_type": "used in",
+                    "target": "repressed memory therapy"
+                },
+                {
+                    "source": "hypnosis",
+                    "relation_type": "can lead to",
+                    "target": "dissociation"
+                },
+                {
+                    "source": "car accident videos",
+                    "relation_type": "are used in",
+                    "target": "loftus and palmer study"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "is influenced by",
+                    "target": "incorporation of misinformation"
+                },
+                {
+                    "source": "ethical issues of recovered-memory therapy",
+                    "relation_type": "are highlighted by",
+                    "target": "therapy-induced memory recovery"
+                },
+                {
+                    "source": "false memory",
+                    "relation_type": "is related to",
+                    "target": "recovered memories"
+                },
+                {
+                    "source": "perceived social pressure",
+                    "relation_type": "affects",
+                    "target": "social desirability"
+                },
+                {
+                    "source": "attachment styles",
+                    "relation_type": "related to",
+                    "target": "false childhood memories"
+                },
+                {
+                    "source": "construction hypothesis",
+                    "relation_type": "suggests",
+                    "target": "memory malleability"
+                },
+                {
+                    "source": "cognitive neuroscience",
+                    "relation_type": "informs",
+                    "target": "memory research"
+                },
+                {
+                    "source": "cognitive neuroscience",
+                    "relation_type": "studies",
+                    "target": "false memory"
+                },
+                {
+                    "source": "social desirability",
+                    "relation_type": "affects",
+                    "target": "perceived social pressure"
+                },
+                {
+                    "source": "individual difference factors",
+                    "relation_type": "moderate",
+                    "target": "memory retrieval"
+                },
+                {
+                    "source": "lost-in-the-mall technique",
+                    "relation_type": "is a type of",
+                    "target": "suggestion patterns"
+                },
+                {
+                    "source": "suggestibility",
+                    "relation_type": "affects",
+                    "target": "memory recall"
+                }
+            ]
+        }
+    }
+}

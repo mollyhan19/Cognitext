@@ -1,0 +1,492 @@
+{
+    "metadata": {
+        "processing_mode": "paragraph",
+        "timestamp": "2025-02-07T09:36:18.745402"
+    },
+    "Garden path sentence": {
+        "category": "linguistics",
+        "total_entities": 79,
+        "entities": [
+            {
+                "id": "garden-path sentence"
+            },
+            {
+                "id": "reader's interpretation"
+            },
+            {
+                "id": "re-reading and parsing"
+            },
+            {
+                "id": "psycholinguistic research"
+            },
+            {
+                "id": "disambiguating information"
+            },
+            {
+                "id": "reanalysis difficulty"
+            },
+            {
+                "id": "misinterpretation"
+            },
+            {
+                "id": "ambiguity"
+            },
+            {
+                "id": "semantic sense"
+            },
+            {
+                "id": "initial ambiguity"
+            },
+            {
+                "id": "transitive verb"
+            },
+            {
+                "id": "sentence parsing"
+            },
+            {
+                "id": "grammatically correct"
+            },
+            {
+                "id": "serial parsing"
+            },
+            {
+                "id": "parallel parsing"
+            },
+            {
+                "id": "adverb"
+            },
+            {
+                "id": "executive functioning"
+            },
+            {
+                "id": "l2 learners"
+            },
+            {
+                "id": "false scent"
+            },
+            {
+                "id": "deception in language"
+            },
+            {
+                "id": "a dictionary of modern english usage"
+            },
+            {
+                "id": "syntactic non-standardness"
+            },
+            {
+                "id": "communication clarity"
+            },
+            {
+                "id": "determiner \u2013 adjective \u2013 noun pattern"
+            },
+            {
+                "id": "frequent patterns in language"
+            },
+            {
+                "id": "example sentence"
+            },
+            {
+                "id": "noun phrase"
+            },
+            {
+                "id": "compound predicate"
+            },
+            {
+                "id": "correct parsing"
+            },
+            {
+                "id": "rephrasing"
+            },
+            {
+                "id": "housing for soldiers"
+            },
+            {
+                "id": "married and single soldiers"
+            },
+            {
+                "id": "families"
+            },
+            {
+                "id": "thomas bever"
+            },
+            {
+                "id": "reduced relative clause"
+            },
+            {
+                "id": "passive participle"
+            },
+            {
+                "id": "agent \u2013 action \u2013 patient pattern"
+            },
+            {
+                "id": "non-reduced relative clause"
+            },
+            {
+                "id": "case study"
+            },
+            {
+                "id": "parsing"
+            },
+            {
+                "id": "sentence chunks"
+            },
+            {
+                "id": "pragmatics"
+            },
+            {
+                "id": "extralinguistic context"
+            },
+            {
+                "id": "parsing strategies"
+            },
+            {
+                "id": "cognitive processes in reading"
+            },
+            {
+                "id": "multiple interpretations"
+            },
+            {
+                "id": "ambiguous nouns"
+            },
+            {
+                "id": "sentence structure"
+            },
+            {
+                "id": "grammatical role"
+            },
+            {
+                "id": "intensive eye movements"
+            },
+            {
+                "id": "selective reanalysis process"
+            },
+            {
+                "id": "frazier and rayner (1982)"
+            },
+            {
+                "id": "two alternative strategies"
+            },
+            {
+                "id": "regression of eyes"
+            },
+            {
+                "id": "fixation"
+            },
+            {
+                "id": "reading process"
+            },
+            {
+                "id": "regression from the first disambiguation"
+            },
+            {
+                "id": "disambiguation"
+            },
+            {
+                "id": "partial re-analysis"
+            },
+            {
+                "id": "incomplete analysis"
+            },
+            {
+                "id": "memory retention"
+            },
+            {
+                "id": "initial parsing"
+            },
+            {
+                "id": "underdeveloped executive functioning"
+            },
+            {
+                "id": "development of executive functioning"
+            },
+            {
+                "id": "difficulty in revision"
+            },
+            {
+                "id": "act-out errors"
+            },
+            {
+                "id": "discourse and referential information"
+            },
+            {
+                "id": "l1-transfer"
+            },
+            {
+                "id": "disambiguated garden-path sentences"
+            },
+            {
+                "id": "systematic revision failure"
+            },
+            {
+                "id": "comparison study"
+            },
+            {
+                "id": "fernanda ferreira"
+            },
+            {
+                "id": "kiel christianson"
+            },
+            {
+                "id": "andrew hollingworth"
+            },
+            {
+                "id": "models of sentence processing"
+            },
+            {
+                "id": "syntactic representations"
+            },
+            {
+                "id": "competing representations"
+            },
+            {
+                "id": "slattery et al. (2013)"
+            },
+            {
+                "id": "journal of memory and language"
+            }
+        ]
+    },
+    "Epistemic injustice": {
+        "category": "philosophy",
+        "total_entities": 79,
+        "entities": [
+            {
+                "id": "epistemic injustice"
+            },
+            {
+                "id": "hermeneutical injustice"
+            },
+            {
+                "id": "exclusion and silencing"
+            },
+            {
+                "id": "miranda fricker"
+            },
+            {
+                "id": "testimonial injustice"
+            },
+            {
+                "id": "systematic distortion or misrepresentation"
+            },
+            {
+                "id": "epistemic injustice"
+            },
+            {
+                "id": "epistemological violence"
+            },
+            {
+                "id": "epistemicide"
+            },
+            {
+                "id": "undervaluing of status"
+            },
+            {
+                "id": "unfair distinctions in authority"
+            },
+            {
+                "id": "unwarranted distrust"
+            },
+            {
+                "id": "unfairness"
+            },
+            {
+                "id": "identity factors"
+            },
+            {
+                "id": "trust"
+            },
+            {
+                "id": "social interactions"
+            },
+            {
+                "id": "racial bias"
+            },
+            {
+                "id": "credibility"
+            },
+            {
+                "id": "duwayne brooks"
+            },
+            {
+                "id": "stephen lawrence"
+            },
+            {
+                "id": "police response"
+            },
+            {
+                "id": "official inquiry"
+            },
+            {
+                "id": "information gathering"
+            },
+            {
+                "id": "calming witnesses"
+            },
+            {
+                "id": "historic exclusion"
+            },
+            {
+                "id": "conceptual fit"
+            },
+            {
+                "id": "scholarship and journalism"
+            },
+            {
+                "id": "language and understanding"
+            },
+            {
+                "id": "sexual harassment"
+            },
+            {
+                "id": "women's exclusion from language shaping"
+            },
+            {
+                "id": "understanding of experiences"
+            },
+            {
+                "id": "difficulty in articulation"
+            },
+            {
+                "id": "historical context of the 1970s"
+            },
+            {
+                "id": "hermeneutical"
+            },
+            {
+                "id": "power structure of academic research"
+            },
+            {
+                "id": "interpretation of empirical results"
+            },
+            {
+                "id": "targeted group"
+            },
+            {
+                "id": "alternative interpretations"
+            },
+            {
+                "id": "theory of mind"
+            },
+            {
+                "id": "monique botha"
+            },
+            {
+                "id": "foundational studies"
+            },
+            {
+                "id": "universal conclusions"
+            },
+            {
+                "id": "autistic children"
+            },
+            {
+                "id": "1999"
+            },
+            {
+                "id": "earlier thinkers"
+            },
+            {
+                "id": "anna julia cooper"
+            },
+            {
+                "id": "civil rights activism"
+            },
+            {
+                "id": "recognition as knowers"
+            },
+            {
+                "id": "1890s"
+            },
+            {
+                "id": "vivian may"
+            },
+            {
+                "id": "subaltern"
+            },
+            {
+                "id": "gayatri chakrovorty spivak"
+            },
+            {
+                "id": "can the subaltern speak?"
+            },
+            {
+                "id": "power dynamics"
+            },
+            {
+                "id": "epistemic oppression"
+            },
+            {
+                "id": "epistemic exploitation"
+            },
+            {
+                "id": "contributory injustice"
+            },
+            {
+                "id": "distributive epistemic injustice"
+            },
+            {
+                "id": "epistemic trust injustice"
+            },
+            {
+                "id": "structural causes of epistemic injustice"
+            },
+            {
+                "id": "structural remedies of epistemic injustice"
+            },
+            {
+                "id": "epistemologies of ignorance"
+            },
+            {
+                "id": "white ignorance"
+            },
+            {
+                "id": "willful hermeneutical ignorance"
+            },
+            {
+                "id": "open concept"
+            },
+            {
+                "id": "rajeev bhargava"
+            },
+            {
+                "id": "cognitive empire"
+            },
+            {
+                "id": "practical case studies"
+            },
+            {
+                "id": "global south"
+            },
+            {
+                "id": "neglected tropical disease"
+            },
+            {
+                "id": "world health organization (who)"
+            },
+            {
+                "id": "structural reforms"
+            },
+            {
+                "id": "meta-research"
+            },
+            {
+                "id": "health policy"
+            },
+            {
+                "id": "himani bhakuni"
+            },
+            {
+                "id": "seye abimbola"
+            },
+            {
+                "id": "robert chapman"
+            },
+            {
+                "id": "neurodiversity"
+            },
+            {
+                "id": "genocide denial"
+            }
+        ]
+    }
+}

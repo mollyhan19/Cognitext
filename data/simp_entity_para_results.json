@@ -1,0 +1,452 @@
+{
+      "Epistemic injustice": {
+        "category": "philosophy",
+        "total_entities": 71,
+        "entities": [
+            {
+                "id": "epistemic injustice"
+            },
+            {
+                "id": "hermeneutical injustice"
+            },
+            {
+                "id": "epistemic violence"
+            },
+            {
+                "id": "testimonial injustice"
+            },
+            {
+                "id": "miranda fricker"
+            },
+            {
+                "id": "epistemic oppression"
+            },
+            {
+                "id": "epistemicide"
+            },
+            {
+                "id": "language and concepts"
+            },
+            {
+                "id": "exclusion and silencing"
+            },
+            {
+                "id": "systematic distortion or misrepresentation"
+            },
+            {
+                "id": "undervaluing of status"
+            },
+            {
+                "id": "unfair distinctions in authority"
+            },
+            {
+                "id": "unwarranted distrust"
+            },
+            {
+                "id": "unfairness in trust"
+            },
+            {
+                "id": "identity factors"
+            },
+            {
+                "id": "racial bias"
+            },
+            {
+                "id": "duwayne brooks"
+            },
+            {
+                "id": "stephen lawrence"
+            },
+            {
+                "id": "police response"
+            },
+            {
+                "id": "credibility"
+            },
+            {
+                "id": "official inquiry"
+            },
+            {
+                "id": "information gathering"
+            },
+            {
+                "id": "historic exclusion"
+            },
+            {
+                "id": "knowledge production"
+            },
+            {
+                "id": "experiences"
+            },
+            {
+                "id": "sexual harassment"
+            },
+            {
+                "id": "historical context"
+            },
+            {
+                "id": "women's exclusion"
+            },
+            {
+                "id": "understanding and articulation"
+            },
+            {
+                "id": "social awareness"
+            },
+            {
+                "id": "hermeneutical"
+            },
+            {
+                "id": "epistemological violence"
+            },
+            {
+                "id": "power structure"
+            },
+            {
+                "id": "interpretation of empirical results"
+            },
+            {
+                "id": "empirical results"
+            },
+            {
+                "id": "theoretical interpretations"
+            },
+            {
+                "id": "targeted group"
+            },
+            {
+                "id": "alternative interpretations"
+            },
+            {
+                "id": "theory of mind"
+            },
+            {
+                "id": "foundational studies"
+            },
+            {
+                "id": "autistic children"
+            },
+            {
+                "id": "universal conclusions"
+            },
+            {
+                "id": "historical context of epistemic injustice"
+            },
+            {
+                "id": "anna julia cooper"
+            },
+            {
+                "id": "civil rights activism"
+            },
+            {
+                "id": "recognition as knowers"
+            },
+            {
+                "id": "historical context of the 1890s"
+            },
+            {
+                "id": "subaltern persons"
+            },
+            {
+                "id": "epistemic exploitation"
+            },
+            {
+                "id": "testimonial quieting"
+            },
+            {
+                "id": "testimonial smothering"
+            },
+            {
+                "id": "contributory injustice"
+            },
+            {
+                "id": "distributive epistemic injustice"
+            },
+            {
+                "id": "epistemic trust injustice"
+            },
+            {
+                "id": "expressive hermeneutical injustice"
+            },
+            {
+                "id": "structural causes of epistemic injustice"
+            },
+            {
+                "id": "structural remedies of epistemic injustice"
+            },
+            {
+                "id": "epistemologies of ignorance"
+            },
+            {
+                "id": "white ignorance"
+            },
+            {
+                "id": "willful hermeneutical ignorance"
+            },
+            {
+                "id": "open concept"
+            },
+            {
+                "id": "different approaches"
+            },
+            {
+                "id": "routledge handbook of epistemic injustice"
+            },
+            {
+                "id": "practical case studies"
+            },
+            {
+                "id": "neglected tropical disease"
+            },
+            {
+                "id": "world health organization (who)"
+            },
+            {
+                "id": "structural reforms"
+            },
+            {
+                "id": "meta-research"
+            },
+            {
+                "id": "health policy"
+            },
+            {
+                "id": "neurodiversity"
+            },
+            {
+                "id": "genocide denial"
+            }
+        ]
+    },
+    "Garden path sentence": {
+        "category": "linguistics",
+        "total_entities": 75,
+        "entities": [
+            {
+                "id": "garden-path sentence"
+            },
+            {
+                "id": "re-reading and parsing"
+            },
+            {
+                "id": "ambiguity"
+            },
+            {
+                "id": "correct interpretation"
+            },
+            {
+                "id": "sentence processing"
+            },
+            {
+                "id": "misinterpretation"
+            },
+            {
+                "id": "reader's interpretation"
+            },
+            {
+                "id": "psycholinguistic research"
+            },
+            {
+                "id": "semantic sense"
+            },
+            {
+                "id": "correct parsing"
+            },
+            {
+                "id": "sentence parsing"
+            },
+            {
+                "id": "multiple interpretations"
+            },
+            {
+                "id": "rephrased sentence example"
+            },
+            {
+                "id": "serial parsing"
+            },
+            {
+                "id": "parallel parsing"
+            },
+            {
+                "id": "disambiguating information"
+            },
+            {
+                "id": "sentence reanalysis"
+            },
+            {
+                "id": "adverb"
+            },
+            {
+                "id": "executive functioning"
+            },
+            {
+                "id": "adult l2 learners"
+            },
+            {
+                "id": "grammatically correct"
+            },
+            {
+                "id": "deception in language"
+            },
+            {
+                "id": "false scent"
+            },
+            {
+                "id": "ambiguous interpretation"
+            },
+            {
+                "id": "syntactically non-standard"
+            },
+            {
+                "id": "desirability in writing"
+            },
+            {
+                "id": "interpretation of 'old'"
+            },
+            {
+                "id": "expected grammatical structure"
+            },
+            {
+                "id": "frequent patterns in language"
+            },
+            {
+                "id": "noun phrase"
+            },
+            {
+                "id": "compound predicate"
+            },
+            {
+                "id": "housing for soldiers"
+            },
+            {
+                "id": "married and single soldiers"
+            },
+            {
+                "id": "families"
+            },
+            {
+                "id": "reduced relative clause"
+            },
+            {
+                "id": "passive participle"
+            },
+            {
+                "id": "finite verb"
+            },
+            {
+                "id": "direct object"
+            },
+            {
+                "id": "subordinate clause"
+            },
+            {
+                "id": "non-reduced relative clause"
+            },
+            {
+                "id": "transitive verb"
+            },
+            {
+                "id": "agent \u2013 action \u2013 patient pattern"
+            },
+            {
+                "id": "parsing"
+            },
+            {
+                "id": "sentence chunks"
+            },
+            {
+                "id": "assumption"
+            },
+            {
+                "id": "pragmatics"
+            },
+            {
+                "id": "extralinguistic context"
+            },
+            {
+                "id": "parsing strategies"
+            },
+            {
+                "id": "contextual parsing"
+            },
+            {
+                "id": "ambiguous nouns"
+            },
+            {
+                "id": "length of ambiguous phrase"
+            },
+            {
+                "id": "intensive eye movements"
+            },
+            {
+                "id": "selective reanalysis process"
+            },
+            {
+                "id": "two alternative strategies"
+            },
+            {
+                "id": "frazier and rayner (1982)"
+            },
+            {
+                "id": "eye regression"
+            },
+            {
+                "id": "main verb"
+            },
+            {
+                "id": "lesser-used strategy"
+            },
+            {
+                "id": "regression"
+            },
+            {
+                "id": "first disambiguation"
+            },
+            {
+                "id": "partial re-analysis"
+            },
+            {
+                "id": "cognitive processing"
+            },
+            {
+                "id": "memory retention"
+            },
+            {
+                "id": "participants"
+            },
+            {
+                "id": "underdeveloped executive functioning"
+            },
+            {
+                "id": "development of executive functioning"
+            },
+            {
+                "id": "difficulty in revision"
+            },
+            {
+                "id": "act-out errors"
+            },
+            {
+                "id": "discourse and referential information"
+            },
+            {
+                "id": "l1-transfer"
+            },
+            {
+                "id": "disambiguated garden-path sentences"
+            },
+            {
+                "id": "systematic revision failure"
+            },
+            {
+                "id": "reanalysis"
+            },
+            {
+                "id": "syntactic representations"
+            },
+            {
+                "id": "competing representations"
+            }
+        ]
+    }
+}

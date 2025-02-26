@@ -1,0 +1,281 @@
+{
+    "Garden path sentence": {
+        "category": "linguistics",
+        "total_entities": 37,
+        "entities": [
+            {
+                "id": "garden-path sentence"
+            },
+            {
+                "id": "re-analysis"
+            },
+            {
+                "id": "ambiguous interpretation"
+            },
+            {
+                "id": "psycholinguistic research"
+            },
+            {
+                "id": "semantic sense"
+            },
+            {
+                "id": "grammatically correct"
+            },
+            {
+                "id": "false scent"
+            },
+            {
+                "id": "re-reading and careful parsing"
+            },
+            {
+                "id": "deception in language"
+            },
+            {
+                "id": "clarity in writing"
+            },
+            {
+                "id": "a dictionary of modern english usage"
+            },
+            {
+                "id": "sentence parsing"
+            },
+            {
+                "id": "initial misunderstanding"
+            },
+            {
+                "id": "frequent pattern"
+            },
+            {
+                "id": "complex houses married"
+            },
+            {
+                "id": "reduced relative clause"
+            },
+            {
+                "id": "thomas bever"
+            },
+            {
+                "id": "agent \u2013 action \u2013 patient"
+            },
+            {
+                "id": "parsing"
+            },
+            {
+                "id": "serial parsing"
+            },
+            {
+                "id": "parallel parsing"
+            },
+            {
+                "id": "pragmatics"
+            },
+            {
+                "id": "strategies for parsing"
+            },
+            {
+                "id": "eye movements"
+            },
+            {
+                "id": "executive functioning"
+            },
+            {
+                "id": "act-out errors"
+            },
+            {
+                "id": "discourse and referential information"
+            },
+            {
+                "id": "l1-transfer"
+            },
+            {
+                "id": "revision difficulties"
+            },
+            {
+                "id": "meseguer, carreiras and clifton (2002)"
+            },
+            {
+                "id": "frazier and rayner (1982)"
+            },
+            {
+                "id": "sentence processing"
+            },
+            {
+                "id": "competing syntactic representations"
+            },
+            {
+                "id": "authors: ferreira and christianson"
+            },
+            {
+                "id": "case study: sentence misinterpretation"
+            },
+            {
+                "id": "historical context of sentence processing models"
+            },
+            {
+                "id": "quantitative data on sentence processing"
+            }
+        ]
+    },
+    "Epistemic injustice": {
+        "category": "philosophy",
+        "total_entities": 52,
+        "entities": [
+            {
+                "id": "epistemic injustice"
+            },
+            {
+                "id": "testimonial injustice"
+            },
+            {
+                "id": "hermeneutical injustice"
+            },
+            {
+                "id": "miranda fricker"
+            },
+            {
+                "id": "epistemic oppression"
+            },
+            {
+                "id": "epistemic violence"
+            },
+            {
+                "id": "exclusion and silencing"
+            },
+            {
+                "id": "systematic distortion"
+            },
+            {
+                "id": "undervaluing status"
+            },
+            {
+                "id": "unfair distinctions in authority"
+            },
+            {
+                "id": "unwarranted distrust"
+            },
+            {
+                "id": "credibility"
+            },
+            {
+                "id": "prejudice"
+            },
+            {
+                "id": "identity factors"
+            },
+            {
+                "id": "duwayne brooks case"
+            },
+            {
+                "id": "police inquiry"
+            },
+            {
+                "id": "social identity"
+            },
+            {
+                "id": "sexual harassment"
+            },
+            {
+                "id": "interpretation"
+            },
+            {
+                "id": "historic exclusion"
+            },
+            {
+                "id": "language shaping"
+            },
+            {
+                "id": "understanding experiences"
+            },
+            {
+                "id": "epistemological violence"
+            },
+            {
+                "id": "power structure of academic research"
+            },
+            {
+                "id": "interpretation of empirical results"
+            },
+            {
+                "id": "theory of mind in autistic children"
+            },
+            {
+                "id": "monique botha"
+            },
+            {
+                "id": "foundational studies"
+            },
+            {
+                "id": "alternative interpretations"
+            },
+            {
+                "id": "anna julia cooper"
+            },
+            {
+                "id": "black women as knowers"
+            },
+            {
+                "id": "gayatri chakravorty spivak"
+            },
+            {
+                "id": "subaltern persons"
+            },
+            {
+                "id": "civil rights activism"
+            },
+            {
+                "id": "1988 essay 'can the subaltern speak?'"
+            },
+            {
+                "id": "epistemicide"
+            },
+            {
+                "id": "contributory injustice"
+            },
+            {
+                "id": "distributive epistemic injustice"
+            },
+            {
+                "id": "epistemic trust injustice"
+            },
+            {
+                "id": "jos\u00e9 medina"
+            },
+            {
+                "id": "elizabeth s. anderson"
+            },
+            {
+                "id": "epistemologies of ignorance"
+            },
+            {
+                "id": "white ignorance"
+            },
+            {
+                "id": "willful hermeneutical ignorance"
+            },
+            {
+                "id": "routledge handbook of epistemic injustice"
+            },
+            {
+                "id": "rajeev bhargava"
+            },
+            {
+                "id": "sabelo ndlovu-gatsheni"
+            },
+            {
+                "id": "himani bhakuni"
+            },
+            {
+                "id": "seye abimbola"
+            },
+            {
+                "id": "world health organization"
+            },
+            {
+                "id": "robert chapman"
+            },
+            {
+                "id": "genocide denial"
+            }
+        ]
+    }
+}

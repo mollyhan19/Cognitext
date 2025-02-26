@@ -1,0 +1,432 @@
+{
+    "Tardigrades": {
+            "category": "biology",
+            "relations": [
+                {
+                    "source": "impact resistance",
+                    "relation_type": "is a result of",
+                    "target": "miniaturization"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "influence",
+                    "target": "population density"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "capable of",
+                    "target": "cryptobiosis"
+                },
+                {
+                    "source": "fossil record",
+                    "relation_type": "provides evidence for",
+                    "target": "historical classification"
+                },
+                {
+                    "source": "taxonomy of tardigrades",
+                    "relation_type": "includes",
+                    "target": "class mesotardigrada"
+                },
+                {
+                    "source": "body structure",
+                    "relation_type": "covered by",
+                    "target": "cuticle"
+                },
+                {
+                    "source": "Dsup protein",
+                    "relation_type": "protects",
+                    "target": "DNA from radiation"
+                },
+                {
+                    "source": "microbial symbionts and parasites",
+                    "relation_type": "interacts with",
+                    "target": "feeding mechanism"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "exhibit",
+                    "target": "cyclomorphosis"
+                },
+                {
+                    "source": "horizontal gene transfer",
+                    "relation_type": "affects",
+                    "target": "genome size variation"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "inhabit",
+                    "target": "habitat diversity"
+                },
+                {
+                    "source": "cryptobiosis",
+                    "relation_type": "results in",
+                    "target": "desiccated cyst (tun state)"
+                },
+                {
+                    "source": "cultural impact",
+                    "relation_type": "manifested in",
+                    "target": "science fiction"
+                },
+                {
+                    "source": "hypsibius exemplaris",
+                    "relation_type": "has genome size of",
+                    "target": "100 megabase pairs"
+                },
+                {
+                    "source": "resilience",
+                    "relation_type": "is influenced by",
+                    "target": "cryptobiosis"
+                },
+                {
+                    "source": "reproductive system",
+                    "relation_type": "is connected to",
+                    "target": "egg development"
+                },
+                {
+                    "source": "reproductive system",
+                    "relation_type": "can involve",
+                    "target": "parthenogenesis"
+                },
+                {
+                    "source": "marine origin",
+                    "relation_type": "is linked to",
+                    "target": "habitat specialization"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "survive",
+                    "target": "space survival"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "live in",
+                    "target": "habitat specialization"
+                },
+                {
+                    "source": "cuticle",
+                    "relation_type": "facilitates",
+                    "target": "gas exchange"
+                },
+                {
+                    "source": "Heterotardigrada and Arthrotardigrada",
+                    "relation_type": "are classified as",
+                    "target": "paraphyletic"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "exemplifies",
+                    "target": "resilience"
+                },
+                {
+                    "source": "desiccated cyst (tun state)",
+                    "relation_type": "provides",
+                    "target": "impact resistance"
+                },
+                {
+                    "source": "species descriptions",
+                    "relation_type": "contributes to",
+                    "target": "tardigradology"
+                },
+                {
+                    "source": "tactopoda hypothesis",
+                    "relation_type": "suggests relationship with",
+                    "target": "Arthropoda"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "uses",
+                    "target": "feeding mechanism"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "have",
+                    "target": "survival traits"
+                },
+                {
+                    "source": "habitat diversity",
+                    "relation_type": "influences",
+                    "target": "distribution patterns"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "is a member of",
+                    "target": "phylum tardigrada"
+                },
+                {
+                    "source": "taxonomy of tardigrades",
+                    "relation_type": "includes",
+                    "target": "class eutardigrada"
+                },
+                {
+                    "source": "phylum tardigrada",
+                    "relation_type": "proposed by",
+                    "target": "Giuseppe Ramazzotti"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "are popular in",
+                    "target": "merchandise"
+                },
+                {
+                    "source": "species descriptions",
+                    "relation_type": "includes",
+                    "target": "described species"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has",
+                    "target": "nervous system"
+                },
+                {
+                    "source": "fossil record",
+                    "relation_type": "supports understanding of",
+                    "target": "marine origin"
+                },
+                {
+                    "source": "feeding mechanism",
+                    "relation_type": "related to",
+                    "target": "locomotion"
+                },
+                {
+                    "source": "predation and prey",
+                    "relation_type": "affects",
+                    "target": "population density"
+                },
+                {
+                    "source": "habitat diversity",
+                    "relation_type": "affects",
+                    "target": "distribution patterns"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "exhibit",
+                    "target": "symbiosis"
+                },
+                {
+                    "source": "habitat specialization",
+                    "relation_type": "results in",
+                    "target": "habitat diversity"
+                },
+                {
+                    "source": "cultural impact",
+                    "relation_type": "reflects",
+                    "target": "resilience"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has a",
+                    "target": "cultural impact"
+                },
+                {
+                    "source": "nervous system",
+                    "relation_type": "controls",
+                    "target": "locomotion"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has",
+                    "target": "described species"
+                },
+                {
+                    "source": "tardigrade body plan",
+                    "relation_type": "is related to",
+                    "target": "Panarthropoda"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "play the role of",
+                    "target": "outsider role"
+                },
+                {
+                    "source": "phylum tardigrada",
+                    "relation_type": "is part of",
+                    "target": "ecdysozoa"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "interact with",
+                    "target": "microbial symbionts and parasites"
+                },
+                {
+                    "source": "body structure",
+                    "relation_type": "contains",
+                    "target": "haemocoel"
+                },
+                {
+                    "source": "fossil record",
+                    "relation_type": "provides evidence for",
+                    "target": "body plan evolution"
+                },
+                {
+                    "source": "reproductive system",
+                    "relation_type": "determines",
+                    "target": "egg development"
+                },
+                {
+                    "source": "historical classification",
+                    "relation_type": "provides context for",
+                    "target": "phylum tardigrada"
+                },
+                {
+                    "source": "historical classification",
+                    "relation_type": "informs",
+                    "target": "taxonomy of tardigrades"
+                },
+                {
+                    "source": "morphology",
+                    "relation_type": "affects",
+                    "target": "locomotion"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "inspire",
+                    "target": "science fiction"
+                },
+                {
+                    "source": "order apochela",
+                    "relation_type": "proposed to promote to",
+                    "target": "class Apotardigrada"
+                },
+                {
+                    "source": "cryptobiosis",
+                    "relation_type": "related to",
+                    "target": "anhydrobiosis"
+                },
+                {
+                    "source": "cold shock protein",
+                    "relation_type": "involved in",
+                    "target": "regulation of translation"
+                },
+                {
+                    "source": "tardigradology",
+                    "relation_type": "is a field of study focused on",
+                    "target": "species descriptions"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "are miniaturised from",
+                    "target": "lobopodian ancestor"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has",
+                    "target": "body structure"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "are involved in",
+                    "target": "predation and prey"
+                },
+                {
+                    "source": "tardigrade fossils",
+                    "relation_type": "are found in",
+                    "target": "mid-cambrian deposits"
+                },
+                {
+                    "source": "taxonomy of tardigrades",
+                    "relation_type": "includes",
+                    "target": "class heterotardigrada"
+                },
+                {
+                    "source": "tardigrade fossils",
+                    "relation_type": "are compared to",
+                    "target": "living tardigrades"
+                },
+                {
+                    "source": "biomedical research potential",
+                    "relation_type": "is enhanced by",
+                    "target": "tardigrade specific proteins"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has",
+                    "target": "morphology"
+                },
+                {
+                    "source": "trehalose",
+                    "relation_type": "thought to depend on",
+                    "target": "desiccated state"
+                },
+                {
+                    "source": "tardigradology",
+                    "relation_type": "field of study for",
+                    "target": "taxonomy of tardigrades"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "exhibit",
+                    "target": "resilience"
+                },
+                {
+                    "source": "reproductive system",
+                    "relation_type": "includes",
+                    "target": "egg development"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has a",
+                    "target": "fossil record"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "produce",
+                    "target": "tardigrade specific proteins"
+                },
+                {
+                    "source": "Hox genes",
+                    "relation_type": "are lacking in",
+                    "target": "tardigrades"
+                },
+                {
+                    "source": "first formal description",
+                    "relation_type": "describes",
+                    "target": "species descriptions"
+                },
+                {
+                    "source": "biomedical research potential",
+                    "relation_type": "driven by",
+                    "target": "tardigrade specific proteins"
+                },
+                {
+                    "source": "morphology",
+                    "relation_type": "is related to",
+                    "target": "body structure"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "appear in",
+                    "target": "Bathybia"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "exhibit",
+                    "target": "distribution patterns"
+                },
+                {
+                    "source": "tardigrade specific proteins",
+                    "relation_type": "of interest for",
+                    "target": "biomedical research potential"
+                },
+                {
+                    "source": "horizontal gene transfer",
+                    "relation_type": "is a mechanism of",
+                    "target": "symbiosis"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "have",
+                    "target": "marine origin"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "are characterized by",
+                    "target": "cultural significance"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "have",
+                    "target": "life-cycle stages"
+                }
+            ]
+        }
+}

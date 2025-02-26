@@ -1,0 +1,1042 @@
+Category: biology
+Title: Tardigrades
+
+mollyhan@Mollys-MacBook-Pro stanford-corenlp-4.5.8 % java -mx6g -cp "*" edu.stanford.nlp.naturalli.OpenIE  /Users/mollyhan/PycharmProjects/Cognitext/data/cleaned_text_sample.txt
+
+1.0	Category	are phylum of	segmented micro-animals
+1.0	Category	are phylum of	eight legged segmented micro-animals
+1.0	Category	are phylum of	micro-animals
+1.0	Category	are	phylum
+1.0	Category	are phylum of	eight legged micro-animals
+1.0	They	were first described by	German zoologist
+1.0	They	were	described by zoologist in 1773
+1.0	They	were described by	zoologist
+1.0	They	were first described by	zoologist
+1.0	They	were	first described by zoologist in 1773
+1.0	They	were described by	German zoologist
+1.0	They	were	described by German zoologist in 1773
+1.0	They	were	first described by German zoologist in 1773
+1.0	biologist	named	them Tardigrada
+1.0	biologist	named In	1776
+1.0	Italian biologist	named In	1776
+1.0	Italian biologist	named	them Tardigrada
+1.0	They	live in	diverse regions
+1.0	They	live in	regions of Earth 's biosphere
+1.0	They	live in	diverse regions of Earth 's biosphere
+1.0	They	live in	regions
+1.0	Earth	of	biosphere
+1.0	Tardigrades	are among	resilient animals
+1.0	Tardigrades	are among	animals known
+1.0	Tardigrades	are among	resilient animals known with species
+1.0	Tardigrades	are among	animals known with individual species able
+1.0	Tardigrades	are among	most resilient animals known with species able
+1.0	Tardigrades	are among	most resilient animals known
+1.0	Tardigrades	are among	resilient animals known with individual species
+1.0	Tardigrades	are among	animals
+1.0	Tardigrades	are among	most resilient animals known with species
+1.0	Tardigrades	are among	resilient animals known with individual species able
+1.0	Tardigrades	are among	resilient animals known
+1.0	Tardigrades	are among	most resilient animals known with individual species
+1.0	Tardigrades	are among	animals known with species able
+1.0	Tardigrades	are among	resilient animals known with species able
+1.0	Tardigrades	are among	most resilient animals
+1.0	Tardigrades	are among	animals known with species
+1.0	Tardigrades	are among	most resilient animals known with individual species able
+1.0	Tardigrades	are among	animals known with individual species
+1.0	Tardigrades	have survived	exposure to space
+1.0	Tardigrades	have survived	exposure
+1.0	Tardigrades	have survived	exposure to outer space
+1.0	1,500 known species	part of	superphylum Ecdysozoa
+1.0	1,500 known species	is in	phylum Tardigrada
+1.0	phylum Tardigrada	in species is	part of superphylum Ecdysozoa
+1.0	fossil	is from	Cambrian
+1.0	fossil	is from	Cambrian some 500 million years
+1.0	fossil	is from	Cambrian some 500 million years ago
+1.0	earliest fossil	is from	Cambrian some 500 million years ago
+1.0	earliest fossil	is from	Cambrian
+1.0	known fossil	is from	Cambrian
+1.0	earliest fossil	is from	Cambrian some 500 million years
+1.0	earliest known fossil	is from	Cambrian some 500 million years
+1.0	known fossil	is from	Cambrian some 500 million years
+1.0	earliest known fossil	is from	Cambrian
+1.0	earliest known fossil	is from	Cambrian some 500 million years ago
+1.0	known fossil	is from	Cambrian some 500 million years ago
+1.0	region	corresponding to	arthropod 's thorax
+1.0	middle region	corresponding to	arthropod 's thorax
+1.0	arthropod	to	thorax
+1.0	most	is	homologous
+1.0	most	Instead is homologous to	arthropod 's head
+1.0	arthropod	to	head
+1.0	most	is homologous to	arthropod 's head
+1.0	most	is	Instead homologous
+1.0	Tardigrades	are	about 0.5 mm
+1.0	Tardigrades	are	usually about 0.5 mm
+1.0	They	are	short
+1.0	Tardigrades	be collected under	power microscope
+1.0	Tardigrades	be	collected
+1.0	Tardigrades	readily be collected under	low power microscope
+1.0	Tardigrades	are	prevalent
+1.0	Tardigrades	are prevalent in	mosses
+1.0	them	accessible to	students
+1.0	Tardigrades	be	readily collected
+1.0	Tardigrades	be collected under	low power microscope
+1.0	Tardigrades	readily be collected under	power microscope
+1.0	their ability	survive	life stopping events
+1.0	their known ability	survive	events
+1.0	their ability	survive	stopping events
+1.0	their known ability	survive	stopping events
+1.0	Their crawling	have brought	them
+1.0	their known ability	survive	life stopping events
+1.0	their ability	survive	events
+1.0	Their eggs	are	small
+1.0	resistant life cycle stages	are	small
+1.0	life cycle stages	are	small
+1.0	many	being regional to	single type
+1.0	Individual species	have	distributions
+1.0	many	being	regional
+1.0	many	being regional to	single type of habitat
+1.0	Individual species	have	more specialised distributions
+1.0	many	being regional to	type
+1.0	species	have	specialised distributions
+1.0	many	being regional to	type of habitat
+1.0	Individual species	have	specialised distributions
+1.0	species	have	distributions
+1.0	species	have	more specialised distributions
+1.0	Echiniscus lineatus	is	pantropical
+1.0	species	have	wide distributions
+1.0	Echiniscus lineatus	is pantropical for	instance
+1.0	species	have	distributions
+1.0	Halobiotus	is restricted to	Holarctic seas
+1.0	Halobiotus	is	restricted
+1.0	Halobiotus	is restricted to	cold seas
+1.0	Halobiotus	is restricted to	cold Holarctic seas
+1.0	Halobiotus	is restricted to	seas
+1.0	Species	have	distribution
+1.0	Species	have	discontinuous distribution
+1.0	climate	was	when colder
+1.0	climate	was	colder
+1.0	percentage	may	may cosmopolitan
+1.0	small percentage	may	may cosmopolitan
+1.0	majority	live in	habitats
+1.0	habitats	is in	directly soil litter
+1.0	majority	live in	damp habitats in soil litter
+1.0	majority	live in	damp habitats directly in soil litter
+1.0	majority	live in	habitats directly in soil litter
+1.0	majority	live in	habitats in soil litter
+1.0	majority	live in	damp habitats
+1.0	they	live on	on bottom around seaweeds
+1.0	they	live on	on bottom
+1.0	sea	live on	on bottom around seaweeds
+1.0	sea	live on	on bottom
+1.0	specialised habitats	include	springs
+1.0	More specialised habitats	include	springs
+1.0	specialised habitats	include	hot springs
+1.0	More specialised habitats	include	hot springs
+1.0	they	can reach	density
+1.0	they	can reach	density of
+1.0	they	can reach density on	mosses
+1.0	Ferruginibacter	are	In environments common in tardigrades ' microbiomes
+1.0	bacterial genera Flavobacterium	are	common
+1.0	Polaromonas	are	common
+1.0	Ferruginibacter	are common In	environments
+1.0	bacterial genera Flavobacterium	are common In	glacial environments
+1.0	genera Flavobacterium	are	In environments common
+1.0	bacterial genera Flavobacterium	are common In	environments
+1.0	Polaromonas	are	In glacial environments common in tardigrades ' microbiomes
+1.0	Ferruginibacter	are common In	glacial environments
+1.0	Ferruginibacter	are	common
+1.0	genera Flavobacterium	are	In glacial environments common in tardigrades ' microbiomes
+1.0	bacterial genera Flavobacterium	are	In environments common
+1.0	genera Flavobacterium	are	common in tardigrades ' microbiomes
+1.0	Polaromonas	are common In	glacial environments
+1.0	Polaromonas	are common In	environments
+1.0	genera Flavobacterium	are	common
+1.0	bacterial genera Flavobacterium	are	In glacial environments common
+1.0	Ferruginibacter	are	common in tardigrades ' microbiomes
+1.0	Ferruginibacter	are	In glacial environments common
+1.0	bacterial genera Flavobacterium	are	In glacial environments common in tardigrades ' microbiomes
+1.0	genera Flavobacterium	are common In	environments
+1.0	bacterial genera Flavobacterium	are	In environments common in tardigrades ' microbiomes
+1.0	genera Flavobacterium	are common in	tardigrades ' microbiomes
+1.0	genera Flavobacterium	are	In environments common in tardigrades ' microbiomes
+1.0	Polaromonas	are common in	tardigrades ' microbiomes
+1.0	bacterial genera Flavobacterium	are common in	tardigrades ' microbiomes
+1.0	Ferruginibacter	are	In environments common
+1.0	Ferruginibacter	are common in	tardigrades ' microbiomes
+1.0	genera Flavobacterium	are	In glacial environments common
+1.0	bacterial genera Flavobacterium	are	common in tardigrades ' microbiomes
+1.0	Ferruginibacter	are	In glacial environments common in tardigrades ' microbiomes
+1.0	genera Flavobacterium	are common In	glacial environments
+1.0	Polaromonas	are	In environments common in tardigrades ' microbiomes
+1.0	Milnesium lagniappe	includes	tardigrades
+1.0	tardigrades	are	predatory
+1.0	Milnesium lagniappe	includes	other tardigrades
+1.0	Many tardigrades	are	predatory
+1.0	themselves	are predated upon	upon soil arthropods including mites
+1.0	themselves	are predated upon	upon soil arthropods
+1.0	Tardigrades	consume	prey
+1.0	non-marine tardigrades	are	With exception of 62 freshwater species found in terrestrial environments
+1.0	non-marine tardigrades	are	With exception of 62 exclusively freshwater species found in terrestrial environments
+1.0	non-marine tardigrades	are found With	exception of 62 freshwater species
+1.0	non-marine tardigrades	are	With exception of 62 freshwater species found in environments
+1.0	non-marine tardigrades	are found With	exception of 62 exclusively freshwater species
+1.0	non-marine tardigrades	are	found
+1.0	non-marine tardigrades	are found With	exception of 62 species
+1.0	non-marine tardigrades	are found in	environments
+1.0	non-marine tardigrades	are	With exception of 62 exclusively freshwater species found in environments
+1.0	non-marine tardigrades	are found in	terrestrial environments
+1.0	non-marine tardigrades	are found With	exception
+1.0	non-marine tardigrades	are	With exception found in environments
+1.0	non-marine tardigrades	are	With exception of 62 species found in terrestrial environments
+1.0	non-marine tardigrades	are	With exception of 62 species found in environments
+1.0	non-marine tardigrades	are	With exception found in terrestrial environments
+1.0	majority	belongs to	Heterotardigrada
+1.0	their environmental tolerance	been	measured
+0.6128341216215247	their environmental tolerance	endure	them
+1.0	their tolerance	been	measured in
+0.6128341216215247	their tolerance	only endure	them
+0.6128341216215247	their tolerance	endure	them
+0.6128341216215247	their environmental tolerance	only endure	them
+1.0	their tolerance	been	measured
+1.0	their environmental tolerance	been	measured in
+1.0	their chances	longer exposed extreme environments	extremophiles thrive
+1.0	their chances	longer exposed extreme environments	whereas extremophiles thrive
+1.0	their chances	environments	true extremophiles thrive
+1.0	their chances	longer exposed extreme environments	whereas true extremophiles thrive
+1.0	their chances	longer exposed extreme environments	true extremophiles thrive there
+1.0	their chances	exposed environments	true extremophiles thrive
+1.0	their chances	longer exposed environments	whereas true extremophiles thrive
+1.0	their chances	longer exposed environments	whereas extremophiles thrive
+1.0	their chances	extreme environments	whereas extremophiles thrive
+1.0	their chances	longer exposed extreme environments	true extremophiles thrive
+1.0	their chances	exposed environments	whereas true extremophiles thrive
+1.0	their chances	exposed extreme environments	whereas extremophiles thrive
+1.0	their chances	environments	extremophiles thrive there
+1.0	their chances	exposed environments	whereas extremophiles thrive there
+1.0	their chances	environments	whereas extremophiles thrive there
+1.0	their chances	environments	whereas extremophiles thrive
+1.0	their chances	extreme environments	whereas true extremophiles thrive
+1.0	their chances	longer exposed extreme environments	extremophiles thrive there
+1.0	their chances	environments	whereas true extremophiles thrive
+1.0	their chances	longer exposed extreme environments	whereas extremophiles thrive there
+1.0	their chances	extreme environments	whereas extremophiles thrive there
+1.0	their chances	longer exposed environments	extremophiles thrive
+1.0	their chances	exposed extreme environments	whereas extremophiles thrive there
+1.0	their chances	extreme environments	whereas true extremophiles thrive there
+1.0	their chances	longer exposed environments	true extremophiles thrive
+1.0	their chances	exposed extreme environments	extremophiles thrive there
+1.0	their chances	environments	whereas true extremophiles thrive there
+1.0	their chances	exposed extreme environments	whereas true extremophiles thrive there
+1.0	their chances	exposed extreme environments	whereas true extremophiles thrive
+1.0	their chances	extreme environments	true extremophiles thrive
+1.0	their chances	extreme environments	extremophiles thrive there
+1.0	their chances	longer exposed environments	true extremophiles thrive there
+1.0	their chances	environments	true extremophiles thrive there
+1.0	their chances	exposed environments	extremophiles thrive there
+1.0	their chances	extreme environments	extremophiles thrive
+1.0	their chances	longer exposed environments	extremophiles thrive there
+1.0	their chances	longer exposed environments	whereas true extremophiles thrive there
+1.0	their chances	exposed environments	whereas true extremophiles thrive there
+1.0	their chances	extreme environments	true extremophiles thrive there
+1.0	their chances	exposed extreme environments	true extremophiles thrive
+1.0	their chances	environments	extremophiles thrive
+1.0	their chances	exposed environments	whereas extremophiles thrive
+1.0	their chances	exposed extreme environments	true extremophiles thrive there
+1.0	their chances	exposed extreme environments	extremophiles thrive
+1.0	their chances	longer exposed environments	whereas extremophiles thrive there
+1.0	their chances	exposed environments	true extremophiles thrive there
+1.0	their chances	longer exposed extreme environments	whereas true extremophiles thrive there
+1.0	their chances	exposed environments	extremophiles thrive
+1.0	Germans	often call at_time	today
+1.0	little water bear	is in	German
+1.0	Germans	call at_time	today
+1.0	Taxonomic history	is In	1773
+1.0	they	walk reminiscent from	way
+1.0	bear	of	gait
+1.0	they	walk from	way
+1.0	name Tardigradum	was given by	Lazzaro Spallanzani
+1.0	name Tardigradum	means	walker
+1.0	name Tardigradum	was	given by Lazzaro Spallanzani in 1776
+1.0	name Tardigradum	means	slow walker
+1.0	C.A.S. Schulze	gave	description
+1.0	C.A.S. Schulze	gave	formal description
+1.0	C.A.S. Schulze	gave description in	work
+1.0	C.A.S. Schulze	gave description In	1834
+1.0	C.A.S. Schulze	gave	first formal description
+1.0	C.A.S. Schulze	gave	first description of tardigrade
+1.0	C.A.S. Schulze	gave	first description
+1.0	C.A.S. Schulze	gave	Macrobiotus hufelandi
+1.0	C.A.S. Schulze	gave	formal description of tardigrade
+1.0	C.A.S. Schulze	gave	first formal description of tardigrade
+1.0	C.A.S. Schulze	gave	description of tardigrade
+1.0	Ramazzottius	is in	1840
+1.0	Doyère 's dissertation Memoire sur les Tardigrades	is indisputable milestone in	tardigradology
+1.0	Doyère	has	1842 dissertation Memoire sur les Tardigrades
+1.0	Doyère 's 1842 dissertation Memoire sur les Tardigrades	is indisputable milestone in	tardigradology
+1.0	Doyère 's 1842 dissertation Memoire sur les Tardigrades	is	indisputable milestone
+1.0	Tardigrades	is indisputable	tardigradology
+1.0	Doyère 's dissertation Memoire sur les Tardigrades	is milestone in	tardigradology
+1.0	Doyère 's dissertation Memoire sur les Tardigrades	is	indisputable milestone
+1.0	Doyère 's 1842 dissertation Memoire sur les Tardigrades	is milestone in	tardigradology
+1.0	that indisputable milestone	is in	tardigradology
+1.0	Doyère 's 1842 dissertation Memoire sur les Tardigrades	is	milestone
+1.0	Doyère 's dissertation Memoire sur les Tardigrades	is	milestone
+1.0	he	proposed class Eutardigrada in	1926
+1.0	he	described	many species
+1.0	Ferdinand Richters	worked on	taxonomy of tardigrades
+1.0	Ferdinand Richters	worked on	taxonomy
+1.0	Ferdinand Richters	worked from	1900 to 1913
+1.0	he	described	species
+1.0	he	proposed	class Eutardigrada
+1.0	Ferdinand Richters	worked with	studies of Nordic
+1.0	he	described species at	time
+1.0	Ferdinand Richters	worked with	studies
+1.0	Ernst Marcus	created class Heterotardigrada In	1927
+1.0	Ernst Marcus	created	class Heterotardigrada
+1.0	its validity	is	now doubted
+1.0	Japan	of	hot springs
+1.0	its validity	is	doubted
+1.0	Giuseppe Ramazzotti	proposed phylum Tardigrada In	1962
+1.0	Giuseppe Ramazzotti	proposed	phylum Tardigrada
+1.0	colleagues	promote	order Apochela to new class Apotardigrada
+1.0	colleagues	promote	order Apochela
+1.0	Noemi Guil	proposed In	2019
+1.0	colleagues	proposed In	2019
+1.0	colleagues	promote	order Apochela to class Apotardigrada
+1.0	1,488 described species	organised into	160 genera
+1.0	1,488 species	organised into	160 genera
+1.0	Evolution Section	is In	culture
+1.0	short plump body	is with	four hollow unjointed legs
+1.0	Tardigrade	is in	Moss
+1.0	body cavity	is	haemocoel filled
+1.0	body cavity	is	haemocoel filled with colourless fluid
+1.0	body cavity	is	haemocoel filled with fluid
+1.0	body cavity	is	haemocoel
+1.0	body covering	is	cuticle
+1.0	claws	are	in species modified as sticky pads
+1.0	claws	are modified as	sticky pads
+1.0	leg	ends according	species
+1.0	claws	are	in species modified as pads
+1.0	claws	are modified as	pads
+1.0	claws	are modified in	species
+1.0	claws	are	modified
+1.0	legs	are	telescopic
+1.0	legs	are telescopic In	marine species
+1.0	legs	are telescopic In	species
+1.0	ventral nerve cords	is with	ganglia serving
+1.0	nerve cords	end near	mouth
+1.0	two eyespots	is in	brain
+1.0	two eyespots	is in	head
+1.0	work	is in	antagonistic pairs
+1.0	claws	help	stop
+1.0	claws	are used for	gripping
+1.0	claws	are	used
+1.0	claws	help	to stop
+1.0	Feeding Tardigrades	feed by	sucking animal cell fluids
+1.0	Feeding Tardigrades	feed on	detritus
+1.0	Feeding Tardigrades	feed by	animal cell fluids
+1.0	pharynx muscles	pump fluids into	gut
+1.0	stylets	pierce	prey
+1.0	pharynx muscles	pump	fluids
+1.0	pharynx muscles	pump fluids from	prey
+1.0	salivary glands	secrete	fluid
+1.0	glands	secrete	fluid
+1.0	glands	secrete fluid into	mouth
+1.0	salivary glands	secrete fluid into	mouth
+1.0	glands	secrete	digestive fluid
+1.0	salivary glands	secrete	digestive fluid
+1.0	species	have	excretory Malpighian tubules
+1.0	species	have	excretory tubules
+1.0	species	have	Malpighian tubules
+1.0	intestine	joins	hindgut
+1.0	Non-marine species	have	excretory Malpighian tubules
+1.0	species	have	tubules
+1.0	Non-marine species	have	tubules
+1.0	Non-marine species	have	excretory tubules
+1.0	Non-marine species	have	Malpighian tubules
+1.0	species	have	glands between at base
+1.0	species	have	excretory glands
+1.0	species	have	excretory glands between at base of legs
+1.0	species	have	excretory glands between at base
+1.0	species	have	glands
+1.0	species	have	glands between at base of legs
+1.0	Reproduction tardigrades	have	animals
+1.0	Reproduction Most tardigrades	have	animals
+1.0	Reproduction tardigrades	have	male animals
+1.0	Reproduction Most tardigrades	have	male animals
+1.0	those	are	spherical
+1.0	knobbled surface	with spherical is	80 μm in diameter
+1.0	those	are spherical with	knobbled surface
+1.0	80 μm	is in	diameter
+1.0	females	lay	eggs
+1.0	those	are spherical with	surface
+1.0	eggs	can	can ovoid as in Hypsibius annulatus
+1.0	eggs	can	In other species can ovoid as in Hypsibius annulatus
+1.0	eggs	can	In species can ovoid as in Hypsibius annulatus
+1.0	eggs	can	In other species can ovoid
+1.0	eggs	can	In species can ovoid
+1.0	eggs	can	can ovoid
+1.0	parthenogenesis	is	common
+1.0	gonad	located above	intestine
+1.0	single gonad	located above	intestine
+1.0	ducts	run from	testis
+1.0	Females	have oviduct opening above	just anus
+1.0	Females	have	single oviduct opening
+1.0	Females	have	oviduct opening
+1.0	Females	have oviduct opening above	anus
+1.0	Females	have oviduct opening into	directly rectum
+1.0	Females	have oviduct opening into	rectum
+1.0	female 's cuticle	place	sperm
+1.0	male	may place	his sperm
+1.0	it	fertilise eggs in	ovary
+1.0	female	has	cuticle
+1.0	it	fertilise eggs directly in	ovary
+1.0	female 's cuticle	place sperm into	straight her body cavity
+1.0	female 's cuticle	place sperm into	her body cavity
+1.0	male	penetrate	female 's cuticle
+1.0	it	fertilise	eggs
+1.0	it	fertilise directly	eggs
+1.0	female	under	cuticle
+1.0	male	is place sperm under	female 's cuticle
+1.0	they	are	fertilised
+1.0	mechanism	is place sperm under	female 's cuticle
+1.0	third mechanism	is place sperm under	female 's cuticle
+1.0	she	lays	eggs
+1.0	she	lays eggs into	cast cuticle
+1.0	third mechanism	is in	species such H. annulatus
+1.0	they	are	where fertilised
+1.0	her	lay	eggs
+1.0	fertilisation	is	external
+1.0	fertilisation	is	then external
+1.0	his cirri	stimulate	her
+1.0	male	stroking	his partner
+1.0	Courtship	occurs in	tardigrades
+1.0	Courtship	occurs in	aquatic tardigrades
+1.0	eggs	are	laid
+1.0	eggs	are laid depending	depending species
+1.0	Terrestrial tardigrade eggs	have	drought resistant shells
+1.0	eggs	have	drought resistant shells
+1.0	Terrestrial eggs	have	drought resistant shells
+1.0	tardigrade eggs	have	shells
+1.0	tardigrade eggs	have	drought resistant shells
+1.0	Terrestrial eggs	have	shells
+1.0	eggs	have	shells
+1.0	Terrestrial tardigrade eggs	have	shells
+1.0	14 days	within hatch is	hatchlings using
+1.0	their stylets	open	their egg shells
+1.0	Dehydrated tun state Tardigrades	are	capable
+1.0	tun state Tardigrades	are	capable
+1.0	Terrestrial tardigrades	are	able
+1.0	tardigrades	are	able
+1.0	they	can go without	food
+1.0	they	can go for	several years
+1.0	they	can go In	state
+1.0	they	can go for	years
+1.0	they	become	resistant to environmental stresses including temperatures from low to much as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from as low as −272 °C to much as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low as −272 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low as −272 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low as −272 °C to much as +149 °C
+1.0	they	become in	state
+1.0	they	become	resistant to stresses including temperatures from low as −272 °C to as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from low as −272 °C to as much as +149 °C
+1.0	they	become	resistant to stresses including temperatures from low as −272 °C
+1.0	they	Further become	resistant to stresses including temperatures from as low to as as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low as −272 °C to much as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from low as −272 °C
+1.0	they	become	highly resistant to stresses
+1.0	they	become	resistant to environmental stresses including temperatures from as low to much as +149 °C
+1.0	they	become	resistant to environmental stresses
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low to as as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low to as much as +149 °C
+1.0	they	Further become	highly resistant to stresses
+1.0	they	Further become	resistant to environmental stresses including temperatures from low to as much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low to much as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low as −272 °C to as +149 °C
+1.0	to +149 °C	as temperatures is	lack of oxygen
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low to much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low as −272 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low as −272 °C to as much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low to as as +149 °C
+1.0	they	become	resistant to stresses including temperatures from as low as −272 °C to as +149 °C
+1.0	they	become	resistant to stresses including temperatures from low to as much as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low as −272 °C to as as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from low as −272 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low to as much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low to as +149 °C
+1.0	they	Further become	resistant to environmental stresses
+1.0	they	Further become	highly resistant to stresses including temperatures from as low as −272 °C to as much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low to much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low as −272 °C to as much as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low as −272 °C to as as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low to as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low to as as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from as low as −272 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low to as as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low as −272 °C to much as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low as −272 °C to as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from as low as −272 °C to as much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low to as much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low as −272 °C to as much as +149 °C
+1.0	they	become	resistant to stresses including temperatures from as low to as much as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low as −272 °C to much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low to as as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from as low
+1.0	they	Further become	resistant to stresses including temperatures from as low to as much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low as −272 °C
+1.0	they	become	resistant to stresses including temperatures from as low as −272 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low as −272 °C to as much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low to as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from as low to as much as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from as low as −272 °C to as as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low as −272 °C to as as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low as −272 °C to as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low to as as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from low as −272 °C to as as +149 °C
+1.0	they	Further become	resistant
+1.0	they	become	resistant
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low as −272 °C to as +149 °C
+1.0	they	become	resistant to stresses
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low as −272 °C to as much as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from low to much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low to much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low as −272 °C to as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low as −272 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low as −272 °C to much as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low to as much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low to as much as +149 °C
+1.0	they	become	resistant to stresses including temperatures from low
+1.0	they	become	resistant to environmental stresses including temperatures from low as −272 °C to as as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low to as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low as −272 °C to as as +149 °C
+1.0	they	become	resistant to stresses including temperatures from as low as −272 °C to much as +149 °C
+1.0	they	become	highly resistant to environmental stresses
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low as −272 °C to as as +149 °C
+1.0	temperatures	lack of	oxygen
+1.0	they	Further become	resistant to stresses including temperatures from as low as −272 °C to as as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low to as much as +149 °C
+1.0	they	become	highly resistant
+1.0	they	Further become	resistant to stresses including temperatures from low
+1.0	they	become	resistant to stresses including temperatures from as low to much as +149 °C
+1.0	they	become	resistant to stresses including temperatures from low as −272 °C to as as +149 °C
+1.0	they	become	resistant to stresses including temperatures from low as −272 °C to much as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low as −272 °C to as as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low as −272 °C to much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low as −272 °C to as much as +149 °C
+1.0	they	become	resistant to stresses including temperatures from low as −272 °C to as much as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from as low to much as +149 °C
+1.0	they	become	resistant to stresses including temperatures from as low
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low as −272 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from as low to as as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low to as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low
+1.0	they	become	resistant to environmental stresses including temperatures from low
+1.0	they	Further become	resistant to stresses including temperatures from as low to as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from as low as −272 °C to much as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from low to as much as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low to as much as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low as −272 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from low to as as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low to as as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low as −272 °C to as as +149 °C
+1.0	they	Further become	resistant to stresses
+1.0	they	become	highly resistant to environmental stresses including temperatures from low as −272 °C to as much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low to much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low as −272 °C to as +149 °C
+1.0	they	become	resistant to stresses including temperatures from low to as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low as −272 °C to as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low
+1.0	they	become	resistant to stresses including temperatures from as low to as as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low
+1.0	they	become	resistant to environmental stresses including temperatures from low as −272 °C to as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low as −272 °C to as much as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from as low to as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low to much as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low as −272 °C to as much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low as −272 °C to much as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low as −272 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low as −272 °C to as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from low to much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low as −272 °C
+1.0	they	Further become	highly resistant
+1.0	they	Further become	highly resistant to stresses including temperatures from low as −272 °C to as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from low
+1.0	they	Further become	highly resistant to stresses including temperatures from low to as +149 °C
+1.0	they	become	resistant to stresses including temperatures from as low to as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low as −272 °C
+1.0	to +149 °C	as temperatures is	vacuum
+1.0	they	become	resistant to stresses including temperatures from low to as as +149 °C
+1.0	they	become	resistant to stresses including temperatures from as low as −272 °C to as as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low as −272 °C to as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from as low to much as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low to as much as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from low to as +149 °C
+1.0	they	Further become in	state
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low as −272 °C to as as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low to as as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low to as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from as low as −272 °C to as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from as low as −272 °C to as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low as −272 °C to as as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from low to as as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low to much as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low to as as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses
+1.0	they	become	resistant to environmental stresses including temperatures from low to as +149 °C
+1.0	they	Further become	resistant to stresses including temperatures from as low
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low to as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from low as −272 °C to as +149 °C
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low to much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low
+1.0	they	Further become	resistant to environmental stresses including temperatures from as low
+1.0	they	Further become	highly resistant to stresses including temperatures from as low as −272 °C
+1.0	they	become	resistant to environmental stresses including temperatures from as low as −272 °C to much as +149 °C
+1.0	they	become	resistant to stresses including temperatures from low to much as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from as low to as much as +149 °C
+1.0	they	become	highly resistant to environmental stresses including temperatures from as low to as as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low to as +149 °C
+1.0	they	become	highly resistant to stresses including temperatures from low as −272 °C to much as +149 °C
+1.0	they	become	resistant to stresses including temperatures from as low as −272 °C to as much as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from low as −272 °C to much as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low as −272 °C to much as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low as −272 °C to as much as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from as low as −272 °C to as as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from low to as much as +149 °C
+1.0	they	Further become	highly resistant to stresses including temperatures from low as −272 °C to much as +149 °C
+1.0	they	become	resistant to environmental stresses including temperatures from low as −272 °C to as much as +149 °C
+1.0	they	Further become	highly resistant to environmental stresses including temperatures from low to as +149 °C
+1.0	Reproduction	takes place in	summer
+1.0	Reproduction	takes	place
+1.0	Reproduction	however takes place in	summer
+1.0	Reproduction	however takes	place
+1.0	Reproduction	however takes place in	only summer
+1.0	Reproduction	takes place in	only summer
+1.0	Tardigrades	can survive	impacts
+1.0	Tardigrades	can survive impacts up	up about 900 metres
+1.0	Tardigrades	can survive impacts up	up about 900 metres per second
+1.0	Exposure	have survived	exposure to space
+0.6060213219364686	Exposure	exposure to	space
+1.0	Exposure	have survived	exposure
+1.0	tardigrades	were taken on	FOTON M3 mission
+1.0	tardigrades	exposed to	vacuum
+1.0	tardigrades	were	taken
+1.0	tardigrades	were	In 2007 taken on FOTON M3 mission for 10 days
+1.0	dehydrated tardigrades	were	taken
+1.0	dehydrated tardigrades	exposed to	vacuum
+1.0	tardigrades	were	taken on FOTON M3 mission for 10 days
+1.0	dehydrated tardigrades	were	In 2007 taken on FOTON M3 mission
+1.0	dehydrated tardigrades	were	In 2007 taken on FOTON M3 mission for 10 days
+1.0	tardigrades	were taken for	10 days
+1.0	tardigrades	were	In 2007 taken on FOTON M3 mission
+1.0	dehydrated tardigrades	were taken In	2007
+1.0	tardigrades	were	In 2007 taken for 10 days
+1.0	tardigrades	were taken In	2007
+1.0	dehydrated tardigrades	were	In 2007 taken for 10 days
+1.0	dehydrated tardigrades	were	taken on FOTON M3 mission for 10 days
+1.0	dehydrated tardigrades	were taken on	FOTON M3 mission
+1.0	dehydrated tardigrades	were taken for	10 days
+1.0	many	produced	viable embryos
+1.0	many	produced	embryos
+1.0	samples	exposed In	contrast
+1.0	samples	exposed to	vacuum
+1.0	hydrated samples	exposed In	contrast
+1.0	hydrated samples	exposed to	vacuum
+1.0	affect	did laying	UV radiation reduced
+1.0	UV radiation	reduced	laying
+1.0	affect	did laying in	R. coronifer
+1.0	UV radiation	laying in	M. tardigradum
+1.0	space vacuum	did laying	UV radiation reduced
+1.0	UV radiation	reduced	laying in M. tardigradum
+1.0	space vacuum	did laying in	R. coronifer
+1.0	affect	did laying	whereas UV radiation reduced
+1.0	space vacuum	did laying	whereas UV radiation reduced
+1.0	tardigrades	went on	International Space Station STS 134
+1.0	tardigrades	be	model organisms
+1.0	tardigrades	went In	2011
+1.0	they	survive	microgravity
+1.0	tardigrades	be	suitable model organisms
+0.4764464767381442	capsule	containing	tardigrades
+1.0	board	is In	2019
+0.4764464767381442	capsule	containing tardigrades in	state
+0.4764464767381442	capsule	containing tardigrades in	cryptobiotic state
+1.0	tardigrades	Instead produce	disordered proteins
+1.0	tardigrades	Instead produce proteins in	response to desiccation
+1.0	tardigrades	produce	proteins
+1.0	tardigrades	produce	disordered proteins
+1.0	tardigrades	produce	intrinsically disordered proteins
+1.0	tardigrades	produce proteins in	response to desiccation
+1.0	tardigrades	Instead produce	proteins
+1.0	tardigrades	Instead produce	intrinsically disordered proteins
+1.0	tardigrades	Instead produce proteins in	response
+1.0	tardigrades	produce proteins in	response
+1.0	proteins	may form	glass like matrix
+1.0	proteins	may form	matrix
+1.0	proteins	may also form	glass like matrix
+1.0	proteins	may also form	matrix
+1.0	Anhydrobiosis	has	complex basis
+1.0	Anhydrobiosis	has	basis
+1.0	Anhydrobiosis	has	molecular basis
+1.0	1,422 genes	are upregulated in	Hypsibius exemplaris
+1.0	genes	are upregulated during	process
+1.0	Anhydrobiosis	is in	response to desiccation
+1.0	1,422 genes	are	upregulated
+1.0	genes	are upregulated in	Hypsibius exemplaris
+1.0	genes	are	upregulated
+1.0	1,422 genes	are upregulated during	process
+1.0	Anhydrobiosis	has	complex molecular basis
+1.0	genes	are	in Hypsibius exemplaris upregulated during process
+1.0	1,422 genes	are	in Hypsibius exemplaris upregulated during process
+0.7098556254983661	55	being	disordered
+1.0	others	globular with	unknown functions
+1.0	406	are specific to	tardigrades
+0.7098556254983661	55	being	intrinsically disordered
+1.0	406	are	specific
+1.0	406	are	Of those specific to tardigrades
+1.0	others	globular with	functions
+1.0	406	are specific Of	those
+1.0	Tardigrades	possess	shock protein
+1.0	Tardigrades	possess	cold shock protein
+1.0	Tardigrade DNA	is protected by	Dsup
+1.0	Tardigrade DNA	is	protected from radiation by Dsup
+1.0	Dsup proteins	promote	survival
+1.0	Dsup protein	confers resistance to	C
+1.0	Dsup protein	confers resistance to	ultraviolet C
+1.0	Dsup protein	confers	resistance
+1.0	Dsup protein	confers resistance by	DNA repair genes
+1.0	Dsup protein	confers resistance by	upregulating DNA repair genes
+1.0	Potential	is seen in	Dsup 's ability protect
+1.0	Potential	is seen in	Dsup 's ability to protect against damage
+1.0	CAHS proteins	prevent	programmed cell death
+1.0	Potential	is seen in	Dsup 's ability to protect
+1.0	Potential	is seen in	Dsup 's ability protect against damage
+1.0	CAHS proteins	prevent	cell death
+1.0	CAHS proteins	prevent	apoptosis
+1.0	Dsup	in	ability to protect against damage
+1.0	Potential	is	seen
+1.0	history Tardigrade fossils	are	rare
+1.0	Evolutionary history Tardigrade fossils	are	rare
+1.0	known specimens	are those from	mid-Cambrian deposits in Siberia
+1.0	known specimens	are	those from deposits in Siberia in Orsten fauna
+1.0	known specimens	are	those from deposits in Orsten fauna
+1.0	specimens	specimens from	Cretaceous
+1.0	specimens	are	those from deposits in Siberia in Orsten fauna
+1.0	known specimens	are	those from mid-Cambrian deposits in Orsten fauna
+1.0	specimens	are those from	mid-Cambrian deposits
+1.0	specimens	are	those from deposits in Orsten fauna
+1.0	known specimens	are	those
+1.0	specimens	specimens from	Cretaceous of North America
+1.0	known specimens	few specimens from	Cretaceous of North America
+1.0	few specimens	is in	amber
+1.0	known specimens	specimens from	Cretaceous
+1.0	known specimens	are those from	mid-Cambrian deposits
+1.0	specimens	few specimens from	Cretaceous
+1.0	specimens	are those from	mid-Cambrian deposits in Siberia
+1.0	specimens	are	those from mid-Cambrian deposits in Siberia in Orsten fauna
+1.0	known specimens	few specimens in	amber
+1.0	specimens	are those from	deposits
+1.0	mid-Cambrian deposits	is in	Siberia
+1.0	known specimens	specimens from	Cretaceous of North America
+1.0	known specimens	few specimens from	Cretaceous
+1.0	specimens	specimens in	amber
+1.0	specimens	are	those
+1.0	known specimens	specimens in	amber
+1.0	specimens	are those from	deposits in Siberia
+1.0	known specimens	are those in	Orsten fauna
+1.0	known specimens	are those from	deposits in Siberia
+1.0	specimens	are those in	Orsten fauna
+1.0	known specimens	are those from	deposits
+1.0	known specimens	are	those from mid-Cambrian deposits in Siberia in Orsten fauna
+1.0	specimens	few specimens from	Cretaceous of North America
+1.0	specimens	are	those from mid-Cambrian deposits in Orsten fauna
+1.0	specimens	few specimens in	amber
+1.0	Siberian fossils	differ in	several ways
+1.0	fossils	differ in	several ways
+1.0	Siberian fossils	differ from	living tardigrades
+1.0	fossils	differ from	living tardigrades
+1.0	fossils	differ in	ways
+1.0	fossils	differ from	tardigrades
+1.0	Siberian fossils	differ in	ways
+1.0	Siberian fossils	differ from	tardigrades
+1.0	analyses	place close	divergence
+1.0	tardigrades	are miniaturised	lobopodian
+1.0	tardigrades	are miniaturised	lobopodian resembling
+1.0	many analyses	place close	divergence of lineage
+1.0	tardigrades	are secondarily miniaturised	lobopodian resembling
+1.0	tardigrades	are miniaturised lobopodian from	ancestor
+1.0	many analyses	place close	divergence
+1.0	tardigrades	are miniaturised	lobopodian perhaps resembling
+1.0	tardigrades	are secondarily miniaturised	probably lobopodian
+1.0	tardigrades	are secondarily miniaturised	lobopodian
+1.0	tardigrades	are secondarily miniaturised lobopodian from	larger ancestor
+1.0	tardigrades	are secondarily miniaturised lobopodian from	ancestor
+1.0	tardigrades	are miniaturised	probably lobopodian perhaps resembling
+1.0	tardigrades	are miniaturised	probably lobopodian resembling
+1.0	many analyses	place close	divergence of tardigrade lineage
+1.0	tardigrades	are miniaturised lobopodian from	larger ancestor
+1.0	tardigrades	are secondarily miniaturised	probably lobopodian perhaps resembling
+1.0	tardigrades	are miniaturised	probably lobopodian
+1.0	tardigrades	are secondarily miniaturised	probably lobopodian resembling
+1.0	analyses	place close	divergence of tardigrade lineage
+1.0	tardigrades	are secondarily miniaturised	lobopodian perhaps resembling
+1.0	analyses	place close	divergence of lineage
+1.0	alternative hypothesis	derives	tactopoda
+1.0	hypothesis	derives	tactopoda
+1.0	hypothesis	derives tactopoda from	clade
+1.0	alternative hypothesis	derives tactopoda from	clade
+1.0	enigmatic panarthropodan Sialomorpha	found in	30 million year old Dominican amber
+1.0	panarthropodan Sialomorpha	found	while tardigrade
+1.0	panarthropodan Sialomorpha	found	not tardigrade
+1.0	panarthropodan Sialomorpha	found in	Dominican amber
+1.0	enigmatic panarthropodan Sialomorpha	found	while tardigrade
+1.0	enigmatic panarthropodan Sialomorpha	found	while not tardigrade
+1.0	panarthropodan Sialomorpha	found	tardigrade
+1.0	panarthropodan Sialomorpha	found	while not tardigrade
+1.0	enigmatic panarthropodan Sialomorpha	found	tardigrade
+1.0	enigmatic panarthropodan Sialomorpha	found	not tardigrade
+1.0	enigmatic panarthropodan Sialomorpha	found in	Dominican amber
+1.0	panarthropodan Sialomorpha	found in	30 million year old Dominican amber
+1.0	luolishaniids	be	tardigrades ' relatives
+1.0	luolishaniids	be	tardigrades ' closest relatives
+1.0	luolishaniids	group of	Cambrian lobopodians
+1.0	luolishaniids	be	tardigrades ' known relatives
+1.0	luolishaniids	be	tardigrades ' closest known relatives
+1.0	oldest remains	are those of	Milnesium swolenskyi
+1.0	remains	are	those of Milnesium swolenskyi belonging to living genus Milnesium
+1.0	oldest remains	are	those belonging
+1.0	those	belonging to	genus Milnesium
+1.0	remains	are	those of Milnesium swolenskyi belonging to genus Milnesium
+1.0	remains	are those of	Milnesium swolenskyi
+1.0	remains	are	those
+1.0	oldest remains	are	those belonging to genus Milnesium
+1.0	remains	are	those of Milnesium swolenskyi belonging
+1.0	remains	are	those belonging to living genus Milnesium
+1.0	oldest remains	are	those of Milnesium swolenskyi belonging to genus Milnesium
+1.0	remains	are	those belonging
+1.0	remains	are	those belonging to genus Milnesium
+1.0	oldest remains	are	those belonging to living genus Milnesium
+1.0	those	belonging to	living genus Milnesium
+1.0	oldest remains	are	those
+1.0	oldest remains	are	those of Milnesium swolenskyi belonging to living genus Milnesium
+1.0	oldest remains	are	those of Milnesium swolenskyi belonging
+1.0	hypsibioidean	was	found
+1.0	related hypsibioidean	was found in	amber piece
+1.0	hypsibioidean	was found in	same amber piece
+1.0	related hypsibioidean	was	found
+1.0	hypsibioidean	was found in	amber piece
+1.0	related hypsibioidean	was found in	same amber piece
+1.0	youngest known fossil tadigrade genus	was	discovered
+1.0	known fossil tadigrade genus	was discovered in	amber
+1.0	youngest fossil tadigrade genus	was discovered in	amber
+1.0	youngest fossil tadigrade genus	was	discovered
+1.0	fossil tadigrade genus	was	discovered
+1.0	fossil tadigrade genus	was discovered in	amber
+1.0	known fossil tadigrade genus	was	discovered
+1.0	youngest known fossil tadigrade genus	was discovered in	amber
+1.0	Morphological phylogenetics studies	have attempted	define
+1.0	tardigrades	relate to	other ecdysozoan groups
+1.0	Morphological phylogenetics studies	have attempted	to define
+1.0	tardigrades	relate to	groups
+1.0	phylogenetics studies	have attempted	define
+1.0	tardigrades	relate to	other groups
+1.0	phylogenetics studies	have attempted	to define
+1.0	tardigrades	relate to	ecdysozoan groups
+1.0	Tardigrada	are sister to	Arthropoda
+1.0	Tardigrada	are sister to	Onychophora Arthropoda
+1.0	Tardigrada	are sister to	Onychophora
+1.0	Tardigrada	are	sister
+1.0	Tardigrada	are	sister
+1.0	Tardigrada	are	sister
+1.0	relationships	have	have debated
+1.0	relationships	have	have debated on basis of evidence
+1.0	relationships	have	have debated on basis of conflicting evidence
+1.0	relationships	have	have debated on basis
+1.0	Genomics Tardigrade genomes	vary in	size
+1.0	Genomics Tardigrade genomes	vary widely in	size
+1.0	it	can	can cultured
+1.0	Hypsibius exemplaris	has	compact genome of 100 megabase pairs
+1.0	Hypsibius exemplaris	has	compact genome
+1.0	it	can	can cultured indefinitely
+1.0	Hypsibius exemplaris	has	genome
+1.0	Hypsibius exemplaris	has	genome of 100 megabase pairs
+1.0	genome	is half as	big
+1.0	genome	is	about half
+1.0	genome	is about half at	55 Mb
+1.0	Ramazzottius varieornatus	species of	tardigrades
+1.0	genome	is half at	55 Mb
+1.0	genome	is about half as	big
+1.0	genome	is	half
+1.0	its genes	% of are	result
+1.0	genes	% of are	result
+1.0	Genomic studies	reconstruct	evolution
+1.0	studies	reconstruct	evolution
+1.0	Genomic studies	reconstruct	evolution of their genome
+1.0	studies	reconstruct	evolution of their genome
+1.0	body plan	maps with	one to one alignment of segments
+1.0	tardigrade body plan	maps despite	diversity
+1.0	tardigrade body plan	maps with	simple one to one alignment of anterior segments
+1.0	tardigrade body plan	maps best with	one to one alignment of anterior segments
+1.0	tardigrade body plan	maps best with	one to one alignment
+1.0	tardigrade body plan	maps with	simple one to one alignment
+1.0	body plan	maps despite	diversity among Panarthropoda
+1.0	body plan	maps best despite	diversity of body plan among Panarthropoda
+1.0	body plan	maps best with	simple one to one alignment
+1.0	tardigrade body plan	maps best with	simple one to one alignment of segments
+1.0	body plan	maps with	simple one to one alignment
+1.0	body plan	maps with	simple one to one alignment of anterior segments
+1.0	body plan	maps with	one to one alignment of anterior segments
+1.0	tardigrade body plan	maps best with	simple one to one alignment of anterior segments
+1.0	body plan	maps best despite	diversity of body plan
+1.0	tardigrade body plan	maps despite	diversity of body plan
+1.0	tardigrade body plan	maps best despite	diversity
+1.0	tardigrade body plan	maps with	simple one to one alignment of segments
+1.0	tardigrade body plan	maps with	one to one alignment of anterior segments
+1.0	tardigrade body plan	maps best despite	diversity of body plan
+1.0	body plan	maps best with	simple one to one alignment of anterior segments
+1.0	body plan	maps despite	diversity
+1.0	body plan	maps best with	one to one alignment
+1.0	tardigrade body plan	maps despite	diversity of body plan among Panarthropoda
+1.0	tardigrade body plan	maps with	one to one alignment of segments
+1.0	body plan	maps best despite	diversity
+1.0	body plan	maps best with	simple one to one alignment of segments
+1.0	body plan	maps best with	one to one alignment of anterior segments
+1.0	tardigrade body plan	maps best with	simple one to one alignment
+1.0	tardigrade body plan	maps best with	one to one alignment of segments
+1.0	tardigrade body plan	maps best despite	diversity among Panarthropoda
+1.0	tardigrade body plan	maps with	one to one alignment
+1.0	tardigrade body plan	maps despite	diversity among Panarthropoda
+1.0	body plan	maps despite	diversity of body plan among Panarthropoda
+1.0	body plan	maps best with	one to one alignment of segments
+1.0	body plan	maps with	one to one alignment
+1.0	body plan	maps despite	diversity of body plan
+1.0	body plan	maps best despite	diversity among Panarthropoda
+1.0	tardigrade body plan	maps best despite	diversity of body plan among Panarthropoda
+1.0	body plan	maps with	simple one to one alignment of segments
+1.0	they	miniaturised	themselves
+1.0	tardigrades	evolved from	ancestral ecdysozoan
+1.0	tardigrades	evolved from	ecdysozoan
+1.0	ancestral ecdysozoan	is with	longer body
+1.0	Phylogeny	is In	2012
+1.0	Arthrotardigrada	seemed	paraphyletic
+0.9363326921926438	Phylogeny	using	markers
+1.0	2012	In Phylogeny is	phylogeny of phylum
+0.9363326921926438	Phylogeny	using	molecular markers
+0.9363326921926438	Phylogeny	using	RNA
+1.0	Arthrotardigrada	seemed	to paraphyletic
+1.0	Phylogeny	phylogeny of	phylum
+1.0	Phylogeny	was	studied
+1.0	Heterotardigrada	seemed	to paraphyletic
+1.0	Heterotardigrada	seemed	paraphyletic
+0.9363326921926438	Phylogeny	using	markers finding
+0.9363326921926438	Phylogeny	using	ribosomal RNA
+0.9363326921926438	Phylogeny	using	molecular markers finding
+0.37999818347223124	report	integrating	morphological studies
+1.0	Arthrotardigrada	appear	to paraphyletic
+1.0	Heterotardigrada	is clade	while Arthrotardigrada appear
+1.0	Heterotardigrada	is	accepted clade
+0.37999818347223124	report	integrating	multiple morphological studies
+1.0	Heterotardigrada	is accepted clade	Arthrotardigrada appear
+1.0	Heterotardigrada	is accepted clade	while Arthrotardigrada appear
+1.0	Arthrotardigrada	appear	paraphyletic
+1.0	Heterotardigrada	is clade	Arthrotardigrada appear
+1.0	report	concluded In	2018
+0.37999818347223124	report	integrating	multiple studies
+1.0	Heterotardigrada	is	accepted
+1.0	Heterotardigrada	is	clade
+0.37999818347223124	report	integrating	studies
+0.7136567063078536	tardigrades	is in	short story Bathybia by geologist
+0.7136567063078536	tardigrades	is in	story Bathybia
+0.7136567063078536	tardigrades	is in	short story Bathybia
+0.7136567063078536	tardigrades	is in	story Bathybia by geologist
+1.0	team	encounters	giant mushrooms
+1.0	team	encounters	mushrooms
+1.0	it	deals with	expedition
+1.0	it	deals with	expedition to South Pole
+1.0	team	watches	fighting
+1.0	team	watches	giant tardigrade fighting
+1.0	team	watches	giant fighting
+1.0	man	has	toe
+1.0	team	watches	tardigrade fighting
+1.0	he	realizes	it
+1.0	Popularity Tardigrades	be	readily collected
+1.0	Popularity Tardigrades	are common in	mosses
+1.0	Popularity Tardigrades	be collected under	power microscope
+1.0	Popularity Tardigrades	be collected under	low power microscope
+1.0	Popularity Tardigrades	are	common in mosses on walls
+1.0	Popularity Tardigrades	are common on	walls
+1.0	Popularity Tardigrades	readily be collected under	low power microscope
+1.0	Popularity Tardigrades	are	common
+1.0	Popularity Tardigrades	be	collected
+1.0	Popularity Tardigrades	readily be collected under	power microscope
+1.0	they	can	can reanimated on microscope slide
+1.0	they	can	can reanimated
+1.0	them	accessible to	beginning students
+1.0	them	accessible to	students
+1.0	they	are	If dry
+1.0	they	are	dry
+1.0	Biology	attributed	their popularity
+1.0	crawling	is to	their clumsy adorable
+1.0	crawling	is to	their adorable
+1.0	Current Biology	attributed	their popularity
+1.0	zoologists	called	charismatic phylum
+1.0	zoologists	called	phylum
+1.0	zoologists	called	them
+1.0	They	have	have famous
+1.0	gutter	is in	18th century
+1.0	dry sediment	is in	gutter
+1.0	astrophysicist Neil deGrasse Tyson	described Earth In	2015
+1.0	they	were nominated for	Name Society 's Name of Year Award
+1.0	astrophysicist Neil deGrasse Tyson	described	Earth
+1.0	they	were nominated for	American Name Society 's Name of Year Award
+1.0	astrophysicist Neil deGrasse Tyson	described Earth as	planet of tardigrades
+1.0	they	were nominated for	American Name Society 's Name
+1.0	American Name Society	for	Name of Year Award
+1.0	they	were nominated for	Name Society 's Name
+1.0	astrophysicist Neil deGrasse Tyson	described Earth as	planet
+1.0	they	were	nominated
+1.0	clothes	is with	crochet patterns for people to make
+1.0	they	are	popular
+1.0	St Eusebius	' Church is	Arnhem of microscopic organisms including tardigrade
+1.0	Dutch artist	created	statues for St Eusebius ' Church
+1.0	Dutch artist	created	statues
+1.0	artist	created	statues for St Eusebius ' Church
+1.0	artist	created	statues
+1.0	St Eusebius ' Church	Arnhem of	microscopic organisms including tardigrade
+1.0	tardigrades ' traits	have earned	place in science fiction
+1.0	tardigrades ' traits	have earned place From	science to popular culture
+1.0	tardigrades ' traits	have earned place From	science
+1.0	tardigrades ' traits	have earned place From	science to culture
+1.0	tardigrades ' traits	have earned	place
+0.672858089264303	tardigrades ' traits	place in	science fiction
+1.0	place	is in	science fiction
+1.0	tardigrades ' traits	have earned	them
+1.0	musician	imagines	himself
+1.0	robust tardigrade	is in	his 2015 Tardigrade Song
+1.0	life	is in	vacuums
+0.6104238690173525	I	life in	vacuums
+1.0	biologists	describe	tardigrades ' transition to science fiction
+1.0	biologists	describe	tardigrades ' transition
+1.0	protagonists	deal with	tardigrades
+1.0	protagonists	deal in	2015 sci fi horror film Harbinger Down
+1.0	Ripper	incorporate DNA into	its genome
+1.0	Ripper	incorporate	DNA
+1.0	Ripper	incorporate DNA via	horizontal gene transfer
+1.0	Ripper	incorporate	foreign DNA
+1.0	Ripper	incorporate DNA into	its own genome
+1.0	Ripper	incorporate DNA via	gene transfer
+1.0	he	's granted	access travel pass
+1.0	Ripper	borrows	DNA
+1.0	Ripper	borrows DNA from	mycelium
+1.0	scholar	writes	that
+1.0	scholar	is in	popular culture Lisa Meinecke
+1.0	real tardigrade	of	characteristics
+1.0	scholar	is in	Fighting for Future
+1.0	Anomalous	embodies	its future possibilities
+1.0	border	is	Outsider
+1.0	symbiosis	border of is	Outsider
+1.0	Anomalous	stabilises	system
+1.0	tardigrade	plays	Outsider role
+[main] INFO edu.stanford.nlp.naturalli.OpenIE - DONE processing files. 0 exceptions encountered.

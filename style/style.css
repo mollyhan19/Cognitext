@@ -1,0 +1,39 @@
+.container {
+    margin: 20px;
+}
+
+#graph {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.node text {
+    font-size: 8px; /* Reduced from 10px */
+}
+
+.node-frequency {
+    font-size: 6px; /* Even smaller for frequency count */
+}
+
+.link-label {
+    font-size: 8px;
+}
+
+.evidence-box {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    display: none;
+}
+
+.article-select {
+    padding: 5px;
+    margin-bottom: 10px;
+}

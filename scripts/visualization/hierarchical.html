@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hierarchical Concept Map</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        #visualization {
+            width: 100%;
+            height: 100vh;
+            background: #f8fafc;
+        }
+        .node text {
+            font-family: Arial, sans-serif;
+            pointer-events: none;
+        }
+        .link {
+            cursor: pointer;
+        }
+        .link:hover {
+            stroke: #4A5568;
+            stroke-width: 3px;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0;">
+    <div id="visualization"></div>
+    <script src="hierarchical.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+{
+    "articles": {
+        "Garden path sentence": {
+            "schema": {
+                "schema_type": "WikiArticles",
+                "schema_version": "1.0"
+            },
+            "title": "Garden path sentence",
+            "category": "linguistics",
+            "sections": [
+                {
+                    "section_title": "Introduction",
+                    "content": [
+                        "A garden-path sentence is a grammatically correct sentence that starts in such a way that a reader's most likely interpretation will be incorrect; the reader is lured into a parse that turns out to be a dead end or yields a clearly unintended meaning. Garden path refers to the saying \"to be led down [or up] the garden path\", meaning to be deceived, tricked, or seduced. In A Dictionary of Modern English Usage (1926), Fowler describes such sentences as unwittingly laying a \"false scent\".",
+                        "Such a sentence leads the reader toward a seemingly familiar meaning that is actually not the one intended. It is a special type of sentence that creates a momentarily ambiguous interpretation because it contains a word or phrase that can be interpreted in multiple ways, causing the reader to begin to believe that a phrase will mean one thing when in reality it means something else. When read, the sentence seems ungrammatical, makes almost no sense, and often requires rereading so that its meaning may be fully understood after careful parsing. Though these sentences are grammatically correct, such sentences are syntactically non-standard (or incorrect) as evidenced by the need for re-reading and careful parsing. Garden path sentences are not usually desirable in writing that intends to communicate clearly."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "section_title": "Examples",
+                    "content": [],
+                    "subsections": [
+                        {
+                            "section_title": "\"The old man the boat.\"",
+                            "content": [
+                                "This is a common example that has been the subject of psycholinguistic research and has been used to test the capabilities of artificial intelligence efforts. The difficulty in correctly parsing the sentence results from the fact that readers tend to interpret old as an adjective. Reading the, they expect a noun or an adjective to follow, and when they then read old followed by man they assume that the phrase the old man is to be interpreted as determiner – adjective – noun. When readers encounter another the following the supposed noun man (rather than the expected verb, as in e.g., The old man washed the boat), they are forced to re-analyze the sentence. As with other examples, one explanation for the initial misunderstanding by the reader is that a sequence of words or phrases tends to be analyzed in terms of a frequent pattern: in this case: determiner – adjective – noun. Rephrased, the sentence could be rewritten as \"The old are those who man the boat.\""
+                            ],
+                            "subsections": []
+                        },
+                        {
+                            "section_title": "\"The complex houses married and single soldiers and their families.\"",
+                            "content": [
+                                "This is another commonly cited example. Like the previous sentence, the initial parse is to read the complex houses as a noun phrase, but the complex houses married does not make semantic sense (only people can marry) and the complex houses married and single makes no sense at all (after married and..., the expectation is another verb to form a compound predicate). The correct parsing is The complex [noun phrase] houses [verb] married and single soldiers [noun phrase] and their families [noun phrase]. Rephrased, the sentence could be rewritten as \"The complex provides housing for the soldiers, married or single, as well as their families.\""
+                            ],
+                            "subsections": []
+                        },
+                        {
+                            "section_title": "\"The horse raced past the barn fell.\"",
+                            "content": [
+                                "This frequently used, classic example of a garden-path sentence is attributed to Thomas Bever. The sentence is hard to parse because raced can be interpreted as a finite verb or as a passive participle. The reader initially interprets raced as the main verb in the simple past, but when the reader encounters fell, they are forced to re-analyze the sentence, concluding that raced is being used as a passive participle and horse is the direct object of the subordinate clause. The sentence could be replaced by \"The horse that was raced past the barn fell\", where that was raced past the barn tells the reader which horse is under discussion. Such examples of initial ambiguity resulting from a \"reduced relative with [a] potentially intransitive verb\" (\"The horse raced in the barn fell.\") can be contrasted with the lack of ambiguity for a non-reduced relative (\"The horse that was raced in the barn fell.\") or with a reduced relative with an unambiguously transitive verb (\"The horse frightened in the barn fell.\"). As with other examples, one explanation for the initial misunderstanding by the reader is that a sequence of phrases tends to be analyzed in terms of the frequent pattern: agent – action – patient."
+                            ],
+                            "subsections": []
+                        },
+                        {
+                            "section_title": "In other languages",
+                            "content": [],
+                            "subsections": [
+                                {
+                                    "section_title": "German",
+                                    "content": [
+                                        "\"Modern bei dieser Bilderausstellung werden vor allem die Rahmen, denn sie sind aus Holz und im feuchten Keller gelagert worden.\"\nThis example turns on the two meanings of German modern: the adjective meaning English 'modern', and the verb meaning 'to rot'.",
+                                        "The theme of the \"picture exhibition\" in the first clause lends itself to interpreting modern as an adjective meaning 'contemporary', until the last two words of the sentence: \n\n'Most of all, it is the picture frames in this exhibition that are becoming modern, because they are made out of wood, and had been stored in the dank cellar.'\nThis causes dissonance at the end of the sentence, and forces back-tracking to recover the proper usage and sense (and different pronunciation) of the first word of the sentence, not as the adjective meaning \"contemporary\", but as the verb meaning \"going moldy\":\n\n'Most of all, it is the picture frames in this exhibition that are becoming moldy, because they are made out of wood and had been stored in the dank cellar.'\nThe ambiguity, however, is only perceived in writing, since the two occurrences of the word modern in the sentence have different pronunciations (for 'going moldy' it is stressed on the first syllable, while for 'contemporary' on the second one)."
+                                    ],
+                                    "subsections": []
+                                },
+                                {
+                                    "section_title": "Portuguese",
+                                    "content": [
+                                        "\"Mãe suspeita da morte do filho e foge.\"\nThis example makes use of the ambiguity between the verb suspeita and the adjective suspeita, which is also captured by the English word suspect. It also makes use of a misreading in which the word e is passed over by the parser, which lends to two different meanings.",
+                                        "In a first parse, the sentence might be read as '[A] mother [who is the] suspect of son's death runs away.' In this sentence, the suspeita serves as an adjective for the mother who runs away due to the fact that e is easily overlooked.",
+                                        "A second parse, however, reveals the true reading of the sentence to be '[A] mother suspects son's death and runs away.' Suspeita now serves as a verb and reveals that a mother suspects that her son might be dead."
+                                    ],
+                                    "subsections": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "section_title": "Parsing",
+                    "content": [
+                        "When reading a sentence, readers will analyze the words and phrases they see and make inferences about the sentence’s grammatical structure and meaning in a process called parsing. Generally, readers will parse the sentence chunks at a time and will try to interpret the meaning of the sentence at each interval. As readers are given more information, they make an assumption of the contents and meaning of the whole sentence. With each new portion of the sentence encountered, they will try to make that part make sense with the sentence structures that they have already interpreted and their assumption about the rest of the sentence. The garden-path sentence effect occurs when the sentence has a phrase or word with an ambiguous meaning that the reader interprets in a certain way and, when they read the whole sentence, there is a difference in what has been read and what was expected. The reader must then read and evaluate the sentence again to understand its meaning. The sentence may be parsed and interpreted in different ways due to the influence of pragmatics, semantics, or other factors describing the extralinguistic context."
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Parsing strategies",
+                            "content": [
+                                "Various strategies can be used when parsing a sentence, and there is much debate over which parsing strategy humans use. Differences in parsing strategies can be seen from the effects of a reader attempting to parse a part of a sentence that is ambiguous in its syntax or meaning. For this reason, garden-path sentences are often studied as a way to test which strategy humans use. Two debated parsing strategies that humans are thought to use are serial and parallel parsing.",
+                                "Serial parsing is where the reader makes one interpretation of the ambiguity and continues to parse the sentence in the context of that interpretation. The reader will continue to use the initial interpretation as reference for future parsing until disambiguating information is given.",
+                                "Parallel parsing is where the reader recognizes and generates multiple interpretations of the sentence and stores them until disambiguating information is given, at which point only the correct interpretation is maintained."
+                            ],
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "section_title": "Reanalysis of a garden-path sentence",
+                    "content": [
+                        "When ambiguous nouns appear, they can function as both the object of the first item or the subject of the second item. In that case, the former use is preferred. It is also found that the reanalysis of a garden-path sentence gets more and more difficult with the length of the ambiguous phrase."
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Recovery strategies",
+                            "content": [
+                                "A research paper published by Meseguer, Carreiras and Clifton (2002) stated that intensive eye movements are observed when people are recovering from a mild garden-path sentence. They proposed that people use two strategies, both of which are consistent with the selective reanalysis process described by Frazier and Rayner in 1982. According to them, the readers predominantly use two alternative strategies to recover from mild garden-path sentences.",
+                                "The more common one includes the regression of eyes from the first disambiguation directly to the main verb of the sentence. Then the readers reread the remainder of the sentence, fixating their eyes to the next region and the adverb (the beginning of the ambiguous part of the sentence).",
+                                "The lesser-used strategy includes the regression from the first disambiguation directly to the adverb."
+                            ],
+                            "subsections": []
+                        },
+                        {
+                            "section_title": "Partial re-analysis",
+                            "content": [
+                                "Partial re-analysis occurs when analysis is not complete. Frequently, when people can make even a little bit of sense of the later sentence, they stop analysing further so the former part of the sentence still remains in memory and does not get discarded from it.",
+                                "Therefore, the original misinterpretation of the sentence remains even after the re-analysis is done; hence participants' final interpretations are often incorrect."
+                            ],
+                            "subsections": []
+                        },
+                        {
+                            "section_title": "Difficulties in revision",
+                            "content": [
+                                "Recent research on garden-path sentences has utilized adult second language learners, or L2 learners, to study difficulties in revision of the initial parsing of garden-path sentences. During the processing of garden-path sentences, the reader has an initial parse of the sentence, but often has to revise their parse because it is incorrect. Unlike adult native speakers, children tend to have difficulty revising their first parsing of the sentence. This difficulty in revision is attributed to the underdeveloped executive functioning of children. Executive functioning skills are utilized when the initial parsing of a sentence needs to be discarded for a revised parsing, and underdeveloped or damaged executive functioning impairs this ability. As the child ages and their executive functioning completes development, they gain the ability to revise the initial incorrect parsing. However, difficulties in revision are not unique to children. Adult L2 learners also exhibit difficulty in revisions, but the difficulties cannot be attributed to underdeveloped executive functioning like in children.",
+                                "In a 2015 study, adult L2 learners were compared to adult native speakers and native speaking children in revision and processing of garden-path sentences using act-out errors and eye movement. Adult native English speakers, English speaking children, and adult English L2 learners were shown garden-path sentences or disambiguated garden-path sentences that either had reference information or no reference information and then asked to act out the sentence. Adult L2 speakers had fewer act-out errors than native speaking children when the garden-path sentence was presented with referential information, similarly to the adult native speakers that present less act-out errors than both the adult L2 learners and native speaking children. Adult L2 speakers and native adult speakers were able to use discourse and referential information to aid in their processing of the garden-path sentences. This ability could be due to the adults’ developed executive functioning allowing them more cognitive resources, discourse and referential information, to aid in parsing and revision. Additionally, the use of discourse and referential information could be due to L1-transfer because Italian and English share the same sentence structure. However, when the garden-path sentences are disambiguated and then presented, the adult L2 speakers had the highest act-out error rate followed by native speaking children and then by adult native speakers. The results of this study indicate that difficulties in parsing revision are more common than originally thought and are not just confined to children or individuals with reduced executive functioning. Adults, both native speakers and L2 learners, use discourse and referential information in parsing and sentence processing. But adult L2 learners and native speaking children had similar error rates for garden-path sentences with no reference information, indicating systematic revision failure."
+                            ],
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "section_title": "See also",
+                    "content": [],
+                    "subsections": [
+                        {
+                            "section_title": "Similar phenomena",
+                            "content": [
+                                "Antanaclasis and zeugma, literary devices in which a single word or phrase is repeated, but in two different senses.",
+                                "Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo, complexity and linguistic ambiguity in a grammatical sentence\nComparative illusion, ungrammatical sentences which often are perceived to be acceptable\nDangling else, a similarly ambiguous parsing issue in computer-programming.",
+                                "Dangling modifier\nDonkey sentence, a sentence that contains a pronoun whose reference is clear to the reader (it is bound semantically) but which is much more complex to technically classify.",
+                                "Paraprosdokian\nSyntactic ambiguity\nSynchysis"
+                            ],
+                            "subsections": []
+                        },
+                        {
+                            "section_title": "Other",
+                            "content": [
+                                "Backtracking\nBranch predictor\nList of linguistic example sentences\nNatural language processing\nTransderivational search\nWinograd schema challenge"
+                            ],
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "section_title": "Explanatory notes",
+                    "content": [],
+                    "subsections": []
+                },
+                {
+                    "section_title": "References",
+                    "content": [],
+                    "subsections": []
+                },
+                {
+                    "section_title": "Further reading",
+                    "content": [
+                        "Ferreira, Fernanda; Kiel Christianson, Andrew Hollingworth (January 2001). \"Misinterpretations of Garden-Path Sentences: Implications for Models of Sentence Processing and Reanalysis\" (PDF), J. Psycholinguistic Research, vol. 30, no. 1 (subscription required).",
+                        "Slattery, T. J., Sturt, P., Christianson, K., Yoshida, M., & Ferreira, F. (July 2013). Lingering misinterpretations of garden path sentences arise from competing syntactic representations in Journal of Memory and Language, 69(2) (subscription required), 104–120."
+                    ],
+                    "subsections": []
+                }
+            ]
+        },
+        "Epistemic injustice": {
+            "schema": {
+                "schema_type": "WikiArticles",
+                "schema_version": "1.0"
+            },
+            "title": "Epistemic injustice",
+            "category": "philosophy",
+            "sections": [
+                {
+                    "section_title": "Introduction",
+                    "content": [
+                        "Epistemic injustice is injustice related to knowledge. It includes exclusion and silencing; systematic distortion or misrepresentation of one's meanings or contributions; undervaluing of one's status or standing in communicative practices; unfair distinctions in authority; and unwarranted distrust.",
+                        "An influential theory of epistemic injustice is that of British philosopher Miranda Fricker, who coined the term in 1999. According to Fricker, there are two kinds of epistemic injustice: testimonial injustice and hermeneutical injustice.",
+                        "Related concepts include epistemic oppression and epistemic violence."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "section_title": "Testimonial injustice",
+                    "content": [
+                        "Testimonial injustice is unfairness related to trusting someone's word. An injustice of this kind can occur when someone is ignored, or not believed, because of their sex, sexuality, gender presentation, race, disability, or, broadly, because of their identity.",
+                        "Miranda Fricker gives the example of Londoner Duwayne Brooks, who saw his friend Stephen Lawrence murdered. The police officers who arrived at the scene regarded Brooks with suspicion. According to an official inquiry, \"the officers failed to concentrate upon Mr. Brooks and to follow up energetically the information which he gave them. Nobody suggested that he should accompany them in searches of the area, although he knew where the assailants had last been seen. Nobody appears properly to have tried to calm him, or to accept that what he said was true.\" That is, the police officers failed to view Brooks as a credible witness, presumably in part due to racial bias. This was, says Fricker, a case of testimonial injustice, which occurs when \"prejudice causes a hearer to give a deflated level of credibility to a speaker’s word.\""
+                    ],
+                    "subsections": []
+                },
+                {
+                    "section_title": "Hermeneutical injustice",
+                    "content": [
+                        "Hermeneutical injustice occurs when someone's experiences are not well understood — by themselves or by others — because these experiences do not fit any concepts known to them (or known to others), due to the historic exclusion of some groups of people from activities, such as scholarship and journalism, that shape the language people use to make sense of their experiences.",
+                        "For example, in the 1970s, the phrase sexual harassment was introduced to describe something that many people, especially women, had long experienced. Before this time, a woman experiencing sexual harassment may have had difficulty putting her experience into words. Fricker states that this difficulty is also not accidental, and was largely due to women's exclusion from shaping the English language and participating equally in journalism, publishing, academia, law, and the other institutions and industries that help people make sense of their lives. After the term sexual harassment was introduced, the same woman who experienced sexual harassment may have understood better what happened to her; however, she may have struggled to explain this experience to someone else, because the concept of sexual harassment was not yet well known.",
+                        "The term hermeneutical means “relating to interpretation”; hermeneutical injustice makes someone less able to interpret their own life."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "section_title": "Epistemological violence",
+                    "content": [
+                        "Epistemological violence is distinct from epistemic injustice in that it usually occurs in the power structure of academic research, such as when interpreting empirical results in psychology. Epistemological violence is theoretical interpretations of empirical results that construct a targeted group as inferior, despite alternative and equally viable interpretations of the data.",
+                        "For example, the psychologist Monique Botha has argued that academic studies of Theory of Mind in autistic children constitutes epistemological violence, due to foundational studies explicitly or implicitly drawing universal conclusions about the entire group of autistic people."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "section_title": "Origins",
+                    "content": [
+                        "Though the term epistemic injustice was not coined until 1999, earlier thinkers have discussed similar ideas.",
+                        "Vivian May has argued that civil rights activist Anna Julia Cooper in the 1890s anticipated the concept in claiming that Black women are denied full and equal recognition as knowers.",
+                        "Gaile Pohlhaus Jr. points to Gayatri Chakrovorty Spivak's 1988 essay \"Can the Subaltern Speak?\" as another anticipation. In that essay, Spivak describes what she calls epistemic violence occurring when subaltern persons are prevented from speaking for themselves about their own interests because of others claiming to know what those interests are."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "section_title": "Further developments",
+                    "content": [
+                        "Other scholars since Fricker have adapted the concept of epistemic injustice and/or expanded what the term includes. These contributions have included naming and narrowing down forms of epistemic injustice, such as epistemic oppression, epistemicide, epistemic exploitation, silencing as testimonial quieting and as testimonial smothering, contributory injustice, distributive epistemic injustice, epistemic trust injustice, and expressive hermeneutical injustice.",
+                        "José Medina has advocated for an account of epistemic injustice that incorporates more voices and pays attention to context and the relationships at play. Elizabeth S. Anderson has argued that attention should be given to the structural causes and structural remedies of epistemic injustice. A closely related literature on epistemologies of ignorance has also been developing, which has included the identification of overlapping concepts such as white ignorance and willful hermeneutical ignorance.",
+                        "American philosopher Kristie Dotson has warned that some definitions could leave out important contributions to the ongoing discussion around epistemic injustice. Gaile Pohlhaus Jr. has replied that the concept should therefore be considered an open one, and many different approaches to the concept should be considered.",
+                        "The Routledge Handbook of Epistemic Injustice (2017) addressed both the theory of epistemic injustice and its application to practical case studies. The Indian political theorist Rajeev Bhargava has used the term epistemic injustice to describe how colonized groups were wronged when colonizing powers replaced, or negatively impacted, the concepts and categories that colonized groups used to understand themselves and the world. More recently, Sabelo Ndlovu-Gatsheni has used the terms epistemicide and cognitive empire to describe discrimination against scholars and intellectuals from the Global South.",
+                        "Much has been written recently about epistemic injustice and health, for example by the researchers Himani Bhakuni and Seye Abimbola. A policy analysis indicated that the World Health Organization's definition of neglected tropical disease reflects a form of epistemic injustice, where conditions like snakebite are forced to be framed as a medical condition, resulting in lack of focus on prevention. The nature and structure of epistemic injustice in the neglected tropical disease community has been described and calls for structural reforms, meta-research and health policy has been made. Robert Chapman, among others, has discussed the relationship between epistemic injustice and neurodiversity.",
+                        "Genocide denial has been considered an example of epistemic injustice."
+                    ],
+                    "subsections": []
+                },
+                {
+                    "section_title": "See also",
+                    "content": [],
+                    "subsections": [
+                        {
+                            "section_title": "Selected philosophers and theorists",
+                            "content": [
+                                "Miranda Fricker\nJosé Medina\nKristie Dotson\nElizabeth S. Anderson\nCharles Mills\nBoaventura de Sousa Santos\nSabelo J. Ndlovu-Gatsheni"
+                            ],
+                            "subsections": []
+                        },
+                        {
+                            "section_title": "Related concepts",
+                            "content": [
+                                "Affirmation model of disability\nDouble empathy problem – Psychological theory regarding individuals on the autism spectrum\nInvisible disability – Disability that is not immediately noticeable to others\nlived experience – Phenomenological concept\nMedical model of disability – Biomedical view of human disability\nNothing about us without us – Political slogan originating in Central Europe\nSocial model of disability – Societal failure to adapt to disabilities\ntragedy model of disability\nVictim blaming – Social phenomenon"
+                            ],
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "section_title": "References",
+                    "content": [],
+                    "subsections": [
+                        {
+                            "section_title": "Bibliography",
+                            "content": [
+                                "Anderson, Elizabeth (2012). \"Epistemic Justice as a Virtue of Social Institutions\". Social Epistemology. 26 (2): 163–173. doi:10.1080/02691728.2011.652211. S2CID 145350986.",
+                                "Dotson, Kristie (2012). \"A Cautionary Tale: On Limiting Epistemic Oppression\". Frontiers: A Journal of Women Studies. 33: 24. doi:10.5250/fronjwomestud.33.1.0024. S2CID 142869935.",
+                                "Fricker, Miranda (2007). Epistemic Injustice: Power and the Ethics of Knowing. Oxford: Oxford University Press. ISBN 978-0-19-823790-7.",
+                                "Kidd, Ian James, José Medina, and Gaile Pohlhaus Jr. (2017). The Routledge Handbook of Epistemic Injustice. Routledge. ISBN 978-1-138-82825-4.",
+                                "Lopez, Andrew (2023). \"Nonhuman Animals and Epistemic Injustice\". Journal of Ethics & Social Philosophy. XXV (1): 136–163. doi:10.26556/jesp.v25i1.2201.",
+                                "Medina, José (2011). \"The Relevance of Credibility Excess in a Proportional View of Epistemic Injustice: Differential Epistemic Authority and the Social Imaginary\". Social Epistemology. 25: 15–35. doi:10.1080/02691728.2010.534568. S2CID 18592595.",
+                                "—— (2013). The Epistemology of Resistance: Gender and Racial Oppression, Epistemic Injustice, and Resistant imaginations. Oxford: Oxford University Press. ISBN 978-0-19-992902-3.",
+                                "Medina, José (2012). \"Hermeneutical Injustice and Polyphonic Contextualism: Social Silences and Shared Hermeneutical Responsibilities\". Social Epistemology. 26 (2): 201–220. doi:10.1080/02691728.2011.652214. S2CID 16890075.",
+                                "Mills, Charles (2007). \"White Ignorance\" (PDF). In Sullivan, Shannon; Tuana, Nancy (eds.). Race and Epistemologies of Ignorance. Philosophy and Race Series. Albany, NY: SUNY Press. pp. 13–38. ISBN 978-0-7914-7101-2.",
+                                "Pohlhaus, Gaile (2012). \"Relational Knowing and Epistemic Injustice: Toward a Theory of Willful Hermeneutical Ignorance\". Hypatia. 27 (4): 715–735. doi:10.1111/j.1527-2001.2011.01222.x. S2CID 143723579."
+                            ],
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

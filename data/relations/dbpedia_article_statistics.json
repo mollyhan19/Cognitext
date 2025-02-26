@@ -1,0 +1,552 @@
+{
+  "computer science": {
+    "articles": [
+      {
+        "title": "P versus NP problem",
+        "statistics": {
+          "total_relations": 206,
+          "proximity_scores": {
+            "score_1": 93,
+            "score_0.5": 80,
+            "score_0": 33
+          },
+          "evidence_present": {
+            "true": 81,
+            "false": 125
+          },
+          "source_present": {
+            "true": 190,
+            "false": 16
+          },
+          "target_present": {
+            "true": 186,
+            "false": 20
+          },
+          "coverage": {
+            "percentage": 39.32,
+            "found": 81,
+            "total": 206
+          }
+        }
+      }
+    ],
+    "total_relations": 206,
+    "proximity_scores": {
+      "score_1": 93,
+      "score_0.5": 80,
+      "score_0": 33
+    },
+    "evidence_present": {
+      "true": 81,
+      "false": 125
+    },
+    "source_present": {
+      "true": 190,
+      "false": 16
+    },
+    "target_present": {
+      "true": 186,
+      "false": 20
+    },
+    "coverage": {
+      "found": 81,
+      "total": 206,
+      "percentage": 39.32
+    }
+  },
+  "biology": {
+    "articles": [
+      {
+        "title": "Tardigrades",
+        "statistics": {
+          "total_relations": 85,
+          "proximity_scores": {
+            "score_1": 36,
+            "score_0.5": 21,
+            "score_0": 28
+          },
+          "evidence_present": {
+            "true": 35,
+            "false": 50
+          },
+          "source_present": {
+            "true": 76,
+            "false": 9
+          },
+          "target_present": {
+            "true": 64,
+            "false": 21
+          },
+          "coverage": {
+            "percentage": 41.18,
+            "found": 35,
+            "total": 85
+          }
+        }
+      }
+    ],
+    "total_relations": 85,
+    "proximity_scores": {
+      "score_1": 36,
+      "score_0.5": 21,
+      "score_0": 28
+    },
+    "evidence_present": {
+      "true": 35,
+      "false": 50
+    },
+    "source_present": {
+      "true": 76,
+      "false": 9
+    },
+    "target_present": {
+      "true": 64,
+      "false": 21
+    },
+    "coverage": {
+      "found": 35,
+      "total": 85,
+      "percentage": 41.18
+    }
+  },
+  "history": {
+    "articles": [
+      {
+        "title": "Lost Colony of Roanoke",
+        "statistics": {
+          "total_relations": 130,
+          "proximity_scores": {
+            "score_1": 30,
+            "score_0.5": 46,
+            "score_0": 54
+          },
+          "evidence_present": {
+            "true": 71,
+            "false": 59
+          },
+          "source_present": {
+            "true": 99,
+            "false": 31
+          },
+          "target_present": {
+            "true": 97,
+            "false": 33
+          },
+          "coverage": {
+            "percentage": 54.62,
+            "found": 71,
+            "total": 130
+          }
+        }
+      }
+    ],
+    "total_relations": 130,
+    "proximity_scores": {
+      "score_1": 30,
+      "score_0.5": 46,
+      "score_0": 54
+    },
+    "evidence_present": {
+      "true": 71,
+      "false": 59
+    },
+    "source_present": {
+      "true": 99,
+      "false": 31
+    },
+    "target_present": {
+      "true": 97,
+      "false": 33
+    },
+    "coverage": {
+      "found": 71,
+      "total": 130,
+      "percentage": 54.62
+    }
+  },
+  "philosophy": {
+    "articles": [
+      {
+        "title": "Epistemic injustice",
+        "statistics": {
+          "total_relations": 63,
+          "proximity_scores": {
+            "score_1": 34,
+            "score_0.5": 19,
+            "score_0": 10
+          },
+          "evidence_present": {
+            "true": 22,
+            "false": 41
+          },
+          "source_present": {
+            "true": 59,
+            "false": 4
+          },
+          "target_present": {
+            "true": 56,
+            "false": 7
+          },
+          "coverage": {
+            "percentage": 34.92,
+            "found": 22,
+            "total": 63
+          }
+        }
+      }
+    ],
+    "total_relations": 63,
+    "proximity_scores": {
+      "score_1": 34,
+      "score_0.5": 19,
+      "score_0": 10
+    },
+    "evidence_present": {
+      "true": 22,
+      "false": 41
+    },
+    "source_present": {
+      "true": 59,
+      "false": 4
+    },
+    "target_present": {
+      "true": 56,
+      "false": 7
+    },
+    "coverage": {
+      "found": 22,
+      "total": 63,
+      "percentage": 34.92
+    }
+  },
+  "political_science": {
+    "articles": [
+      {
+        "title": "Consociationalism",
+        "statistics": {
+          "total_relations": 114,
+          "proximity_scores": {
+            "score_1": 72,
+            "score_0.5": 34,
+            "score_0": 8
+          },
+          "evidence_present": {
+            "true": 43,
+            "false": 71
+          },
+          "source_present": {
+            "true": 110,
+            "false": 4
+          },
+          "target_present": {
+            "true": 110,
+            "false": 4
+          },
+          "coverage": {
+            "percentage": 37.72,
+            "found": 43,
+            "total": 114
+          }
+        }
+      }
+    ],
+    "total_relations": 114,
+    "proximity_scores": {
+      "score_1": 72,
+      "score_0.5": 34,
+      "score_0": 8
+    },
+    "evidence_present": {
+      "true": 43,
+      "false": 71
+    },
+    "source_present": {
+      "true": 110,
+      "false": 4
+    },
+    "target_present": {
+      "true": 110,
+      "false": 4
+    },
+    "coverage": {
+      "found": 43,
+      "total": 114,
+      "percentage": 37.72
+    }
+  },
+  "linguistics": {
+    "articles": [
+      {
+        "title": "Garden path sentence",
+        "statistics": {
+          "total_relations": 57,
+          "proximity_scores": {
+            "score_1": 21,
+            "score_0.5": 24,
+            "score_0": 12
+          },
+          "evidence_present": {
+            "true": 27,
+            "false": 30
+          },
+          "source_present": {
+            "true": 52,
+            "false": 5
+          },
+          "target_present": {
+            "true": 49,
+            "false": 8
+          },
+          "coverage": {
+            "percentage": 47.37,
+            "found": 27,
+            "total": 57
+          }
+        }
+      }
+    ],
+    "total_relations": 57,
+    "proximity_scores": {
+      "score_1": 21,
+      "score_0.5": 24,
+      "score_0": 12
+    },
+    "evidence_present": {
+      "true": 27,
+      "false": 30
+    },
+    "source_present": {
+      "true": 52,
+      "false": 5
+    },
+    "target_present": {
+      "true": 49,
+      "false": 8
+    },
+    "coverage": {
+      "found": 27,
+      "total": 57,
+      "percentage": 47.37
+    }
+  },
+  "arts": {
+    "articles": [
+      {
+        "title": "Fluxus",
+        "statistics": {
+          "total_relations": 136,
+          "proximity_scores": {
+            "score_1": 71,
+            "score_0.5": 32,
+            "score_0": 33
+          },
+          "evidence_present": {
+            "true": 42,
+            "false": 94
+          },
+          "source_present": {
+            "true": 124,
+            "false": 12
+          },
+          "target_present": {
+            "true": 111,
+            "false": 25
+          },
+          "coverage": {
+            "percentage": 30.88,
+            "found": 42,
+            "total": 136
+          }
+        }
+      }
+    ],
+    "total_relations": 136,
+    "proximity_scores": {
+      "score_1": 71,
+      "score_0.5": 32,
+      "score_0": 33
+    },
+    "evidence_present": {
+      "true": 42,
+      "false": 94
+    },
+    "source_present": {
+      "true": 124,
+      "false": 12
+    },
+    "target_present": {
+      "true": 111,
+      "false": 25
+    },
+    "coverage": {
+      "found": 42,
+      "total": 136,
+      "percentage": 30.88
+    }
+  },
+  "math/stats": {
+    "articles": [
+      {
+        "title": "Mandelbrot set",
+        "statistics": {
+          "total_relations": 127,
+          "proximity_scores": {
+            "score_1": 66,
+            "score_0.5": 43,
+            "score_0": 18
+          },
+          "evidence_present": {
+            "true": 53,
+            "false": 74
+          },
+          "source_present": {
+            "true": 121,
+            "false": 6
+          },
+          "target_present": {
+            "true": 114,
+            "false": 13
+          },
+          "coverage": {
+            "percentage": 41.73,
+            "found": 53,
+            "total": 127
+          }
+        }
+      }
+    ],
+    "total_relations": 127,
+    "proximity_scores": {
+      "score_1": 66,
+      "score_0.5": 43,
+      "score_0": 18
+    },
+    "evidence_present": {
+      "true": 53,
+      "false": 74
+    },
+    "source_present": {
+      "true": 121,
+      "false": 6
+    },
+    "target_present": {
+      "true": 114,
+      "false": 13
+    },
+    "coverage": {
+      "found": 53,
+      "total": 127,
+      "percentage": 41.73
+    }
+  },
+  "health/medicine": {
+    "articles": [
+      {
+        "title": "Cryotherapy",
+        "statistics": {
+          "total_relations": 127,
+          "proximity_scores": {
+            "score_1": 64,
+            "score_0.5": 35,
+            "score_0": 28
+          },
+          "evidence_present": {
+            "true": 57,
+            "false": 70
+          },
+          "source_present": {
+            "true": 114,
+            "false": 13
+          },
+          "target_present": {
+            "true": 111,
+            "false": 16
+          },
+          "coverage": {
+            "percentage": 44.88,
+            "found": 57,
+            "total": 127
+          }
+        }
+      }
+    ],
+    "total_relations": 127,
+    "proximity_scores": {
+      "score_1": 64,
+      "score_0.5": 35,
+      "score_0": 28
+    },
+    "evidence_present": {
+      "true": 57,
+      "false": 70
+    },
+    "source_present": {
+      "true": 114,
+      "false": 13
+    },
+    "target_present": {
+      "true": 111,
+      "false": 16
+    },
+    "coverage": {
+      "found": 57,
+      "total": 127,
+      "percentage": 44.88
+    }
+  },
+  "general": {
+    "articles": [
+      {
+        "title": "Mandela effect",
+        "statistics": {
+          "total_relations": 94,
+          "proximity_scores": {
+            "score_1": 39,
+            "score_0.5": 38,
+            "score_0": 17
+          },
+          "evidence_present": {
+            "true": 44,
+            "false": 50
+          },
+          "source_present": {
+            "true": 83,
+            "false": 11
+          },
+          "target_present": {
+            "true": 86,
+            "false": 8
+          },
+          "coverage": {
+            "percentage": 46.81,
+            "found": 44,
+            "total": 94
+          }
+        }
+      }
+    ],
+    "total_relations": 94,
+    "proximity_scores": {
+      "score_1": 39,
+      "score_0.5": 38,
+      "score_0": 17
+    },
+    "evidence_present": {
+      "true": 44,
+      "false": 50
+    },
+    "source_present": {
+      "true": 83,
+      "false": 11
+    },
+    "target_present": {
+      "true": 86,
+      "false": 8
+    },
+    "coverage": {
+      "found": 44,
+      "total": 94,
+      "percentage": 46.81
+    }
+  }
+}

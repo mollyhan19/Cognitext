@@ -1,7 +1,7 @@
 {
   "name": "concept-map-generator",
   "version": "1.0.0",
-  "description": "LLM-Enhanced Cyclic Concept Map Generator",
+  "description": "LLM-Enhanced Concept Map Generator",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

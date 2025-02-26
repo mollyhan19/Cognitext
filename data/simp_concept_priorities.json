@@ -1,0 +1,459 @@
+{
+  "document_metadata": {
+    "title": "Tardigrades",
+    "category": "biology"
+  },
+  "max_total_degree": 31,
+  "concepts": {
+    "impact resistance": {
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "miniaturization": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "tardigrades": {
+      "out_degree": 30,
+      "in_degree": 1,
+      "total_degree": 31,
+      "normalized_score": 1.0
+    },
+    "population density": {
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "cryptobiosis": {
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "fossil record": {
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "historical classification": {
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "taxonomy of tardigrades": {
+      "out_degree": 3,
+      "in_degree": 2,
+      "total_degree": 5,
+      "normalized_score": 0.16129032258064516
+    },
+    "class mesotardigrada": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "body structure": {
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "cuticle": {
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "dsup protein": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "dna from radiation": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "microbial symbionts and parasites": {
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "feeding mechanism": {
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "cyclomorphosis": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "horizontal gene transfer": {
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "genome size variation": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "habitat diversity": {
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "desiccated cyst (tun state)": {
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "cultural impact": {
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "science fiction": {
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "hypsibius exemplaris": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "100 megabase pairs": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "resilience": {
+      "out_degree": 1,
+      "in_degree": 3,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "reproductive system": {
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "egg development": {
+      "out_degree": 0,
+      "in_degree": 3,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "parthenogenesis": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "marine origin": {
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "habitat specialization": {
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "space survival": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "gas exchange": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "heterotardigrada and arthrotardigrada": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "paraphyletic": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "species descriptions": {
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "tardigradology": {
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "tactopoda hypothesis": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "arthropoda": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "survival traits": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "distribution patterns": {
+      "out_degree": 0,
+      "in_degree": 3,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "phylum tardigrada": {
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "class eutardigrada": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "giuseppe ramazzotti": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "merchandise": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "described species": {
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "nervous system": {
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "locomotion": {
+      "out_degree": 0,
+      "in_degree": 3,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "predation and prey": {
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "symbiosis": {
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "tardigrade body plan": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "panarthropoda": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "outsider role": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "ecdysozoa": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "haemocoel": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "body plan evolution": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "morphology": {
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "order apochela": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "class apotardigrada": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "anhydrobiosis": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "cold shock protein": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "regulation of translation": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "lobopodian ancestor": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "tardigrade fossils": {
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2,
+      "normalized_score": 0.06451612903225806
+    },
+    "mid-cambrian deposits": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "class heterotardigrada": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "living tardigrades": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "biomedical research potential": {
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3,
+      "normalized_score": 0.0967741935483871
+    },
+    "tardigrade specific proteins": {
+      "out_degree": 1,
+      "in_degree": 3,
+      "total_degree": 4,
+      "normalized_score": 0.12903225806451613
+    },
+    "trehalose": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "desiccated state": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "hox genes": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "first formal description": {
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "bathybia": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "cultural significance": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    },
+    "life-cycle stages": {
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1,
+      "normalized_score": 0.03225806451612903
+    }
+  }
+}

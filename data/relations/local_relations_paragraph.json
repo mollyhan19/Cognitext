@@ -1,0 +1,3326 @@
+{
+    "metadata": {
+        "type": "local_relations",
+        "processing_mode": "paragraph",
+        "timestamp": "2025-01-14T03:00:14.571274"
+    },
+    "articles": {
+        "Fluxus": {
+            "category": "arts",
+            "relations": [
+                {
+                    "source": "fluxus",
+                    "relation_type": "is a",
+                    "target": "radical and experimental art movement",
+                    "evidence": "Dutch gallerist and art critic Harry Ruh\u00e9 describes Fluxus as 'the most radical and experimental art movement of the sixties'.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "engaged in",
+                    "target": "experimental art performances",
+                    "evidence": "Fluxus was an international, interdisciplinary community of artists... who engaged in experimental art performances.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "contributed to",
+                    "target": "intermedia",
+                    "evidence": "Fluxus is known for experimental contributions to different artistic media and disciplines and for generating new art forms. These art forms include intermedia.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "developed",
+                    "target": "conceptual art",
+                    "evidence": "conceptual art, first developed by Henry Flynt, an artist contentiously associated with Fluxus.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "pioneered",
+                    "target": "video art",
+                    "evidence": "video art, first pioneered by Nam June Paik and Wolf Vostell.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "experimental art performances",
+                    "relation_type": "emphasizes",
+                    "target": "artistic process",
+                    "evidence": "experimental art performances which emphasized the artistic process over the finished product.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus artists",
+                    "relation_type": "share",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "Many Fluxus artists share anti-commercial and anti-art sensibilities.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "described as",
+                    "target": "intermedia",
+                    "evidence": "Fluxus is sometimes described as 'intermedia'.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "john cage's influence",
+                    "relation_type": "heavily influenced",
+                    "target": "fluxus",
+                    "evidence": "The ideas and practices of composer John Cage heavily influenced Fluxus.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "process of creating",
+                    "relation_type": "privileged over",
+                    "target": "finished product",
+                    "evidence": "The process of creating was privileged over the finished product.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "marcel duchamp's readymades",
+                    "relation_type": "notable influence on",
+                    "target": "fluxus",
+                    "evidence": "Another notable influence were the readymades of Marcel Duchamp.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "considered to be",
+                    "target": "founder of fluxus",
+                    "evidence": "George Maciunas, largely considered to be the founder of this fluid movement.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "coined name",
+                    "target": "fluxus",
+                    "evidence": "coined the name Fluxus in 1961 to title a proposed magazine.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is characterized by",
+                    "target": "fluxus activities",
+                    "evidence": "Many artists of the 1960s took part in Fluxus activities.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "is the founder of",
+                    "target": "fluxus",
+                    "evidence": "Fluxus founder George Maciunas proposed a well known manifesto.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus manifesto",
+                    "relation_type": "was proposed by",
+                    "target": "george maciunas",
+                    "evidence": "George Maciunas proposed a well known manifesto.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "community of collaborators",
+                    "relation_type": "is formed by",
+                    "target": "fluxus activities",
+                    "evidence": "They were a diverse community of collaborators who influenced each other.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus festivals",
+                    "relation_type": "contributed to the formation of",
+                    "target": "community of collaborators",
+                    "evidence": "A series of festivals...gave rise to a loose but robust community with many similar beliefs.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "radical ideas about art",
+                    "relation_type": "were held by",
+                    "target": "community of collaborators",
+                    "evidence": "They collectively had what were, at the time, radical ideas about art and the role of art in society.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is described as",
+                    "target": "laboratory concept",
+                    "evidence": "Some Fluxus artists came to describe Fluxus as a laboratory.",
+                    "section_name": "Introduction",
+                    "section_index": 1
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "influenced by",
+                    "target": "john cage",
+                    "evidence": "The origins of Fluxus lie in many of the concepts explored by composer John Cage in his experimental music of the 1930s through the 1960s.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "explores",
+                    "target": "chance and indeterminacy",
+                    "evidence": "These classes explored the notions of chance and indeterminacy in art.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "marcel duchamp's readymades",
+                    "relation_type": "influenced",
+                    "target": "fluxus",
+                    "evidence": "A major influence is found in the work of Marcel Duchamp.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "dada",
+                    "relation_type": "precursor to",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "The term anti-art, a precursor to Dada, was coined by Duchamp around 1913.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fountain",
+                    "relation_type": "example of",
+                    "target": "marcel duchamp's readymades",
+                    "evidence": "The most famous example is Duchamp's altered readymade Fountain (1917).",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "dada group",
+                    "relation_type": "formed by",
+                    "target": "marcel duchamp",
+                    "evidence": "While taking refuge from WWI in New York, in 1915 Duchamp formed a Dada group with Francis Picabia and American artist Man Ray.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "dada group",
+                    "relation_type": "includes",
+                    "target": "man ray",
+                    "evidence": "Other key members included Arthur Cravan, Florine Stettheimer, and the Elsa von Freytag-Loringhoven.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "informed by",
+                    "target": "dada",
+                    "evidence": "Their artworks would inform Fluxus and conceptual art in general.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "contemporaneous with",
+                    "target": "happenings",
+                    "evidence": "In the late 1950s and very early 1960s, Fluxus and contemporaneous groups or movements, including Happenings.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "neo-dada",
+                    "relation_type": "includes",
+                    "target": "fluxus",
+                    "evidence": "Fluxus and contemporaneous groups or movements... were often placed under the rubric of Neo-Dada.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "chambers street loft concerts",
+                    "relation_type": "is an event that anticipates",
+                    "target": "fluxus",
+                    "evidence": "A number of other contemporary events are credited as either anticipating Fluxus or as constituting proto-Fluxus events.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "yam festival",
+                    "relation_type": "is an event that anticipates",
+                    "target": "fluxus",
+                    "evidence": "the month-long Yam festival held in upstate New York by George Brecht and Robert Watts in May 1963... the culmination of a year's worth of Mail Art pieces",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "mail art",
+                    "relation_type": "is related to",
+                    "target": "yam festival",
+                    "evidence": "the culmination of a year's worth of Mail Art pieces",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "mary bauermeister's studio concerts",
+                    "relation_type": "is an event that anticipates",
+                    "target": "fluxus",
+                    "evidence": "a series of concerts held in Mary Bauermeister's studio, Cologne, 1960\u201361, featuring Nam June Paik and John Cage among many others.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "nam june paik",
+                    "relation_type": "performed at",
+                    "target": "mary bauermeister's studio concerts",
+                    "evidence": "featuring Nam June Paik and John Cage among many others.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "performed at",
+                    "target": "mary bauermeister's studio concerts",
+                    "evidence": "featuring Nam June Paik and John Cage among many others.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "nam june paik",
+                    "relation_type": "interacted with",
+                    "target": "john cage",
+                    "evidence": "It was at one of these events in 1960, during his Etude pour Piano, that Paik leapt into the audience and cut John Cage's tie off.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "dick higgins",
+                    "relation_type": "is a founder of",
+                    "target": "fluxus",
+                    "evidence": "As one of the movement's founders, Dick Higgins, stated: Fluxus started with the work...",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "initiated",
+                    "target": "neo-dada",
+                    "evidence": "Maciunas...applied the term to artists working in the Anthology of Chance Operations vein.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "la monte young",
+                    "relation_type": "collaborated with",
+                    "target": "george maciunas",
+                    "evidence": "Maciunas...asked Young if he could layout and help publish the Neo-Dada material.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "an anthology of chance operations",
+                    "relation_type": "contains works by",
+                    "target": "avant-garde artists",
+                    "evidence": "the anthology which contained the work of New York avant-garde artists from that time.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "published",
+                    "target": "an anthology of chance operations",
+                    "evidence": "An Anthology of Chance Operations was completed and published in 1963 by Jackson Mac Low and La Monte Young.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "promoted by",
+                    "target": "dick higgins",
+                    "evidence": "Maciunas was joined by Dick Higgins and Alison Knowles who traveled to Europe to help him promote a second planned publication to be called Fluxus.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "cultural, social, & political revolutionaries",
+                    "relation_type": "fused into",
+                    "target": "fluxus",
+                    "evidence": "Maciunas...attempt to 'fuse... cultural, social, & political revolutionaries into [a] united front and action.'",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "associated with",
+                    "target": "avant-garde artists",
+                    "evidence": "where he first met the group of avant-garde artists and musicians centered around John Cage and La Monte Young.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "dada",
+                    "relation_type": "influenced",
+                    "target": "neo-dada",
+                    "evidence": "Maciunas coined the name Fluxus not for his perceived group of Lithuania artists but for the Neo-Dada art being produced.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "art gallery",
+                    "relation_type": "showed work by",
+                    "target": "dick higgins",
+                    "evidence": "opened a short-lived art gallery on Madison Avenue, which showed work by Dick Higgins, Yoko Ono, Jonas Mekas...",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "wiesbaden, west germany",
+                    "relation_type": "location of",
+                    "target": "george maciunas",
+                    "evidence": "Maciunas moved to Wiesbaden, West Germany, having taken a job as a graphic designer.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "coined the term",
+                    "target": "fluxus",
+                    "evidence": "Maciunas first publicly coined the term Fluxus (meaning 'to flow')",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "distributed at",
+                    "target": "brochure prospectus",
+                    "evidence": "a 'brochure prospectus' that he distributed to the audience at a festival he had organized",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "organized",
+                    "target": "apr\u00e8s cage; kleinen sommerfest",
+                    "evidence": "a festival he had organized, called Apr\u00e8s Cage; Kleinen Sommerfest",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "apr\u00e8s cage; kleinen sommerfest",
+                    "relation_type": "took place in",
+                    "target": "wiesbaden, west germany",
+                    "evidence": "in Wuppertal, West Germany, 9 June 1962",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is referred to as",
+                    "target": "neo-dada",
+                    "evidence": "Maciunas initially referred to fluxus as 'neo-dadaism' or 'renewed dadaism'.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "neo-dada",
+                    "relation_type": "is discouraged by",
+                    "target": "Raoul Hausmann",
+                    "evidence": "Hausmann discouraged the use of the term 'neodadaism'.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "Raoul Hausmann",
+                    "relation_type": "is an original",
+                    "target": "dadaist",
+                    "evidence": "Hausmann, an original dadaist.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "Maciunas",
+                    "relation_type": "is an avid",
+                    "target": "art historian",
+                    "evidence": "Maciunas was an avid art historian.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "Maciunas",
+                    "relation_type": "wrote letters to",
+                    "target": "Raoul Hausmann",
+                    "evidence": "He wrote a number of letters to Raoul Hausmann.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "opposes",
+                    "target": "traditional artificialities of art",
+                    "evidence": "Fluxus was opposed to the exclusion of the everyday from art.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "utilizes",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "Using 'anti-art and artistic banalities', Fluxus would fight the 'traditional artificialities of art'.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "neo-dada",
+                    "relation_type": "related to",
+                    "target": "concretist neo-dada",
+                    "evidence": "After an attempt to define 'Concretist Neo-Dada' art.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "anti-commercial and anti-art sensibilities",
+                    "relation_type": "characterizes",
+                    "target": "fluxus",
+                    "evidence": "Using 'anti-art and artistic banalities', Fluxus would fight the 'traditional artificialities of art'.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "artistic banalities",
+                    "relation_type": "associated with",
+                    "target": "anti-art",
+                    "evidence": "Using 'anti-art and artistic banalities'.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "organized",
+                    "target": "fluxfests",
+                    "evidence": "Maciunas eventually organised a series of Fluxfests across Western Europe.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxfests",
+                    "relation_type": "featured",
+                    "target": "concerts",
+                    "evidence": "these Fluxfests presented work by musicians such as John Cage, Ligeti, Penderecki, Terry Riley and Brion Gysin.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "collaborated with",
+                    "target": "artists",
+                    "evidence": "With the help of a group of artists including Joseph Beuys and Wolf Vostell.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "john cage",
+                    "relation_type": "performed in",
+                    "target": "fluxfests",
+                    "evidence": "Fluxfests presented work by musicians such as John Cage.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "performance pieces",
+                    "relation_type": "written by",
+                    "target": "dick higgins",
+                    "evidence": "performance pieces written by Higgins, Knowles, George Brecht and Nam June Paik.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "piano activities",
+                    "relation_type": "became notorious for",
+                    "target": "challenging the important status of the piano",
+                    "evidence": "One performance in particular, Piano Activities by Philip Corner, became notorious by challenging the important status of the piano in post-war German homes.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "associated with",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "Fluxus is known for its anti-commercial and anti-art sensibilities.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "concerts",
+                    "relation_type": "featured",
+                    "target": "antique musical instruments",
+                    "evidence": "concerts of antique musical instruments.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "wiesbaden, west germany",
+                    "relation_type": "location of",
+                    "target": "fluxfests",
+                    "evidence": "Starting with 14 concerts between 1 and 23 September 1962, at Wiesbaden.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "performed",
+                    "target": "performance",
+                    "evidence": "the total destruction of a piano when performed by Maciunas, Higgins and others",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "dick higgins",
+                    "relation_type": "performed",
+                    "target": "performance",
+                    "evidence": "the total destruction of a piano when performed by Maciunas, Higgins and others",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "piano activities",
+                    "relation_type": "related to",
+                    "target": "performance pieces",
+                    "evidence": "we did Corner's Piano Activities not according to his instructions",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "piano activities",
+                    "relation_type": "resulted in",
+                    "target": "performance",
+                    "evidence": "we systematically destroyed a piano",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "cultural sentiments",
+                    "relation_type": "affected by",
+                    "target": "performance",
+                    "evidence": "German sentiments about this 'instrument of Chopin' were hurt",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "wiesbaden, west germany",
+                    "relation_type": "location of",
+                    "target": "performance",
+                    "evidence": "performed by Maciunas, Higgins and others at Wiesbaden",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "score",
+                    "relation_type": "describes",
+                    "target": "performance",
+                    "evidence": "The score\u2014which asks for any number of performers to, among other things, 'play', 'pluck or tap', 'scratch or rub', 'drop objects' on",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "avant-garde artists",
+                    "relation_type": "associated with",
+                    "target": "fluxus",
+                    "evidence": "Maciunas, Higgins and others are part of the Fluxus movement",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "performance",
+                    "relation_type": "considered",
+                    "target": "scandalous",
+                    "evidence": "The performance was considered scandalous enough to be shown on German television four times",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is associated with",
+                    "target": "fluxus activities",
+                    "evidence": "Fluxkits were originally intended to form an ever-expanding library of modern performance art.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxkits",
+                    "relation_type": "is a type of",
+                    "target": "mass production",
+                    "evidence": "Cheap, mass-produced and easily distributed, Fluxkits were originally intended to form an ever-expanding library of modern performance art.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "Composition 1961",
+                    "relation_type": "is an example of",
+                    "target": "fluxkits",
+                    "evidence": "The first three to be printed were Composition 1961 by La Monte Young... that became known as Fluxkits.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "Water Yam",
+                    "relation_type": "is a type of",
+                    "target": "fluxkits",
+                    "evidence": "Water Yam, a series of event scores printed on small sheets of card and collected together in a cardboard box, was the first in a series of artworks that Maciunas printed that became known as Fluxkits.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "edition size",
+                    "relation_type": "is related to",
+                    "target": "unsold copies",
+                    "evidence": "Water Yam was published in an edition of 1000 and originally cost $4. By April 1964, almost a year later, Maciunas still had 996 copies unsold.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "raoul hausmann",
+                    "relation_type": "is connected to",
+                    "target": "neo-dada",
+                    "evidence": "Maciunas used his connections at work to start printing cheap mass-produced books and multiples by some of the artists that were involved in the performances.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "dadaism",
+                    "relation_type": "influences",
+                    "target": "fluxus",
+                    "evidence": "Maciunas used his connections at work to start printing cheap mass-produced books and multiples by some of the artists that were involved in the performances.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "art historian",
+                    "relation_type": "studies",
+                    "target": "fluxus activities",
+                    "evidence": "The context of Fluxus and its activities is often analyzed by art historians.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "maciunas' original plan",
+                    "relation_type": "involves",
+                    "target": "copyright held by the collective",
+                    "evidence": "Maciunas' original plan had been to design, edit and pay for each edition himself, in exchange for the copyright to be held by the collective.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "maciunas' original plan",
+                    "relation_type": "includes",
+                    "target": "profit sharing model",
+                    "evidence": "Profits were to be split 80/20 at first, in favor of the artist.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "shifted focus from",
+                    "target": "shift from music to performance and visual art",
+                    "evidence": "Fluxus quickly moved away from music toward performance and visual art.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "john cage's influence",
+                    "relation_type": "is exemplified by",
+                    "target": "john cage's contract with the music publishers Edition Peters",
+                    "evidence": "John Cage, for instance, never published work under the Fluxus moniker due to his contract with the music publishers Edition Peters.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "provides",
+                    "target": "printing services",
+                    "evidence": "if you had things to be printed he could get them printed.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "east brunswick",
+                    "relation_type": "location of difficulty",
+                    "target": "offset printing",
+                    "evidence": "It's pretty hard in East Brunswick to get good offset printing.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "burden of printing",
+                    "relation_type": "relief from",
+                    "target": "george maciunas",
+                    "evidence": "it was a relief to find somebody who could take the burden off my hands.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "distance to printer",
+                    "relation_type": "influences",
+                    "target": "burden of printing",
+                    "evidence": "without my having to go 57 miles to find a printer.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "maciunas's background",
+                    "relation_type": "describes",
+                    "target": "george maciunas",
+                    "evidence": "a Lithuanian or Bulgarian, or somehow a refugee or whatever.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "maciunas' colorblindness",
+                    "relation_type": "causes",
+                    "target": "fluxus activities",
+                    "evidence": "Since Maciunas was colorblind, Fluxus multiples were almost always black and white.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "anti-commercial and anti-art sensibilities",
+                    "relation_type": "influences",
+                    "target": "fluxus activities",
+                    "evidence": "Fluxus activities often embody anti-commercial and anti-art sensibilities.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "maciunas' colorblindness",
+                    "relation_type": "characterizes",
+                    "target": "fluxus activities",
+                    "evidence": "Fluxus multiples were almost always black and white due to Maciunas' colorblindness.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "forced to return due to",
+                    "target": "ill health",
+                    "evidence": "After his contract with the US Air Force was terminated due to ill health, Maciunas was forced to return to the US",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "organized",
+                    "target": "street concerts",
+                    "evidence": "Once back in New York, he set about organizing a series of street concerts",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "opened",
+                    "target": "fluxhall",
+                    "evidence": "opened a new shop, the 'Fluxhall', on Canal Street",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxhall",
+                    "relation_type": "located on",
+                    "target": "canal street",
+                    "evidence": "opened a new shop, the 'Fluxhall', on Canal Street",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "canal street",
+                    "relation_type": "location of",
+                    "target": "concerts",
+                    "evidence": "12 concerts... took place on Canal Street",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "concerts",
+                    "relation_type": "time period of",
+                    "target": "dates of concerts",
+                    "evidence": "11 April to 23 May 1964",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "photographs by maciunas",
+                    "relation_type": "created by",
+                    "target": "george maciunas",
+                    "evidence": "With photographs taken by Maciunas himself",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "performance pieces",
+                    "relation_type": "included works by",
+                    "target": "avant-garde artists",
+                    "evidence": "pieces by Ben Vautier, Alison Knowles and Takehisa Kosugi were performed",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "free performances",
+                    "relation_type": "characteristic of",
+                    "target": "concerts",
+                    "evidence": "performed in the street for free",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "lack of audience",
+                    "relation_type": "condition of",
+                    "target": "concerts",
+                    "evidence": "although in practice there was 'no audience to speak of' anyway",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "recognized",
+                    "target": "radical political potential",
+                    "evidence": "Maciunas recognized a radical political potential in all this forthrightly anti-institutional production",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus movement",
+                    "relation_type": "associated with",
+                    "target": "anti-institutional production",
+                    "evidence": "these artists found themselves 'preferring streets, homes, and railway stations....'",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "utilized expertise in",
+                    "target": "graphic design expertise",
+                    "evidence": "Deploying his expertise as a professional graphic designer, Maciunas played an important role",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus activities",
+                    "relation_type": "influenced by",
+                    "target": "neo-dada",
+                    "evidence": "The people in Fluxus had understood, as Brecht explained, that 'concert halls, theaters, and art galleries' were 'mummifying'",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus movement",
+                    "relation_type": "connected to",
+                    "target": "dadaism",
+                    "evidence": "The people in Fluxus had understood, as Brecht explained, that 'concert halls, theaters, and art galleries' were 'mummifying'",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "maciunas' original plan",
+                    "relation_type": "led to the establishment of",
+                    "target": "distribution network",
+                    "evidence": "Maciunas built up a distribution network for the new art across Europe and later outlets in California and Japan.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "distribution network",
+                    "relation_type": "facilitated the availability of",
+                    "target": "anthology fluxus 1",
+                    "evidence": "By 1965, the first anthology Fluxus 1 was available.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "anthology fluxus 1",
+                    "relation_type": "included works by",
+                    "target": "artists",
+                    "evidence": "consisting of manila envelopes bolted together containing work by numerous artists who would later become famous.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "artists",
+                    "relation_type": "produced",
+                    "target": "altered playing cards",
+                    "evidence": "Other pieces available included packs of altered playing cards by George Brecht.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "artists",
+                    "relation_type": "created",
+                    "target": "sensory boxes",
+                    "evidence": "sensory boxes by Ay-O.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "artists",
+                    "relation_type": "contributed to",
+                    "target": "regular newsletter",
+                    "evidence": "a regular newsletter with contributions by artists and musicians such as Ray Johnson and John Cale.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "artists",
+                    "relation_type": "produced",
+                    "target": "tin cans with poems",
+                    "evidence": "tin cans filled with poems, songs and recipes about beans by Alison Knowles.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "mail order outlets",
+                    "relation_type": "were part of",
+                    "target": "distribution network",
+                    "evidence": "Gallery and mail order outlets were established in Amsterdam, Villefranche-Sur-Mer, Milan and London.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "encouraged",
+                    "target": "political stance",
+                    "evidence": "Maciunas became reacquainted with Henry Flynt, who encouraged members of Fluxus to take a more overtly political stance.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "set up",
+                    "target": "picket line",
+                    "evidence": "One of the results of these discussions was to set up a picket line at the American premiere of Originale.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "originale",
+                    "relation_type": "premiered at",
+                    "target": "art gallery",
+                    "evidence": "the American premiere of Originale, a recent work by the German composer Karlheinz Stockhausen.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "cultural imperialism",
+                    "relation_type": "deemed by",
+                    "target": "george maciunas",
+                    "evidence": "Stockhausen was deemed a 'Cultural Imperialist' by Maciunas and Flynt.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "members disagreed on",
+                    "target": "cultural imperialism",
+                    "evidence": "while other members vehemently disagreed.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "crossed",
+                    "target": "picket line",
+                    "evidence": "members of Fluxus, such as Nam June Paik and Jackson Mac Low, crossing a picket line made up of other members.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "dick higgins",
+                    "relation_type": "participated in",
+                    "target": "picket line",
+                    "evidence": "Dick Higgins participated in the picket.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "split in",
+                    "target": "fluxus",
+                    "evidence": "That was silly, because it made a split.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "died on",
+                    "target": "8 September 1964",
+                    "evidence": "Some people say that Fluxus died that day.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "maciunas and henry flynt's actions",
+                    "relation_type": "led to",
+                    "target": "conflict within fluxus",
+                    "evidence": "Maciunas and his friend Henry Flynt tried to get the Fluxus people to march around outside the circus.",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "charlotte moorman",
+                    "relation_type": "organized",
+                    "target": "2nd annual new york avant garde festival",
+                    "evidence": "The event, arranged by Charlotte Moorman as part of her 2nd Annual New York Avant Garde Festival",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "demanded separation from",
+                    "target": "2nd annual new york avant garde festival",
+                    "evidence": "Maciunas frequently demanding that artists associated with Fluxus have nothing to do with the annual festival",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "expelled artists from",
+                    "target": "2nd annual new york avant garde festival",
+                    "evidence": "would often expel artists who ignored his demands",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "charlotte moorman",
+                    "relation_type": "championed",
+                    "target": "fluxus art and artists",
+                    "evidence": "despite her continued championing of Fluxus art and artists",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "hostility towards",
+                    "target": "charlotte moorman",
+                    "evidence": "This hostility continued throughout Maciunas' life\u2014much to Moorman's bemusement",
+                    "section_name": "Early History, Late 50s to 1965 - ",
+                    "section_index": 2
+                },
+                {
+                    "source": "maciunas' agitprop approach",
+                    "relation_type": "caused estrangement",
+                    "target": "fluxus",
+                    "evidence": "The picketing of Originale marked the high point of Maciunas' agitprop approach, an approach that estranged many of Fluxus' early proponents.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "jackson mac low's resignation",
+                    "relation_type": "response to plans",
+                    "target": "maciunas' agitprop approach",
+                    "evidence": "Jackson Mac Low had resigned immediately after hearing 'antisocial' plans laid in April 1963.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "brecht's departure",
+                    "relation_type": "related to plans",
+                    "target": "maciunas' agitprop approach",
+                    "evidence": "Brecht threatened to quit on the same issue, and then left New York in the spring of 1965.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "something else press",
+                    "relation_type": "established by",
+                    "target": "dick higgins",
+                    "evidence": "Dick Higgins fell out with Maciunas around the same time, ostensibly over his setting up the Something Else Press.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "something else press",
+                    "relation_type": "printed works of",
+                    "target": "key Fluxus-related personalities",
+                    "evidence": "which printed many texts by key Fluxus-related personalities and other members of the avant garde.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "2nd annual new york avant garde festival",
+                    "relation_type": "presented by",
+                    "target": "charlotte moorman",
+                    "evidence": "Charlotte Moorman continued to present her Annual Avant Garde Festival in New York.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "maciunas' leadership",
+                    "relation_type": "influence",
+                    "target": "fluxus",
+                    "evidence": "Such perceived insurrections in the coherence of Maciunas' leadership of Fluxus provided an opening for Fluxus to become increasingly influenced by Japanese members of the group.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "yoko ono",
+                    "relation_type": "recommendation",
+                    "target": "maciunas' leadership",
+                    "evidence": "Since returning to Japan in 1961, Yoko Ono had been recommending colleagues look Maciunas up if they moved to New York.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "hi red center",
+                    "relation_type": "contribution",
+                    "target": "fluxus",
+                    "evidence": "Hi Red Center, Shigeko Kubota, Takako Saito, Mieko Shiomi, Yasunao Tone and Ay-O had all started to make work for Fluxus.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "shigeko kubota",
+                    "relation_type": "contribution",
+                    "target": "fluxus",
+                    "evidence": "Shigeko Kubota, Takako Saito, Mieko Shiomi, Yasunao Tone and Ay-O had all started to make work for Fluxus.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "takako saito",
+                    "relation_type": "contribution",
+                    "target": "fluxus",
+                    "evidence": "Shigeko Kubota, Takako Saito, Mieko Shiomi, Yasunao Tone and Ay-O had all started to make work for Fluxus.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "mieko shiomi",
+                    "relation_type": "contribution",
+                    "target": "fluxus",
+                    "evidence": "Shigeko Kubota, Takako Saito, Mieko Shiomi, Yasunao Tone and Ay-O had all started to make work for Fluxus.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "yasunao tone",
+                    "relation_type": "contribution",
+                    "target": "fluxus",
+                    "evidence": "Shigeko Kubota, Takako Saito, Mieko Shiomi, Yasunao Tone and Ay-O had all started to make work for Fluxus.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "ay-o",
+                    "relation_type": "contribution",
+                    "target": "fluxus",
+                    "evidence": "Shigeko Kubota, Takako Saito, Mieko Shiomi, Yasunao Tone and Ay-O had all started to make work for Fluxus.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "characteristic",
+                    "target": "contemplative nature of work",
+                    "evidence": "often of a contemplative nature.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "yoko ono",
+                    "relation_type": "independent contribution to",
+                    "target": "fluxus",
+                    "evidence": "Yoko Ono, a nonconformist to the Fluxus community, independently published her artist\u2019s book Grapefruit.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "grapefruit",
+                    "relation_type": "contains",
+                    "target": "event scores",
+                    "evidence": "The book\u2019s text itself encompassing event scores and other forms of participatory art.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "grapefruit",
+                    "relation_type": "contains",
+                    "target": "participatory art",
+                    "evidence": "The book\u2019s text itself encompassing event scores and other forms of participatory art.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "cloud piece",
+                    "relation_type": "is a type of",
+                    "target": "clouds",
+                    "evidence": "An event score from the book: Cloud Piece",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "clouds",
+                    "relation_type": "is associated with",
+                    "target": "dripping",
+                    "evidence": "Imagine the clouds dripping.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "imagination",
+                    "relation_type": "is involved in",
+                    "target": "clouds",
+                    "evidence": "Imagine the clouds dripping.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "digging a hole",
+                    "relation_type": "action performed in",
+                    "target": "garden",
+                    "evidence": "Dig a hole in your garden",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "putting items in the hole",
+                    "relation_type": "purpose of",
+                    "target": "digging a hole",
+                    "evidence": "to put them in",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "includes",
+                    "target": "fluxorchestra",
+                    "evidence": "The FluxOrchestra, with La Monte Young conducting, played at Carnegie Recital Hall.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "designed",
+                    "target": "poster and program",
+                    "evidence": "with a poster and program designed by George Maciunas.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxorchestra",
+                    "relation_type": "performed",
+                    "target": "performance pieces",
+                    "evidence": "The evening included performances of various pieces.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "la monte young",
+                    "relation_type": "conducted",
+                    "target": "fluxorchestra",
+                    "evidence": "with La Monte Young conducting.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "paper airplanes",
+                    "relation_type": "launched during",
+                    "target": "fluxorchestra performance",
+                    "evidence": "Copies of the program were folded into paper airplanes and launched during the evening.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "chieko shiomi",
+                    "relation_type": "performed",
+                    "target": "Falling Event",
+                    "evidence": "performances of 'Falling Event' by Chieko Shiomi.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george brecht",
+                    "relation_type": "composed",
+                    "target": "Symphony No. 3 'On the Floor from 'Clouds Scissors'",
+                    "evidence": "'Symphony No. 3 'On the Floor from 'Clouds Scissors' by George Brecht.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "yoko ono",
+                    "relation_type": "composed",
+                    "target": "4 Pieces for Orchestra to La Monte Young",
+                    "evidence": "'4 Pieces for Orchestra to La Monte Young' by Yoko Ono.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "anthony cox",
+                    "relation_type": "composed",
+                    "target": "Tactical Pieces for Orchestra",
+                    "evidence": "'Tactical Pieces for Orchestra' by Anthony Cox.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "watts",
+                    "relation_type": "composed",
+                    "target": "Trance for Orchestra",
+                    "evidence": "'Trance for Orchestra' by Watts.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "willem de ridder",
+                    "relation_type": "performed",
+                    "target": "Intermission Event",
+                    "evidence": "'Intermission Event' by Willem de Ridder.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "stan vanderbeek",
+                    "relation_type": "performed",
+                    "target": "Moviee Music",
+                    "evidence": "'Moviee Music' by Stan Vanderbeek.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "joe jones",
+                    "relation_type": "performed",
+                    "target": "Mechanical Orchestra",
+                    "evidence": "'Mechanical Orchestra' by Joe Jones.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "ben vautier",
+                    "relation_type": "performed",
+                    "target": "Secret Room",
+                    "evidence": "'Secret Room' by Ben Vautier.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "JJ Music Store",
+                    "relation_type": "location of",
+                    "target": "repetitive drone music machines",
+                    "evidence": "Joe Jones opened his JJ Music Store... where he presented his repetitive drone music machines.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "JJ Music Store",
+                    "relation_type": "hosts",
+                    "target": "experimental art performances",
+                    "evidence": "Jones also presented small musical installation performances there, alone or with other Fluxus artists.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Yoko Ono",
+                    "relation_type": "participates in",
+                    "target": "Grapefruit Fluxbanquet",
+                    "evidence": "Ono and Lennon (aka Plastic Ono Band) presented a series of Fluxus art events and concerts there called GRAPEFRUIT FLUXBANQUET.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "George Maciunas",
+                    "relation_type": "designs",
+                    "target": "promotional poster",
+                    "evidence": "It was promoted with a poster designed by Fluxus leader George Maciunas.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Grapefruit Fluxbanquet",
+                    "relation_type": "includes",
+                    "target": "performance events",
+                    "evidence": "Performances included Come Impersonating John Lennon & Yoko Ono, Grapefruit Banquet... and others.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Hi Red Center",
+                    "relation_type": "collaborates with",
+                    "target": "Yoko Ono",
+                    "evidence": "Clinic by Yoko Ono + Hi Red Center (April 25-May 1).",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Ay-O",
+                    "relation_type": "participates in",
+                    "target": "Grapefruit Fluxbanquet",
+                    "evidence": "Capsule by Yoko + Flux Space Center... with Maciunas, Paul Sharits, George Brecht, Ay-O, Ono, Watts, John Cavanaugh.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Mieko Shiomi",
+                    "relation_type": "participates in",
+                    "target": "Grapefruit Fluxbanquet",
+                    "evidence": "Examination by Yoko + Fluxschool... with Ono, Geoffrey Hendricks, Watts, Mieko Shiomi and Robert Filliou.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "George Maciunas",
+                    "relation_type": "exhibits",
+                    "target": "leadership in Fluxus",
+                    "evidence": "Fluxus leader George Maciunas.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "ambitions for",
+                    "target": "sale of cheap multiples",
+                    "evidence": "As Fluxus gradually became more famous, Maciunas' ambitions for the sale of cheap multiples grew.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus 2",
+                    "relation_type": "contains",
+                    "target": "Flux films",
+                    "evidence": "plans for a new anthology, Fluxus 2, were in full swing to contain Flux films by John Cage and Yoko Ono",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus 2",
+                    "relation_type": "contains",
+                    "target": "disrupted matchboxes and postcards",
+                    "evidence": "disrupted matchboxes and postcards by Ben Vautier",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus 2",
+                    "relation_type": "contains",
+                    "target": "plastic food",
+                    "evidence": "plastic food by Claes Oldenburg",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus 2",
+                    "relation_type": "contains",
+                    "target": "fluxmedicine",
+                    "evidence": "FluxMedicine by Shigeko Kubota (containing empty pill packages)",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus 2",
+                    "relation_type": "contains",
+                    "target": "artworks made of rocks, ink stamps, outdated travel tickets, undoable puzzles, and a machine to facilitate humming",
+                    "evidence": "artworks made of rocks, ink stamps, outdated travel tickets, undoable puzzles and a machine to facilitate humming.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "marcel duchamp's readymades",
+                    "relation_type": "influence on",
+                    "target": "fluxkit",
+                    "evidence": "an idea borrowed directly from Duchamp's Boite en Valise",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "maciunas' leadership",
+                    "relation_type": "influences",
+                    "target": "collective authorship",
+                    "evidence": "Maciunas' belief in the collective extended to authorship",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "collective authorship",
+                    "relation_type": "leads to",
+                    "target": "anonymity in art",
+                    "evidence": "a number of pieces from this period were anonymous",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "collective authorship",
+                    "relation_type": "results in",
+                    "target": "mis-attribution of authorship",
+                    "evidence": "mis-attributed, or have had their authorship since questioned",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "maciunas' leadership",
+                    "relation_type": "affects",
+                    "target": "maciunas' editorial influence",
+                    "evidence": "Maciunas was in the habit of dramatically changing ideas submitted by various artists",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "solid plastic in plastic box",
+                    "relation_type": "credited to",
+                    "target": "per kirkeby",
+                    "evidence": "Solid Plastic in Plastic Box, credited to Per Kirkeby 1967",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "solid plastic in plastic box",
+                    "relation_type": "originally realized as",
+                    "target": "metal box",
+                    "evidence": "had originally been realised by Kirkeby as a metal box",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "metal box",
+                    "relation_type": "contained",
+                    "target": "sawdust",
+                    "evidence": "When opened, the box would be found to contain sawdust",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "maciunas",
+                    "relation_type": "manufactured",
+                    "target": "solid plastic in plastic box",
+                    "evidence": "by the time the multiple had been manufactured by Maciunas",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "degree face clock",
+                    "relation_type": "assigned to",
+                    "target": "per kirkeby",
+                    "evidence": "Maciunas assigned Degree Face Clock, in which a clock face is measured out in 360\u00b0, to Kirkeby",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "degree face clock",
+                    "relation_type": "idea by",
+                    "target": "robert watts",
+                    "evidence": "despite being an idea by Robert Watts",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "robert watts",
+                    "relation_type": "thought up",
+                    "target": "degree face clock",
+                    "evidence": "he had recalled thinking up the idea himself",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "compass face clock",
+                    "relation_type": "mentioned alongside",
+                    "target": "degree face clock",
+                    "evidence": "when I spoke with Robert Watts about Degree Face Clock and Compass Face Clock",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "maciunas",
+                    "relation_type": "advertised as",
+                    "target": "per kirkeby's",
+                    "evidence": "advertised them as Per Kirkeby's",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "maciunas",
+                    "relation_type": "assigned pieces to",
+                    "target": "one artist or another",
+                    "evidence": "Maciunas would assign the piece to one artist or another",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxkits",
+                    "relation_type": "created from",
+                    "target": "plastic boxes",
+                    "evidence": "Maciunas buying large amounts of plastic boxes wholesale, and handing them out to artists with the simple request to turn them into Fluxkits",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "international network of artists",
+                    "relation_type": "contributes to",
+                    "target": "resource sharing",
+                    "evidence": "the use of the rapidly growing international network of artists to contribute items needed to complete works",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxatlas",
+                    "relation_type": "contains items from",
+                    "target": "international network of artists",
+                    "evidence": "Robert Watts' Fluxatlas, 1973, for instance, contains small rocks sent by members of the group from around the world",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "collaboration in art",
+                    "relation_type": "facilitated by",
+                    "target": "international network of artists",
+                    "evidence": "the use of the rapidly growing international network of artists to contribute items needed to complete works",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "imagination",
+                    "relation_type": "inspired by",
+                    "target": "fluxkits",
+                    "evidence": "handing them out to artists with the simple request to turn them into Fluxkits",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "cloud piece",
+                    "relation_type": "related to",
+                    "target": "clouds",
+                    "evidence": "not explicitly stated but implied through the thematic connection in art",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "dripping",
+                    "relation_type": "artistic technique in",
+                    "target": "collaboration in art",
+                    "evidence": "not explicitly stated but implied through the context of artistic practices",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Larry Miller",
+                    "relation_type": "active participant in",
+                    "target": "fluxus activities",
+                    "evidence": "Larry Miller, associated with the group since 1969, has also been active as an interpreter of the 'classic' scores and responsible for bringing the group's works to a wider public.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Larry Miller",
+                    "relation_type": "organized",
+                    "target": "fluxus festivals",
+                    "evidence": "Miller has also organized, reconstructed and performed at numerous Fluxus events.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Larry Miller",
+                    "relation_type": "collaborated with",
+                    "target": "George Maciunas",
+                    "evidence": "Miller originally constructed with George Maciunas at Akademie der K\u00fcnste, Berlin in 1976.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus activities",
+                    "relation_type": "include",
+                    "target": "performance events",
+                    "evidence": "Miller reprised and updated the track and field events of the Flux Olympics, first presented in 1970.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "attracted media coverage from",
+                    "target": "CNN",
+                    "evidence": "Through Miller, Fluxus attracted media coverage such as the worldwide CNN coverage of Off Limits exhibit at Newark Museum, 1999.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Flux Labyrinth",
+                    "relation_type": "constructed by",
+                    "target": "Larry Miller and George Maciunas",
+                    "evidence": "Miller originally constructed with George Maciunas at Akademie der K\u00fcnste, Berlin in 1976.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Flux Labyrinth",
+                    "relation_type": "included sections by",
+                    "target": "several of the Fluxus artists",
+                    "evidence": "which included sections by several of the Fluxus artists.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "In the Spirit of Fluxus exhibit",
+                    "relation_type": "featured",
+                    "target": "new version of the Flux Labyrinth",
+                    "evidence": "Miller created a new version of the Flux Labyrinth at the In the Spirit of Fluxus exhibit at the Walker Art Center in 1994.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Geoff Hendricks' Critical Mass",
+                    "relation_type": "included",
+                    "target": "happenings",
+                    "evidence": "Miller reprised and updated the track and field events of the Flux Olympics, first presented in 1970.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Charlotte Moorman",
+                    "relation_type": "contributed work",
+                    "target": "Make a Salad",
+                    "evidence": "Women associated with Fluxus such as Carolee Schneemann and Charlotte Moorman, and founding members of the group such as Alison Knowles and Yoko Ono, contributed works in varying media and with differing content such as Knowles' 'Make a Salad' and 'Make a Soup.'",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Alison Knowles",
+                    "relation_type": "contributed work",
+                    "target": "Make a Soup",
+                    "evidence": "Women associated with Fluxus such as Carolee Schneemann and Charlotte Moorman, and founding members of the group such as Alison Knowles and Yoko Ono, contributed works in varying media and with differing content such as Knowles' 'Make a Salad' and 'Make a Soup.'",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Sari Dienes",
+                    "relation_type": "influenced",
+                    "target": "Fluxus",
+                    "evidence": "Each was shaped by their times and their associations with artists of the previous generation such as Sari Dienes who were pointing the way to the changes of the 1960s and 70s.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Carolee Schneemann",
+                    "relation_type": "created work",
+                    "target": "Interior Scroll",
+                    "evidence": "Some made experimental and performative work having to do with the body that created a powerful female presence, which existed within Fluxus from the group's beginning as illustrated by works including Carolee Schneemann's 'Interior Scroll'.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Yoko Ono",
+                    "relation_type": "created work",
+                    "target": "Cut Piece",
+                    "evidence": "Some made experimental and performative work having to do with the body that created a powerful female presence, which existed within Fluxus from the group's beginning as illustrated by works including Yoko Ono's 'Cut Piece'.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Shigeko Kubota",
+                    "relation_type": "created work",
+                    "target": "Vagina Painting",
+                    "evidence": "Some made experimental and performative work having to do with the body that created a powerful female presence, which existed within Fluxus from the group's beginning as illustrated by works including Shigeko Kubota's 'Vagina Painting'.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "George Maciunas",
+                    "relation_type": "rejected",
+                    "target": "Carolee Schneemann",
+                    "evidence": "George Maciunas, in his rejection of Schneeman as a member of Fluxus, called her 'guilty of Baroque tendencies, overt sexuality, and theatrical excess'.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Interior Scroll",
+                    "relation_type": "response to",
+                    "target": "Schneemann's experience as a filmmaker",
+                    "evidence": "'Interior Scroll' was a response to Schneemann's experience as a filmmaker in the 1950s and 1960s, when male filmmakers claimed that women should restrict themselves to dance.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Fluxus",
+                    "relation_type": "included",
+                    "target": "women artists",
+                    "evidence": "Women working within Fluxus were often simultaneously critiquing their position within a male dominated society while also exposing the inequalities within an art collective that claimed to be open and diverse.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "promotes",
+                    "target": "inclusivity in fluxus",
+                    "evidence": "Fluxus was open to anyone who shared similar thoughts about art and life.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "enables",
+                    "target": "experimental art performances",
+                    "evidence": "women artists could be so active without feeling any frustration.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "shigeko kubota",
+                    "relation_type": "created",
+                    "target": "vagina painting",
+                    "evidence": "Shigeo Kubota's Vagina Painting (1965), was performed by attaching a paintbrush dipped in red paint to her underwear.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "vagina painting",
+                    "relation_type": "critiques",
+                    "target": "abstract expressionism",
+                    "evidence": "Vagina Painting has been interpreted as a critique of Jackson Pollock's action paintings, and the male-dominated abstract expressionist tradition.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "maciunas' leadership",
+                    "relation_type": "shapes",
+                    "target": "fluxus activities",
+                    "evidence": "Mieko Shiomi's comments reflect the ethos that Maciunas promoted within Fluxus.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "includes",
+                    "target": "avant-garde artists",
+                    "evidence": "Fluxus was open to anyone who shared similar thoughts about art and life.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "maciunas' editorial influence",
+                    "relation_type": "affects",
+                    "target": "collective authorship",
+                    "evidence": "Maciunas' leadership and editorial influence contributed to the concept of collective authorship in Fluxus.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "facilitates",
+                    "target": "performance events",
+                    "evidence": "Fluxus activities often took the form of performance events.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "japanese members of fluxus",
+                    "relation_type": "contribute to",
+                    "target": "fluxus activities",
+                    "evidence": "Japanese members of Fluxus played a significant role in its development and activities.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "flux communes",
+                    "relation_type": "intended purpose",
+                    "target": "bridge the gap between the artist community and the surrounding society",
+                    "evidence": "A number of artists in the group were interested in setting up Flux communes, intending to 'bridge the gap between the artist community and the surrounding society'",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "La C\u00e9dille qui Sourit",
+                    "relation_type": "established by",
+                    "target": "Robert Filliou and George Brecht",
+                    "evidence": "The first of these, La C\u00e9dille qui Sourit or The Cedilla That Smiles, was set up in Villefranche-sur-Mer, France, by Robert Filliou and George Brecht",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "La C\u00e9dille qui Sourit",
+                    "relation_type": "function",
+                    "target": "International Centre of Permanent Creation",
+                    "evidence": "Intended as an 'International Centre of Permanent Creation'",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "La C\u00e9dille qui Sourit",
+                    "relation_type": "sold",
+                    "target": "Fluxkits and other small wares",
+                    "evidence": "the shop sold Fluxkits and other small wares",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "non-school",
+                    "relation_type": "characteristic",
+                    "target": "carefree exchange of information and experience",
+                    "evidence": "boasting the motto 'A carefree exchange of information and experience. No students, no teachers.'",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Maciunas",
+                    "relation_type": "led",
+                    "target": "plans for real-estate developments",
+                    "evidence": "Led by Maciunas, plans were laid to start a series of real-estate developments in the area",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Hell's Hundred Acres",
+                    "relation_type": "transformation",
+                    "target": "SoHo",
+                    "evidence": "soon to become rebranded as SoHo",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Maciunas, Watts and others",
+                    "relation_type": "took advantage of",
+                    "target": "new legislation",
+                    "evidence": "In 1966, Maciunas, Watts and others took advantage of new legislation drafted to regenerate the area",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "real-estate developments",
+                    "relation_type": "designed to create",
+                    "target": "an artists' community",
+                    "evidence": "designed to create an artists' community within a few streets of the FluxShop on Canal Street",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "initiated",
+                    "target": "collective workshops",
+                    "evidence": "Maciunas wanted to establish collective workshops",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "initiated",
+                    "target": "food-buying cooperatives",
+                    "evidence": "Maciunas wanted to establish food-buying cooperatives",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "initiated",
+                    "target": "theaters",
+                    "evidence": "Maciunas wanted to establish theaters",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxhousing co-operatives",
+                    "relation_type": "developed",
+                    "target": "area",
+                    "evidence": "FluxHousing Co-Operatives continued to redevelop the area",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxhousing co-operatives",
+                    "relation_type": "expanded to include",
+                    "target": "fluxisland",
+                    "evidence": "were widened to include plans to set up a FluxIsland",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxisland",
+                    "relation_type": "planned but not realized due to",
+                    "target": "financial problems",
+                    "evidence": "the money to buy and develop it remained unforthcoming",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "fluxfarm",
+                    "relation_type": "established",
+                    "target": "performance arts centre",
+                    "evidence": "a performance arts centre called the FluxFarm established in New Marlborough, Massachusetts",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "title",
+                    "target": "chairman of bldg. co-op",
+                    "evidence": "Maciunas didn't hesitate to adopt the title 'Chairman of Bldg. Co-Op'",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "experienced",
+                    "target": "violence against maciunas",
+                    "evidence": "resulted, on 8 November 1975, in Maciunas being severely beaten by thugs",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "financial problems",
+                    "relation_type": "caused",
+                    "target": "constant run-ins with the New York authorities",
+                    "evidence": "plans were continually dogged by financial problems, constant run-ins with the New York authorities",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "founded",
+                    "target": "fluxus",
+                    "evidence": "It is arguably said that Fluxus came to an end when its founder and leader George Maciunas died in 1978.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "held",
+                    "target": "fluxfeast and wake",
+                    "evidence": "Maciunas' funeral was held in typical Fluxus style where they dubbed the funeral 'Fluxfeast and Wake'.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "left behind",
+                    "target": "interview with george maciunas",
+                    "evidence": "Maciunas left behind his thoughts on Fluxus in a series of important video conversations called Interview With George Maciunas.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "larry miller",
+                    "relation_type": "collected",
+                    "target": "fluxus related materials",
+                    "evidence": "Over the past 30 years, Miller has shot and collected Fluxus related materials including tapes on Joe Jones, Carolee Schneemann, Ben Vautier, Dick Higgins, and Alison Knowles.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "interview with george maciunas",
+                    "relation_type": "screened",
+                    "target": "internationally",
+                    "evidence": "which has been screened internationally and translated into numerous languages.",
+                    "section_name": "Middle Fluxus History: 1965\u201378 - ",
+                    "section_index": 3
+                },
+                {
+                    "source": "Jean Brown",
+                    "relation_type": "shifted focus to",
+                    "target": "Dadaist and Surrealist art",
+                    "evidence": "the Boston art collector Jean Brown... began to shift their focus to Dadaist and Surrealist art",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "Jean Brown",
+                    "relation_type": "expanded into",
+                    "target": "fluxus activities",
+                    "evidence": "expanded into areas adjacent to Fluxus, including artists' books, concrete poetry, happenings, mail art and performance art",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "Maciunas",
+                    "relation_type": "helped turn into",
+                    "target": "important center for Fluxus artists and scholars",
+                    "evidence": "Maciunas helped turn her home... into an important center for both Fluxus artists and scholars",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "archive room",
+                    "relation_type": "centered on",
+                    "target": "fluxus activities",
+                    "evidence": "Activities centered on a large archive room on the second floor built by Maciunas",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "Maciunas",
+                    "relation_type": "developed health issues of",
+                    "target": "cancer of the pancreas and liver",
+                    "evidence": "it was discovered that Maciunas developed cancer of the pancreas and liver in 1977",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "Maciunas",
+                    "relation_type": "associated with",
+                    "target": "fluxus",
+                    "evidence": "Maciunas... expanded into areas adjacent to Fluxus",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "happenings",
+                    "relation_type": "related to",
+                    "target": "experimental art performances",
+                    "evidence": "including artists' books, concrete poetry, happenings, mail art and performance art",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "mail art",
+                    "relation_type": "related to",
+                    "target": "experimental art performances",
+                    "evidence": "including artists' books, concrete poetry, happenings, mail art and performance art",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "marriage",
+                    "relation_type": "is a type of",
+                    "target": "fluxwedding",
+                    "evidence": "the couple performed a 'Fluxwedding' in a friend's loft in SoHo",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "fluxwedding",
+                    "relation_type": "involves",
+                    "target": "videotape production",
+                    "evidence": "A videotape of the Maciunas' wedding was produced by Dimitri Devyatkin",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "marriage",
+                    "relation_type": "is followed by",
+                    "target": "death",
+                    "evidence": "Maciunas died on 9 May 1978 in a hospital in Boston",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "marriage",
+                    "relation_type": "involves",
+                    "target": "clothing exchange",
+                    "evidence": "The bride and groom traded clothing",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "caused",
+                    "target": "rift in fluxus",
+                    "evidence": "After the death of George Maciunas a rift opened in Fluxus",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "rift in fluxus",
+                    "relation_type": "involves",
+                    "target": "collectors and curators",
+                    "evidence": "a rift opened in Fluxus between a few collectors and curators",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "rift in fluxus",
+                    "relation_type": "involves",
+                    "target": "artists",
+                    "evidence": "the artists themselves, many of whom continued to see Fluxus as a living entity",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "defined by",
+                    "target": "core values and world view",
+                    "evidence": "many of whom continued to see Fluxus as a living entity held together by its core values and world view",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "theorists and historians",
+                    "relation_type": "adopted",
+                    "target": "different views",
+                    "evidence": "Different theorists and historians adopted each of these views",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "subject of",
+                    "target": "controversy in definition",
+                    "evidence": "the definition of Fluxus was always a subject of controversy",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "impact of original artists' deaths",
+                    "relation_type": "complicates",
+                    "target": "controversy in definition",
+                    "evidence": "the question is now significantly more complex due to the fact that many of the original artists who were still living when Maciunas died are now dead themselves",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "art movement timeline",
+                    "relation_type": "associated with",
+                    "target": "fluxus",
+                    "evidence": "who placed Fluxus as an art movement in a specific time frame (1962 to 1978)",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "jon hendricks",
+                    "relation_type": "curates",
+                    "target": "gilbert and lila silverman collection",
+                    "evidence": "the unique control that curator Jon Hendricks holds over a major historical Fluxus collection (the Gilbert and Lila Silverman collection)",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "gilbert and lila silverman collection",
+                    "relation_type": "influences",
+                    "target": "view of fluxus",
+                    "evidence": "enabled him to influence, through the numerous books and catalogues subsidized by the collection, the view that Fluxus died with Maciunas",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "fluxus movement",
+                    "relation_type": "historical context",
+                    "target": "historical context of fluxus",
+                    "evidence": "Fluxus was a historical movement that occurred at a particular time",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "key fluxus artists",
+                    "relation_type": "active until",
+                    "target": "1978",
+                    "evidence": "central Fluxus artists such as Dick Higgins and Nam June Paik could no longer label themselves as active Fluxus artists after 1978",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "museum of modern art",
+                    "relation_type": "claims",
+                    "target": "fluxus movement",
+                    "evidence": "The Museum of Modern Art makes the same claim dating the movement to the 1960s and 1970s",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "fluxus movement",
+                    "relation_type": "influences",
+                    "target": "contemporary artists",
+                    "evidence": "the influence of Fluxus continues today in multi-media digital art performances",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "other minds performance",
+                    "relation_type": "celebrates",
+                    "target": "50th anniversary of fluxus",
+                    "evidence": "Other Minds presented a performance at the SOMArts building in San Francisco to celebrate the 50th anniversary of Fluxus",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "performance curators and artists",
+                    "relation_type": "included in",
+                    "target": "other minds performance",
+                    "evidence": "The performance was curated by Adam Fong who was also one of the performers along with Yoshi Wada, Alison Knowles, Hannah Higgins, Luciano Chessa and Adam Overton",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "maciunas",
+                    "relation_type": "key participant in",
+                    "target": "fluxus",
+                    "evidence": "Maciunas was a key participant",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "post-fluxus community",
+                    "relation_type": "emerged from",
+                    "target": "fluxus",
+                    "evidence": "a vibrant post-Fluxus community to emerge online",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "fluxlist",
+                    "relation_type": "created by",
+                    "target": "original Fluxus artists",
+                    "evidence": "original Fluxus artists... created online communities such as the Fluxlist",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "younger artists",
+                    "relation_type": "attempt to continue work in",
+                    "target": "cyberspace",
+                    "evidence": "younger artists... have attempted to continue their work in cyberspace",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "original Fluxus artists",
+                    "relation_type": "enjoy homages by",
+                    "target": "younger Fluxus-influenced artists",
+                    "evidence": "Many of the original Fluxus artists still working enjoy homages by younger Fluxus-influenced artists",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "original Fluxus artists",
+                    "relation_type": "discourage use of",
+                    "target": "'fluxus' label",
+                    "evidence": "discourage the use of the 'Fluxus' label by younger artists",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "john cage's influence",
+                    "relation_type": "inspired",
+                    "target": "fluxus festivals",
+                    "evidence": "the Los Angeles Philharmonic in its Fluxus Festival presented a fluxus performance incorporating John Cage's 'Europeras 1 and 2'",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "yuval sharon",
+                    "relation_type": "directed",
+                    "target": "fluxus performance",
+                    "evidence": "directed by Yuval Sharon",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "fluxus festivals",
+                    "relation_type": "showcase",
+                    "target": "avant-garde artists",
+                    "evidence": "Fluxus artists continue to perform today on a smaller scale",
+                    "section_name": "Fluxus since 1978",
+                    "section_index": 4
+                },
+                {
+                    "source": "gutai group",
+                    "relation_type": "promotes",
+                    "target": "art of matter as it is",
+                    "evidence": "Gutai group which promoted art as an anti-academic, psychophysical experience, an 'art of matter as it is' as explained by Shiraga Kazuo in 1956.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "gutai group",
+                    "relation_type": "connected with",
+                    "target": "artistic mass-production",
+                    "evidence": "Gutai became connected with a sort of artistic mass-production, anticipating Fluxus's trademark.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "avant-garde art in japan",
+                    "relation_type": "tends toward",
+                    "target": "informal elements",
+                    "evidence": "avant-garde art in Japan tended toward informal rather than conceptual elements.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "avant-garde art in japan",
+                    "relation_type": "radically opposes",
+                    "target": "extreme formality and symbolism in japanese art",
+                    "evidence": "avant-garde art in Japan tended toward informal rather than conceptual elements, radically opposing the extreme formality and symbolism found in Japanese art.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "gutai group",
+                    "relation_type": "predecessor of",
+                    "target": "fluxus",
+                    "evidence": "An immediate predecessor of Fluxus, according to Maciunas, was the Gutai group.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "anti-commercial and anti-art sensibilities",
+                    "relation_type": "related to",
+                    "target": "radical ideas about art",
+                    "evidence": "Gutai group which promoted art as an anti-academic, psychophysical experience.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "post-war disenchantment",
+                    "relation_type": "influences",
+                    "target": "commitment to buddhism and zen",
+                    "evidence": "Such disillusionment in itself presented a case for commitment to Buddhism and Zen in everyday matters",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "commitment to buddhism and zen",
+                    "relation_type": "includes",
+                    "target": "mental attitude",
+                    "evidence": "commitment to Buddhism and Zen in everyday matters such as mental attitude",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "commitment to buddhism and zen",
+                    "relation_type": "includes",
+                    "target": "meditation",
+                    "evidence": "commitment to Buddhism and Zen in everyday matters such as meditation",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "commitment to buddhism and zen",
+                    "relation_type": "includes",
+                    "target": "approach to food and body care",
+                    "evidence": "commitment to Buddhism and Zen in everyday matters such as approach to food and body care",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "post-war disenchantment",
+                    "relation_type": "drives",
+                    "target": "radical and experimental art movement",
+                    "evidence": "there was a general need for a more radical artistic sensibility",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "radical and experimental art movement",
+                    "relation_type": "adopts themes from",
+                    "target": "marcel duchamp's readymades",
+                    "evidence": "The themes of decay and of the inadequacy of the idea of modernity in artistic fields were adopted, partly from Duchamp",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "radical and experimental art movement",
+                    "relation_type": "adopts themes from",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "The themes of decay and of the inadequacy of the idea of modernity in artistic fields were adopted, partly from Dada",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "radical and experimental art movement",
+                    "relation_type": "responds to",
+                    "target": "uneasiness of living in contemporary society",
+                    "evidence": "partly from consciousness of the uneasiness of living in contemporary society",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "challenges",
+                    "target": "western and japanese art",
+                    "evidence": "Fluxus challenged notions of representation, offering instead simple presentation. This, in fact, corresponds to a major difference between Western and Japanese art.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "eliminates",
+                    "target": "boundaries between art and life",
+                    "evidence": "Another important Fluxus characteristic was the elimination of perceived boundaries between art and life.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "joseph beuys",
+                    "relation_type": "exemplifies",
+                    "target": "elimination of boundaries between art and life",
+                    "evidence": "This was exemplified by the work and writings of Joseph Beuys who stated, 'every man is an artist.'",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "utilizes",
+                    "target": "everyday economic approach",
+                    "evidence": "Fluxus's approach was an everyday, 'economic' one as seen in the production of small objects made of paper and plastic.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "everyday economic approach",
+                    "relation_type": "corresponds with",
+                    "target": "japanese culture",
+                    "evidence": "This strongly corresponds with some of the fundamental characteristics of Japanese culture, i.e., the high artistic value of everyday acts and objects and the aesthetic appreciation of frugality.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "japanese culture",
+                    "relation_type": "links to",
+                    "target": "japanese art",
+                    "evidence": "This also links with Japanese art, and the concept of shibumi.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "shibumi",
+                    "relation_type": "emphasizes",
+                    "target": "appreciation of bare objects",
+                    "evidence": "The concept of shibumi, which may involve incompleteness, and supports the appreciation of bare objects, emphasizing subtlety rather than overtness.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "pantonomic essence of japanese art",
+                    "relation_type": "describes",
+                    "target": "consciousness of no distinction between nature, art and life",
+                    "evidence": "The renowned Japanese aesthetics scholar Onishi Yoshinori called the essence of Japanese art pantonomic because of the consciousness of no distinction between nature, art and life.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "art",
+                    "relation_type": "is a way to approach",
+                    "target": "life",
+                    "evidence": "Art is the way to approach life and nature/reality corresponding to actual existence.",
+                    "section_name": "Influences",
+                    "section_index": 5
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "includes",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "Fluxus included a strong current of anti-commercialism and an anti-art sensibility.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "contrasts with",
+                    "target": "dada",
+                    "evidence": "Fluxus differed from Dada in its richer set of aspirations.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "dada",
+                    "relation_type": "precedes",
+                    "target": "fluxus",
+                    "evidence": "Like Dada before it, Fluxus included a strong current of anti-commercialism.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "promotes",
+                    "target": "artist-centered creative practice",
+                    "evidence": "disparaging the conventional market-driven art world in favor of an artist-centered creative practice.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "robert filliou",
+                    "relation_type": "associated with",
+                    "target": "fluxus",
+                    "evidence": "As Fluxus artist Robert Filliou wrote...",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "emphasizes",
+                    "target": "positive social and communitarian aspirations",
+                    "evidence": "the positive social and communitarian aspirations of Fluxus far outweighed the anti-art tendency.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is a type of",
+                    "target": "radical and experimental art movement",
+                    "evidence": "The Fluxus group shifted the emphasis from what an artist makes to the artist's personality, actions, and opinions.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "involves",
+                    "target": "performance events",
+                    "evidence": "Throughout the 1960s and 1970s (their most active period) they staged 'action' events.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "exhibits",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "Taking the stance of opposition to the ideas of tradition and professionalism in the arts of their time.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "includes",
+                    "target": "fluxus activities",
+                    "evidence": "They staged 'action' events, engaged in politics and public speaking, and produced sculptural works.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is compared to",
+                    "target": "dada",
+                    "evidence": "Fluxus has also been compared to Dada and aspects of Pop Art.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is characterized by",
+                    "target": "playful style",
+                    "evidence": "The often playful style of the Fluxus artists resulted in them being considered by some to be little more than a group of pranksters.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "avant-garde artists",
+                    "relation_type": "collaborate with",
+                    "target": "community of collaborators",
+                    "evidence": "Fluxus artists preferred to work with whatever materials were at hand, and either created their own work or collaborated in the creation process with their colleagues.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "maciunas' role",
+                    "relation_type": "hand-assembled",
+                    "target": "intermedia",
+                    "evidence": "Maciunas personally hand-assembled many of the Fluxus multiples and editions.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "maciunas' role",
+                    "relation_type": "designed for",
+                    "target": "mass production",
+                    "evidence": "While Maciunas assembled many objects by hand, he designed and intended them for mass production.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "something else press",
+                    "relation_type": "produced by",
+                    "target": "community of collaborators",
+                    "evidence": "The best known of these was the Something Else Press, established by Dick Higgins, probably the largest and most extensive Fluxus publisher.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "intermedia",
+                    "relation_type": "coined by",
+                    "target": "avant-garde artists",
+                    "evidence": "Higgins created the term 'intermedia' in a 1966 essay.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is associated with",
+                    "target": "performance pieces",
+                    "evidence": "The art forms most closely associated with Fluxus are event scores and Fluxus boxes.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "originated",
+                    "target": "fluxkits",
+                    "evidence": "Fluxus boxes (sometimes called Fluxkits or Fluxboxes) originated with George Maciunas.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "george maciunas",
+                    "relation_type": "gathered collections of",
+                    "target": "printed cards, games, and ideas",
+                    "evidence": "George Maciunas who would gather collections of printed cards, games, and ideas.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxkits",
+                    "relation_type": "are organized in",
+                    "target": "small plastic or wooden boxes",
+                    "evidence": "organizing them in small plastic or wooden boxes.",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus boxes",
+                    "relation_type": "are also known as",
+                    "target": "fluxkits",
+                    "evidence": "Fluxus boxes (sometimes called Fluxkits or Fluxboxes).",
+                    "section_name": "Fluxus art",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is characterized by",
+                    "target": "performance events",
+                    "evidence": "Fluxus artists differentiate event scores from 'happenings'.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "performance events",
+                    "relation_type": "contrast with",
+                    "target": "happenings",
+                    "evidence": "Whereas happenings were sometimes complicated, lengthy performances meant to blur the lines between performer and audience, performance and reality, event performances were usually brief and simple.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "performance events",
+                    "relation_type": "aim to",
+                    "target": "elevate the banal",
+                    "evidence": "The event performances sought to elevate the banal, to be mindful of the mundane.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "performance events",
+                    "relation_type": "frustrate",
+                    "target": "high culture of academic and market-driven music and art",
+                    "evidence": "to frustrate the high culture of academic and market-driven music and art.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "dada",
+                    "relation_type": "influences",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "Dada is known for its anti-commercial and anti-art sensibilities.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "avant-garde artists",
+                    "relation_type": "share",
+                    "target": "radical ideas about art",
+                    "evidence": "Avant-garde artists are often associated with radical ideas about art.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "robert filliou",
+                    "relation_type": "is associated with",
+                    "target": "artist-centered creative practice",
+                    "evidence": "Robert Filliou is known for his contributions to artist-centered creative practice.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "performance",
+                    "relation_type": "is a form of",
+                    "target": "performance events",
+                    "evidence": "Performance is a key aspect of performance events.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "positive social and communitarian aspirations",
+                    "relation_type": "are reflected in",
+                    "target": "fluxus",
+                    "evidence": "Fluxus embodies positive social and communitarian aspirations.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "henry cowell's philosophy of music",
+                    "relation_type": "influences",
+                    "target": "fluxus",
+                    "evidence": "The idea of the event began in Henry Cowell's philosophy of music.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is a type of",
+                    "target": "radical and experimental art movement",
+                    "evidence": "Fluxus artists... began as composers, bringing to art the idea that each person can create the work by 'doing it.'",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "score",
+                    "relation_type": "is related to",
+                    "target": "musicality",
+                    "evidence": "the term 'score' is used in exactly the sense that one uses the term to describe a music score.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "musicality",
+                    "relation_type": "is extended by",
+                    "target": "fluxus activities",
+                    "evidence": "Friedman... concluded that anyone can create work of any kind from a score.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus artists",
+                    "relation_type": "share",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "While much is made of the do it yourself approach to art, it is vital to recognize that this idea emerges in music.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "score",
+                    "relation_type": "allows for",
+                    "target": "interpretation of work",
+                    "evidence": "realizing the work freely and even interpreting it in far different ways from those the original composer might have done.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "dada",
+                    "relation_type": "is a precursor to",
+                    "target": "fluxus",
+                    "evidence": "Fluxus artists... began as composers.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "performance events",
+                    "relation_type": "are a form of",
+                    "target": "fluxus activities",
+                    "evidence": "the idea that each person can create the work by 'doing it.'",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "playful style",
+                    "relation_type": "is characteristic of",
+                    "target": "fluxus",
+                    "evidence": "the do it yourself approach to art.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "avant-garde artists",
+                    "relation_type": "are associated with",
+                    "target": "fluxus",
+                    "evidence": "important Fluxus artists such as Paik, Higgins, or Corner.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus practitioners",
+                    "relation_type": "adopted creative forms",
+                    "target": "video art",
+                    "evidence": "Other creative forms that have been adopted by Fluxus practitioners include... video.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus practitioners",
+                    "relation_type": "adopted creative forms",
+                    "target": "collage",
+                    "evidence": "Other creative forms that have been adopted by Fluxus practitioners include... collage.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus practitioners",
+                    "relation_type": "adopted creative forms",
+                    "target": "sound art",
+                    "evidence": "Other creative forms that have been adopted by Fluxus practitioners include... sound art.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus practitioners",
+                    "relation_type": "adopted creative forms",
+                    "target": "music",
+                    "evidence": "Other creative forms that have been adopted by Fluxus practitioners include... music.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus practitioners",
+                    "relation_type": "adopted creative forms",
+                    "target": "poetry",
+                    "evidence": "Other creative forms that have been adopted by Fluxus practitioners include... poetry.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus practitioners",
+                    "relation_type": "adopted creative forms",
+                    "target": "visual poetry",
+                    "evidence": "Other creative forms that have been adopted by Fluxus practitioners include... visual poetry.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus practitioners",
+                    "relation_type": "adopted creative forms",
+                    "target": "concrete poetry",
+                    "evidence": "Other creative forms that have been adopted by Fluxus practitioners include... concrete poetry.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus movement",
+                    "relation_type": "influences",
+                    "target": "viewer experience",
+                    "evidence": "Fluxus artists believed that shock not only makes the viewer question their own reasoning, but is a means to awaken the viewer.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "shock",
+                    "relation_type": "creates",
+                    "target": "state of consciousness",
+                    "evidence": "Paik himself described the shock factor in his Fluxus work: '...a little shock is required...'",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "performance events",
+                    "relation_type": "associated with",
+                    "target": "fluxus",
+                    "evidence": "Nam June Paik and his peers in the Fluxus art movement thoroughly understood the impact and importance of shock on the viewer.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "exposition of music\u2014electronic television",
+                    "relation_type": "example of",
+                    "target": "performance",
+                    "evidence": "Paik's 'head' was that of a real cow displayed at the entrance to his exhibition, Exposition of Music\u2014Electronic Television.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "radical ideas about art",
+                    "relation_type": "shared by",
+                    "target": "avant-garde artists",
+                    "evidence": "Fluxus artists believed that shock not only makes the viewer question their own reasoning.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "positive social and communitarian aspirations",
+                    "relation_type": "contrasts with",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "Fluxus artists had anti-commercial and anti-art sensibilities.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "happenings",
+                    "relation_type": "related to",
+                    "target": "performance events",
+                    "evidence": "Nam June Paik and his peers in the Fluxus art movement thoroughly understood the impact and importance of shock on the viewer.",
+                    "section_name": "Fluxus art - ",
+                    "section_index": 6
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is similar to",
+                    "target": "dada",
+                    "evidence": "Fluxus is similar in spirit to the earlier art movement of Dada, emphasizing the concept of anti-art and taking jabs at the seriousness of modern art.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus artists",
+                    "relation_type": "used",
+                    "target": "minimal performances",
+                    "evidence": "Fluxus artists used their minimal performances to highlight their perceived connections between everyday objects and art.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "duchamp",
+                    "relation_type": "is related to",
+                    "target": "fluxus",
+                    "evidence": "similarly to Duchamp in pieces such as Fountain.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "events",
+                    "relation_type": "are defined by",
+                    "target": "george brecht",
+                    "evidence": "Fluxus member George Brecht defined as 'the smallest unit of a situation.'",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "events",
+                    "relation_type": "consist of",
+                    "target": "minimal instruction",
+                    "evidence": "The events consisted of a minimal instruction, opening the events to accidents and other unintended effects.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "audience integration",
+                    "relation_type": "contributes to",
+                    "target": "randomness in art",
+                    "evidence": "Also contributing to the randomness of events was the integration of audience members into the performances.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "duchamp's notion of the viewer",
+                    "relation_type": "is realized by",
+                    "target": "audience integration",
+                    "evidence": "realizing Duchamp's notion of the viewer completing the art work.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus artistic philosophy",
+                    "relation_type": "is characterized by",
+                    "target": "intermedia",
+                    "evidence": "Fluxus is intermedia.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus artistic philosophy",
+                    "relation_type": "involves",
+                    "target": "media intersection",
+                    "evidence": "Fluxus creators like to see what happens when different media intersect.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus artistic philosophy",
+                    "relation_type": "utilizes",
+                    "target": "found and everyday objects",
+                    "evidence": "They use found and everyday objects, sounds, images, and texts.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus artistic philosophy",
+                    "relation_type": "results in",
+                    "target": "new combinations",
+                    "evidence": "to create new combinations of objects, sounds, images, and texts.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "media intersection",
+                    "relation_type": "leads to",
+                    "target": "new combinations",
+                    "evidence": "They use found and everyday objects, sounds, images, and texts to create new combinations.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus works",
+                    "relation_type": "are characterized by",
+                    "target": "art",
+                    "evidence": "Fluxus works are simple. The art is small...",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus works",
+                    "relation_type": "include",
+                    "target": "texts",
+                    "evidence": "the texts are short...",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus works",
+                    "relation_type": "feature",
+                    "target": "performance",
+                    "evidence": "the performances are brief.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "includes",
+                    "target": "humor",
+                    "evidence": "Humor has always been an important element in Fluxus.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "characterized by",
+                    "target": "fun",
+                    "evidence": "Fluxus is fun.",
+                    "section_name": "Artistic philosophies",
+                    "section_index": 7
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is characterized by",
+                    "target": "unified history",
+                    "evidence": "There is a complexity in adequately charting a unified history of Fluxus.",
+                    "section_name": "Late criticism",
+                    "section_index": 8
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "exhibits",
+                    "target": "resistance to pigeonholing",
+                    "evidence": "The resistance to being pigeonholed, and with the absence of a stable identity, Fluxus opened up to wide participation.",
+                    "section_name": "Late criticism",
+                    "section_index": 8
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "involves",
+                    "target": "acts of excommunication",
+                    "evidence": "Maciunas made frequent acts of excommunication between 1962 and 1978 which destabilized the collective.",
+                    "section_name": "Late criticism",
+                    "section_index": 8
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is described as having",
+                    "target": "performative essence",
+                    "evidence": "Kristine Stiles argues in one of her essays that the essence of Fluxus is 'performative'.",
+                    "section_name": "Late criticism",
+                    "section_index": 8
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "shifted towards",
+                    "target": "shift towards publication",
+                    "evidence": "Fluxus instead moved towards favoring the objects of publication.",
+                    "section_name": "Late criticism",
+                    "section_index": 8
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is affected by",
+                    "target": "lack of leadership",
+                    "evidence": "With no leadership, no identifiable guidelines, no real collective strategy, no homogeneity in terms of practices, Fluxus cannot be handled through traditional critical tools.",
+                    "section_name": "Late criticism",
+                    "section_index": 8
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "is often a",
+                    "target": "discourse on failure",
+                    "evidence": "Fluxus therefore is nearly always a discourse on the failure of discourse.",
+                    "section_name": "Late criticism",
+                    "section_index": 8
+                },
+                {
+                    "source": "avant-garde artists",
+                    "relation_type": "participate in",
+                    "target": "community of collaborators",
+                    "evidence": "Fluxus artists shared several characteristics including wit and 'childlikeness', though they lacked a consistent identity as an artistic community.",
+                    "section_name": "Fluxus artists",
+                    "section_index": 9
+                },
+                {
+                    "source": "significance of female members",
+                    "relation_type": "contrasts with",
+                    "target": "abstract expressionism",
+                    "evidence": "The possibility that Fluxus had more female members than any Western art group up to that point in history is particularly significant because Fluxus came on the heels of the white male-dominated abstract expressionism movement.",
+                    "section_name": "Fluxus artists",
+                    "section_index": 9
+                },
+                {
+                    "source": "collective authorship",
+                    "relation_type": "is influenced by",
+                    "target": "anti-commercial and anti-art sensibilities",
+                    "evidence": "However, despite the designed open-endedness of Fluxus, Maciunas insisted on maintaining unity in the collective.",
+                    "section_name": "Fluxus artists",
+                    "section_index": 9
+                },
+                {
+                    "source": "accusations against maciunas",
+                    "relation_type": "arise from",
+                    "target": "radical ideas about art",
+                    "evidence": "Because of this, Maciunas was accused of expelling certain members for deviating from what he perceived as the goals of Fluxus.",
+                    "section_name": "Fluxus artists",
+                    "section_index": 9
+                },
+                {
+                    "source": "critique of abstract expressionism",
+                    "relation_type": "is a response to",
+                    "target": "avant-garde artists",
+                    "evidence": "Fluxus came on the heels of the white male-dominated abstract expressionism movement.",
+                    "section_name": "Fluxus artists",
+                    "section_index": 9
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "associated with",
+                    "target": "artists",
+                    "evidence": "Many artists have been associated with Fluxus over the years.",
+                    "section_name": "Fluxus artists",
+                    "section_index": 9
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "associated with",
+                    "target": "writers",
+                    "evidence": "Many writers have been associated with Fluxus over the years.",
+                    "section_name": "Fluxus artists",
+                    "section_index": 9
+                },
+                {
+                    "source": "fluxus",
+                    "relation_type": "associated with",
+                    "target": "composers",
+                    "evidence": "Many composers have been associated with Fluxus over the years.",
+                    "section_name": "Fluxus artists",
+                    "section_index": 9
+                },
+                {
+                    "source": "Sub Rosa records",
+                    "relation_type": "released",
+                    "target": "fluxus activities",
+                    "evidence": "In 2023, Sub Rosa records released a collection of Fluxus sound works on CD",
+                    "section_name": "Major collections and archives",
+                    "section_index": 11
+                },
+                {
+                    "source": "fluxus activities",
+                    "relation_type": "associated with",
+                    "target": "fluxus manifesto",
+                    "evidence": "Fluxus sound works are part of the broader Fluxus movement, which is defined by the Fluxus manifesto",
+                    "section_name": "Major collections and archives",
+                    "section_index": 11
+                },
+                {
+                    "source": "fluxus activities",
+                    "relation_type": "featured in",
+                    "target": "fluxus festivals",
+                    "evidence": "Fluxus activities are often showcased during Fluxus festivals",
+                    "section_name": "Major collections and archives",
+                    "section_index": 11
+                },
+                {
+                    "source": "2023",
+                    "relation_type": "year of",
+                    "target": "fluxus festivals",
+                    "evidence": "In 2023, various Fluxus festivals may be held to celebrate the movement",
+                    "section_name": "Major collections and archives",
+                    "section_index": 11
+                }
+            ]
+        }
+    }
+}

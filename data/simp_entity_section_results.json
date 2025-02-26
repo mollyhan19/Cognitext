@@ -1,0 +1,254 @@
+{
+    "Epistemic injustice": {
+        "category": "philosophy",
+        "total_entities": 43,
+        "entities": [
+            {
+                "id": "epistemic injustice"
+            },
+            {
+                "id": "testimonial injustice"
+            },
+            {
+                "id": "hermeneutical injustice"
+            },
+            {
+                "id": "epistemic oppression"
+            },
+            {
+                "id": "epistemic violence"
+            },
+            {
+                "id": "exclusion and silencing"
+            },
+            {
+                "id": "systematic distortion"
+            },
+            {
+                "id": "undervaluing of status"
+            },
+            {
+                "id": "unfair distinctions in authority"
+            },
+            {
+                "id": "unwarranted distrust"
+            },
+            {
+                "id": "miranda fricker"
+            },
+            {
+                "id": "identity factors"
+            },
+            {
+                "id": "credibility"
+            },
+            {
+                "id": "racial bias"
+            },
+            {
+                "id": "duwayne brooks case"
+            },
+            {
+                "id": "police response"
+            },
+            {
+                "id": "prejudice"
+            },
+            {
+                "id": "historical exclusion"
+            },
+            {
+                "id": "interpretation"
+            },
+            {
+                "id": "sexual harassment"
+            },
+            {
+                "id": "language shaping"
+            },
+            {
+                "id": "understanding experiences"
+            },
+            {
+                "id": "epistemological violence"
+            },
+            {
+                "id": "power structure of academic research"
+            },
+            {
+                "id": "interpretation of empirical results"
+            },
+            {
+                "id": "theory of mind in autistic children"
+            },
+            {
+                "id": "foundational studies"
+            },
+            {
+                "id": "alternative interpretations of data"
+            },
+            {
+                "id": "anna julia cooper"
+            },
+            {
+                "id": "gayatri chakravorty spivak"
+            },
+            {
+                "id": "subaltern persons"
+            },
+            {
+                "id": "epistemicide"
+            },
+            {
+                "id": "testimonial quieting"
+            },
+            {
+                "id": "testimonial smothering"
+            },
+            {
+                "id": "contributory injustice"
+            },
+            {
+                "id": "structural causes of epistemic injustice"
+            },
+            {
+                "id": "epistemologies of ignorance"
+            },
+            {
+                "id": "white ignorance"
+            },
+            {
+                "id": "willful hermeneutical ignorance"
+            },
+            {
+                "id": "cognitive empire"
+            },
+            {
+                "id": "epistemic injustice in health"
+            },
+            {
+                "id": "neglected tropical disease"
+            },
+            {
+                "id": "genocide denial"
+            }
+        ]
+    },
+        "Garden path sentence": {
+        "category": "linguistics",
+        "total_entities": 37,
+        "entities": [
+            {
+                "id": "garden-path sentence"
+            },
+            {
+                "id": "re-analysis"
+            },
+            {
+                "id": "psycholinguistic research"
+            },
+            {
+                "id": "grammatically correct"
+            },
+            {
+                "id": "ambiguous interpretation"
+            },
+            {
+                "id": "false scent"
+            },
+            {
+                "id": "reader's interpretation"
+            },
+            {
+                "id": "re-reading and careful parsing"
+            },
+            {
+                "id": "syntactically non-standard"
+            },
+            {
+                "id": "clear communication"
+            },
+            {
+                "id": "sentence parsing"
+            },
+            {
+                "id": "initial misunderstanding"
+            },
+            {
+                "id": "frequent pattern"
+            },
+            {
+                "id": "complex houses married"
+            },
+            {
+                "id": "semantic sense"
+            },
+            {
+                "id": "reduced relative clause"
+            },
+            {
+                "id": "transitive verb"
+            },
+            {
+                "id": "agent \u2013 action \u2013 patient"
+            },
+            {
+                "id": "parsing"
+            },
+            {
+                "id": "sentence chunks"
+            },
+            {
+                "id": "pragmatics"
+            },
+            {
+                "id": "semantics"
+            },
+            {
+                "id": "parsing strategies"
+            },
+            {
+                "id": "serial parsing"
+            },
+            {
+                "id": "parallel parsing"
+            },
+            {
+                "id": "ambiguous nouns"
+            },
+            {
+                "id": "selective reanalysis process"
+            },
+            {
+                "id": "eye movement strategies"
+            },
+            {
+                "id": "executive functioning"
+            },
+            {
+                "id": "l2 learners"
+            },
+            {
+                "id": "act-out errors"
+            },
+            {
+                "id": "discourse and referential information"
+            },
+            {
+                "id": "revision difficulties"
+            },
+            {
+                "id": "sentence processing"
+            },
+            {
+                "id": "competing syntactic representations"
+            },
+            {
+                "id": "cognitive mechanisms"
+            },
+            {
+                "id": "misinterpretation"
+            }
+        ]
+    }
+}

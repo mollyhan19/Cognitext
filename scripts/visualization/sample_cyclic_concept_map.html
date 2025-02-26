@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclic Concept Map Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+            font-family: monospace;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        #status {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        #canvas-container {
+            margin-top: 20px;
+            position: relative;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navigation {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .page-indicator {
+            display: inline-block;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .constellation-title {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2e7d32;
+            font-size: 24px;
+        }
+        .constellation-description {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #4CAF50;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cyclic Concept Map Viewer</h1>
+        
+        <textarea id="jsonInput" placeholder="Paste your concept relationship JSON data here..."></textarea>
+        
+        <div>
+            <button id="visualizeButton">Generate Concept Maps</button>
+            <button id="sampleDataButton">Load Sample Data</button>
+        </div>
+        
+        <p id="status"></p>
+        
+        <div id="constellation-container" style="display: none;">
+            <div class="constellation-title" id="constellation-title"></div>
+            <div class="constellation-description" id="constellation-description"></div>
+            
+            <div id="canvas-container">
+                <canvas id="conceptMapCanvas" width="1000" height="600"></canvas>
+            </div>
+            
+            <div class="navigation">
+                <button id="prevButton" disabled>&laquo; Previous</button>
+                <span class="page-indicator" id="pageIndicator">Constellation 1 of 1</span>
+                <button id="nextButton" disabled>Next &raquo;</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // Sample data with expanded relations to ensure we have good examples
+    const sampleData = {
+        "Tardigrades": {
+            "category": "biology",
+            "relations": [
+                {
+                    "source": "impact resistance",
+                    "relation_type": "is a result of",
+                    "target": "miniaturization"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "capable of",
+                    "target": "cryptobiosis"
+                },
+                {
+                    "source": "cryptobiosis",
+                    "relation_type": "results in",
+                    "target": "desiccated cyst (tun state)"
+                },
+                {
+                    "source": "desiccated cyst (tun state)",
+                    "relation_type": "provides",
+                    "target": "impact resistance"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "exemplifies",
+                    "target": "resilience"
+                },
+                {
+                    "source": "resilience",
+                    "relation_type": "is influenced by",
+                    "target": "cryptobiosis"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "live in",
+                    "target": "habitat specialization"
+                },
+                {
+                    "source": "habitat specialization",
+                    "relation_type": "results in",
+                    "target": "habitat diversity"
+                },
+                {
+                    "source": "habitat diversity",
+                    "relation_type": "influences",
+                    "target": "distribution patterns"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "exhibit",
+                    "target": "distribution patterns"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "have",
+                    "target": "marine origin"
+                },
+                {
+                    "source": "marine origin",
+                    "relation_type": "is linked to",
+                    "target": "habitat specialization"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has",
+                    "target": "body structure"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has",
+                    "target": "morphology"
+                },
+                {
+                    "source": "body structure",
+                    "relation_type": "covered by",
+                    "target": "cuticle"
+                },
+                {
+                    "source": "morphology",
+                    "relation_type": "affects",
+                    "target": "locomotion"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has",
+                    "target": "nervous system"
+                },
+                {
+                    "source": "nervous system",
+                    "relation_type": "controls",
+                    "target": "locomotion"
+                },
+                {
+                    "source": "morphology",
+                    "relation_type": "is related to",
+                    "target": "body structure"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "is a member of",
+                    "target": "phylum tardigrada"
+                },
+                {
+                    "source": "historical classification",
+                    "relation_type": "provides context for",
+                    "target": "phylum tardigrada"
+                },
+                {
+                    "source": "fossil record",
+                    "relation_type": "provides evidence for",
+                    "target": "historical classification"
+                },
+                {
+                    "source": "historical classification",
+                    "relation_type": "informs",
+                    "target": "taxonomy of tardigrades"
+                },
+                {
+                    "source": "tardigradology",
+                    "relation_type": "field of study for",
+                    "target": "taxonomy of tardigrades"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has a",
+                    "target": "fossil record"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "has a",
+                    "target": "cultural impact"
+                },
+                {
+                    "source": "cultural impact",
+                    "relation_type": "manifested in",
+                    "target": "science fiction"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "inspire",
+                    "target": "science fiction"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "exhibit",
+                    "target": "resilience"
+                },
+                {
+                    "source": "cultural impact",
+                    "relation_type": "reflects",
+                    "target": "resilience"
+                },
+                {
+                    "source": "tardigrades",
+                    "relation_type": "are popular in",
+                    "target": "merchandise"
+                }
+            ]
+        }
+    };
+    
+    // DOM elements
+    const jsonInput = document.getElementById('jsonInput');
+    const visualizeButton = document.getElementById('visualizeButton');
+    const sampleDataButton = document.getElementById('sampleDataButton');
+    const statusP = document.getElementById('status');
+    const canvas = document.getElementById('conceptMapCanvas');
+    const ctx = canvas.getContext('2d');
+    const constellationContainer = document.getElementById('constellation-container');
+    const constellationTitle = document.getElementById('constellation-title');
+    const constellationDescription = document.getElementById('constellation-description');
+    const prevButton = document.getElementById('prevButton');
+    const nextButton = document.getElementById('nextButton');
+    const pageIndicator = document.getElementById('pageIndicator');
+    
+    // Event listeners
+    visualizeButton.addEventListener('click', generateConstellations);
+    sampleDataButton.addEventListener('click', loadSampleData);
+    prevButton.addEventListener('click', showPreviousConstellation);
+    nextButton.addEventListener('click', showNextConstellation);
+    
+    // Constellation data
+    let constellations = [];
+    let currentConstellationIndex = 0;
+    
+    // Visual settings
+    const colors = [
+        '#e1f5fe', '#e8f5e9', '#fff3e0', '#f3e5f5', '#e8eaf6', 
+        '#ffebee', '#f1f8e9', '#e0f7fa', '#fce4ec', '#e0f2f1'
+    ];
+    
+    const strokeColors = [
+        '#0288d1', '#2e7d32', '#ef6c00', '#7b1fa2', '#3949ab',
+        '#d32f2f', '#689f38', '#0097a7', '#c2185b', '#00796b'
+    ];
+    
+    // Predefined constellations with their components and descriptions
+    const predefinedConstellations = [
+        {
+            name: "Tardigrade Resilience Cycle",
+            description: "This constellation shows how tardigrades' unique capability for cryptobiosis leads to their remarkable resilience. The cycle demonstrates how cryptobiosis results in the tun state, providing impact resistance against extreme conditions.",
+            concepts: ["tardigrades", "cryptobiosis", "desiccated cyst (tun state)", "impact resistance", "resilience", "miniaturization"]
+        },
+        {
+            name: "Tardigrade Habitat Cycle",
+            description: "This constellation illustrates how tardigrades' habitat specialization relates to their distribution patterns. It shows the connection between their marine origin, habitat diversity, and environmental adaptation.",
+            concepts: ["tardigrades", "habitat specialization", "habitat diversity", "distribution patterns", "marine origin"]
+        },
+        {
+            name: "Tardigrade Structure Cycle",
+            description: "This constellation explores the physical characteristics of tardigrades, showing relationships between body structure, morphology, and movement. It highlights how different structural elements contribute to tardigrade functionality.",
+            concepts: ["tardigrades", "body structure", "morphology", "cuticle", "locomotion", "nervous system"]
+        },
+        {
+            name: "Tardigrade Taxonomy Cycle",
+            description: "This constellation demonstrates the classification and scientific understanding of tardigrades. It shows how historical classification, fossil records, and modern taxonomy relate to our understanding of these organisms.",
+            concepts: ["tardigrades", "phylum tardigrada", "historical classification", "fossil record", "taxonomy of tardigrades", "tardigradology"]
+        },
+        {
+            name: "Tardigrade Cultural Impact Cycle",
+            description: "This constellation illustrates how tardigrades have influenced culture and media. It shows connections between their remarkable resilience and their popularity in science fiction and merchandise.",
+            concepts: ["tardigrades", "cultural impact", "science fiction", "resilience", "merchandise"]
+        }
+    ];
+    
+    // Load sample data
+    function loadSampleData() {
+        jsonInput.value = JSON.stringify(sampleData, null, 2);
+        statusP.textContent = "Sample data loaded. Click 'Generate Concept Maps' to create constellations.";
+    }
+    
+    // Generate constellations from the data
+    function generateConstellations() {
+        try {
+            statusP.textContent = "Generating constellations...";
+            const data = JSON.parse(jsonInput.value);
+            
+            // Get the first domain in the data
+            const domainName = Object.keys(data)[0];
+            const relations = data[domainName].relations;
+            
+            // Generate predefined constellations
+            constellations = createPredefinedConstellations(relations);
+            
+            if (constellations.length === 0) {
+                statusP.textContent = "No valid constellations could be generated from the data.";
+                return;
+            }
+            
+            // Show the constellation container
+            constellationContainer.style.display = 'block';
+            
+            // Set up navigation
+            currentConstellationIndex = 0;
+            updateNavigationButtons();
+            
+            // Show the first constellation
+            showConstellation(currentConstellationIndex);
+            
+            statusP.textContent = `Generated ${constellations.length} concept map constellations.`;
+        } catch (error) {
+            statusP.textContent = `Error: ${error.message}`;
+            console.error(error);
+        }
+    }
+    
+    // Create predefined constellations
+    function createPredefinedConstellations(allRelations) {
+        const generatedConstellations = [];
+        
+        predefinedConstellations.forEach(predefined => {
+            // Filter relations that connect concepts in this constellation
+            const relevantRelations = allRelations.filter(rel => 
+                predefined.concepts.includes(rel.source.toLowerCase()) && 
+                predefined.concepts.includes(rel.target.toLowerCase())
+            );
+            
+            // Only include constellations with sufficient relations
+            if (relevantRelations.length >= 3) {
+                generatedConstellations.push({
+                    name: predefined.name,
+                    description: predefined.description,
+                    relations: relevantRelations,
+                    concepts: predefined.concepts
+                });
+            }
+        });
+        
+        return generatedConstellations;
+    }
+    
+    // Show the constellation at the specified index
+    function showConstellation(index) {
+        const constellation = constellations[index];
+        
+        // Set title and description
+        constellationTitle.textContent = constellation.name;
+        constellationDescription.textContent = constellation.description;
+        
+        // Update page indicator
+        pageIndicator.textContent = `Constellation ${index + 1} of ${constellations.length}`;
+        
+        // Draw the constellation
+        drawConstellation(constellation);
+    }
+    
+    // Draw a specific constellation
+    function drawConstellation(constellation) {
+        // Clear the canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Build graph data for this constellation
+        const graphData = buildGraphData(constellation.relations);
+        
+        // Calculate node positions
+        calculateNodePositions(graphData, constellation.concepts);
+        
+        // Draw the constellation
+        drawConceptMap(graphData, constellation.name);
+    }
+    
+    // Build graph data from relations
+    function buildGraphData(relations) {
+        const graphData = {
+            nodes: {},
+            edges: []
+        };
+        
+        // Create unique nodes
+        relations.forEach(rel => {
+            if (!graphData.nodes[rel.source.toLowerCase()]) {
+                graphData.nodes[rel.source.toLowerCase()] = {
+                    id: rel.source.toLowerCase(),
+                    label: rel.source,
+                    color: null,
+                    x: null,
+                    y: null,
+                    radius: null
+                };
+            }
+            
+            if (!graphData.nodes[rel.target.toLowerCase()]) {
+                graphData.nodes[rel.target.toLowerCase()] = {
+                    id: rel.target.toLowerCase(),
+                    label: rel.target,
+                    color: null,
+                    x: null,
+                    y: null,
+                    radius: null
+                };
+            }
+            
+            // Add edge
+            graphData.edges.push({
+                source: rel.source.toLowerCase(),
+                sourceLabel: rel.source,
+                target: rel.target.toLowerCase(),
+                targetLabel: rel.target,
+                label: rel.relation_type
+            });
+        });
+        
+        // Assign colors
+        let colorIndex = 0;
+        for (const nodeId in graphData.nodes) {
+            graphData.nodes[nodeId].color = colors[colorIndex % colors.length];
+            graphData.nodes[nodeId].stroke = strokeColors[colorIndex % strokeColors.length];
+            colorIndex++;
+        }
+        
+        return graphData;
+    }
+    
+    // Calculate node positions using a more organized layout
+    function calculateNodePositions(graphData, centralConcepts) {
+        const nodes = Object.values(graphData.nodes);
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        
+        // For each node, calculate connections count
+        nodes.forEach(node => {
+            let connections = 0;
+            graphData.edges.forEach(edge => {
+                if (edge.source === node.id || edge.target === node.id) {
+                    connections++;
+                }
+            });
+            
+            // Size based on connections and centrality
+            const isCentral = centralConcepts.includes(node.id);
+            node.radius = Math.max(40, Math.min(60, 30 + connections * 3 + (isCentral ? 10 : 0)));
+        });
+        
+        // Organize nodes in a circle
+        const radius = Math.min(canvas.width, canvas.height) * 0.35;
+        
+        // Start with "tardigrades" at the top if it exists
+        let startAngle = -Math.PI / 2; // Top of the circle
+        let tardigradeIndex = nodes.findIndex(node => node.id === "tardigrades");
+        
+        if (tardigradeIndex !== -1) {
+            nodes[tardigradeIndex].x = centerX;
+            nodes[tardigradeIndex].y = centerY - radius;
+            
+            // Remove tardigrades from the array for positioning
+            const tardigradeNode = nodes.splice(tardigradeIndex, 1)[0];
+            
+            // Position remaining nodes
+            nodes.forEach((node, i) => {
+                const angle = startAngle + ((i + 1) * 2 * Math.PI / (nodes.length + 1));
+                node.x = centerX + radius * Math.cos(angle);
+                node.y = centerY + radius * Math.sin(angle);
+            });
+            
+            // Add tardigrades back to the array
+            nodes.unshift(tardigradeNode);
+        } else {
+            // If tardigrades not present, position all nodes evenly
+            nodes.forEach((node, i) => {
+                const angle = startAngle + (i * 2 * Math.PI / nodes.length);
+                node.x = centerX + radius * Math.cos(angle);
+                node.y = centerY + radius * Math.sin(angle);
+            });
+        }
+        
+        // Adjust positions to prevent overlaps
+        const iterations = 40;
+        for (let i = 0; i < iterations; i++) {
+            // Repulsive forces between nodes
+            for (let j = 0; j < nodes.length; j++) {
+                for (let k = j + 1; k < nodes.length; k++) {
+                    const nodeA = nodes[j];
+                    const nodeB = nodes[k];
+                    
+                    const dx = nodeB.x - nodeA.x;
+                    const dy = nodeB.y - nodeA.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    const minDistance = nodeA.radius + nodeB.radius + 20;
+                    
+                    if (distance < minDistance) {
+                        const repulsionForce = 3;
+                        const fx = (dx / distance) * repulsionForce * (minDistance - distance) / minDistance;
+                        const fy = (dy / distance) * repulsionForce * (minDistance - distance) / minDistance;
+                        
+                        nodeA.x -= fx;
+                        nodeA.y -= fy;
+                        nodeB.x += fx;
+                        nodeB.y += fy;
+                    }
+                }
+            }
+            
+            // Attractive forces for connected nodes
+            graphData.edges.forEach(edge => {
+                const sourceNode = graphData.nodes[edge.source];
+                const targetNode = graphData.nodes[edge.target];
+                
+                if (sourceNode && targetNode) {
+                    const dx = targetNode.x - sourceNode.x;
+                    const dy = targetNode.y - sourceNode.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance > 300) {
+                        const attractionForce = 0.01;
+                        const fx = dx * attractionForce;
+                        const fy = dy * attractionForce;
+                        
+                        sourceNode.x += fx;
+                        sourceNode.y += fy;
+                        targetNode.x -= fx;
+                        targetNode.y -= fy;
+                    }
+                }
+            });
+            
+            // Keep nodes within canvas bounds
+            nodes.forEach(node => {
+                const padding = node.radius + 10;
+                node.x = Math.max(padding, Math.min(canvas.width - padding, node.x));
+                node.y = Math.max(padding, Math.min(canvas.height - padding, node.y));
+            });
+        }
+    }
+    
+    // Draw the concept map
+    function drawConceptMap(graphData, title) {
+        // Draw edges first
+        graphData.edges.forEach(edge => {
+            drawEdge(edge, graphData.nodes);
+        });
+        
+        // Draw nodes
+        for (const nodeId in graphData.nodes) {
+            drawNode(graphData.nodes[nodeId]);
+        }
+    }
+    
+    // Draw a node
+    function drawNode(node) {
+        // Draw node background
+        ctx.beginPath();
+        ctx.arc(node.x, node.y, node.radius, 0, 2 * Math.PI);
+        ctx.fillStyle = node.color;
+        ctx.fill();
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = node.stroke;
+        ctx.stroke();
+        
+        // Highlight special nodes (like tardigrades)
+        if (node.id === "tardigrades") {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, node.radius + 3, 0, 2 * Math.PI);
+            ctx.strokeStyle = "#ff5722";
+            ctx.lineWidth = 3;
+            ctx.stroke();
+        }
+        
+        // Draw node label
+        ctx.font = 'bold 14px Arial';
+        ctx.fillStyle = '#333';
+        ctx.textAlign = 'center';
+        
+        // Handle multi-line labels
+        const words = node.label.split(' ');
+        let line = '';
+        let lines = [];
+        const maxWidth = node.radius * 1.5;
+        
+        for (let i = 0; i < words.length; i++) {
+            const testLine = line + words[i] + ' ';
+            const metrics = ctx.measureText(testLine);
+            
+            if (metrics.width > maxWidth && i > 0) {
+                lines.push(line);
+                line = words[i] + ' ';
+            } else {
+                line = testLine;
+            }
+        }
+        lines.push(line);
+        
+        // Center text vertically
+        const lineHeight = 16;
+        let y = node.y - ((lines.length - 1) * lineHeight / 2);
+        
+        lines.forEach(line => {
+            ctx.fillText(line, node.x, y);
+            y += lineHeight;
+        });
+    }
+    
+    // Draw an edge
+    function drawEdge(edge, nodes) {
+        const sourceNode = nodes[edge.source];
+        const targetNode = nodes[edge.target];
+        
+        if (!sourceNode || !targetNode) return;
+        
+        // Calculate edge endpoints
+        const dx = targetNode.x - sourceNode.x;
+        const dy = targetNode.y - sourceNode.y;
+        const angle = Math.atan2(dy, dx);
+        
+        const startX = sourceNode.x + sourceNode.radius * Math.cos(angle);
+        const startY = sourceNode.y + sourceNode.radius * Math.sin(angle);
+        const endX = targetNode.x - targetNode.radius * Math.cos(angle);
+        const endY = targetNode.y - targetNode.radius * Math.sin(angle);
+        
+        // Draw the edge line
+        ctx.beginPath();
+        ctx.moveTo(startX, startY);
+        ctx.lineTo(endX, endY);
+        ctx.strokeStyle = '#666';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+        
+        // Draw arrow
+        const arrowSize = 8;
+        ctx.beginPath();
+        ctx.moveTo(endX, endY);
+        ctx.lineTo(
+            endX - arrowSize * Math.cos(angle - Math.PI/6),
+            endY - arrowSize * Math.sin(angle - Math.PI/6)
+        );
+        ctx.lineTo(
+            endX - arrowSize * Math.cos(angle + Math.PI/6),
+            endY - arrowSize * Math.sin(angle + Math.PI/6)
+        );
+        ctx.closePath();
+        ctx.fillStyle = '#666';
+        ctx.fill();
+        
+        // Draw the edge label with better positioning
+        const midX = (startX + endX) / 2;
+        const midY = (startY + endY) / 2;
+        
+        // Position label slightly off the line
+        const offset = 10;
+        const labelX = midX + (offset * Math.cos(angle + Math.PI/2));
+        const labelY = midY + (offset * Math.sin(angle + Math.PI/2));
+        
+        ctx.font = '12px Arial';
+        
+        // Add a white background for better readability
+        const label = edge.label;
+        const labelWidth = ctx.measureText(label).width + 10;
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+        ctx.fillRect(labelX - labelWidth/2, labelY - 8, labelWidth, 16);
+        
+        ctx.fillStyle = '#333';
+        ctx.textAlign = 'center';
+        ctx.fillText(label, labelX, labelY);
+    }
+    
+    // Show the previous constellation
+    function showPreviousConstellation() {
+        if (currentConstellationIndex > 0) {
+            currentConstellationIndex--;
+            showConstellation(currentConstellationIndex);
+            updateNavigationButtons();
+        }
+    }
+    
+    // Show the next constellation
+    function showNextConstellation() {
+        if (currentConstellationIndex < constellations.length - 1) {
+            currentConstellationIndex++;
+            showConstellation(currentConstellationIndex);
+            updateNavigationButtons();
+        }
+    }
+    
+    // Update navigation button states
+    function updateNavigationButtons() {
+        prevButton.disabled = currentConstellationIndex === 0;
+        nextButton.disabled = currentConstellationIndex === constellations.length - 1;
+    }
+    </script>
+</body>
+</html>

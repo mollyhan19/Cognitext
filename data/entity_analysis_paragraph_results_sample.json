@@ -1,0 +1,3286 @@
+{
+    "metadata": {
+        "processing_mode": "paragraph",
+        "timestamp": "2025-02-07T09:36:18.745402"
+    },
+    "Garden path sentence": {
+        "category": "linguistics",
+        "total_entities": 79,
+        "entities": [
+            {
+                "id": "garden-path sentence",
+                "frequency": 11,
+                "section_count": 5,
+                "variants": [
+                    "garden path sentences",
+                    "garden-path sentences",
+                    "garden-path sentence",
+                    "mild garden-path sentence",
+                    "garden-path sentence effect"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "garden-path sentence",
+                        "context": "A garden-path sentence is a grammatically correct sentence that starts in such a way that a reader's most likely interpretation will be incorrect; the reader is lured into a parse that turns out to be a dead end or yields a clearly unintended meaning."
+                    },
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "garden path sentences",
+                        "context": "It is a special type of sentence that creates a momentarily ambiguous interpretation because it contains a word or phrase that can be interpreted in multiple ways."
+                    },
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "garden-path sentence",
+                        "context": "This frequently used, classic example of a garden-path sentence is attributed to Thomas Bever."
+                    },
+                    {
+                        "section": "Parsing",
+                        "section_index": 3,
+                        "variant": "garden-path sentence effect",
+                        "context": "The garden-path sentence effect occurs when the sentence has a phrase or word with an ambiguous meaning that the reader interprets in a certain way and, when they read the whole sentence, there is a difference in what has been read and what was expected."
+                    },
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "garden-path sentences",
+                        "context": "For this reason, garden-path sentences are often studied as a way to test which strategy humans use."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence",
+                        "section_index": 4,
+                        "variant": "garden-path sentence",
+                        "context": "It is also found that the reanalysis of a garden-path sentence gets more and more difficult with the length of the ambiguous phrase."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "mild garden-path sentence",
+                        "context": "A research paper published by Meseguer, Carreiras and Clifton (2002) stated that intensive eye movements are observed when people are recovering from a mild garden-path sentence."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "garden-path sentences",
+                        "context": "Recent research on garden-path sentences has utilized adult second language learners, or L2 learners, to study difficulties in revision of the initial parsing of garden-path sentences."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "garden-path sentences",
+                        "context": "Adult L2 speakers and native adult speakers were able to use discourse and referential information to aid in their processing of the garden-path sentences."
+                    },
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "garden-path sentences",
+                        "context": "Misinterpretations of Garden-Path Sentences: Implications for Models of Sentence Processing and Reanalysis"
+                    },
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "garden path sentences",
+                        "context": "Lingering misinterpretations of garden path sentences arise from competing syntactic representations"
+                    }
+                ],
+                "builds_on": [
+                    "ambiguous nouns",
+                    "Parsing Strategies",
+                    "parsing",
+                    "sentence chunks"
+                ]
+            },
+            {
+                "id": "reader's interpretation",
+                "frequency": 4,
+                "section_count": 4,
+                "variants": [
+                    "interpretation of 'old'",
+                    "interpretation",
+                    "participants' final interpretations",
+                    "reader's interpretation"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "reader's interpretation",
+                        "context": "the reader's most likely interpretation will be incorrect;"
+                    },
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "interpretation of 'old'",
+                        "context": "Readers tend to interpret old as an adjective."
+                    },
+                    {
+                        "section": "Parsing",
+                        "section_index": 3,
+                        "variant": "interpretation",
+                        "context": "As readers are given more information, they make an assumption of the contents and meaning of the whole sentence."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "participants' final interpretations",
+                        "context": "hence participants' final interpretations are often incorrect."
+                    }
+                ],
+                "builds_on": [
+                    "sentence chunks",
+                    "sentence parsing",
+                    "misinterpretation",
+                    "parsing",
+                    "re-analysis"
+                ]
+            },
+            {
+                "id": "re-reading and parsing",
+                "frequency": 4,
+                "section_count": 3,
+                "variants": [
+                    "sentence parsing",
+                    "re-reading and parsing",
+                    "revision of parsing",
+                    "re-analysis of sentences"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "re-reading and parsing",
+                        "context": "often requires rereading so that its meaning may be fully understood after careful parsing."
+                    },
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "sentence parsing",
+                        "context": "The difficulty in correctly parsing the sentence results from the fact that readers tend to interpret old as an adjective."
+                    },
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "re-analysis of sentences",
+                        "context": "When readers encounter another the following the supposed noun man, they are forced to re-analyze the sentence."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "revision of parsing",
+                        "context": "the reader has an initial parse of the sentence, but often has to revise their parse because it is incorrect."
+                    }
+                ],
+                "builds_on": [
+                    "interpretation of 'old'",
+                    "Garden Path Sentences",
+                    "determiner – adjective – noun pattern",
+                    "psycholinguistic research",
+                    "initial parsing"
+                ]
+            },
+            {
+                "id": "psycholinguistic research",
+                "frequency": 3,
+                "section_count": 2,
+                "variants": [
+                    "psycholinguistic research",
+                    "language processing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "psycholinguistic research",
+                        "context": "This is a common example that has been the subject of psycholinguistic research and has been used to test the capabilities of artificial intelligence efforts."
+                    },
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "psycholinguistic research",
+                        "context": "J. Psycholinguistic Research, vol. 30, no. 1 (subscription required)"
+                    },
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "language processing",
+                        "context": "Lingering misinterpretations of garden path sentences arise from competing syntactic representations"
+                    }
+                ],
+                "builds_on": [
+                    "garden path sentences",
+                    "syntactic representations"
+                ]
+            },
+            {
+                "id": "disambiguating information",
+                "frequency": 3,
+                "section_count": 2,
+                "variants": [
+                    "disambiguation",
+                    "disambiguating information"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "disambiguating information",
+                        "context": "The reader will continue to use the initial interpretation as reference for future parsing until disambiguating information is given."
+                    },
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "disambiguating information",
+                        "context": "Parallel parsing is where the reader recognizes and generates multiple interpretations of the sentence and stores them until disambiguating information is given, at which point only the correct interpretation is maintained."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "disambiguation",
+                        "context": "The more common one includes the regression of eyes from the first disambiguation directly to the main verb of the sentence."
+                    }
+                ],
+                "builds_on": [
+                    "Interpretation of Ambiguity",
+                    "Parallel Parsing"
+                ]
+            },
+            {
+                "id": "reanalysis difficulty",
+                "frequency": 3,
+                "section_count": 2,
+                "variants": [
+                    "reanalysis",
+                    "reanalysis difficulty",
+                    "re-analysis"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence",
+                        "section_index": 4,
+                        "variant": "reanalysis difficulty",
+                        "context": "It is also found that the reanalysis of a garden-path sentence gets more and more difficult with the length of the ambiguous phrase."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "re-analysis",
+                        "context": "hence participants' final interpretations are often incorrect."
+                    },
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "reanalysis",
+                        "context": "Implications for Models of Sentence Processing and Reanalysis"
+                    }
+                ],
+                "builds_on": [
+                    "garden-path sentence",
+                    "Sentence Processing",
+                    "misinterpretation"
+                ]
+            },
+            {
+                "id": "misinterpretation",
+                "frequency": 3,
+                "section_count": 2,
+                "variants": [
+                    "misinterpretation",
+                    "misinterpretations"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "misinterpretation",
+                        "context": "Therefore, the original misinterpretation of the sentence remains even after the re-analysis is done;"
+                    },
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "misinterpretations",
+                        "context": "Misinterpretations of Garden-Path Sentences"
+                    },
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "misinterpretations",
+                        "context": "Lingering misinterpretations of garden path sentences arise from competing syntactic representations"
+                    }
+                ],
+                "builds_on": [
+                    "Garden-Path Sentences",
+                    "garden path sentences",
+                    "syntactic representations"
+                ]
+            },
+            {
+                "id": "ambiguity",
+                "frequency": 2,
+                "section_count": 2,
+                "variants": [
+                    "ambiguity in syntax",
+                    "ambiguity"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "ambiguity",
+                        "context": "causing the reader to begin to believe that a phrase will mean one thing when in reality it means something else."
+                    },
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "ambiguity in syntax",
+                        "context": "Differences in parsing strategies can be seen from the effects of a reader attempting to parse a part of a sentence that is ambiguous in its syntax or meaning."
+                    }
+                ],
+                "builds_on": [
+                    "Garden Path Sentences",
+                    "Parsing Strategies"
+                ]
+            },
+            {
+                "id": "semantic sense",
+                "frequency": 2,
+                "section_count": 2,
+                "variants": [
+                    "semantics",
+                    "semantic sense"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "semantic sense",
+                        "context": "the complex houses married does not make semantic sense"
+                    },
+                    {
+                        "section": "Parsing",
+                        "section_index": 3,
+                        "variant": "semantics",
+                        "context": "The sentence may be parsed and interpreted in different ways due to the influence of pragmatics, semantics, or other factors describing the extralinguistic context."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "initial ambiguity",
+                "frequency": 2,
+                "section_count": 2,
+                "variants": [
+                    "initial ambiguity",
+                    "interpretation of ambiguity"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "initial ambiguity",
+                        "context": "Such examples of initial ambiguity resulting from a 'reduced relative with [a] potentially intransitive verb'..."
+                    },
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "interpretation of ambiguity",
+                        "context": "The reader makes one interpretation of the ambiguity and continues to parse the sentence in the context of that interpretation."
+                    }
+                ],
+                "builds_on": [
+                    "Serial Parsing"
+                ]
+            },
+            {
+                "id": "transitive verb",
+                "frequency": 2,
+                "section_count": 2,
+                "variants": [
+                    "main verb",
+                    "transitive verb"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "transitive verb",
+                        "context": "can be contrasted with a reduced relative with an unambiguously transitive verb ('The horse frightened in the barn fell.')"
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "main verb",
+                        "context": "The more common one includes the regression of eyes from the first disambiguation directly to the main verb of the sentence."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "sentence parsing",
+                "frequency": 2,
+                "section_count": 2,
+                "variants": [
+                    "sentence parsing",
+                    "sentence processing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "sentence parsing",
+                        "context": "the reader initially interprets raced as the main verb in the simple past..."
+                    },
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "sentence processing",
+                        "context": "Implications for Models of Sentence Processing and Reanalysis"
+                    }
+                ],
+                "builds_on": [
+                    "Garden-Path Sentences"
+                ]
+            },
+            {
+                "id": "grammatically correct",
+                "frequency": 2,
+                "section_count": 1,
+                "variants": [
+                    "grammatical correctness",
+                    "grammatically correct"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "grammatically correct",
+                        "context": "A garden-path sentence is a grammatically correct sentence that starts in such a way that a reader's most likely interpretation will be incorrect;"
+                    },
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "grammatical correctness",
+                        "context": "these sentences are grammatically correct"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "serial parsing",
+                "frequency": 2,
+                "section_count": 1,
+                "variants": [
+                    "serial parsing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "serial parsing",
+                        "context": "Two debated parsing strategies that humans are thought to use are serial and parallel parsing."
+                    },
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "serial parsing",
+                        "context": "Serial parsing is where the reader makes one interpretation of the ambiguity and continues to parse the sentence in the context of that interpretation."
+                    }
+                ],
+                "builds_on": [
+                    "Parsing Strategies"
+                ]
+            },
+            {
+                "id": "parallel parsing",
+                "frequency": 2,
+                "section_count": 1,
+                "variants": [
+                    "parallel parsing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "parallel parsing",
+                        "context": "Two debated parsing strategies that humans are thought to use are serial and parallel parsing."
+                    },
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "parallel parsing",
+                        "context": "Parallel parsing is where the reader recognizes and generates multiple interpretations of the sentence and stores them until disambiguating information is given, at which point only the correct interpretation is maintained."
+                    }
+                ],
+                "builds_on": [
+                    "Parsing Strategies"
+                ]
+            },
+            {
+                "id": "adverb",
+                "frequency": 2,
+                "section_count": 1,
+                "variants": [
+                    "adverb"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "adverb",
+                        "context": "Then the readers reread the remainder of the sentence, fixating their eyes to the next region and the adverb."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "adverb",
+                        "context": "The lesser-used strategy includes the regression from the first disambiguation directly to the adverb."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "executive functioning",
+                "frequency": 2,
+                "section_count": 1,
+                "variants": [
+                    "executive functioning"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "executive functioning",
+                        "context": "This difficulty in revision is attributed to the underdeveloped executive functioning of children."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "executive functioning",
+                        "context": "This ability could be due to the adults’ developed executive functioning allowing them more cognitive resources."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "l2 learners",
+                "frequency": 2,
+                "section_count": 1,
+                "variants": [
+                    "l2 learners"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "l2 learners",
+                        "context": "Adult L2 learners also exhibit difficulty in revisions, but the difficulties cannot be attributed to underdeveloped executive functioning like in children."
+                    },
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "l2 learners",
+                        "context": "Adult L2 learners were compared to adult native speakers and native speaking children in revision and processing of garden-path sentences."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "false scent",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "false scent"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "false scent",
+                        "context": "Fowler describes such sentences as unwittingly laying a 'false scent'."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "deception in language",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "deception in language"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "deception in language",
+                        "context": "Garden path refers to the saying 'to be led down [or up] the garden path', meaning to be deceived, tricked, or seduced."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "a dictionary of modern english usage",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "a dictionary of modern english usage"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "a dictionary of modern english usage",
+                        "context": "In A Dictionary of Modern English Usage (1926), Fowler describes such sentences as unwittingly laying a 'false scent'."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "syntactic non-standardness",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "syntactic non-standardness"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "syntactic non-standardness",
+                        "context": "Though these sentences are grammatically correct, such sentences are syntactically non-standard (or incorrect) as evidenced by the need for re-reading and careful parsing."
+                    }
+                ],
+                "builds_on": [
+                    "Garden Path Sentences"
+                ]
+            },
+            {
+                "id": "communication clarity",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "communication clarity"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "communication clarity",
+                        "context": "Garden path sentences are not usually desirable in writing that intends to communicate clearly."
+                    }
+                ],
+                "builds_on": [
+                    "Garden Path Sentences"
+                ]
+            },
+            {
+                "id": "determiner – adjective – noun pattern",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "determiner – adjective – noun pattern"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "determiner – adjective – noun pattern",
+                        "context": "They assume that the phrase the old man is to be interpreted as determiner – adjective – noun."
+                    }
+                ],
+                "builds_on": [
+                    "sentence parsing"
+                ]
+            },
+            {
+                "id": "frequent patterns in language",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "frequent patterns in language"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "frequent patterns in language",
+                        "context": "One explanation for the initial misunderstanding by the reader is that a sequence of words or phrases tends to be analyzed in terms of a frequent pattern."
+                    }
+                ],
+                "builds_on": [
+                    "sentence parsing"
+                ]
+            },
+            {
+                "id": "example sentence",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "example sentence"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "example sentence",
+                        "context": "Rephrased, the sentence could be rewritten as 'The old are those who man the boat.'"
+                    }
+                ],
+                "builds_on": [
+                    "re-analysis of sentences"
+                ]
+            },
+            {
+                "id": "noun phrase",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "noun phrase"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "noun phrase",
+                        "context": "the initial parse is to read the complex houses as a noun phrase"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "compound predicate",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "compound predicate"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "compound predicate",
+                        "context": "the expectation is another verb to form a compound predicate"
+                    }
+                ],
+                "builds_on": [
+                    "noun phrase"
+                ]
+            },
+            {
+                "id": "correct parsing",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "correct parsing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "correct parsing",
+                        "context": "The correct parsing is The complex houses married and single soldiers"
+                    }
+                ],
+                "builds_on": [
+                    "noun phrase",
+                    "semantic sense"
+                ]
+            },
+            {
+                "id": "rephrasing",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "rephrasing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "rephrasing",
+                        "context": "the sentence could be rewritten as 'The complex provides housing for the soldiers, married or single, as well as their families.'"
+                    }
+                ],
+                "builds_on": [
+                    "correct parsing"
+                ]
+            },
+            {
+                "id": "housing for soldiers",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "housing for soldiers"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "housing for soldiers",
+                        "context": "The complex provides housing for the soldiers, married or single, as well as their families."
+                    }
+                ],
+                "builds_on": [
+                    "rephrasing"
+                ]
+            },
+            {
+                "id": "married and single soldiers",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "married and single soldiers"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "married and single soldiers",
+                        "context": "married or single soldiers and their families"
+                    }
+                ],
+                "builds_on": [
+                    "housing for soldiers"
+                ]
+            },
+            {
+                "id": "families",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "families"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "families",
+                        "context": "as well as their families"
+                    }
+                ],
+                "builds_on": [
+                    "married and single soldiers"
+                ]
+            },
+            {
+                "id": "thomas bever",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "thomas bever"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "thomas bever",
+                        "context": "This frequently used, classic example of a garden-path sentence is attributed to Thomas Bever."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "reduced relative clause",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "reduced relative clause"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "reduced relative clause",
+                        "context": "initial ambiguity resulting from a 'reduced relative with [a] potentially intransitive verb' ('The horse raced in the barn fell.')"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "passive participle",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "passive participle"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "passive participle",
+                        "context": "the reader initially interprets raced as the main verb in the simple past, but when the reader encounters fell, they are forced to re-analyze the sentence, concluding that raced is being used as a passive participle."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "agent – action – patient pattern",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "agent – action – patient pattern"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "agent – action – patient pattern",
+                        "context": "a sequence of phrases tends to be analyzed in terms of the frequent pattern: agent – action – patient."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "non-reduced relative clause",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "non-reduced relative clause"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "non-reduced relative clause",
+                        "context": "can be contrasted with the lack of ambiguity for a non-reduced relative ('The horse that was raced in the barn fell.')"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "case study",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "case study"
+                ],
+                "appearances": [
+                    {
+                        "section": "Examples - ",
+                        "section_index": 2,
+                        "variant": "case study",
+                        "context": "The sentence could be replaced by 'The horse that was raced past the barn fell', where that was raced past the barn tells the reader which horse is under discussion."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "parsing",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "parsing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing",
+                        "section_index": 3,
+                        "variant": "parsing",
+                        "context": "When reading a sentence, readers will analyze the words and phrases they see and make inferences about the sentence’s grammatical structure and meaning in a process called parsing."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "sentence chunks",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "sentence chunks"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing",
+                        "section_index": 3,
+                        "variant": "sentence chunks",
+                        "context": "Generally, readers will parse the sentence chunks at a time and will try to interpret the meaning of the sentence at each interval."
+                    }
+                ],
+                "builds_on": [
+                    "parsing"
+                ]
+            },
+            {
+                "id": "pragmatics",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "pragmatics"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing",
+                        "section_index": 3,
+                        "variant": "pragmatics",
+                        "context": "The sentence may be parsed and interpreted in different ways due to the influence of pragmatics, semantics, or other factors describing the extralinguistic context."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "extralinguistic context",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "extralinguistic context"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing",
+                        "section_index": 3,
+                        "variant": "extralinguistic context",
+                        "context": "The sentence may be parsed and interpreted in different ways due to the influence of pragmatics, semantics, or other factors describing the extralinguistic context."
+                    }
+                ],
+                "builds_on": [
+                    "pragmatics",
+                    "semantics"
+                ]
+            },
+            {
+                "id": "parsing strategies",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "parsing strategies"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "parsing strategies",
+                        "context": "Various strategies can be used when parsing a sentence, and there is much debate over which parsing strategy humans use."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "cognitive processes in reading",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "cognitive processes in reading"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "cognitive processes in reading",
+                        "context": "The reader will continue to use the initial interpretation as reference for future parsing until disambiguating information is given."
+                    }
+                ],
+                "builds_on": [
+                    "Interpretation of Ambiguity",
+                    "Serial Parsing"
+                ]
+            },
+            {
+                "id": "multiple interpretations",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "multiple interpretations"
+                ],
+                "appearances": [
+                    {
+                        "section": "Parsing - ",
+                        "section_index": 3,
+                        "variant": "multiple interpretations",
+                        "context": "Parallel parsing is where the reader recognizes and generates multiple interpretations of the sentence and stores them until disambiguating information is given, at which point only the correct interpretation is maintained."
+                    }
+                ],
+                "builds_on": [
+                    "Parallel Parsing"
+                ]
+            },
+            {
+                "id": "ambiguous nouns",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "ambiguous nouns"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence",
+                        "section_index": 4,
+                        "variant": "ambiguous nouns",
+                        "context": "When ambiguous nouns appear, they can function as both the object of the first item or the subject of the second item."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "sentence structure",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "sentence structure"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence",
+                        "section_index": 4,
+                        "variant": "sentence structure",
+                        "context": "When ambiguous nouns appear, they can function as both the object of the first item or the subject of the second item."
+                    }
+                ],
+                "builds_on": [
+                    "ambiguous nouns"
+                ]
+            },
+            {
+                "id": "grammatical role",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "grammatical role"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence",
+                        "section_index": 4,
+                        "variant": "grammatical role",
+                        "context": "When ambiguous nouns appear, they can function as both the object of the first item or the subject of the second item."
+                    }
+                ],
+                "builds_on": [
+                    "ambiguous nouns",
+                    "sentence structure"
+                ]
+            },
+            {
+                "id": "intensive eye movements",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "intensive eye movements"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "intensive eye movements",
+                        "context": "A research paper published by Meseguer, Carreiras and Clifton (2002) stated that intensive eye movements are observed when people are recovering from a mild garden-path sentence."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "selective reanalysis process",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "selective reanalysis process"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "selective reanalysis process",
+                        "context": "They proposed that people use two strategies, both of which are consistent with the selective reanalysis process described by Frazier and Rayner in 1982."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "frazier and rayner (1982)",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "frazier and rayner (1982)"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "frazier and rayner (1982)",
+                        "context": "They proposed that people use two strategies, both of which are consistent with the selective reanalysis process described by Frazier and Rayner in 1982."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "two alternative strategies",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "two alternative strategies"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "two alternative strategies",
+                        "context": "According to them, the readers predominantly use two alternative strategies to recover from mild garden-path sentences."
+                    }
+                ],
+                "builds_on": [
+                    "selective reanalysis process"
+                ]
+            },
+            {
+                "id": "regression of eyes",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "regression of eyes"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "regression of eyes",
+                        "context": "The more common one includes the regression of eyes from the first disambiguation directly to the main verb of the sentence."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "fixation",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "fixation"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "fixation",
+                        "context": "Then the readers reread the remainder of the sentence, fixating their eyes to the next region and the adverb."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "reading process",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "reading process"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "reading process",
+                        "context": "The more common one includes the regression of eyes from the first disambiguation directly to the main verb of the sentence."
+                    }
+                ],
+                "builds_on": [
+                    "disambiguation",
+                    "regression of eyes",
+                    "fixation"
+                ]
+            },
+            {
+                "id": "regression from the first disambiguation",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "regression from the first disambiguation"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "regression from the first disambiguation",
+                        "context": "The lesser-used strategy includes the regression from the first disambiguation directly to the adverb."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "disambiguation",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "disambiguation"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "disambiguation",
+                        "context": "The lesser-used strategy includes the regression from the first disambiguation directly to the adverb."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "partial re-analysis",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "partial re-analysis"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "partial re-analysis",
+                        "context": "Partial re-analysis occurs when analysis is not complete."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "incomplete analysis",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "incomplete analysis"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "incomplete analysis",
+                        "context": "Frequently, when people can make even a little bit of sense of the later sentence, they stop analysing further..."
+                    }
+                ],
+                "builds_on": [
+                    "Partial re-analysis"
+                ]
+            },
+            {
+                "id": "memory retention",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "memory retention"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "memory retention",
+                        "context": "...the former part of the sentence still remains in memory and does not get discarded from it."
+                    }
+                ],
+                "builds_on": [
+                    "Incomplete analysis"
+                ]
+            },
+            {
+                "id": "initial parsing",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "initial parsing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "initial parsing",
+                        "context": "During the processing of garden-path sentences, the reader has an initial parse of the sentence, but often has to revise their parse because it is incorrect."
+                    }
+                ],
+                "builds_on": [
+                    "garden-path sentences"
+                ]
+            },
+            {
+                "id": "underdeveloped executive functioning",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "underdeveloped executive functioning"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "underdeveloped executive functioning",
+                        "context": "This difficulty in revision is attributed to the underdeveloped executive functioning of children."
+                    }
+                ],
+                "builds_on": [
+                    "executive functioning"
+                ]
+            },
+            {
+                "id": "development of executive functioning",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "development of executive functioning"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "development of executive functioning",
+                        "context": "As the child ages and their executive functioning completes development, they gain the ability to revise the initial incorrect parsing."
+                    }
+                ],
+                "builds_on": [
+                    "underdeveloped executive functioning"
+                ]
+            },
+            {
+                "id": "difficulty in revision",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "difficulty in revision"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "difficulty in revision",
+                        "context": "Unlike adult native speakers, children tend to have difficulty revising their first parsing of the sentence."
+                    }
+                ],
+                "builds_on": [
+                    "garden-path sentences",
+                    "initial parsing"
+                ]
+            },
+            {
+                "id": "act-out errors",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "act-out errors"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "act-out errors",
+                        "context": "Adult L2 speakers had fewer act-out errors than native speaking children when the garden-path sentence was presented with referential information."
+                    }
+                ],
+                "builds_on": [
+                    "L2 learners",
+                    "garden-path sentences"
+                ]
+            },
+            {
+                "id": "discourse and referential information",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "discourse and referential information"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "discourse and referential information",
+                        "context": "Adults, both native speakers and L2 learners, use discourse and referential information in parsing and sentence processing."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "l1-transfer",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "l1-transfer"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "l1-transfer",
+                        "context": "The use of discourse and referential information could be due to L1-transfer because Italian and English share the same sentence structure."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "disambiguated garden-path sentences",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "disambiguated garden-path sentences"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "disambiguated garden-path sentences",
+                        "context": "When the garden-path sentences are disambiguated and then presented, the adult L2 speakers had the highest act-out error rate."
+                    }
+                ],
+                "builds_on": [
+                    "garden-path sentences"
+                ]
+            },
+            {
+                "id": "systematic revision failure",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "systematic revision failure"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "systematic revision failure",
+                        "context": "Adult L2 learners and native speaking children had similar error rates for garden-path sentences with no reference information, indicating systematic revision failure."
+                    }
+                ],
+                "builds_on": [
+                    "act-out errors",
+                    "garden-path sentences"
+                ]
+            },
+            {
+                "id": "comparison study",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "comparison study"
+                ],
+                "appearances": [
+                    {
+                        "section": "Reanalysis of a garden-path sentence - ",
+                        "section_index": 4,
+                        "variant": "comparison study",
+                        "context": "In a 2015 study, adult L2 learners were compared to adult native speakers and native speaking children."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "fernanda ferreira",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "fernanda ferreira"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "fernanda ferreira",
+                        "context": "Ferreira, Fernanda; Kiel Christianson, Andrew Hollingworth (January 2001)"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "kiel christianson",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "kiel christianson"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "kiel christianson",
+                        "context": "Ferreira, Fernanda; Kiel Christianson, Andrew Hollingworth (January 2001)"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "andrew hollingworth",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "andrew hollingworth"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "andrew hollingworth",
+                        "context": "Ferreira, Fernanda; Kiel Christianson, Andrew Hollingworth (January 2001)"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "models of sentence processing",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "models of sentence processing"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "models of sentence processing",
+                        "context": "Implications for Models of Sentence Processing and Reanalysis"
+                    }
+                ],
+                "builds_on": [
+                    "Reanalysis",
+                    "Sentence Processing"
+                ]
+            },
+            {
+                "id": "syntactic representations",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "syntactic representations"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "syntactic representations",
+                        "context": "Lingering misinterpretations of garden path sentences arise from competing syntactic representations"
+                    }
+                ],
+                "builds_on": [
+                    "garden path sentences"
+                ]
+            },
+            {
+                "id": "competing representations",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "competing representations"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "competing representations",
+                        "context": "Lingering misinterpretations of garden path sentences arise from competing syntactic representations"
+                    }
+                ],
+                "builds_on": [
+                    "syntactic representations"
+                ]
+            },
+            {
+                "id": "slattery et al. (2013)",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "slattery et al. (2013)"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "slattery et al. (2013)",
+                        "context": "Slattery, T. J., Sturt, P., Christianson, K., Yoshida, M., & Ferreira, F. (July 2013)."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "journal of memory and language",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "journal of memory and language"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further reading",
+                        "section_index": 8,
+                        "variant": "journal of memory and language",
+                        "context": "in Journal of Memory and Language, 69(2) (subscription required), 104–120."
+                    }
+                ],
+                "builds_on": []
+            }
+        ]
+    },
+    "Epistemic injustice": {
+        "category": "philosophy",
+        "total_entities": 79,
+        "entities": [
+            {
+                "id": "epistemic injustice",
+                "frequency": 11,
+                "section_count": 4,
+                "variants": [
+                    "epistemic violence",
+                    "epistemic oppression",
+                    "theory of epistemic injustice",
+                    "epistemic injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "epistemic injustice",
+                        "context": "Epistemic injustice is injustice related to knowledge."
+                    },
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "epistemic injustice",
+                        "context": "An influential theory of epistemic injustice is that of British philosopher Miranda Fricker, who coined the term in 1999."
+                    },
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "epistemic oppression",
+                        "context": "Related concepts include epistemic oppression and epistemic violence."
+                    },
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "epistemic violence",
+                        "context": "Related concepts include epistemic oppression and epistemic violence."
+                    },
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "epistemic injustice",
+                        "context": "Epistemological violence is distinct from epistemic injustice in that it usually occurs in the power structure of academic research."
+                    },
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "epistemic injustice",
+                        "context": "Though the term epistemic injustice was not coined until 1999, earlier thinkers have discussed similar ideas."
+                    },
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "epistemic violence",
+                        "context": "In that essay, Spivak describes what she calls epistemic violence occurring when subaltern persons are prevented from speaking for themselves about their own interests because of others claiming to know what those interests are."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic injustice",
+                        "context": "Other scholars since Fricker have adapted the concept of epistemic injustice and/or expanded what the term includes."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic injustice",
+                        "context": "José Medina has advocated for an account of epistemic injustice that incorporates more voices and pays attention to context and the relationships at play."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic injustice",
+                        "context": "American philosopher Kristie Dotson has warned that some definitions could leave out important contributions to the ongoing discussion around epistemic injustice."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "theory of epistemic injustice",
+                        "context": "The Routledge Handbook of Epistemic Injustice (2017) addressed both the theory of epistemic injustice and its application to practical case studies."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "hermeneutical injustice",
+                "frequency": 4,
+                "section_count": 3,
+                "variants": [
+                    "expressive hermeneutical injustice",
+                    "hermeneutical injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "hermeneutical injustice",
+                        "context": "According to Fricker, there are two kinds of epistemic injustice: testimonial injustice and hermeneutical injustice."
+                    },
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "hermeneutical injustice",
+                        "context": "Hermeneutical injustice occurs when someone's experiences are not well understood — by themselves or by others — because these experiences do not fit any concepts known to them (or known to others), due to the historic exclusion of some groups of people from activities, such as scholarship and journalism, that shape the language people use to make sense of their experiences."
+                    },
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "hermeneutical injustice",
+                        "context": "hermeneutical injustice makes someone less able to interpret their own life."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "expressive hermeneutical injustice",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as expressive hermeneutical injustice."
+                    }
+                ],
+                "builds_on": [
+                    "hermeneutical",
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "exclusion and silencing",
+                "frequency": 3,
+                "section_count": 2,
+                "variants": [
+                    "exclusion and silencing",
+                    "testimonial smothering",
+                    "testimonial quieting"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "exclusion and silencing",
+                        "context": "It includes exclusion and silencing;"
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "testimonial quieting",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as silencing as testimonial quieting."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "testimonial smothering",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as silencing as testimonial smothering."
+                    }
+                ],
+                "builds_on": [
+                    "Epistemic injustice",
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "miranda fricker",
+                "frequency": 3,
+                "section_count": 2,
+                "variants": [
+                    "kristie dotson",
+                    "gaile pohlhaus jr.",
+                    "miranda fricker"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "miranda fricker",
+                        "context": "An influential theory of epistemic injustice is that of British philosopher Miranda Fricker, who coined the term in 1999."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "kristie dotson",
+                        "context": "American philosopher Kristie Dotson has warned that some definitions could leave out important contributions to the ongoing discussion around epistemic injustice."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "gaile pohlhaus jr.",
+                        "context": "Gaile Pohlhaus Jr. has replied that the concept should therefore be considered an open one, and many different approaches to the concept should be considered."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "testimonial injustice",
+                "frequency": 3,
+                "section_count": 2,
+                "variants": [
+                    "testimonial injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "testimonial injustice",
+                        "context": "According to Fricker, there are two kinds of epistemic injustice: testimonial injustice and hermeneutical injustice."
+                    },
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "testimonial injustice",
+                        "context": "Testimonial injustice is unfairness related to trusting someone's word."
+                    },
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "testimonial injustice",
+                        "context": "This was, says Fricker, a case of testimonial injustice, which occurs when 'prejudice causes a hearer to give a deflated level of credibility to a speaker’s word.'"
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "systematic distortion or misrepresentation",
+                "frequency": 2,
+                "section_count": 2,
+                "variants": [
+                    "representation",
+                    "systematic distortion or misrepresentation"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "systematic distortion or misrepresentation",
+                        "context": "systematic distortion or misrepresentation of one's meanings or contributions;"
+                    },
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "representation",
+                        "context": "epistemic violence occurring when subaltern persons are prevented from speaking for themselves about their own interests..."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic violence",
+                    "Epistemic injustice",
+                    "subaltern"
+                ]
+            },
+            {
+                "id": "epistemic injustice",
+                "frequency": 3,
+                "section_count": 1,
+                "variants": [
+                    "epistemic injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic injustice",
+                        "context": "The Routledge Handbook of Epistemic Injustice (2017) addressed both the theory of epistemic injustice and its application to practical case studies."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic injustice",
+                        "context": "Much has been written recently about epistemic injustice and health..."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic injustice",
+                        "context": "Genocide denial has been considered an example of epistemic injustice."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "epistemological violence",
+                "frequency": 2,
+                "section_count": 1,
+                "variants": [
+                    "epistemological violence"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "epistemological violence",
+                        "context": "Epistemological violence is distinct from epistemic injustice in that it usually occurs in the power structure of academic research, such as when interpreting empirical results in psychology."
+                    },
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "epistemological violence",
+                        "context": "For example, the psychologist Monique Botha has argued that academic studies of Theory of Mind in autistic children constitutes epistemological violence..."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "epistemicide",
+                "frequency": 2,
+                "section_count": 1,
+                "variants": [
+                    "epistemicide"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemicide",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as epistemicide."
+                    },
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemicide",
+                        "context": "More recently, Sabelo Ndlovu-Gatsheni has used the terms epistemicide and cognitive empire to describe discrimination against scholars and intellectuals from the Global South."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "undervaluing of status",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "undervaluing of status"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "undervaluing of status",
+                        "context": "undervaluing of one's status or standing in communicative practices;"
+                    }
+                ],
+                "builds_on": [
+                    "Epistemic injustice"
+                ]
+            },
+            {
+                "id": "unfair distinctions in authority",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "unfair distinctions in authority"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "unfair distinctions in authority",
+                        "context": "unfair distinctions in authority;"
+                    }
+                ],
+                "builds_on": [
+                    "Epistemic injustice"
+                ]
+            },
+            {
+                "id": "unwarranted distrust",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "unwarranted distrust"
+                ],
+                "appearances": [
+                    {
+                        "section": "Introduction",
+                        "section_index": 1,
+                        "variant": "unwarranted distrust",
+                        "context": "and unwarranted distrust."
+                    }
+                ],
+                "builds_on": [
+                    "Epistemic injustice"
+                ]
+            },
+            {
+                "id": "unfairness",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "unfairness"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "unfairness",
+                        "context": "An injustice of this kind can occur when someone is ignored, or not believed..."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "identity factors",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "identity factors"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "identity factors",
+                        "context": "...because of their sex, sexuality, gender presentation, race, disability, or, broadly, because of their identity."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "trust",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "trust"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "trust",
+                        "context": "Testimonial injustice is unfairness related to trusting someone's word."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "social interactions",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "social interactions"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "social interactions",
+                        "context": "Testimonial injustice is unfairness related to trusting someone's word."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "racial bias",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "racial bias"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "racial bias",
+                        "context": "the police officers failed to view Brooks as a credible witness, presumably in part due to racial bias."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "credibility",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "credibility"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "credibility",
+                        "context": "the officers failed to view Brooks as a credible witness"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "duwayne brooks",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "duwayne brooks"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "duwayne brooks",
+                        "context": "Miranda Fricker gives the example of Londoner Duwayne Brooks, who saw his friend Stephen Lawrence murdered."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "stephen lawrence",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "stephen lawrence"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "stephen lawrence",
+                        "context": "who saw his friend Stephen Lawrence murdered."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "police response",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "police response"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "police response",
+                        "context": "the officers failed to concentrate upon Mr. Brooks and to follow up energetically the information which he gave them."
+                    }
+                ],
+                "builds_on": [
+                    "testimonial injustice",
+                    "racial bias"
+                ]
+            },
+            {
+                "id": "official inquiry",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "official inquiry"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "official inquiry",
+                        "context": "According to an official inquiry, 'the officers failed to concentrate upon Mr. Brooks...'"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "information gathering",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "information gathering"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "information gathering",
+                        "context": "Nobody suggested that he should accompany them in searches of the area, although he knew where the assailants had last been seen."
+                    }
+                ],
+                "builds_on": [
+                    "police response"
+                ]
+            },
+            {
+                "id": "calming witnesses",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "calming witnesses"
+                ],
+                "appearances": [
+                    {
+                        "section": "Testimonial injustice",
+                        "section_index": 2,
+                        "variant": "calming witnesses",
+                        "context": "Nobody appears properly to have tried to calm him, or to accept that what he said was true."
+                    }
+                ],
+                "builds_on": [
+                    "information gathering",
+                    "credibility"
+                ]
+            },
+            {
+                "id": "historic exclusion",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "historic exclusion"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "historic exclusion",
+                        "context": "due to the historic exclusion of some groups of people from activities, such as scholarship and journalism, that shape the language people use to make sense of their experiences."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "conceptual fit",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "conceptual fit"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "conceptual fit",
+                        "context": "because these experiences do not fit any concepts known to them (or known to others)"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "scholarship and journalism",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "scholarship and journalism"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "scholarship and journalism",
+                        "context": "due to the historic exclusion of some groups of people from activities, such as scholarship and journalism, that shape the language people use to make sense of their experiences."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "language and understanding",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "language and understanding"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "language and understanding",
+                        "context": "that shape the language people use to make sense of their experiences."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "sexual harassment",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "sexual harassment"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "sexual harassment",
+                        "context": "the phrase sexual harassment was introduced to describe something that many people, especially women, had long experienced."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "women's exclusion from language shaping",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "women's exclusion from language shaping"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "women's exclusion from language shaping",
+                        "context": "was largely due to women's exclusion from shaping the English language and participating equally in journalism, publishing, academia, law, and the other institutions and industries that help people make sense of their lives."
+                    }
+                ],
+                "builds_on": [
+                    "sexual harassment"
+                ]
+            },
+            {
+                "id": "understanding of experiences",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "understanding of experiences"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "understanding of experiences",
+                        "context": "the same woman who experienced sexual harassment may have understood better what happened to her;"
+                    }
+                ],
+                "builds_on": [
+                    "sexual harassment"
+                ]
+            },
+            {
+                "id": "difficulty in articulation",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "difficulty in articulation"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "difficulty in articulation",
+                        "context": "she may have struggled to explain this experience to someone else, because the concept of sexual harassment was not yet well known."
+                    }
+                ],
+                "builds_on": [
+                    "understanding of experiences",
+                    "sexual harassment"
+                ]
+            },
+            {
+                "id": "historical context of the 1970s",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "historical context of the 1970s"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "historical context of the 1970s",
+                        "context": "For example, in the 1970s, the phrase sexual harassment was introduced..."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "hermeneutical",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "hermeneutical"
+                ],
+                "appearances": [
+                    {
+                        "section": "Hermeneutical injustice",
+                        "section_index": 3,
+                        "variant": "hermeneutical",
+                        "context": "The term hermeneutical means 'relating to interpretation';"
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "power structure of academic research",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "power structure of academic research"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "power structure of academic research",
+                        "context": "Epistemological violence is distinct from epistemic injustice in that it usually occurs in the power structure of academic research."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "interpretation of empirical results",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "interpretation of empirical results"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "interpretation of empirical results",
+                        "context": "Epistemological violence is theoretical interpretations of empirical results that construct a targeted group as inferior, despite alternative and equally viable interpretations of the data."
+                    }
+                ],
+                "builds_on": [
+                    "Epistemological Violence"
+                ]
+            },
+            {
+                "id": "targeted group",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "targeted group"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "targeted group",
+                        "context": "Epistemological violence is theoretical interpretations of empirical results that construct a targeted group as inferior."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "alternative interpretations",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "alternative interpretations"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "alternative interpretations",
+                        "context": "Epistemological violence is theoretical interpretations of empirical results that construct a targeted group as inferior, despite alternative and equally viable interpretations of the data."
+                    }
+                ],
+                "builds_on": [
+                    "Interpretation of Empirical Results"
+                ]
+            },
+            {
+                "id": "theory of mind",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "theory of mind"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "theory of mind",
+                        "context": "For example, the psychologist Monique Botha has argued that academic studies of Theory of Mind in autistic children constitutes epistemological violence..."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "monique botha",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "monique botha"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "monique botha",
+                        "context": "For example, the psychologist Monique Botha has argued that academic studies of Theory of Mind in autistic children constitutes epistemological violence..."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "foundational studies",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "foundational studies"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "foundational studies",
+                        "context": "For example, the psychologist Monique Botha has argued that academic studies of Theory of Mind in autistic children constitutes epistemological violence, due to foundational studies explicitly or implicitly drawing universal conclusions about the entire group of autistic people."
+                    }
+                ],
+                "builds_on": [
+                    "Theory of Mind",
+                    "epistemological violence"
+                ]
+            },
+            {
+                "id": "universal conclusions",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "universal conclusions"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "universal conclusions",
+                        "context": "For example, the psychologist Monique Botha has argued that academic studies of Theory of Mind in autistic children constitutes epistemological violence, due to foundational studies explicitly or implicitly drawing universal conclusions about the entire group of autistic people."
+                    }
+                ],
+                "builds_on": [
+                    "foundational studies"
+                ]
+            },
+            {
+                "id": "autistic children",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "autistic children"
+                ],
+                "appearances": [
+                    {
+                        "section": "Epistemological violence",
+                        "section_index": 4,
+                        "variant": "autistic children",
+                        "context": "For example, the psychologist Monique Botha has argued that academic studies of Theory of Mind in autistic children constitutes epistemological violence..."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "1999",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "1999"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "1999",
+                        "context": "Though the term epistemic injustice was not coined until 1999, earlier thinkers have discussed similar ideas."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "earlier thinkers",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "earlier thinkers"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "earlier thinkers",
+                        "context": "Though the term epistemic injustice was not coined until 1999, earlier thinkers have discussed similar ideas."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "anna julia cooper",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "anna julia cooper"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "anna julia cooper",
+                        "context": "Vivian May has argued that civil rights activist Anna Julia Cooper in the 1890s anticipated the concept in claiming that Black women are denied full and equal recognition as knowers."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "civil rights activism",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "civil rights activism"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "civil rights activism",
+                        "context": "Vivian May has argued that civil rights activist Anna Julia Cooper in the 1890s anticipated the concept in claiming that Black women are denied full and equal recognition as knowers."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "recognition as knowers",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "recognition as knowers"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "recognition as knowers",
+                        "context": "Vivian May has argued that civil rights activist Anna Julia Cooper in the 1890s anticipated the concept in claiming that Black women are denied full and equal recognition as knowers."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "1890s",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "1890s"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "1890s",
+                        "context": "Vivian May has argued that civil rights activist Anna Julia Cooper in the 1890s anticipated the concept in claiming that Black women are denied full and equal recognition as knowers."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "vivian may",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "vivian may"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "vivian may",
+                        "context": "Vivian May has argued that civil rights activist Anna Julia Cooper in the 1890s anticipated the concept in claiming that Black women are denied full and equal recognition as knowers."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "subaltern",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "subaltern"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "subaltern",
+                        "context": "In that essay, Spivak describes what she calls epistemic violence occurring when subaltern persons are prevented from speaking for themselves about their own interests..."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "gayatri chakrovorty spivak",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "gayatri chakrovorty spivak"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "gayatri chakrovorty spivak",
+                        "context": "Gaile Pohlhaus Jr. points to Gayatri Chakrovorty Spivak's 1988 essay 'Can the Subaltern Speak?' as another anticipation."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "can the subaltern speak?",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "can the subaltern speak?"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "can the subaltern speak?",
+                        "context": "Gaile Pohlhaus Jr. points to Gayatri Chakrovorty Spivak's 1988 essay 'Can the Subaltern Speak?' as another anticipation."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "power dynamics",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "power dynamics"
+                ],
+                "appearances": [
+                    {
+                        "section": "Origins",
+                        "section_index": 5,
+                        "variant": "power dynamics",
+                        "context": "epistemic violence occurring when subaltern persons are prevented from speaking for themselves..."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic violence",
+                    "representation"
+                ]
+            },
+            {
+                "id": "epistemic oppression",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "epistemic oppression"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic oppression",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as epistemic oppression."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "epistemic exploitation",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "epistemic exploitation"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic exploitation",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as epistemic exploitation."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "contributory injustice",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "contributory injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "contributory injustice",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as contributory injustice."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "distributive epistemic injustice",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "distributive epistemic injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "distributive epistemic injustice",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as distributive epistemic injustice."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "epistemic trust injustice",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "epistemic trust injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemic trust injustice",
+                        "context": "These contributions have included naming and narrowing down forms of epistemic injustice, such as epistemic trust injustice."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "structural causes of epistemic injustice",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "structural causes of epistemic injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "structural causes of epistemic injustice",
+                        "context": "Elizabeth S. Anderson has argued that attention should be given to the structural causes and structural remedies of epistemic injustice."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "structural remedies of epistemic injustice",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "structural remedies of epistemic injustice"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "structural remedies of epistemic injustice",
+                        "context": "Elizabeth S. Anderson has argued that attention should be given to the structural causes and structural remedies of epistemic injustice."
+                    }
+                ],
+                "builds_on": [
+                    "structural causes of epistemic injustice"
+                ]
+            },
+            {
+                "id": "epistemologies of ignorance",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "epistemologies of ignorance"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "epistemologies of ignorance",
+                        "context": "A closely related literature on epistemologies of ignorance has also been developing."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "white ignorance",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "white ignorance"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "white ignorance",
+                        "context": "which has included the identification of overlapping concepts such as white ignorance and willful hermeneutical ignorance."
+                    }
+                ],
+                "builds_on": [
+                    "epistemologies of ignorance"
+                ]
+            },
+            {
+                "id": "willful hermeneutical ignorance",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "willful hermeneutical ignorance"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "willful hermeneutical ignorance",
+                        "context": "which has included the identification of overlapping concepts such as white ignorance and willful hermeneutical ignorance."
+                    }
+                ],
+                "builds_on": [
+                    "epistemologies of ignorance"
+                ]
+            },
+            {
+                "id": "open concept",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "open concept"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "open concept",
+                        "context": "Gaile Pohlhaus Jr. has replied that the concept should therefore be considered an open one, and many different approaches to the concept should be considered."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "rajeev bhargava",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "rajeev bhargava"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "rajeev bhargava",
+                        "context": "The Indian political theorist Rajeev Bhargava has used the term epistemic injustice to describe how colonized groups were wronged when colonizing powers replaced, or negatively impacted, the concepts and categories that colonized groups used to understand themselves and the world."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "cognitive empire",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "cognitive empire"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "cognitive empire",
+                        "context": "More recently, Sabelo Ndlovu-Gatsheni has used the terms epistemicide and cognitive empire to describe discrimination against scholars and intellectuals from the Global South."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "practical case studies",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "practical case studies"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "practical case studies",
+                        "context": "The Routledge Handbook of Epistemic Injustice (2017) addressed both the theory of epistemic injustice and its application to practical case studies."
+                    }
+                ],
+                "builds_on": [
+                    "theory of epistemic injustice"
+                ]
+            },
+            {
+                "id": "global south",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "global south"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "global south",
+                        "context": "Sabelo Ndlovu-Gatsheni has used the terms epistemicide and cognitive empire to describe discrimination against scholars and intellectuals from the Global South."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "neglected tropical disease",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "neglected tropical disease"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "neglected tropical disease",
+                        "context": "A policy analysis indicated that the World Health Organization's definition of neglected tropical disease reflects a form of epistemic injustice..."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "world health organization (who)",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "world health organization (who)"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "world health organization (who)",
+                        "context": "A policy analysis indicated that the World Health Organization's definition of neglected tropical disease..."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "structural reforms",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "structural reforms"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "structural reforms",
+                        "context": "The nature and structure of epistemic injustice in the neglected tropical disease community has been described and calls for structural reforms..."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "meta-research",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "meta-research"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "meta-research",
+                        "context": "calls for structural reforms, meta-research and health policy has been made."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "health policy",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "health policy"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "health policy",
+                        "context": "calls for structural reforms, meta-research and health policy has been made."
+                    }
+                ],
+                "builds_on": [
+                    "neglected tropical disease",
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "himani bhakuni",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "himani bhakuni"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "himani bhakuni",
+                        "context": "for example by the researchers Himani Bhakuni and Seye Abimbola."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "seye abimbola",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "seye abimbola"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "seye abimbola",
+                        "context": "for example by the researchers Himani Bhakuni and Seye Abimbola."
+                    }
+                ],
+                "builds_on": []
+            },
+            {
+                "id": "robert chapman",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "robert chapman"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "robert chapman",
+                        "context": "Robert Chapman, among others, has discussed the relationship between epistemic injustice and neurodiversity."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "neurodiversity",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "neurodiversity"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "neurodiversity",
+                        "context": "Robert Chapman, among others, has discussed the relationship between epistemic injustice and neurodiversity."
+                    }
+                ],
+                "builds_on": [
+                    "epistemic injustice"
+                ]
+            },
+            {
+                "id": "genocide denial",
+                "frequency": 1,
+                "section_count": 1,
+                "variants": [
+                    "genocide denial"
+                ],
+                "appearances": [
+                    {
+                        "section": "Further developments",
+                        "section_index": 6,
+                        "variant": "genocide denial",
+                        "context": "Genocide denial has been considered an example of epistemic injustice."
+                    }
+                ],
+                "builds_on": []
+            }
+        ]
+    }
+}
