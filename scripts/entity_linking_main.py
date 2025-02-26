@@ -146,44 +146,6 @@ def save_relations(self, output_path: str, processing_mode: str, title: str):
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(summary, f, indent=4, ensure_ascii=False)
 
-def build_concept_hierarchy(results: List[Dict]) -> Dict:
-    """Build a hierarchical structure of concepts based on builds_on relationships."""
-    hierarchy = {}
-    
-    # First pass: create nodes for all concepts
-    for entity in results:
-        hierarchy[entity['id']] = {
-            'children': [],  # Change from set() to list
-            'parents': []    # Change from set() to list
-        }
-    
-    # Second pass: establish relationships
-    for entity in results:
-        for parent in entity.get('builds_on', []):  # Add get() with default empty list
-            if parent.lower() in hierarchy:  # Convert to lowercase for comparison
-                parent_key = parent.lower()
-                child_key = entity['id'].lower()
-                # Add to lists if not already present
-                if child_key not in hierarchy[parent_key]['children']:
-                    hierarchy[parent_key]['children'].append(child_key)
-                if parent_key not in hierarchy[child_key]['parents']:
-                    hierarchy[child_key]['parents'].append(parent_key)
-    
-    return hierarchy
-
-def print_concept_hierarchy(hierarchy: Dict, root_concepts=None, level=0):
-    """Print the concept hierarchy in a tree-like format."""
-    if root_concepts is None:
-        # Start with concepts that have no parents
-        root_concepts = [concept for concept, data in hierarchy.items() 
-                        if not data['parents']]
-    
-    for concept in root_concepts:
-        print("  " * level + "└─ " + concept)
-        children = hierarchy[concept]['children']
-        if children:
-            print_concept_hierarchy(hierarchy, children, level + 1)
-
 def save_entity_results(results: List[Dict], output_path: str, processing_mode: str, article_title: str, category: str):
     """Save results to file and print summary."""
     print("\nFinal Results for Article:", article_title)
@@ -281,6 +243,7 @@ def save_relation_results(all_articles_relations: Dict[str, Dict], articles_data
 
 def main(processing_mode='section'):
     # Initialize the entity extractor
+    load_dotenv()
     api_key = os.getenv('OpenAI_API_KEY')
     if not api_key:
         raise ValueError("OpenAI API key not found. Please set OpenAI_API_KEY environment variable.")
@@ -288,15 +251,15 @@ def main(processing_mode='section'):
     # Initialize the entity extractor with your actual API key
     extractor = OptimizedEntityExtractor(
         api_key=api_key,
-        cache_version="10.0"
+        cache_version="12.0"
     )
     
     # Load your articles
-    with open('data/text_sample2.json', 'r', encoding='utf-8') as f:
+    with open('/Users/mollyhan/PycharmProjects/Cognitext/data/text_sample2.json', 'r', encoding='utf-8') as f:
         data = json.load(f)  # Load the entire JSON
         articles = data.get('articles', {})  # Access the 'articles' key
 
-    output_path = f"data/entity_analysis_{processing_mode}_results.json"  # Define output path
+    output_path = f"/Users/mollyhan/PycharmProjects/Cognitext/data/entity_analysis_{processing_mode}_results_sample.json"  # Define output path
 
     all_relation_results = {}
     articles_data = {}
@@ -321,20 +284,15 @@ def main(processing_mode='section'):
             entities = process_article_by_paragraphs(title, article, extractor)
             
         # Final global relation extraction
-        final_global_relations = extractor.extract_global_relations(entities)
-        extractor.relation_tracker.add_global_relations(final_global_relations)
-        extractor.relation_tracker.merge_relations()
+        # final_global_relations = extractor.extract_global_relations(entities)
+        # extractor.relation_tracker.add_global_relations(final_global_relations)
+        # extractor.relation_tracker.merge_relations()
         
         # Store results for this article
-        all_relation_results[title] = extractor.get_all_relations()
+        # all_relation_results[title] = extractor.get_all_relations()
         save_entity_results(entities, output_path, processing_mode, title, category)  # Save after each article
 
     save_relation_results(all_relation_results, articles_data, processing_mode)
-    
-
-        # print(f"\nFound {len(entities)} entities in article {title}")
-        # for entity in entities[:5]:  # Show top 5 entities
-            # print(f"- {entity['id']} (frequency: {entity['frequency']})")
 
 if __name__ == "__main__":
     main(processing_mode='section')  # 'section' or 'paragraph'

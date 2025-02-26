@@ -8,12 +8,12 @@ from cache_manager import CacheManager
 @dataclass
 class Entity:
     id: str
+    layer: str
     frequency: int = 0
     section_count: int = 0
     variants: Set[str] = field(default_factory=set)
     appearances: List[Dict] = field(default_factory=list) # increment each time the concept or its variant is extracted
     sections_seen: Set[int] = field(default_factory=set) # track the number of unique sections in which the entity appears
-    builds_on: Set[str] = field(default_factory=set)  
 
     def __post_init__(self):
         # Normalize the ID
@@ -22,6 +22,9 @@ class Entity:
         self.variants = {self.normalize_term(v) for v in self.variants}
         # Remove variants that are same as ID
         self.variants = {v for v in self.variants if v != self.id}
+        valid_layers = {"priority", "secondary", "tertiary"}
+        if self.layer not in valid_layers:
+            raise ValueError(f"Layer must be one of: {valid_layers}")
 
     @staticmethod
     def normalize_term(term: str) -> str:
@@ -63,19 +66,22 @@ class Entity:
         self.sections_seen.update(other.sections_seen)
         # Update section count
         self.section_count = len(self.sections_seen)
-        self.builds_on.update(other.builds_on)
+        # Keep the higher priority layer
+        if self._get_layer_priority(other.layer) > self._get_layer_priority(self.layer):
+            self.layer = other.layer
         for app in other.appearances: # Add unique appearances
             self.add_appearance(app, app.get("variant", ""))
         # Update frequency
         self.frequency = len(self.appearances)
 
-    def merge_from(self, other: 'Entity'):
-        """Merge another entity into this one"""
-        # Merge variants
-        self.variants.update(other.variants)
-        # Add unique appearances
-        for app in other.appearances:
-            self.add_appearance(app, app.get("variant", ""))
+    def _get_layer_priority(self, layer: str) -> int:
+        """Get numeric priority of layer (higher number = higher priority)"""
+        priorities = {
+            "priority": 3,
+            "secondary": 2,
+            "tertiary": 1
+        }
+        return priorities.get(layer, 0)
 
 @dataclass
 class TextChunk:
@@ -138,7 +144,7 @@ class RelationTracker:
         self.master_relations = list(all_relations)
     
 class OptimizedEntityExtractor:
-    def __init__(self, api_key: str, cache_version: str = "10.0"):
+    def __init__(self, api_key: str, cache_version: str = "12.0"):
         self.client = OpenAI(api_key=api_key)
         self.cache_manager = CacheManager(version=cache_version)
         self.memory_cache = {}
@@ -204,36 +210,45 @@ class OptimizedEntityExtractor:
 
         print(f"  [P{para_num}] Making API call for entity extraction")
         prompt = f"""
-        Extract key concepts from the provided text using the following guidelines. The extracted concepts will be used for relation extraction and visualizations to aid educational comprehension.
+        A concept is defined as a significant term or phrase that represents a fundamental idea, entity, or phenomenon within a discipline. 
+        Extract key concepts from the provided text using the following guidelines. The extracted concepts will be used for relation extraction and creating layered visualizations that support flexible, non-linear educational comprehension.
 
         **Context:**
-        The extracted concepts should represent distinct units of knowledge that contribute to understanding the main ideas in the text.
-
-        **Focus Areas:**
-        1. **Foundational Concepts:**
-        - Identify all core ideas, principles, and overarching themes central to the topic.
-        - Include broad categories and specific examples that contribute to the foundational understanding.
-
-        2. **Processes and Mechanisms:**
-        - Extract detailed descriptions of processes, mechanisms, or systems, highlighting all steps, interactions, and their implications.
-        - Emphasize not only major processes but also sub-processes and any variations.
-
-        3. **Supporting Structures:**
-        - Identify component parts, subsystems, and organizational structures.
-        - Include measurements, scales, or any quantitative data that offer a deeper understanding.
+        The extracted concepts should represent distinct units of knowledge, organized in priority layers to facilitate both high-level understanding and detailed exploration of the text.
         
-        **Guidelines:**
-        - Ensure concepts are comprehensive, covering all possible relevant aspects of the topic.
-        - Include concepts that answer "what," "how," "why," and "when," ensuring a broad capture of informative elements.
-        - ONLY exclude purely anecdotal details unless they are crucial for defining a concept.
-
+        **Concept Layers:**
+        1. **Core Concepts (Priority Layer):**
+        - Primary theoretical concepts and fundamental principles
+        - Key terminology and definitions essential to the topic
+        - Major themes and overarching frameworks
+        - Critical processes and mechanisms central to understanding
+        
+        2. **Supporting Concepts (Secondary Layer):**
+        - Sub-processes and variations of core concepts
+        - Related theories and complementary ideas
+        - Component parts and organizational structures
+        - Methodological approaches and analytical frameworks
+        
+        3. **Contextual Elements (Tertiary Layer):**
+        - Author names and their key contributions
+        - Specific examples and case studies
+        - Historical context and developments
+        - Applications and implementations
+        - Measurements and quantitative data
+        
+        **Extraction Guidelines:**
+        - Tag each extracted concept with its appropriate layer (core, supporting, contextual)
+        - Ensure comprehensive coverage across all layers
+        - Include concepts that answer: "What" (definitions and principles), "How" (processes and methods), "Why" (reasoning and implications) and"When" (temporal and contextual factors)
+        - ONLY exclude purely anecdotal details unless they are crucial for defining a concept
+        
         **Output Format:** 
         [
             {{
             "entity": "main_form",
             "context": "The exact sentence where this concept appeared", 
             "evidence: "Why this concept is essential for understanding the topic",
-            "builds_on": ["list of prerequisite concepts if any"]
+            "layer": "The layer (priority, secondary, or tertiary) of this concept"
             }}
         ]
 
@@ -283,39 +298,44 @@ class OptimizedEntityExtractor:
             self.memory_cache[full_section_text] = cached_result
             return cached_result
 
-
         print(f"  [S{section_index}] Making API call for entity extraction")
         prompt = f"""
-        Extract key concepts from the provided text using the following guidelines. The extracted concepts will be used for relation extraction and visualizations to aid educational comprehension.
+        A concept is defined as a significant term or phrase that represents a fundamental idea, entity, or phenomenon within a discipline. 
+        Extract key concepts from the provided text using the following guidelines. The extracted concepts will be used for relation extraction and creating layered visualizations that support flexible, non-linear educational comprehension.
 
-        **Context:**
-        The extracted concepts should represent distinct units of knowledge that contribute to understanding the main ideas in the text.
-
-        **Focus Areas:**
-        1. **Foundational Concepts:**
-        - Identify all core ideas, principles, and overarching themes central to the topic.
-        - Include broad categories and specific examples that contribute to the foundational understanding.
-
-        2. **Processes and Mechanisms:**
-        - Extract detailed descriptions of processes, mechanisms, or systems, highlighting all steps, interactions, and their implications.        
-        - Emphasize not only major processes but also sub-processes and any variations.
-
-        3. **Supporting Structures:**
-        - Identify component parts, subsystems, and organizational structures.
-        - Include measurements, scales, or any quantitative data that offer a deeper understanding.
+        **Concept Layers:**
+        1. **Core Concepts (Priority Layer):**
+        - Primary theoretical concepts and fundamental principles
+        - Key terminology and definitions essential to the topic
+        - Major themes and overarching frameworks
+        - Critical processes and mechanisms central to understanding
         
-        **Guidelines:**
-        - Ensure concepts are comprehensive, covering all possible relevant aspects of the topic.
-        - Include concepts that answer "what," "how," "why," and "when," ensuring a broad capture of informative elements.
-        - ONLY exclude purely anecdotal details unless they are crucial for defining a concept.
-
+        2. **Supporting Concepts (Secondary Layer):**
+        - Sub-processes and variations of core concepts
+        - Related theories and complementary ideas
+        - Component parts and organizational structures
+        - Methodological approaches and analytical frameworks
+        
+        3. **Contextual Elements (Tertiary Layer):**
+        - Author names and their key contributions
+        - Specific examples and case studies
+        - Historical context and developments
+        - Applications and implementations
+        - Measurements and quantitative data
+        
+        **Extraction Guidelines:**
+        - Tag each extracted concept with its appropriate layer (priority, secondary, tertiary)
+        - Ensure comprehensive coverage across all layers
+        - Include concepts that answer: "What" (definitions and principles), "How" (processes and methods), "Why" (reasoning and implications) and"When" (temporal and contextual factors)
+        - ONLY exclude purely anecdotal details unless they are crucial for defining a concept
+        
         **Output Format:** 
         [
             {{
             "entity": "main_form",
             "context": "The exact sentence where this concept appeared", 
             "evidence: "Why this concept is essential for understanding the topic",
-            "builds_on": ["list of prerequisite concepts if any"]
+            "layer": "priority/secondary/tertiary" # Must be exactly one of these values
             }}
         ]
         
@@ -581,7 +601,6 @@ class OptimizedEntityExtractor:
             return {}
 
     def process_section(self, chunk: TextChunk):
-        """Process a section and merge with existing entities."""
         try:
             new_entities = self.extract_entities_from_section(
                 {"text": chunk.section_text, "subheadings": {}},
@@ -591,31 +610,15 @@ class OptimizedEntityExtractor:
 
             # Create case-insensitive lookup dictionary
             entities_lookup = {k.lower(): k for k in self.entities.keys()}
-            
-            # For first section, initialize entities
-            if chunk.section_index == 1 and not self.entities:
-                for entity in new_entities:
-                    try:
-                        new_entity = Entity(id=entity["entity"])
-                        appearance = {
-                            "section": chunk.section_name,
-                            "section_index": chunk.section_index,
-                            "heading_level": chunk.heading_level,
-                            "variant": entity["entity"],
-                            "context": entity.get("context", ""), 
-                            "evidence": entity.get("evidence", "")
-                        }
-                        new_entity.add_appearance(appearance, entity["entity"])
-                        if "builds_on" in entity:
-                            new_entity.builds_on.update(entity["builds_on"])
-                        self.entities[entity["entity"]] = new_entity
-                    except Exception as e:
-                        print(f"Warning: Could not process initial entity: {str(e)}")
-                        continue
-                return
-            else: 
-                # For subsequent sections
-                try:
+
+            # Always attempt to merge or create entities
+            try:
+                # For first section or subsequent sections, follow same logic
+                if not self.entities:
+                    # First section processing
+                    existing_entities = []
+                else:
+                    # Get existing entities for comparison
                     existing_entities = [
                         {
                             "entity": ent.id,
@@ -624,65 +627,64 @@ class OptimizedEntityExtractor:
                         for ent in self.entities.values()
                     ]
 
-                    # Get semantic matches
-                    matches = self.compare_concept_lists(existing_entities, new_entities)
-                    print(f"\nFound matches: {json.dumps(matches, indent=2)}")
-                    
-                    # Process each new entity
-                    for new_entity in new_entities:
-                        try:
-                            entity_id = new_entity["entity"]
-                            appearance = {
-                                "section": chunk.section_name,
-                                "section_index": chunk.section_index,
-                                "heading_level": chunk.heading_level,
-                                "variant": entity_id,
-                                "context": new_entity.get("context", "")
-                            }
+                # Get semantic matches
+                matches = self.compare_concept_lists(existing_entities, new_entities)
+                print(f"\nFound matches: {json.dumps(matches, indent=2)}")
+                
+                # Process each new entity
+                for new_entity in new_entities:
+                    try:
+                        entity_id = new_entity["entity"]
+                        # Determine the layer
+                        layer = new_entity.get("layer", "tertiary")  # Default to tertiary if missing
+                        if layer not in {"priority", "secondary", "tertiary"}:
+                            layer = "tertiary"  # Default for invalid values
+                        appearance = {
+                            "section": chunk.section_name,
+                            "section_index": chunk.section_index,
+                            "heading_level": chunk.heading_level,
+                            "variant": entity_id,
+                            "context": new_entity.get("context", "")
+                        }
 
-                            if entity_id in matches:
-                                existing_id = matches[entity_id]
-                                print(f"\nMerging '{entity_id}' into existing concept '{existing_id}'")
-                                
-                                # Look up the actual key using case-insensitive comparison
-                                actual_key = entities_lookup.get(existing_id.lower())
-                                
-                                if actual_key:
-                                    self.entities[actual_key].add_appearance(appearance, entity_id)
-                                    if "builds_on" in new_entity:
-                                        self.entities[actual_key].builds_on.update(new_entity["builds_on"])
-                                    print(f"Successfully merged '{entity_id}' as variant")
-                                else:
-                                    # If no match found, create new entity
-                                    print(f"No case-insensitive match found for '{existing_id}', creating new entity")
-                                    new_entity_obj = Entity(id=entity_id)
-                                    new_entity_obj.add_appearance(appearance, entity_id)
-                                    if "builds_on" in new_entity:
-                                        new_entity_obj.builds_on.update(new_entity["builds_on"])
-                                    self.entities[entity_id] = new_entity_obj
+                        if entity_id in matches:
+                            existing_id = matches[entity_id]
+                            print(f"\nMerging '{entity_id}' into existing concept '{existing_id}'")
+                            
+                            # Look up the actual key using case-insensitive comparison
+                            actual_key = entities_lookup.get(existing_id.lower())
+                            
+                            if actual_key:
+                                self.entities[actual_key].add_appearance(appearance, entity_id)
+                                print(f"Successfully merged '{entity_id}' as variant")
                             else:
-                                # Create new entity
-                                print(f"\nCreating new entity '{entity_id}'")
-                                new_entity_obj = Entity(id=entity_id)
+                                # If no match found, create new entity
+                                print(f"Creating new entity for '{entity_id}' with layer '{layer}'")
+                                new_entity_obj = Entity(id=entity_id, layer=layer)
                                 new_entity_obj.add_appearance(appearance, entity_id)
-                                if "builds_on" in new_entity:
-                                    new_entity_obj.builds_on.update(new_entity["builds_on"])
                                 self.entities[entity_id] = new_entity_obj
-                                print(f"Successfully created new entity")
+                        else:
+                            # Create new entity
+                            print(f"\nCreating new entity '{entity_id}' with layer '{layer}'")
+                            new_entity_obj = Entity(id=entity_id, layer=layer)
+                            new_entity_obj.add_appearance(appearance, entity_id)
+                            self.entities[entity_id] = new_entity_obj
+                            print(f"Successfully created new entity")
 
-                        except Exception as e:
-                            print(f"\nError processing entity: {str(e)}")
-                            continue
+                    except Exception as e:
+                        print(f"\nError processing entity: {str(e)}")
+                        continue
 
-                except Exception as e:
-                    print(f"Error in section processing: {str(e)}")
+            except Exception as e:
+                print(f"Error processing section: {str(e)}")
 
             section_concepts = [
                 {"id": ent.id, "variants": list(ent.variants)}
                 for ent in self.entities.values()
                 if any(app["section_index"] == chunk.section_index for app in ent.appearances)
             ]
-            
+
+            '''
             section_relations = self.extract_local_relations(
                 chunk.content,  # Use the raw content for relation extraction
                 section_concepts,
@@ -700,23 +702,10 @@ class OptimizedEntityExtractor:
                 self.relation_tracker.periodic_extraction_threshold == 0):
                 global_relations = self.extract_global_relations(self.get_sorted_entities())
                 self.relation_tracker.add_global_relations(global_relations)
+            '''
 
         except Exception as e:
             print(f"Error in main section processing: {str(e)}")
-    
-    '''
-    def store_relations(self, relations: List[Relation], section_name: str, section_index: int):
-        """Store relations in a structured format."""
-        for relation in relations:
-            self.relations.append({
-                "head": relation.head,
-                "relation": relation.relation,
-                "tail": relation.tail,
-                "context": relation.context,
-                "section_name": section_name,
-                "section_index": section_index
-            })
-    '''
 
     def process_paragraph(self, chunk: TextChunk):
         """Process a paragraph and update entity tracking."""
@@ -732,66 +721,31 @@ class OptimizedEntityExtractor:
 
             # Create case-insensitive lookup dictionary
             entities_lookup = {k.lower(): k for k in self.entities.keys()}
-            
-            # For first paragraph, initialize entities
-            if not self.entities:
-                print("\n=== Initializing First Entities ===")
-                for entity in new_entities:
-                    try:
-                        # Keep the original entity casing
-                        new_entity = Entity(id=entity["entity"])  # This should keep the original casing
-                        appearance = {
-                            "section": chunk.section_name,
-                            "section_index": chunk.section_index,
-                            "paragraph_index": chunk.paragraph_index,
-                            "heading_level": chunk.heading_level,
-                            "variant": entity["entity"],
-                            "context": entity.get("context", ""), 
-                            "evidence": entity.get("evidence", "")
-                        }
-                        new_entity.add_appearance(appearance, entity["entity"])
-                        if "builds_on" in entity:
-                            new_entity.builds_on.update(entity["builds_on"])
-                        self.entities[entity["entity"]] = new_entity  # Store with original casing
-                        print(f"Added initial entity: {entity['entity']}")
-                    except Exception as e:
-                        print(f"Warning: Could not process initial entity: {str(e)}")
-                        continue
-                return
 
-            # For subsequent paragraphs
+            # Always attempt to merge or create entities
             try:
-                # 2. Get existing entities for comparison
-                print("\n=== Matching Against Existing Entities ===")          
-                existing_entities = [
-                    {
-                        "entity": ent.id,
-                        "context": "Previously identified concept"
-                    }
-                    for ent in self.entities.values()
-                ]
+                # For first paragraph or subsequent paragraphs, follow same logic
+                if not self.entities:
+                    # First paragraph processing
+                    existing_entities = []
+                else:
+                    # Get existing entities for comparison
+                    existing_entities = [
+                        {
+                            "entity": ent.id,
+                            "context": "Previously identified concept"
+                        }
+                        for ent in self.entities.values()
+                    ]
 
-                # Print the existing entities
-                print("Existing entities for comparison:")
-                print(json.dumps(existing_entities, indent=2))
-
-                # Print the new entities
-                print("New entities for comparison:")
-                print(json.dumps(new_entities, indent=2))
-
-                # 3. Find matches
-                print("\nLooking for matches...")
+                # Get semantic matches
                 matches = self.compare_concept_lists(existing_entities, new_entities)
-                print("Found matches:")
-                print(json.dumps(matches, indent=2))
-                
-                # 4. Process each new entity
-                print("\n=== Processing New Entities ===")
+                print(f"\nFound matches: {json.dumps(matches, indent=2)}")
+
+                # Process each new entity
                 for new_entity in new_entities:
                     try:
                         entity_id = new_entity["entity"]
-                        print(f"\nProcessing: {entity_id}")
-                        
                         appearance = {
                             "section": chunk.section_name,
                             "section_index": chunk.section_index,
@@ -803,43 +757,67 @@ class OptimizedEntityExtractor:
 
                         if entity_id in matches:
                             existing_id = matches[entity_id]
-                            print(f"Matched with existing: {existing_id}")
+                            print(f"\nMerging '{entity_id}' into existing concept '{existing_id}'")
 
                             # Look up the actual key using case-insensitive comparison
                             actual_key = entities_lookup.get(existing_id.lower())
-                            
+
                             if actual_key:
                                 self.entities[actual_key].add_appearance(appearance, entity_id)
-                                if "builds_on" in new_entity:
-                                    self.entities[actual_key].builds_on.update(new_entity["builds_on"])
+                                if "layer" in new_entity:
+                                    self.entities[actual_key].layer.update(new_entity["layer"])
                                 print(f"Successfully merged '{entity_id}' as variant")
                             else:
                                 # If no match found, create new entity
                                 print(f"No case-insensitive match found for '{existing_id}', creating new entity")
                                 new_entity_obj = Entity(id=entity_id)
                                 new_entity_obj.add_appearance(appearance, entity_id)
-                                if "builds_on" in new_entity:
-                                    new_entity_obj.builds_on.update(new_entity["builds_on"])
+                                if "layer" in new_entity:
+                                    new_entity_obj.layer.update(new_entity["layer"])
                                 self.entities[entity_id] = new_entity_obj
                         else:
                             # Create new entity
                             print(f"\nCreating new entity '{entity_id}'")
                             new_entity_obj = Entity(id=entity_id)
                             new_entity_obj.add_appearance(appearance, entity_id)
-                            if "builds_on" in new_entity:
-                                new_entity_obj.builds_on.update(new_entity["builds_on"])
+                            if "layer" in new_entity:
+                                new_entity_obj.layer.update(new_entity["layer"])
                             self.entities[entity_id] = new_entity_obj
                             print(f"Successfully created new entity")
 
                     except Exception as e:
-                        print(f"\nError processing entity:")
-                        print(f"Entity data: {json.dumps(new_entity, indent=2)}")
-                        print(f"Current entities: {list(self.entities.keys())}")
-                        print(f"Error details: {str(e)}")
+                        print(f"\nError processing entity: {str(e)}")
                         continue
-                
+
             except Exception as e:
-                print(f"Error processing paragraph {chunk.paragraph_index}: {str(e)}")
+                print(f"Error processing paragraph: {str(e)}")
+
+            # Extract local relations for this paragraph
+            section_concepts = [
+                {"id": ent.id, "variants": list(ent.variants)}
+                for ent in self.entities.values()
+                if any(app.get("section_index") == chunk.section_index and
+                       app.get("paragraph_index") == chunk.paragraph_index
+                       for app in ent.appearances)
+            ]
+
+            section_relations = self.extract_local_relations(
+                chunk.content,  # Use the raw content for relation extraction
+                section_concepts,
+                {
+                    "section_index": chunk.section_index,
+                    "section_name": chunk.section_name
+                }
+            )
+
+            # Add to relation tracker
+            self.relation_tracker.add_local_relations(section_relations)
+
+            # Periodic global relation extraction
+            if (self.relation_tracker.sections_processed %
+                    self.relation_tracker.periodic_extraction_threshold == 0):
+                global_relations = self.extract_global_relations(self.get_sorted_entities())
+                self.relation_tracker.add_global_relations(global_relations)
 
         except Exception as e:
             print(f"Error in paragraph processing: {str(e)}")
@@ -867,7 +845,7 @@ class OptimizedEntityExtractor:
                 }
                 for app in entity.appearances
             ],
-            "builds_on": list(entity.builds_on)
+            "layer": list(entity.layer)
         }
         for entity in sorted_entities
     ]

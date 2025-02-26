@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM-Enhanced Cyclic Concept Map Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+            font-family: monospace;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        input[type="text"], input[type="password"] {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        #status {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        #canvas-container {
+            margin-top: 20px;
+            position: relative;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navigation {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .page-indicator {
+            display: inline-block;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .constellation-title {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2e7d32;
+            font-size: 24px;
+        }
+        .constellation-description {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #4CAF50;
+            border-radius: 4px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        .api-key-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .loading-indicator {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .loading-indicator .spinner {
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #4CAF50;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .alert {
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .alert-warning {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+        }
+        .alert-info {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        .file-input-container {
+            margin-bottom: 15px;
+        }
+        .help-text {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LLM-Enhanced Cyclic Concept Map Viewer</h1>
+        
+        <div class="alert alert-info">
+            This tool uses an LLM (like GPT-4) to analyze your concept relationships and automatically generate meaningful concept constellations.
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Step 1: Enter your OpenAI API Key</div>
+            <div class="api-key-section">
+                <input type="text" id="apiKeyInput" placeholder="Enter your OpenAI API key" />
+                <button id="saveApiKeyButton">Save Key</button>
+            </div>
+            <p><small>Your API key is stored only in your browser's local memory and is never sent to our servers.</small></p>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Step 2: Input Concept Relation Data</div>
+            <textarea id="jsonInput" placeholder="Paste your concept relationship JSON data here..."></textarea>
+            
+            <div class="file-input-container">
+                <input type="file" id="fileInput" accept=".json" style="display: none;" />
+                <button id="loadFileButton">Load JSON File</button>
+                <button id="sampleDataButton">Try Demo Data</button>
+            </div>
+            <p class="help-text">Select your JSON file from your computer to analyze.</p>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Step 3: Generate Concept Maps</div>
+            <button id="generateButton">Generate Constellation Maps</button>
+            <div id="loadingIndicator" class="loading-indicator">
+                <div class="spinner"></div>
+                <span>Processing with LLM... This may take a minute...</span>
+            </div>
+            <p id="status"></p>
+        </div>
+        
+        <div id="constellation-container" style="display: none;">
+            <div class="constellation-title" id="constellation-title"></div>
+            <div class="constellation-description" id="constellation-description"></div>
+            
+            <div id="canvas-container">
+                <canvas id="conceptMapCanvas" width="1000" height="600"></canvas>
+            </div>
+            
+            <div class="navigation">
+                <button id="prevButton" disabled>&laquo; Previous</button>
+                <span class="page-indicator" id="pageIndicator">Constellation 1 of 1</span>
+                <button id="nextButton" disabled>Next &raquo;</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // LLM Processor for concept map analysis
+    class ConceptMapLLMProcessor {
+        constructor(apiKey = null) {
+            this.apiKey = apiKey;
+            this.isProcessing = false;
+            this.apiUrl = 'https://api.openai.com/v1/chat/completions';
+            this.model = 'gpt-4o'; // You can change this to gpt-3.5-turbo for lower cost
+            this.temperature = 0.7;
+            this.maxTokens = 1500;
+        }
+
+        setApiKey(apiKey) {
+            this.apiKey = apiKey;
+        }
+
+        async processConceptData(jsonData) {
+            if (!this.apiKey) {
+                throw new Error('API key is required. Please set your API key first.');
+            }
+
+            if (this.isProcessing) {
+                throw new Error('Already processing a request. Please wait.');
+            }
+
+            this.isProcessing = true;
+
+            try {
+                // Extract the domain name and relations
+                const domainName = Object.keys(jsonData)[0];
+                const domain = jsonData[domainName];
+                const relations = domain.relations;
+                
+                // Generate constellation definitions
+                const constellations = await this.generateConstellationDefinitions(domainName, domain.category, relations);
+                
+                return {
+                    domainName,
+                    category: domain.category,
+                    constellations
+                };
+            } catch (error) {
+                console.error('Error processing concept data:', error);
+                throw error;
+            } finally {
+                this.isProcessing = false;
+            }
+        }
+
+        async generateConstellationDefinitions(domainName, category, relations) {
+            // Step 1: Identify common concepts by frequency
+            const conceptFrequency = this.analyzeConceptFrequency(relations);
+            const topConcepts = Object.entries(conceptFrequency)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 15)
+                .map(([concept]) => concept);
+
+            // Step 2: Find potential themes by analyzing relation types
+            const relationTypes = new Set(relations.map(rel => rel.relation_type));
+            
+            // Step 3: Prepare the prompt for the LLM
+            const prompt = this.createConstellationPrompt(domainName, category, relations, topConcepts, Array.from(relationTypes));
+            
+            // Step 4: Send the request to the LLM
+            const response = await this.callLLM(prompt);
+            
+            // Step 5: Parse the LLM response
+            return this.parseConstellationResponse(response, relations);
+        }
+
+        analyzeConceptFrequency(relations) {
+            const conceptCount = {};
+            
+            relations.forEach(rel => {
+                conceptCount[rel.source] = (conceptCount[rel.source] || 0) + 1;
+                conceptCount[rel.target] = (conceptCount[rel.target] || 0) + 1;
+            });
+            
+            return conceptCount;
+        }
+
+        createConstellationPrompt(domainName, category, relations, topConcepts, relationTypes) {
+            // Sample a subset of relations to avoid token limits
+            const sampleRelations = relations.length > 50 
+                ? this.sampleRelations(relations, 50) 
+                : relations;
+            
+            return `
+You are an expert in knowledge visualization and concept mapping. I have a dataset of concept relations about "${domainName}" in the category of "${category}".
+
+I need you to identify 3-5 meaningful "concept constellations" from this data. A constellation is a group of closely related concepts that form a coherent theme or cycle.
+
+Here are some of the most frequently occurring concepts:
+${topConcepts.join(', ')}
+
+Here are the types of relationships in the data:
+${relationTypes.join(', ')}
+
+Here's a sample of the concept relations:
+${JSON.stringify(sampleRelations, null, 2)}
+
+For each constellation:
+1. Provide a clear name (e.g., "${domainName} Process Cycle")
+2. Write a brief description explaining the theme
+3. List 4-8 key concepts that should be included in this constellation
+
+Return your response in this JSON format:
+{
+  "constellations": [
+    {
+      "name": "Name of constellation 1",
+      "description": "Brief description of what this constellation represents",
+      "concepts": ["concept1", "concept2", "concept3", "concept4"]
+    },
+    // Additional constellations...
+  ]
+}
+
+Focus on creating meaningful groupings that illustrate important relationships, cycles, or themes in the domain.
+`;
+        }
+
+        sampleRelations(relations, count) {
+            // Shuffle and take the first 'count' items
+            return [...relations]
+                .sort(() => 0.5 - Math.random())
+                .slice(0, count);
+        }
+
+        async callLLM(prompt) {
+            try {
+                const response = await fetch(this.apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${this.apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: this.model,
+                        messages: [
+                            {
+                                role: 'system',
+                                content: 'You are a helpful assistant specialized in analyzing concept maps and knowledge graphs.'
+                            },
+                            {
+                                role: 'user',
+                                content: prompt
+                            }
+                        ],
+                        temperature: this.temperature,
+                        max_tokens: this.maxTokens
+                    })
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(`LLM API error: ${errorData.error?.message || 'Unknown error'}`);
+                }
+
+                const data = await response.json();
+                return data.choices[0].message.content;
+            } catch (error) {
+                console.error('Error calling LLM API:', error);
+                throw new Error(`Failed to call LLM API: ${error.message}`);
+            }
+        }
+
+        parseConstellationResponse(response, allRelations) {
+            try {
+                // Extract JSON from the response (in case there's explanatory text)
+                const jsonMatch = response.match(/\{[\s\S]*\}/);
+                if (!jsonMatch) {
+                    throw new Error('Could not find JSON in LLM response');
+                }
+                
+                const parsedResponse = JSON.parse(jsonMatch[0]);
+                const constellations = parsedResponse.constellations;
+                
+                if (!constellations || !Array.isArray(constellations)) {
+                    throw new Error('Invalid constellation format in LLM response');
+                }
+                
+                // Validate and normalize the constellations
+                return constellations.map(constellation => {
+                    // Normalize concept names to lowercase for matching
+                    const normalizedConcepts = (constellation.concepts || [])
+                        .map(concept => concept.toLowerCase());
+                    
+                    // Return the validated constellation
+                    return {
+                        name: constellation.name || 'Unnamed Constellation',
+                        description: constellation.description || 'No description provided',
+                        concepts: normalizedConcepts
+                    };
+                });
+            } catch (error) {
+                console.error('Error parsing LLM response:', error, response);
+                
+                // Fallback to basic constellations if parsing fails
+                return this.generateFallbackConstellations(allRelations);
+            }
+        }
+
+        generateFallbackConstellations(relations) {
+            const conceptFrequency = this.analyzeConceptFrequency(relations);
+            const topConcepts = Object.entries(conceptFrequency)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 12)
+                .map(([concept]) => concept);
+            
+            // Split into two constellations
+            const firstHalf = topConcepts.slice(0, 6);
+            const secondHalf = topConcepts.slice(6);
+            
+            return [
+                {
+                    name: 'Primary Concept Cluster',
+                    description: 'A constellation of the most connected concepts in the knowledge domain.',
+                    concepts: firstHalf.map(c => c.toLowerCase())
+                },
+                {
+                    name: 'Secondary Concept Cluster',
+                    description: 'Additional important concepts and their relationships.',
+                    concepts: secondHalf.map(c => c.toLowerCase())
+                }
+            ];
+        }
+    }
+
+    // Renderer for concept maps
+    class ConceptMapRenderer {
+        constructor(canvas) {
+            this.canvas = canvas;
+            this.ctx = canvas.getContext('2d');
+            this.colors = [
+                '#e1f5fe', '#e8f5e9', '#fff3e0', '#f3e5f5', '#e8eaf6', 
+                '#ffebee', '#f1f8e9', '#e0f7fa', '#fce4ec', '#e0f2f1'
+            ];
+            this.strokeColors = [
+                '#0288d1', '#2e7d32', '#ef6c00', '#7b1fa2', '#3949ab',
+                '#d32f2f', '#689f38', '#0097a7', '#c2185b', '#00796b'
+            ];
+        }
+
+        renderConstellation(constellation, relations) {
+            // Clear the canvas
+            this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+            
+            // Filter relations to include only those in this constellation
+            const relevantRelations = relations.filter(rel => 
+                constellation.concepts.includes(rel.source.toLowerCase()) && 
+                constellation.concepts.includes(rel.target.toLowerCase())
+            );
+            
+            // Build graph data
+            const graphData = this.buildGraphData(relevantRelations);
+            
+            // Calculate node positions
+            this.calculateNodePositions(graphData, constellation.concepts);
+            
+            // Draw the concept map
+            this.drawConceptMap(graphData, constellation.name);
+        }
+
+        buildGraphData(relations) {
+            const graphData = {
+                nodes: {},
+                edges: []
+            };
+            
+            // Create unique nodes
+            relations.forEach(rel => {
+                if (!graphData.nodes[rel.source.toLowerCase()]) {
+                    graphData.nodes[rel.source.toLowerCase()] = {
+                        id: rel.source.toLowerCase(),
+                        label: rel.source,
+                        color: null,
+                        x: null,
+                        y: null,
+                        radius: null
+                    };
+                }
+                
+                if (!graphData.nodes[rel.target.toLowerCase()]) {
+                    graphData.nodes[rel.target.toLowerCase()] = {
+                        id: rel.target.toLowerCase(),
+                        label: rel.target,
+                        color: null,
+                        x: null,
+                        y: null,
+                        radius: null
+                    };
+                }
+                
+                // Add edge
+                graphData.edges.push({
+                    source: rel.source.toLowerCase(),
+                    sourceLabel: rel.source,
+                    target: rel.target.toLowerCase(),
+                    targetLabel: rel.target,
+                    label: rel.relation_type
+                });
+            });
+            
+            // Assign colors
+            let colorIndex = 0;
+            for (const nodeId in graphData.nodes) {
+                graphData.nodes[nodeId].color = this.colors[colorIndex % this.colors.length];
+                graphData.nodes[nodeId].stroke = this.strokeColors[colorIndex % this.strokeColors.length];
+                colorIndex++;
+            }
+            
+            return graphData;
+        }
+
+        calculateNodePositions(graphData, centralConcepts) {
+            const nodes = Object.values(graphData.nodes);
+            const centerX = this.canvas.width / 2;
+            const centerY = this.canvas.height / 2;
+            
+            // For each node, calculate connections count and determine centrality
+            nodes.forEach(node => {
+                let connections = 0;
+                graphData.edges.forEach(edge => {
+                    if (edge.source === node.id || edge.target === node.id) {
+                        connections++;
+                    }
+                });
+                
+                // Size based on connections and centrality
+                const isCentral = centralConcepts.indexOf(node.id) < 3; // First 3 concepts are considered central
+                node.radius = Math.max(40, Math.min(60, 30 + connections * 3 + (isCentral ? 10 : 0)));
+            });
+            
+            // Organize nodes in a circle
+            const radius = Math.min(this.canvas.width, this.canvas.height) * 0.35;
+            
+            // Look for a central concept to place in the middle
+            const centralConcept = centralConcepts[0];
+            let centralIndex = nodes.findIndex(node => node.id === centralConcept);
+            
+            if (centralIndex !== -1) {
+                nodes[centralIndex].x = centerX;
+                nodes[centralIndex].y = centerY;
+                
+                // Remove central node from the array for positioning
+                const centralNode = nodes.splice(centralIndex, 1)[0];
+                
+                // Position remaining nodes in a circle
+                const startAngle = -Math.PI / 2; // Top of the circle
+                nodes.forEach((node, i) => {
+                    const angle = startAngle + ((i + 1) * 2 * Math.PI / (nodes.length + 1));
+                    node.x = centerX + radius * Math.cos(angle);
+                    node.y = centerY + radius * Math.sin(angle);
+                });
+                
+                // Add central node back to the array
+                nodes.unshift(centralNode);
+            } else {
+                // If no central concept, position all nodes evenly
+                const startAngle = -Math.PI / 2;
+                nodes.forEach((node, i) => {
+                    const angle = startAngle + (i * 2 * Math.PI / nodes.length);
+                    node.x = centerX + radius * Math.cos(angle);
+                    node.y = centerY + radius * Math.sin(angle);
+                });
+            }
+            
+            // Adjust positions to prevent overlaps
+            const iterations = 40;
+            for (let i = 0; i < iterations; i++) {
+                // Apply force-directed algorithm
+                this.applyForceDirectedIteration(nodes, graphData.edges);
+                
+                // Keep nodes within canvas bounds
+                nodes.forEach(node => {
+                    const padding = node.radius + 10;
+                    node.x = Math.max(padding, Math.min(this.canvas.width - padding, node.x));
+                    node.y = Math.max(padding, Math.min(this.canvas.height - padding, node.y));
+                });
+            }
+        }
+
+        applyForceDirectedIteration(nodes, edges) {
+            // Repulsive forces between nodes
+            for (let j = 0; j < nodes.length; j++) {
+                for (let k = j + 1; k < nodes.length; k++) {
+                    const nodeA = nodes[j];
+                    const nodeB = nodes[k];
+                    
+                    const dx = nodeB.x - nodeA.x;
+                    const dy = nodeB.y - nodeA.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    const minDistance = nodeA.radius + nodeB.radius + 20;
+                    
+                    if (distance < minDistance) {
+                        const repulsionForce = 3;
+                        const fx = (dx / distance) * repulsionForce * (minDistance - distance) / minDistance;
+                        const fy = (dy / distance) * repulsionForce * (minDistance - distance) / minDistance;
+                        
+                        nodeA.x -= fx;
+                        nodeA.y -= fy;
+                        nodeB.x += fx;
+                        nodeB.y += fy;
+                    }
+                }
+            }
+            
+            // Attractive forces for connected nodes
+            edges.forEach(edge => {
+                const sourceNode = nodes.find(n => n.id === edge.source);
+                const targetNode = nodes.find(n => n.id === edge.target);
+                
+                if (sourceNode && targetNode) {
+                    const dx = targetNode.x - sourceNode.x;
+                    const dy = targetNode.y - sourceNode.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance > 300) {
+                        const attractionForce = 0.01;
+                        const fx = dx * attractionForce;
+                        const fy = dy * attractionForce;
+                        
+                        sourceNode.x += fx;
+                        sourceNode.y += fy;
+                        targetNode.x -= fx;
+                        targetNode.y -= fy;
+                    }
+                }
+            });
+        }
+
+        drawConceptMap(graphData, title) {
+            // Draw edges first
+            graphData.edges.forEach(edge => {
+                this.drawEdge(edge, graphData.nodes);
+            });
+            
+            // Draw nodes
+            for (const nodeId in graphData.nodes) {
+                this.drawNode(graphData.nodes[nodeId]);
+            }
+        }
+
+        drawNode(node) {
+            // Draw node background
+            this.ctx.beginPath();
+            this.ctx.arc(node.x, node.y, node.radius, 0, 2 * Math.PI);
+            this.ctx.fillStyle = node.color;
+            this.ctx.fill();
+            this.ctx.lineWidth = 2;
+            this.ctx.strokeStyle = node.stroke;
+            this.ctx.stroke();
+            
+            // Draw node label
+            this.ctx.font = 'bold 14px Arial';
+            this.ctx.fillStyle = '#333';
+            this.ctx.textAlign = 'center';
+            
+            // Handle multi-line labels
+            const words = node.label.split(' ');
+            let line = '';
+            let lines = [];
+            const maxWidth = node.radius * 1.5;
+            
+            for (let i = 0; i < words.length; i++) {
+                const testLine = line + words[i] + ' ';
+                const metrics = this.ctx.measureText(testLine);
+                
+                if (metrics.width > maxWidth && i > 0) {
+                    lines.push(line);
+                    line = words[i] + ' ';
+                } else {
+                    line = testLine;
+                }
+            }
+            lines.push(line);
+            
+            // Center text vertically
+            const lineHeight = 16;
+            let y = node.y - ((lines.length - 1) * lineHeight / 2);
+            
+            lines.forEach(line => {
+                this.ctx.fillText(line, node.x, y);
+                y += lineHeight;
+            });
+        }
+
+        drawEdge(edge, nodes) {
+            const sourceNode = nodes[edge.source];
+            const targetNode = nodes[edge.target];
+            
+            if (!sourceNode || !targetNode) return;
+            
+            // Calculate edge endpoints
+            const dx = targetNode.x - sourceNode.x;
+            const dy = targetNode.y - sourceNode.y;
+            const angle = Math.atan2(dy, dx);
+            
+            const startX = sourceNode.x + sourceNode.radius * Math.cos(angle);
+            const startY = sourceNode.y + sourceNode.radius * Math.sin(angle);
+            const endX = targetNode.x - targetNode.radius * Math.cos(angle);
+            const endY = targetNode.y - targetNode.radius * Math.sin(angle);
+            
+            // Draw the edge line
+            this.ctx.beginPath();
+            this.ctx.moveTo(startX, startY);
+            this.ctx.lineTo(endX, endY);
+            this.ctx.strokeStyle = '#666';
+            this.ctx.lineWidth = 1.5;
+            this.ctx.stroke();
+            
+            // Draw arrow
+            const arrowSize = 8;
+            this.ctx.beginPath();
+            this.ctx.moveTo(endX, endY);
+            this.ctx.lineTo(
+                endX - arrowSize * Math.cos(angle - Math.PI/6),
+                endY - arrowSize * Math.sin(angle - Math.PI/6)
+            );
+            this.ctx.lineTo(
+                endX - arrowSize * Math.cos(angle + Math.PI/6),
+                endY - arrowSize * Math.sin(angle + Math.PI/6)
+            );
+            this.ctx.closePath();
+            this.ctx.fillStyle = '#666';
+            this.ctx.fill();
+            
+            // Draw the edge label with better positioning
+            const midX = (startX + endX) / 2;
+            const midY = (startY + endY) / 2;
+            
+            // Position label slightly off the line
+            const offset = 10;
+            const labelX = midX + (offset * Math.cos(angle + Math.PI/2));
+            const labelY = midY + (offset * Math.sin(angle + Math.PI/2));
+            
+            this.ctx.font = '12px Arial';
+            
+            // Add a white background for better readability
+            const label = edge.label;
+            const labelWidth = this.ctx.measureText(label).width + 10;
+            this.ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+            this.ctx.fillRect(labelX - labelWidth/2, labelY - 8, labelWidth, 16);
+            
+            this.ctx.fillStyle = '#333';
+            this.ctx.textAlign = 'center';
+            this.ctx.fillText(label, labelX, labelY);
+        }
+    }
+
+    // DOM elements
+    const jsonInput = document.getElementById('jsonInput');
+    const apiKeyInput = document.getElementById('apiKeyInput');
+    const saveApiKeyButton = document.getElementById('saveApiKeyButton');
+    const generateButton = document.getElementById('generateButton');
+    const loadFileButton = document.getElementById('loadFileButton');
+    const fileInput = document.getElementById('fileInput');
+    const sampleDataButton = document.getElementById('sampleDataButton');
+    const statusP = document.getElementById('status');
+    const loadingIndicator = document.getElementById('loadingIndicator');
+    const constellationContainer = document.getElementById('constellation-container');
+    const constellationTitle = document.getElementById('constellation-title');
+    const constellationDescription = document.getElementById('constellation-description');
+    const prevButton = document.getElementById('prevButton');
+    const nextButton = document.getElementById('nextButton');
+    const pageIndicator = document.getElementById('pageIndicator');
+    const canvas = document.getElementById('conceptMapCanvas');
+    
+    // Initialize the processor and renderer
+    const llmProcessor = new ConceptMapLLMProcessor();
+    const renderer = new ConceptMapRenderer(canvas);
+    
+    // Constellation data
+    let constellations = [];
+    let allRelations = [];
+    let currentConstellationIndex = 0;
+    
+    // Event listeners
+    saveApiKeyButton.addEventListener('click', saveApiKey);
+    generateButton.addEventListener('click', generateConstellations);
+    loadFileButton.addEventListener('click', function() {
+        fileInput.click();
+    });
+    fileInput.addEventListener('change', loadJsonFromFile);
+    sampleDataButton.addEventListener('click', loadSampleData);
+    prevButton.addEventListener('click', showPreviousConstellation);
+    nextButton.addEventListener('click', showNextConstellation);
+    
+    // Check for saved API key
+    checkForSavedApiKey();
+    
+    // Save API key
+    function saveApiKey() {
+        const apiKey = apiKeyInput.value.trim();
+        if (apiKey) {
+            // Store API key in session storage (cleared when browser is closed)
+            sessionStorage.setItem('openai_api_key', apiKey);
+            llmProcessor.setApiKey(apiKey);
+            statusP.textContent = "API key saved for this session.";
+        } else {
+            statusP.textContent = "Please enter a valid API key.";
+        }
+    }
+    
+    // Check for saved API key
+    function checkForSavedApiKey() {
+        const savedApiKey = sessionStorage.getItem('openai_api_key');
+        if (savedApiKey) {
+            apiKeyInput.value = savedApiKey;
+            llmProcessor.setApiKey(savedApiKey);
+            statusP.textContent = "API key loaded from session.";
+        }
+    }
+    
+    // Load sample data from file
+    function loadSampleData() {
+        // Load the JSON directly from the file
+        fetch('simp_relation_section_results.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                jsonInput.value = JSON.stringify(data, null, 2);
+                statusP.textContent = "Sample data loaded from file. Click 'Generate Constellation Maps' to process.";
+            })
+            .catch(error => {
+                console.error('Error loading sample data:', error);
+                statusP.textContent = "Error loading sample data file. Please ensure the JSON file is in the same directory and you're using a web server.";
+            });
+    }
+    
+    // Generate constellations from the data
+    async function generateConstellations() {
+        try {
+            // Check if API key is set
+            if (!llmProcessor.apiKey) {
+                statusP.textContent = "Please enter and save your OpenAI API key first.";
+                return;
+            }
+            
+            // Check if JSON input is provided
+            if (!jsonInput.value.trim()) {
+                statusP.textContent = "Please enter or load concept relation data first.";
+                return;
+            }
+            
+            // Show loading indicator
+            loadingIndicator.style.display = 'flex';
+            statusP.textContent = "Processing with LLM. This may take a minute...";
+            generateButton.disabled = true;
+            
+            // Parse JSON input
+            const jsonData = JSON.parse(jsonInput.value);
+            
+            // Process with LLM
+            const result = await llmProcessor.processConceptData(jsonData);
+            
+            // Store constellations and relations
+            constellations = result.constellations;
+            
+            // Get all relations from the input data
+            const domainName = Object.keys(jsonData)[0];
+            allRelations = jsonData[domainName].relations;
+            
+            // Hide loading indicator
+            loadingIndicator.style.display = 'none';
+            generateButton.disabled = false;
+            
+            if (constellations.length === 0) {
+                statusP.textContent = "No valid constellations could be generated from the data.";
+                return;
+            }
+            
+            // Show the constellation container
+            constellationContainer.style.display = 'block';
+            
+            // Set up navigation
+            currentConstellationIndex = 0;
+            updateNavigationButtons();
+            
+            // Show the first constellation
+            showConstellation(currentConstellationIndex);
+            
+            statusP.textContent = `Generated ${constellations.length} concept map constellations.`;
+        } catch (error) {
+            console.error('Error generating constellations:', error);
+            loadingIndicator.style.display = 'none';
+            generateButton.disabled = false;
+            statusP.textContent = `Error: ${error.message}`;
+        }
+    }
+    
+    // Show the constellation at the specified index
+    function showConstellation(index) {
+        const constellation = constellations[index];
+        
+        // Set title and description
+        constellationTitle.textContent = constellation.name;
+        constellationDescription.textContent = constellation.description;
+        
+        // Update page indicator
+        pageIndicator.textContent = `Constellation ${index + 1} of ${constellations.length}`;
+        
+        // Render the constellation
+        renderer.renderConstellation(constellation, allRelations);
+    }
+    
+    // Show the previous constellation
+    function showPreviousConstellation() {
+        if (currentConstellationIndex > 0) {
+            currentConstellationIndex--;
+            showConstellation(currentConstellationIndex);
+            updateNavigationButtons();
+        }
+    }
+    
+    // Show the next constellation
+    function showNextConstellation() {
+        if (currentConstellationIndex < constellations.length - 1) {
+            currentConstellationIndex++;
+            showConstellation(currentConstellationIndex);
+            updateNavigationButtons();
+        }
+    }
+    
+    // Update navigation button states
+    function updateNavigationButtons() {
+        prevButton.disabled = currentConstellationIndex === 0;
+        nextButton.disabled = currentConstellationIndex === constellations.length - 1;
+    }
