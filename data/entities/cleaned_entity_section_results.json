@@ -1,3785 +1,2282 @@
 {
     "metadata": {
         "processing_mode": "section",
-        "timestamp": "2025-01-13T12:03:49.230550"
+        "timestamp": "2025-01-14T01:38:55.419928"
     },
-    "Tardigrades": {
-        "category": "biology",
-        "total_entities": 66,
+    "Fluxus": {
+        "category": "arts",
+        "total_entities": 84,
         "entities": [
             {
-                "id": "tardigrades",
-                "frequency": 7,
-                "section_count": 6
+                "id": "fluxus"
             },
             {
-                "id": "phylum tardigrada",
-                "frequency": 2,
-                "section_count": 2
+                "id": "intermedia"
             },
             {
-                "id": "evolutionary history",
-                "frequency": 2,
-                "section_count": 2
+                "id": "george maciunas"
             },
             {
-                "id": "taxonomy of tardigrades",
-                "frequency": 2,
-                "section_count": 2
+                "id": "dada"
             },
             {
-                "id": "horizontal gene transfer",
-                "frequency": 2,
-                "section_count": 2
+                "id": "fluxkits"
             },
             {
-                "id": "resilience",
-                "frequency": 1,
-                "section_count": 1
+                "id": "readymades"
             },
             {
-                "id": "survival mechanisms",
-                "frequency": 1,
-                "section_count": 1
+                "id": "anti-art"
             },
             {
-                "id": "habitat diversity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "collaboration"
             },
             {
-                "id": "physical characteristics",
-                "frequency": 1,
-                "section_count": 1
+                "id": "event scores"
             },
             {
-                "id": "cultural impact",
-                "frequency": 1,
-                "section_count": 1
+                "id": "experimental art performances"
             },
             {
-                "id": "microscopy accessibility",
-                "frequency": 1,
-                "section_count": 1
+                "id": "conceptual art"
             },
             {
-                "id": "body structure",
-                "frequency": 1,
-                "section_count": 1
+                "id": "video art"
             },
             {
-                "id": "haemocoel",
-                "frequency": 1,
-                "section_count": 1
+                "id": "influence of john cage"
             },
             {
-                "id": "cuticle",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxus manifesto"
             },
             {
-                "id": "gas exchange",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxus festivals"
             },
             {
-                "id": "nervous system",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxus as a laboratory"
             },
             {
-                "id": "locomotion",
-                "frequency": 1,
-                "section_count": 1
+                "id": "john cage"
             },
             {
-                "id": "feeding mechanism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "zen buddhism"
             },
             {
-                "id": "reproductive system",
-                "frequency": 1,
-                "section_count": 1
+                "id": "chance and indeterminacy"
             },
             {
-                "id": "egg characteristics",
-                "frequency": 1,
-                "section_count": 1
+                "id": "marcel duchamp"
             },
             {
-                "id": "fertilization methods",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxus events"
             },
             {
-                "id": "hatching process",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxfests"
             },
             {
-                "id": "life-cycle stages",
-                "frequency": 1,
-                "section_count": 1
+                "id": "political stance"
             },
             {
-                "id": "habitat specialization",
-                "frequency": 1,
-                "section_count": 1
+                "id": "maciunas' agitprop approach"
             },
             {
-                "id": "distribution patterns",
-                "frequency": 1,
-                "section_count": 1
+                "id": "yoko ono"
             },
             {
-                "id": "microbial symbionts",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxorchestra performance"
             },
             {
-                "id": "predation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "collective authorship"
             },
             {
-                "id": "population density",
-                "frequency": 1,
-                "section_count": 1
+                "id": "flux communes"
             },
             {
-                "id": "geographic range",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxhousing co-operatives"
             },
             {
-                "id": "marine origin",
-                "frequency": 1,
-                "section_count": 1
+                "id": "role of women in fluxus"
             },
             {
-                "id": "cryptobiosis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "maciunas' death"
             },
             {
-                "id": "desiccated cyst (tun state)",
-                "frequency": 1,
-                "section_count": 1
+                "id": "jean brown"
             },
             {
-                "id": "environmental stresses",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxus movement timeline"
             },
             {
-                "id": "cyclomorphosis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxwedding"
             },
             {
-                "id": "reproduction",
-                "frequency": 1,
-                "section_count": 1
+                "id": "jon hendricks"
             },
             {
-                "id": "survival in space",
-                "frequency": 1,
-                "section_count": 1
+                "id": "gilbert and lila silverman collection"
             },
             {
-                "id": "trehalose",
-                "frequency": 1,
-                "section_count": 1
+                "id": "post-fluxus community"
             },
             {
-                "id": "tardigrade specific proteins",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxlist"
             },
             {
-                "id": "anhydrobiosis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "los angeles philharmonic fluxus festival"
             },
             {
-                "id": "cold shock protein",
-                "frequency": 1,
-                "section_count": 1
+                "id": "gutai group"
             },
             {
-                "id": "dsup protein",
-                "frequency": 1,
-                "section_count": 1
+                "id": "avant-garde art in japan"
             },
             {
-                "id": "biomedical research potential",
-                "frequency": 1,
-                "section_count": 1
+                "id": "post-war disenchantment"
             },
             {
-                "id": "tardigradum",
-                "frequency": 1,
-                "section_count": 1
+                "id": "buddhism and zen"
             },
             {
-                "id": "class eutardigrada",
-                "frequency": 1,
-                "section_count": 1
+                "id": "themes of decay and inadequacy of modernity"
             },
             {
-                "id": "class heterotardigrada",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fluxus challenge to representation"
             },
             {
-                "id": "class mesotardigrada",
-                "frequency": 1,
-                "section_count": 1
+                "id": "elimination of boundaries between art and life"
             },
             {
-                "id": "order apochela",
-                "frequency": 1,
-                "section_count": 1
+                "id": "joseph beuys"
             },
             {
-                "id": "described species of tardigrades",
-                "frequency": 1,
-                "section_count": 1
+                "id": "japanese culture"
             },
             {
-                "id": "tardigrade fossils",
-                "frequency": 1,
-                "section_count": 1
+                "id": "shibumi"
             },
             {
-                "id": "siberian fossils",
-                "frequency": 1,
-                "section_count": 1
+                "id": "pantonomic essence of japanese art"
             },
             {
-                "id": "miniaturization",
-                "frequency": 1,
-                "section_count": 1
+                "id": "anti-commercialism"
             },
             {
-                "id": "lobopodian ancestor",
-                "frequency": 1,
-                "section_count": 1
+                "id": "shock factor"
             },
             {
-                "id": "tactopoda hypothesis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "henry cowell"
             },
             {
-                "id": "genomic studies",
-                "frequency": 1,
-                "section_count": 1
+                "id": "do-it-yourself approach"
             },
             {
-                "id": "hypsibius exemplaris",
-                "frequency": 1,
-                "section_count": 1
+                "id": "nam june paik"
             },
             {
-                "id": "hox genes",
-                "frequency": 1,
-                "section_count": 1
+                "id": "something else press"
             },
             {
-                "id": "heterotardigrada and arthrotardigrada",
-                "frequency": 1,
-                "section_count": 1
+                "id": "performance art"
             },
             {
-                "id": "bathybia",
-                "frequency": 1,
-                "section_count": 1
+                "id": "collage"
             },
             {
-                "id": "survival traits",
-                "frequency": 1,
-                "section_count": 1
+                "id": "minimal performances"
             },
             {
-                "id": "cultural significance",
-                "frequency": 1,
-                "section_count": 1
+                "id": "events"
             },
             {
-                "id": "merchandising",
-                "frequency": 1,
-                "section_count": 1
+                "id": "audience integration"
             },
             {
-                "id": "science fiction",
-                "frequency": 1,
-                "section_count": 1
+                "id": "found objects"
             },
             {
-                "id": "harbinger down",
-                "frequency": 1,
-                "section_count": 1
+                "id": "simplicity"
             },
             {
-                "id": "ripper",
-                "frequency": 1,
-                "section_count": 1
+                "id": "humor"
             },
             {
-                "id": "symbiosis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "unified history"
             },
             {
-                "id": "outsider role",
-                "frequency": 1,
-                "section_count": 1
+                "id": "resistance to pigeonholing"
+            },
+            {
+                "id": "acts of excommunication"
+            },
+            {
+                "id": "performative essence"
+            },
+            {
+                "id": "shift towards publication"
+            },
+            {
+                "id": "lack of leadership"
+            },
+            {
+                "id": "discourse on failure"
+            },
+            {
+                "id": "characteristics of fluxus artists"
+            },
+            {
+                "id": "lack of consistent identity"
+            },
+            {
+                "id": "inclusivity of fluxus"
+            },
+            {
+                "id": "significance of female membership"
+            },
+            {
+                "id": "abstract expressionism"
+            },
+            {
+                "id": "unity in fluxus"
+            },
+            {
+                "id": "accusations against maciunas"
+            },
+            {
+                "id": "associated artists"
+            },
+            {
+                "id": "fluxus sound works"
+            },
+            {
+                "id": "sub rosa records"
+            },
+            {
+                "id": "fluxus & neofluxus / stolen symphony"
+            },
+            {
+                "id": "cd release"
+            },
+            {
+                "id": "2023"
             }
         ]
     },
     "P versus NP problem": {
         "category": "computer science",
-        "total_entities": 112,
+        "total_entities": 115,
         "entities": [
             {
-                "id": "p versus np problem",
-                "frequency": 10,
-                "section_count": 9
+                "id": "p versus np problem"
             },
             {
-                "id": "class np",
-                "frequency": 8,
-                "section_count": 8
+                "id": "class p"
             },
             {
-                "id": "class p",
-                "frequency": 6,
-                "section_count": 6
+                "id": "class np"
             },
             {
-                "id": "polynomial time",
-                "frequency": 5,
-                "section_count": 5
+                "id": "np-complete problems"
             },
             {
-                "id": "p = np question",
-                "frequency": 5,
-                "section_count": 5
+                "id": "p \u2260 np"
             },
             {
-                "id": "np-hard problems",
-                "frequency": 5,
-                "section_count": 5
+                "id": "verification vs. computation"
             },
             {
-                "id": "verification vs. solution",
-                "frequency": 4,
-                "section_count": 4
+                "id": "implications of p vs np"
             },
             {
-                "id": "co-np-complete",
-                "frequency": 3,
-                "section_count": 3
+                "id": "np-completeness"
             },
             {
-                "id": "millennium prize problems",
-                "frequency": 2,
-                "section_count": 2
+                "id": "polynomial time"
             },
             {
-                "id": "stephen cook",
-                "frequency": 2,
-                "section_count": 2
+                "id": "millennium prize problems"
             },
             {
-                "id": "p \u2286 np",
-                "frequency": 2,
-                "section_count": 2
+                "id": "generalized sudoku problem"
             },
             {
-                "id": "confidence in p \u2260 np",
-                "frequency": 2,
-                "section_count": 2
+                "id": "stephen cook"
             },
             {
-                "id": "boolean satisfiability problem (sat)",
-                "frequency": 2,
-                "section_count": 2
+                "id": "computational complexity theory"
             },
             {
-                "id": "reduction",
-                "frequency": 2,
-                "section_count": 2
+                "id": "polynomial-time solution"
             },
             {
-                "id": "turing machine",
-                "frequency": 2,
-                "section_count": 2
+                "id": "undecidable problems"
             },
             {
-                "id": "undecidable problems",
-                "frequency": 2,
-                "section_count": 2
+                "id": "complexity theory"
             },
             {
-                "id": "np-complete problem",
-                "frequency": 2,
-                "section_count": 2
+                "id": "polynomial-time algorithms"
             },
             {
-                "id": "implications of p vs np",
-                "frequency": 1,
-                "section_count": 1
+                "id": "legal solution"
             },
             {
-                "id": "generalized sudoku problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "finite number of possible grids"
             },
             {
-                "id": "legal solution",
-                "frequency": 1,
-                "section_count": 1
+                "id": "table lookup"
             },
             {
-                "id": "finite number of possible grids",
-                "frequency": 1,
-                "section_count": 1
+                "id": "leonid levin"
             },
             {
-                "id": "table lookup",
-                "frequency": 1,
-                "section_count": 1
+                "id": "john nash"
             },
             {
-                "id": "leonid levin",
-                "frequency": 1,
-                "section_count": 1
+                "id": "kurt g\u00f6del"
             },
             {
-                "id": "john nash",
-                "frequency": 1,
-                "section_count": 1
+                "id": "john von neumann"
             },
             {
-                "id": "kurt g\u00f6del",
-                "frequency": 1,
-                "section_count": 1
+                "id": "co-np-complete"
             },
             {
-                "id": "john von neumann",
-                "frequency": 1,
-                "section_count": 1
+                "id": "automated discovery of mathematical proofs"
             },
             {
-                "id": "automated discovery of mathematical proofs",
-                "frequency": 1,
-                "section_count": 1
+                "id": "resources in computation"
             },
             {
-                "id": "computational complexity theory",
-                "frequency": 1,
-                "section_count": 1
+                "id": "deterministic computer model"
             },
             {
-                "id": "resources in computation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "polls on p vs np"
             },
             {
-                "id": "deterministic computer model",
-                "frequency": 1,
-                "section_count": 1
+                "id": "np-hard problems"
             },
             {
-                "id": "gasarch polls",
-                "frequency": 1,
-                "section_count": 1
+                "id": "reduction"
             },
             {
-                "id": "expert opinion on p \u2260 np",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sudoku"
             },
             {
-                "id": "sudoku",
-                "frequency": 1,
-                "section_count": 1
+                "id": "3-sat"
             },
             {
-                "id": "3-sat",
-                "frequency": 1,
-                "section_count": 1
+                "id": "turing machine"
             },
             {
-                "id": "class exptime",
-                "frequency": 1,
-                "section_count": 1
+                "id": "class exptime"
             },
             {
-                "id": "exptime-complete problems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "exptime-complete problems"
             },
             {
-                "id": "time hierarchy theorem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "time hierarchy theorem"
             },
             {
-                "id": "presburger arithmetic",
-                "frequency": 1,
-                "section_count": 1
+                "id": "presburger arithmetic"
             },
             {
-                "id": "#p problems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "#p class"
             },
             {
-                "id": "#p-complete problems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "#p-complete problems"
             },
             {
-                "id": "np-intermediate problems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "polynomial-time many-one reduction"
             },
             {
-                "id": "graph isomorphism problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "exponential time complexity"
             },
             {
-                "id": "polynomial time hierarchy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "np-intermediate problems"
             },
             {
-                "id": "integer factorization problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "graph isomorphism problem"
             },
             {
-                "id": "rsa algorithm",
-                "frequency": 1,
-                "section_count": 1
+                "id": "polynomial time hierarchy"
             },
             {
-                "id": "general number field sieve",
-                "frequency": 1,
-                "section_count": 1
+                "id": "integer factorization problem"
             },
             {
-                "id": "shor's algorithm",
-                "frequency": 1,
-                "section_count": 1
+                "id": "rsa algorithm"
             },
             {
-                "id": "cobham's thesis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "general number field sieve"
             },
             {
-                "id": "complexity theory",
-                "frequency": 1,
-                "section_count": 1
+                "id": "shor's algorithm"
             },
             {
-                "id": "theoretical polynomial algorithm",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cobham's thesis"
             },
             {
-                "id": "big o notation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "polynomial algorithm"
             },
             {
-                "id": "graph minor problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "big o notation"
             },
             {
-                "id": "empirical average-case complexity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "graph minor problem"
             },
             {
-                "id": "simplex algorithm",
-                "frequency": 1,
-                "section_count": 1
+                "id": "algorithms for np-complete problems"
             },
             {
-                "id": "quantum computation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "empirical average-case complexity"
             },
             {
-                "id": "randomized algorithms",
-                "frequency": 1,
-                "section_count": 1
+                "id": "simplex algorithm"
             },
             {
-                "id": "karp's 21 np-complete problems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "turing machine model"
             },
             {
-                "id": "real-world experience",
-                "frequency": 1,
-                "section_count": 1
+                "id": "quantum computation"
             },
             {
-                "id": "creative leaps",
-                "frequency": 1,
-                "section_count": 1
+                "id": "randomized algorithms"
             },
             {
-                "id": "exhaustive search",
-                "frequency": 1,
-                "section_count": 1
+                "id": "karp's 21 np-complete problems"
             },
             {
-                "id": "fermat's last theorem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "real-world experience"
             },
             {
-                "id": "dlin and nlin",
-                "frequency": 1,
-                "section_count": 1
+                "id": "creative leaps"
             },
             {
-                "id": "dlin \u2260 nlin",
-                "frequency": 1,
-                "section_count": 1
+                "id": "research exploration"
             },
             {
-                "id": "consequences of p = np",
-                "frequency": 1,
-                "section_count": 1
+                "id": "exhaustive search"
             },
             {
-                "id": "non-constructive proofs",
-                "frequency": 1,
-                "section_count": 1
+                "id": "dlin and nlin"
             },
             {
-                "id": "cryptography impact",
-                "frequency": 1,
-                "section_count": 1
+                "id": "dlin \u2260 nlin"
             },
             {
-                "id": "public-key cryptography",
-                "frequency": 1,
-                "section_count": 1
+                "id": "non-constructive proofs"
             },
             {
-                "id": "operations research problems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cryptography impact"
             },
             {
-                "id": "g\u00f6del's thoughts on computational complexity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "public-key cryptography"
             },
             {
-                "id": "stephen cook's perspective",
-                "frequency": 1,
-                "section_count": 1
+                "id": "operations research problems"
             },
             {
-                "id": "donald knuth's belief",
-                "frequency": 1,
-                "section_count": 1
+                "id": "g\u00f6del's thoughts on computational complexity"
             },
             {
-                "id": "average-case complexity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "stephen cook's perspective"
             },
             {
-                "id": "russell impagliazzo's five worlds",
-                "frequency": 1,
-                "section_count": 1
+                "id": "donald knuth's belief"
             },
             {
-                "id": "proof techniques",
-                "frequency": 1,
-                "section_count": 1
+                "id": "average-case complexity"
             },
             {
-                "id": "independence from axiom systems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "russell impagliazzo's five worlds"
             },
             {
-                "id": "complexity theorists",
-                "frequency": 1,
-                "section_count": 1
+                "id": "proof techniques"
             },
             {
-                "id": "descriptive complexity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "independence from axiom systems"
             },
             {
-                "id": "finite structures",
-                "frequency": 1,
-                "section_count": 1
+                "id": "undecidability"
             },
             {
-                "id": "first-order logic",
-                "frequency": 1,
-                "section_count": 1
+                "id": "descriptive complexity"
             },
             {
-                "id": "least fixed-point combinator",
-                "frequency": 1,
-                "section_count": 1
+                "id": "finite structures"
             },
             {
-                "id": "polynomial space",
-                "frequency": 1,
-                "section_count": 1
+                "id": "linear order relation"
             },
             {
-                "id": "existential second-order logic",
-                "frequency": 1,
-                "section_count": 1
+                "id": "languages in p"
             },
             {
-                "id": "polynomial hierarchy (ph)",
-                "frequency": 1,
-                "section_count": 1
+                "id": "first-order logic"
             },
             {
-                "id": "polynomial-time algorithm",
-                "frequency": 1,
-                "section_count": 1
+                "id": "least fixed-point combinator"
             },
             {
-                "id": "subset-sum",
-                "frequency": 1,
-                "section_count": 1
+                "id": "languages in np"
             },
             {
-                "id": "algorithm description",
-                "frequency": 1,
-                "section_count": 1
+                "id": "existential second-order logic"
             },
             {
-                "id": "input and output",
-                "frequency": 1,
-                "section_count": 1
+                "id": "polynomial hierarchy (ph)"
             },
             {
-                "id": "program number m",
-                "frequency": 1,
-                "section_count": 1
+                "id": "subset relationship"
             },
             {
-                "id": "semi-algorithm",
-                "frequency": 1,
-                "section_count": 1
+                "id": "algorithm description"
             },
             {
-                "id": "impracticality of the algorithm",
-                "frequency": 1,
-                "section_count": 1
+                "id": "input and output"
             },
             {
-                "id": "program execution",
-                "frequency": 1,
-                "section_count": 1
+                "id": "running forever"
             },
             {
-                "id": "decision problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "program number m"
             },
             {
-                "id": "deterministic polynomial-time turing machine",
-                "frequency": 1,
-                "section_count": 1
+                "id": "impracticality of the algorithm"
             },
             {
-                "id": "verifier",
-                "frequency": 1,
-                "section_count": 1
+                "id": "b bits long"
             },
             {
-                "id": "certificate",
-                "frequency": 1,
-                "section_count": 1
+                "id": "decision problem"
             },
             {
-                "id": "claimed solutions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "deterministic polynomial-time turing machine"
             },
             {
-                "id": "gerhard j. woeginger",
-                "frequency": 1,
-                "section_count": 1
+                "id": "verifier"
             },
             {
-                "id": "purported proofs",
-                "frequency": 1,
-                "section_count": 1
+                "id": "polynomial-time reduction"
             },
             {
-                "id": "media attention",
-                "frequency": 1,
-                "section_count": 1
+                "id": "purported proofs"
             },
             {
-                "id": "mathematicians",
-                "frequency": 1,
-                "section_count": 1
+                "id": "media attention"
             },
             {
-                "id": "us government",
-                "frequency": 1,
-                "section_count": 1
+                "id": "mathematicians"
             },
             {
-                "id": "the simpsons",
-                "frequency": 1,
-                "section_count": 1
+                "id": "us government"
             },
             {
-                "id": "elementary",
-                "frequency": 1,
-                "section_count": 1
+                "id": "the simpsons - treehouse of horror vi"
             },
             {
-                "id": "cultural references to mathematics",
-                "frequency": 1,
-                "section_count": 1
+                "id": "elementary - solve for x"
             },
             {
-                "id": "murder investigation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "r vs. re problem"
             },
             {
-                "id": "r vs. re problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "undecidable but verifiable problems"
             },
             {
-                "id": "undecidable but verifiable problems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "hilbert's tenth problem"
             },
             {
-                "id": "hilbert's tenth problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "vp vs. vnp problem"
             },
             {
-                "id": "vp vs. vnp problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "algebraic complexity theory"
             },
             {
-                "id": "algebraic complexity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "incompatible students problem"
             },
             {
-                "id": "unsolved problems",
-                "frequency": 1,
-                "section_count": 1
+                "id": "algorithms"
             },
             {
-                "id": "incompatible students problem",
-                "frequency": 1,
-                "section_count": 1
+                "id": "complexity classes"
+            },
+            {
+                "id": "mathematical sciences"
+            },
+            {
+                "id": "systematic methods"
+            },
+            {
+                "id": "resource requirements"
+            }
+        ]
+    },
+    "Tardigrades": {
+        "category": "biology",
+        "total_entities": 67,
+        "entities": [
+            {
+                "id": "tardigrades"
+            },
+            {
+                "id": "historical classification"
+            },
+            {
+                "id": "phylum tardigrada"
+            },
+            {
+                "id": "horizontal gene transfer"
+            },
+            {
+                "id": "resilience"
+            },
+            {
+                "id": "habitat diversity"
+            },
+            {
+                "id": "morphology"
+            },
+            {
+                "id": "ecdysozoa"
+            },
+            {
+                "id": "fossil record"
+            },
+            {
+                "id": "cultural impact"
+            },
+            {
+                "id": "body structure"
+            },
+            {
+                "id": "haemocoel"
+            },
+            {
+                "id": "cuticle"
+            },
+            {
+                "id": "gas exchange"
+            },
+            {
+                "id": "nervous system"
+            },
+            {
+                "id": "locomotion"
+            },
+            {
+                "id": "feeding mechanism"
+            },
+            {
+                "id": "reproductive system"
+            },
+            {
+                "id": "egg development"
+            },
+            {
+                "id": "parthenogenesis"
+            },
+            {
+                "id": "life-cycle stages"
+            },
+            {
+                "id": "habitat specialization"
+            },
+            {
+                "id": "distribution patterns"
+            },
+            {
+                "id": "microbial symbionts and parasites"
+            },
+            {
+                "id": "predation and prey"
+            },
+            {
+                "id": "population density"
+            },
+            {
+                "id": "marine origin"
+            },
+            {
+                "id": "cryptobiosis"
+            },
+            {
+                "id": "desiccated cyst (tun state)"
+            },
+            {
+                "id": "environmental stresses"
+            },
+            {
+                "id": "cyclomorphosis"
+            },
+            {
+                "id": "reproduction"
+            },
+            {
+                "id": "impact resistance"
+            },
+            {
+                "id": "space survival"
+            },
+            {
+                "id": "trehalose"
+            },
+            {
+                "id": "tardigrade specific proteins"
+            },
+            {
+                "id": "anhydrobiosis"
+            },
+            {
+                "id": "cold shock protein"
+            },
+            {
+                "id": "dsup protein"
+            },
+            {
+                "id": "biomedical research potential"
+            },
+            {
+                "id": "first formal description"
+            },
+            {
+                "id": "species descriptions"
+            },
+            {
+                "id": "tardigradology"
+            },
+            {
+                "id": "taxonomy of tardigrades"
+            },
+            {
+                "id": "class eutardigrada"
+            },
+            {
+                "id": "class heterotardigrada"
+            },
+            {
+                "id": "class mesotardigrada"
+            },
+            {
+                "id": "order apochela"
+            },
+            {
+                "id": "described species"
+            },
+            {
+                "id": "tardigrade fossils"
+            },
+            {
+                "id": "mid-cambrian deposits"
+            },
+            {
+                "id": "siberian fossils"
+            },
+            {
+                "id": "miniaturization"
+            },
+            {
+                "id": "lobopodian ancestor"
+            },
+            {
+                "id": "tactopoda hypothesis"
+            },
+            {
+                "id": "genome size variation"
+            },
+            {
+                "id": "hypsibius exemplaris"
+            },
+            {
+                "id": "body plan evolution"
+            },
+            {
+                "id": "hox genes"
+            },
+            {
+                "id": "heterotardigrada and arthrotardigrada"
+            },
+            {
+                "id": "bathybia"
+            },
+            {
+                "id": "survival traits"
+            },
+            {
+                "id": "cultural significance"
+            },
+            {
+                "id": "merchandise"
+            },
+            {
+                "id": "science fiction"
+            },
+            {
+                "id": "symbiosis"
+            },
+            {
+                "id": "outsider role"
             }
         ]
     },
     "Lost Colony of Roanoke": {
         "category": "history",
-        "total_entities": 104,
+        "total_entities": 109,
         "entities": [
             {
-                "id": "lost colony",
-                "frequency": 5,
-                "section_count": 5
+                "id": "roanoke colony"
             },
             {
-                "id": "croatoan",
-                "frequency": 4,
-                "section_count": 4
+                "id": "lost colony"
             },
             {
-                "id": "roanoke colony",
-                "frequency": 3,
-                "section_count": 3
+                "id": "croatoan"
             },
             {
-                "id": "sir walter raleigh",
-                "frequency": 3,
-                "section_count": 3
+                "id": "sir walter raleigh"
             },
             {
-                "id": "native american contact",
-                "frequency": 3,
-                "section_count": 3
+                "id": "native american tribes"
             },
             {
-                "id": "return to england",
-                "frequency": 3,
-                "section_count": 3
+                "id": "virginia dare"
             },
             {
-                "id": "virginia dare",
-                "frequency": 2,
-                "section_count": 2
+                "id": "george bancroft"
             },
             {
-                "id": "queen elizabeth i",
-                "frequency": 2,
-                "section_count": 2
+                "id": "pamlico sound"
             },
             {
-                "id": "colonization",
-                "frequency": 2,
-                "section_count": 2
+                "id": "queen elizabeth i"
             },
             {
-                "id": "expedition",
-                "frequency": 2,
-                "section_count": 2
+                "id": "raleigh's charter"
             },
             {
-                "id": "fleet composition",
-                "frequency": 2,
-                "section_count": 2
+                "id": "expedition"
             },
             {
-                "id": "colonists",
-                "frequency": 2,
-                "section_count": 2
+                "id": "fleet composition"
             },
             {
-                "id": "wahunsenacawh",
-                "frequency": 2,
-                "section_count": 2
+                "id": "return to england"
             },
             {
-                "id": "ralph lane",
-                "frequency": 1,
-                "section_count": 1
+                "id": "native american relations"
             },
             {
-                "id": "native american tribes",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cultural exchange"
             },
             {
-                "id": "sir richard grenville",
-                "frequency": 1,
-                "section_count": 1
+                "id": "ralph lane"
             },
             {
-                "id": "john white",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sir richard grenville"
             },
             {
-                "id": "cittie of raleigh",
-                "frequency": 1,
-                "section_count": 1
+                "id": "john white"
             },
             {
-                "id": "anglo-spanish war",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cittie of raleigh"
             },
             {
-                "id": "george bancroft",
-                "frequency": 1,
-                "section_count": 1
+                "id": "anglo-spanish war"
             },
             {
-                "id": "giovanni da verrazzano",
-                "frequency": 1,
-                "section_count": 1
+                "id": "giovanni da verrazzano"
             },
             {
-                "id": "pamlico sound",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sir humphrey gilbert"
             },
             {
-                "id": "sir humphrey gilbert",
-                "frequency": 1,
-                "section_count": 1
+                "id": "charter"
             },
             {
-                "id": "charter",
-                "frequency": 1,
-                "section_count": 1
+                "id": "st. john's, newfoundland"
             },
             {
-                "id": "st. john's, newfoundland",
-                "frequency": 1,
-                "section_count": 1
+                "id": "adrian gilbert"
             },
             {
-                "id": "richard hakluyt",
-                "frequency": 1,
-                "section_count": 1
+                "id": "richard hakluyt"
             },
             {
-                "id": "march 25, 1584",
-                "frequency": 1,
-                "section_count": 1
+                "id": "privateers"
             },
             {
-                "id": "privateers",
-                "frequency": 1,
-                "section_count": 1
+                "id": "delegation of missions"
             },
             {
-                "id": "delegation of missions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "date of departure"
             },
             {
-                "id": "date of departure",
-                "frequency": 1,
-                "section_count": 1
+                "id": "transatlantic voyage route"
             },
             {
-                "id": "transatlantic voyage route",
-                "frequency": 1,
-                "section_count": 1
+                "id": "landfall"
             },
             {
-                "id": "landfall",
-                "frequency": 1,
-                "section_count": 1
+                "id": "port ferdinando"
             },
             {
-                "id": "port ferdinando",
-                "frequency": 1,
-                "section_count": 1
+                "id": "secotan chieftain"
             },
             {
-                "id": "secotan tribe",
-                "frequency": 1,
-                "section_count": 1
+                "id": "investors for colony"
             },
             {
-                "id": "virginia colony",
-                "frequency": 1,
-                "section_count": 1
+                "id": "virginia colony"
             },
             {
-                "id": "leadership structure",
-                "frequency": 1,
-                "section_count": 1
+                "id": "leadership structure"
             },
             {
-                "id": "voyage details",
-                "frequency": 1,
-                "section_count": 1
+                "id": "voyage timeline"
             },
             {
-                "id": "base camp establishment",
-                "frequency": 1,
-                "section_count": 1
+                "id": "storm impact"
             },
             {
-                "id": "fortifications",
-                "frequency": 1,
-                "section_count": 1
+                "id": "base camp establishment"
             },
             {
-                "id": "supply challenges",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fortification practices"
             },
             {
-                "id": "epidemic impact",
-                "frequency": 1,
-                "section_count": 1
+                "id": "supply challenges"
             },
             {
-                "id": "conflict with secotan",
-                "frequency": 1,
-                "section_count": 1
+                "id": "conflict escalation"
             },
             {
-                "id": "aftermath and consequences",
-                "frequency": 1,
-                "section_count": 1
+                "id": "economic motivations"
             },
             {
-                "id": "lane colony",
-                "frequency": 1,
-                "section_count": 1
+                "id": "food acquisition strategies"
             },
             {
-                "id": "raleigh's corporate charter",
-                "frequency": 1,
-                "section_count": 1
+                "id": "epidemic impact"
             },
             {
-                "id": "chesapeake bay",
-                "frequency": 1,
-                "section_count": 1
+                "id": "shifts in power dynamics"
             },
             {
-                "id": "expedition fleet",
-                "frequency": 1,
-                "section_count": 1
+                "id": "military engagements"
             },
             {
-                "id": "relations with native americans",
-                "frequency": 1,
-                "section_count": 1
+                "id": "evacuation of the colony"
             },
             {
-                "id": "birth of virginia dare",
-                "frequency": 1,
-                "section_count": 1
+                "id": "legacy of the colony"
             },
             {
-                "id": "spanish armada",
-                "frequency": 1,
-                "section_count": 1
+                "id": "lane colony"
             },
             {
-                "id": "failed reconnaissance mission",
-                "frequency": 1,
-                "section_count": 1
+                "id": "chesapeake bay"
             },
             {
-                "id": "search for colonists",
-                "frequency": 1,
-                "section_count": 1
+                "id": "colonists"
             },
             {
-                "id": "hopewell and moonlight",
-                "frequency": 1,
-                "section_count": 1
+                "id": "expedition fleet"
             },
             {
-                "id": "colonial relocation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "relations with native americans"
             },
             {
-                "id": "ananias dare",
-                "frequency": 1,
-                "section_count": 1
+                "id": "spanish armada"
             },
             {
-                "id": "el dorado",
-                "frequency": 1,
-                "section_count": 1
+                "id": "failed resupply attempts"
             },
             {
-                "id": "sassafras",
-                "frequency": 1,
-                "section_count": 1
+                "id": "hopewell and moonlight"
             },
             {
-                "id": "samuel mace expedition",
-                "frequency": 1,
-                "section_count": 1
+                "id": "search mission challenges"
             },
             {
-                "id": "jamestown settlement",
-                "frequency": 1,
-                "section_count": 1
+                "id": "ananias dare"
             },
             {
-                "id": "z\u00fa\u00f1iga map",
-                "frequency": 1,
-                "section_count": 1
+                "id": "el dorado"
             },
             {
-                "id": "william strachey",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sassafras"
             },
             {
-                "id": "powhatan religion",
-                "frequency": 1,
-                "section_count": 1
+                "id": "samuel mace expedition"
             },
             {
-                "id": "samuel purchas",
-                "frequency": 1,
-                "section_count": 1
+                "id": "jamestown settlement"
             },
             {
-                "id": "hatteras island",
-                "frequency": 1,
-                "section_count": 1
+                "id": "wahunsenacawh"
             },
             {
-                "id": "john lawson",
-                "frequency": 1,
-                "section_count": 1
+                "id": "z\u00fa\u00f1iga map"
             },
             {
-                "id": "lawson's investigation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "william strachey"
             },
             {
-                "id": "19th century scholarly analyses",
-                "frequency": 1,
-                "section_count": 1
+                "id": "powhatan religion"
             },
             {
-                "id": "fort raleigh national historic site",
-                "frequency": 1,
-                "section_count": 1
+                "id": "samuel purchas"
             },
             {
-                "id": "extreme drought (1587-1589)",
-                "frequency": 1,
-                "section_count": 1
+                "id": "hatteras island"
             },
             {
-                "id": "growth rings analysis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "john lawson"
             },
             {
-                "id": "genetic research initiatives",
-                "frequency": 1,
-                "section_count": 1
+                "id": "lawson's investigation"
             },
             {
-                "id": "dna testing challenges",
-                "frequency": 1,
-                "section_count": 1
+                "id": "19th century scholarly analyses"
             },
             {
-                "id": "y chromosome and mitochondrial dna testing",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fort raleigh national historic site"
             },
             {
-                "id": "lack of genetic comparison",
-                "frequency": 1,
-                "section_count": 1
+                "id": "drought in tidewater"
             },
             {
-                "id": "archaeological research",
-                "frequency": 1,
-                "section_count": 1
+                "id": "growth rings analysis"
             },
             {
-                "id": "talcott williams",
-                "frequency": 1,
-                "section_count": 1
+                "id": "genetic research initiatives"
             },
             {
-                "id": "ivor no\u00ebl hume",
-                "frequency": 1,
-                "section_count": 1
+                "id": "dna testing challenges"
             },
             {
-                "id": "david sutton phelps jr.",
-                "frequency": 1,
-                "section_count": 1
+                "id": "y chromosome and mitochondrial dna"
             },
             {
-                "id": "gold signet ring",
-                "frequency": 1,
-                "section_count": 1
+                "id": "genetic point of comparison"
             },
             {
-                "id": "x-ray analysis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "archaeological research on roanoke island"
             },
             {
-                "id": "archaeological challenges",
-                "frequency": 1,
-                "section_count": 1
+                "id": "talcott williams"
             },
             {
-                "id": "shoreline erosion",
-                "frequency": 1,
-                "section_count": 1
+                "id": "ivor no\u00ebl hume"
             },
             {
-                "id": "first colony foundation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "david sutton phelps jr."
             },
             {
-                "id": "site x",
-                "frequency": 1,
-                "section_count": 1
+                "id": "gold signet ring"
             },
             {
-                "id": "artifacts at site x",
-                "frequency": 1,
-                "section_count": 1
+                "id": "x-ray analysis"
             },
             {
-                "id": "scott dawson's research",
-                "frequency": 1,
-                "section_count": 1
+                "id": "archaeological challenges"
             },
             {
-                "id": "croatoan message",
-                "frequency": 1,
-                "section_count": 1
+                "id": "shoreline erosion"
             },
             {
-                "id": "david beers quinn's theory",
-                "frequency": 1,
-                "section_count": 1
+                "id": "first colony foundation"
             },
             {
-                "id": "assimilation into native american tribes",
-                "frequency": 1,
-                "section_count": 1
+                "id": "john white's map"
             },
             {
-                "id": "chesepians",
-                "frequency": 1,
-                "section_count": 1
+                "id": "site x"
             },
             {
-                "id": "samuel mace's 1602 voyage",
-                "frequency": 1,
-                "section_count": 1
+                "id": "artifacts at site x"
             },
             {
-                "id": "catawba and coree tribes",
-                "frequency": 1,
-                "section_count": 1
+                "id": "scott dawson's book"
             },
             {
-                "id": "european artifacts",
-                "frequency": 1,
-                "section_count": 1
+                "id": "croatoan message"
             },
             {
-                "id": "pinnace",
-                "frequency": 1,
-                "section_count": 1
+                "id": "david beers quinn's theory"
             },
             {
-                "id": "conspiracy theory",
-                "frequency": 1,
-                "section_count": 1
+                "id": "assimilation with native american tribes"
             },
             {
-                "id": "beechland settlement",
-                "frequency": 1,
-                "section_count": 1
+                "id": "samuel mace's 1602 voyage"
             },
             {
-                "id": "cora tree",
-                "frequency": 1,
-                "section_count": 1
+                "id": "wahunsenacawh's attack"
             },
             {
-                "id": "inscribed stones",
-                "frequency": 1,
-                "section_count": 1
+                "id": "archaeological evidence"
             },
             {
-                "id": "sir francis bacon's criticism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "pinnace"
             },
             {
-                "id": "george bancroft's historical account",
-                "frequency": 1,
-                "section_count": 1
+                "id": "conspiracy theory"
             },
             {
-                "id": "cultural symbolism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "beechland settlement"
             },
             {
-                "id": "paul green's play",
-                "frequency": 1,
-                "section_count": 1
+                "id": "spanish threat"
             },
             {
-                "id": "american horror story",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cora tree"
             },
             {
-                "id": "virginia dare's birthday celebrations",
-                "frequency": 1,
-                "section_count": 1
+                "id": "inscribed stones"
+            },
+            {
+                "id": "sir francis bacon's criticism"
+            },
+            {
+                "id": "cultural symbolism"
+            },
+            {
+                "id": "paul green's play"
+            },
+            {
+                "id": "american horror story"
+            },
+            {
+                "id": "virginia dare's birthday celebrations"
             }
         ]
     },
     "Epistemic injustice": {
         "category": "philosophy",
-        "total_entities": 47,
+        "total_entities": 43,
         "entities": [
             {
-                "id": "epistemic injustice",
-                "frequency": 4,
-                "section_count": 4
+                "id": "epistemic injustice"
             },
             {
-                "id": "testimonial injustice",
-                "frequency": 2,
-                "section_count": 2
+                "id": "testimonial injustice"
             },
             {
-                "id": "hermeneutical injustice",
-                "frequency": 2,
-                "section_count": 2
+                "id": "hermeneutical injustice"
             },
             {
-                "id": "epistemic oppression",
-                "frequency": 2,
-                "section_count": 2
+                "id": "epistemic oppression"
             },
             {
-                "id": "epistemic violence",
-                "frequency": 2,
-                "section_count": 2
+                "id": "epistemic violence"
             },
             {
-                "id": "exclusion and silencing",
-                "frequency": 1,
-                "section_count": 1
+                "id": "exclusion and silencing"
             },
             {
-                "id": "systematic distortion",
-                "frequency": 1,
-                "section_count": 1
+                "id": "systematic distortion"
             },
             {
-                "id": "undervaluing of status",
-                "frequency": 1,
-                "section_count": 1
+                "id": "undervaluing of status"
             },
             {
-                "id": "unfair distinctions in authority",
-                "frequency": 1,
-                "section_count": 1
+                "id": "unfair distinctions in authority"
             },
             {
-                "id": "miranda fricker",
-                "frequency": 1,
-                "section_count": 1
+                "id": "unwarranted distrust"
             },
             {
-                "id": "identity factors",
-                "frequency": 1,
-                "section_count": 1
+                "id": "miranda fricker"
             },
             {
-                "id": "racial bias",
-                "frequency": 1,
-                "section_count": 1
+                "id": "identity factors"
             },
             {
-                "id": "credibility",
-                "frequency": 1,
-                "section_count": 1
+                "id": "credibility"
             },
             {
-                "id": "duwayne brooks case",
-                "frequency": 1,
-                "section_count": 1
+                "id": "racial bias"
             },
             {
-                "id": "police response",
-                "frequency": 1,
-                "section_count": 1
+                "id": "duwayne brooks case"
             },
             {
-                "id": "official inquiry",
-                "frequency": 1,
-                "section_count": 1
+                "id": "police response"
             },
             {
-                "id": "historic exclusion",
-                "frequency": 1,
-                "section_count": 1
+                "id": "prejudice"
             },
             {
-                "id": "interpretation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "historical exclusion"
             },
             {
-                "id": "sexual harassment",
-                "frequency": 1,
-                "section_count": 1
+                "id": "interpretation"
             },
             {
-                "id": "language shaping",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sexual harassment"
             },
             {
-                "id": "understanding experiences",
-                "frequency": 1,
-                "section_count": 1
+                "id": "language shaping"
             },
             {
-                "id": "communication challenges",
-                "frequency": 1,
-                "section_count": 1
+                "id": "understanding experiences"
             },
             {
-                "id": "epistemological violence",
-                "frequency": 1,
-                "section_count": 1
+                "id": "epistemological violence"
             },
             {
-                "id": "power structure of academic research",
-                "frequency": 1,
-                "section_count": 1
+                "id": "power structure of academic research"
             },
             {
-                "id": "interpretation of empirical results",
-                "frequency": 1,
-                "section_count": 1
+                "id": "interpretation of empirical results"
             },
             {
-                "id": "theory of mind in autistic children",
-                "frequency": 1,
-                "section_count": 1
+                "id": "theory of mind in autistic children"
             },
             {
-                "id": "foundational studies",
-                "frequency": 1,
-                "section_count": 1
+                "id": "foundational studies"
             },
             {
-                "id": "alternative interpretations of data",
-                "frequency": 1,
-                "section_count": 1
+                "id": "alternative interpretations of data"
             },
             {
-                "id": "anna julia cooper",
-                "frequency": 1,
-                "section_count": 1
+                "id": "anna julia cooper"
             },
             {
-                "id": "gayatri chakravorty spivak",
-                "frequency": 1,
-                "section_count": 1
+                "id": "gayatri chakravorty spivak"
             },
             {
-                "id": "subaltern persons",
-                "frequency": 1,
-                "section_count": 1
+                "id": "subaltern persons"
             },
             {
-                "id": "epistemicide",
-                "frequency": 1,
-                "section_count": 1
+                "id": "epistemicide"
             },
             {
-                "id": "epistemic exploitation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "testimonial quieting"
             },
             {
-                "id": "testimonial quieting",
-                "frequency": 1,
-                "section_count": 1
+                "id": "testimonial smothering"
             },
             {
-                "id": "testimonial smothering",
-                "frequency": 1,
-                "section_count": 1
+                "id": "contributory injustice"
             },
             {
-                "id": "contributory injustice",
-                "frequency": 1,
-                "section_count": 1
+                "id": "structural causes of epistemic injustice"
             },
             {
-                "id": "distributive epistemic injustice",
-                "frequency": 1,
-                "section_count": 1
+                "id": "epistemologies of ignorance"
             },
             {
-                "id": "epistemic trust injustice",
-                "frequency": 1,
-                "section_count": 1
+                "id": "white ignorance"
             },
             {
-                "id": "expressive hermeneutical injustice",
-                "frequency": 1,
-                "section_count": 1
+                "id": "willful hermeneutical ignorance"
             },
             {
-                "id": "epistemologies of ignorance",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cognitive empire"
             },
             {
-                "id": "white ignorance",
-                "frequency": 1,
-                "section_count": 1
+                "id": "epistemic injustice in health"
             },
             {
-                "id": "willful hermeneutical ignorance",
-                "frequency": 1,
-                "section_count": 1
+                "id": "neglected tropical disease"
             },
             {
-                "id": "structural causes of epistemic injustice",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "structural remedies of epistemic injustice",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "neglected tropical disease",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "epistemic injustice and health",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "genocide denial",
-                "frequency": 1,
-                "section_count": 1
+                "id": "genocide denial"
             }
         ]
     },
     "Consociationalism": {
         "category": "political_science",
-        "total_entities": 84,
+        "total_entities": 76,
         "entities": [
             {
-                "id": "consociationalism",
-                "frequency": 7,
-                "section_count": 7
+                "id": "consociationalism"
             },
             {
-                "id": "goals of consociationalism",
-                "frequency": 4,
-                "section_count": 3
+                "id": "internal divisions"
             },
             {
-                "id": "arend lijphart",
-                "frequency": 3,
-                "section_count": 2
+                "id": "goals of consociationalism"
             },
             {
-                "id": "corporatism",
-                "frequency": 2,
-                "section_count": 2
+                "id": "criticism of consociationalism"
             },
             {
-                "id": "consociational state",
-                "frequency": 2,
-                "section_count": 2
+                "id": "democratic power sharing"
             },
             {
-                "id": "democracy",
-                "frequency": 2,
-                "section_count": 2
+                "id": "stability"
             },
             {
-                "id": "democratic power sharing",
-                "frequency": 1,
-                "section_count": 1
+                "id": "corporatism"
             },
             {
-                "id": "internal divisions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "consociational state"
             },
             {
-                "id": "stability",
-                "frequency": 1,
-                "section_count": 1
+                "id": "power-sharing agreements"
             },
             {
-                "id": "confessionalism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "confessionalism"
             },
             {
-                "id": "economic corporatism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "economic corporatism"
             },
             {
-                "id": "concurrent majority",
-                "frequency": 1,
-                "section_count": 1
+                "id": "concurrent majority"
             },
             {
-                "id": "consensus democracy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "consensus democracy"
             },
             {
-                "id": "criticism of consociationalism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "consociation"
             },
             {
-                "id": "consociation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "self-governing congregational churches"
             },
             {
-                "id": "self-governing congregational churches",
-                "frequency": 1,
-                "section_count": 1
+                "id": "civil legislature and magistracy"
             },
             {
-                "id": "civil legislature and magistracy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "boston synod of 1662"
             },
             {
-                "id": "boston synod of 1662",
-                "frequency": 1,
-                "section_count": 1
+                "id": "arend lijphart"
             },
             {
-                "id": "political accommodation in the netherlands",
-                "frequency": 1,
-                "section_count": 1
+                "id": "political accommodation in the netherlands"
             },
             {
-                "id": "non-territorial pillars",
-                "frequency": 1,
-                "section_count": 1
+                "id": "non-territorial pillars"
             },
             {
-                "id": "balkanised social structure",
-                "frequency": 1,
-                "section_count": 1
+                "id": "balkanised social structure"
             },
             {
-                "id": "role of social elites",
-                "frequency": 1,
-                "section_count": 1
+                "id": "role of social elites"
             },
             {
-                "id": "john mcgarry and brendan o'leary",
-                "frequency": 1,
-                "section_count": 1
+                "id": "john mcgarry and brendan o'leary"
             },
             {
-                "id": "gerhard lehmbruch",
-                "frequency": 1,
-                "section_count": 1
+                "id": "gerhard lehmbruch"
             },
             {
-                "id": "post-conflict state-building",
-                "frequency": 1,
-                "section_count": 1
+                "id": "post-conflict state-building"
             },
             {
-                "id": "external facilitation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "external facilitation"
             },
             {
-                "id": "international actors",
-                "frequency": 1,
-                "section_count": 1
+                "id": "international actors"
             },
             {
-                "id": "power-sharing agreements",
-                "frequency": 1,
-                "section_count": 1
+                "id": "high representative"
             },
             {
-                "id": "high representative",
-                "frequency": 1,
-                "section_count": 1
+                "id": "mixed results of consociational arrangements"
             },
             {
-                "id": "mixed results of consociational arrangements",
-                "frequency": 1,
-                "section_count": 1
+                "id": "transformative aspect of consociationalism"
             },
             {
-                "id": "transformative aspect of consociationalism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "coalition cabinets"
             },
             {
-                "id": "coalition cabinets",
-                "frequency": 1,
-                "section_count": 1
+                "id": "oversized cabinets"
             },
             {
-                "id": "oversized cabinets",
-                "frequency": 1,
-                "section_count": 1
+                "id": "balance of power"
             },
             {
-                "id": "balance of power",
-                "frequency": 1,
-                "section_count": 1
+                "id": "decentralized government"
             },
             {
-                "id": "decentralized government",
-                "frequency": 1,
-                "section_count": 1
+                "id": "incongruent bicameralism"
             },
             {
-                "id": "incongruent bicameralism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "rigid constitution"
             },
             {
-                "id": "rigid constitution",
-                "frequency": 1,
-                "section_count": 1
+                "id": "judicial review"
             },
             {
-                "id": "judicial review",
-                "frequency": 1,
-                "section_count": 1
+                "id": "elements of direct democracy"
             },
             {
-                "id": "elements of direct democracy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "proportional employment"
             },
             {
-                "id": "proportional employment",
-                "frequency": 1,
-                "section_count": 1
+                "id": "neutral head of state"
             },
             {
-                "id": "neutral head of state",
-                "frequency": 1,
-                "section_count": 1
+                "id": "referendums"
             },
             {
-                "id": "referendums",
-                "frequency": 1,
-                "section_count": 1
+                "id": "equality in cabinet"
             },
             {
-                "id": "equality in cabinet",
-                "frequency": 1,
-                "section_count": 1
+                "id": "independent central bank"
             },
             {
-                "id": "independent central bank",
-                "frequency": 1,
-                "section_count": 1
+                "id": "favourable conditions for consociationalism"
             },
             {
-                "id": "segmental isolation of ethnic communities",
-                "frequency": 1,
-                "section_count": 1
+                "id": "segmental isolation of ethnic communities"
             },
             {
-                "id": "multiple balance of power",
-                "frequency": 1,
-                "section_count": 1
+                "id": "multiple balance of power"
             },
             {
-                "id": "presence of external threats",
-                "frequency": 1,
-                "section_count": 1
+                "id": "presence of external threats"
             },
             {
-                "id": "overarching loyalties to the state",
-                "frequency": 1,
-                "section_count": 1
+                "id": "overarching loyalties to the state"
             },
             {
-                "id": "tradition of elite accommodation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "tradition of elite accommodation"
             },
             {
-                "id": "socioeconomic equality",
-                "frequency": 1,
-                "section_count": 1
+                "id": "socioeconomic equality"
             },
             {
-                "id": "small population size",
-                "frequency": 1,
-                "section_count": 1
+                "id": "small population size"
             },
             {
-                "id": "moderate multi-party system",
-                "frequency": 1,
-                "section_count": 1
+                "id": "moderate multi-party system"
             },
             {
-                "id": "motivation of elites",
-                "frequency": 1,
-                "section_count": 1
+                "id": "motivation of elites"
             },
             {
-                "id": "leadership of deferential segments",
-                "frequency": 1,
-                "section_count": 1
+                "id": "leadership of deferential segments"
             },
             {
-                "id": "stability of subcultures",
-                "frequency": 1,
-                "section_count": 1
+                "id": "stability of subcultures"
             },
             {
-                "id": "positive external regulating pressures",
-                "frequency": 1,
-                "section_count": 1
+                "id": "positive external regulating pressures"
             },
             {
-                "id": "political representation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "political and economic representation"
             },
             {
-                "id": "economic representation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "integrationist approaches"
             },
             {
-                "id": "integrationist approaches",
-                "frequency": 1,
-                "section_count": 1
+                "id": "state-building"
             },
             {
-                "id": "conflict management",
-                "frequency": 1,
-                "section_count": 1
+                "id": "external support"
             },
             {
-                "id": "deeply divided societies",
-                "frequency": 1,
-                "section_count": 1
+                "id": "clientele politics"
             },
             {
-                "id": "institutionalisation of divisions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fragile states"
             },
             {
-                "id": "external support",
-                "frequency": 1,
-                "section_count": 1
+                "id": "divisions"
             },
             {
-                "id": "clientele politics",
-                "frequency": 1,
-                "section_count": 1
+                "id": "political parties"
             },
             {
-                "id": "fragile states",
-                "frequency": 1,
-                "section_count": 1
+                "id": "self-interest"
             },
             {
-                "id": "cross-cutting cleavages",
-                "frequency": 1,
-                "section_count": 1
+                "id": "democracy"
             },
             {
-                "id": "self-interest of elites",
-                "frequency": 1,
-                "section_count": 1
+                "id": "centripetalism"
             },
             {
-                "id": "empirical overextension",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sectarianism"
             },
             {
-                "id": "ethnic divisions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "peace agreements"
             },
             {
-                "id": "centripetalism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "majoritarian democracy"
             },
             {
-                "id": "temporary peace",
-                "frequency": 1,
-                "section_count": 1
+                "id": "ethnic quotas"
             },
             {
-                "id": "sectarianism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "two-state solution"
             },
             {
-                "id": "consociational democracy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fractured societies"
             },
             {
-                "id": "peace agreements",
-                "frequency": 1,
-                "section_count": 1
+                "id": "democratic governance"
             },
             {
-                "id": "dayton agreement",
-                "frequency": 1,
-                "section_count": 1
+                "id": "myth of consociationalism"
             },
             {
-                "id": "good friday agreement",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "ohrid agreement",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "majoritarian democracy",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "ethnic quotas",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "two-state solution",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "power-sharing",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fractured societies",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "political science",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "myth of consociationalism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "political science"
             }
         ]
     },
     "Garden path sentence": {
         "category": "linguistics",
-        "total_entities": 35,
+        "total_entities": 37,
         "entities": [
             {
-                "id": "garden-path sentence",
-                "frequency": 6,
-                "section_count": 5
+                "id": "garden-path sentence"
             },
             {
-                "id": "re-analysis",
-                "frequency": 3,
-                "section_count": 3
+                "id": "re-analysis"
             },
             {
-                "id": "sentence parsing",
-                "frequency": 2,
-                "section_count": 2
+                "id": "psycholinguistic research"
             },
             {
-                "id": "initial misunderstanding",
-                "frequency": 2,
-                "section_count": 2
+                "id": "grammatically correct"
             },
             {
-                "id": "grammatically correct",
-                "frequency": 1,
-                "section_count": 1
+                "id": "ambiguous interpretation"
             },
             {
-                "id": "ambiguous interpretation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "false scent"
             },
             {
-                "id": "false scent",
-                "frequency": 1,
-                "section_count": 1
+                "id": "reader's interpretation"
             },
             {
-                "id": "reader's interpretation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "re-reading and careful parsing"
             },
             {
-                "id": "re-reading and careful parsing",
-                "frequency": 1,
-                "section_count": 1
+                "id": "syntactically non-standard"
             },
             {
-                "id": "syntactically non-standard",
-                "frequency": 1,
-                "section_count": 1
+                "id": "clear communication"
             },
             {
-                "id": "clear communication",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sentence parsing"
             },
             {
-                "id": "frequent pattern",
-                "frequency": 1,
-                "section_count": 1
+                "id": "initial misunderstanding"
             },
             {
-                "id": "complex houses married",
-                "frequency": 1,
-                "section_count": 1
+                "id": "frequent pattern"
             },
             {
-                "id": "passive participle",
-                "frequency": 1,
-                "section_count": 1
+                "id": "complex houses married"
             },
             {
-                "id": "agent \u2013 action \u2013 patient",
-                "frequency": 1,
-                "section_count": 1
+                "id": "semantic sense"
             },
             {
-                "id": "reduced relative clause",
-                "frequency": 1,
-                "section_count": 1
+                "id": "reduced relative clause"
             },
             {
-                "id": "non-reduced relative clause",
-                "frequency": 1,
-                "section_count": 1
+                "id": "transitive verb"
             },
             {
-                "id": "parsing",
-                "frequency": 1,
-                "section_count": 1
+                "id": "agent \u2013 action \u2013 patient"
             },
             {
-                "id": "sentence chunks",
-                "frequency": 1,
-                "section_count": 1
+                "id": "parsing"
             },
             {
-                "id": "pragmatics",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sentence chunks"
             },
             {
-                "id": "semantics",
-                "frequency": 1,
-                "section_count": 1
+                "id": "pragmatics"
             },
             {
-                "id": "parsing strategies",
-                "frequency": 1,
-                "section_count": 1
+                "id": "semantics"
             },
             {
-                "id": "serial parsing",
-                "frequency": 1,
-                "section_count": 1
+                "id": "parsing strategies"
             },
             {
-                "id": "parallel parsing",
-                "frequency": 1,
-                "section_count": 1
+                "id": "serial parsing"
             },
             {
-                "id": "ambiguous nouns",
-                "frequency": 1,
-                "section_count": 1
+                "id": "parallel parsing"
             },
             {
-                "id": "selective reanalysis process",
-                "frequency": 1,
-                "section_count": 1
+                "id": "ambiguous nouns"
             },
             {
-                "id": "eye movement strategies",
-                "frequency": 1,
-                "section_count": 1
+                "id": "selective reanalysis process"
             },
             {
-                "id": "executive functioning",
-                "frequency": 1,
-                "section_count": 1
+                "id": "eye movement strategies"
             },
             {
-                "id": "l2 learners",
-                "frequency": 1,
-                "section_count": 1
+                "id": "executive functioning"
             },
             {
-                "id": "act-out errors",
-                "frequency": 1,
-                "section_count": 1
+                "id": "l2 learners"
             },
             {
-                "id": "discourse and referential information",
-                "frequency": 1,
-                "section_count": 1
+                "id": "act-out errors"
             },
             {
-                "id": "revision difficulties",
-                "frequency": 1,
-                "section_count": 1
+                "id": "discourse and referential information"
             },
             {
-                "id": "competing syntactic representations",
-                "frequency": 1,
-                "section_count": 1
+                "id": "revision difficulties"
             },
             {
-                "id": "psycholinguistic research",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sentence processing"
             },
             {
-                "id": "models of language comprehension",
-                "frequency": 1,
-                "section_count": 1
-            }
-        ]
-    },
-    "Fluxus": {
-        "category": "arts",
-        "total_entities": 83,
-        "entities": [
-            {
-                "id": "fluxus",
-                "frequency": 9,
-                "section_count": 9
-            },
-            {
-                "id": "intermedia",
-                "frequency": 3,
-                "section_count": 3
-            },
-            {
-                "id": "george maciunas",
-                "frequency": 3,
-                "section_count": 3
-            },
-            {
-                "id": "dada",
-                "frequency": 3,
-                "section_count": 3
-            },
-            {
-                "id": "anti-art",
-                "frequency": 3,
-                "section_count": 3
-            },
-            {
-                "id": "fluxkits",
-                "frequency": 3,
-                "section_count": 3
-            },
-            {
-                "id": "readymades",
-                "frequency": 2,
-                "section_count": 2
-            },
-            {
-                "id": "collaboration",
-                "frequency": 2,
-                "section_count": 2
-            },
-            {
-                "id": "event scores",
-                "frequency": 2,
-                "section_count": 2
-            },
-            {
-                "id": "experimental art performances",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "conceptual art",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "video art",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "influence of john cage",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxus manifesto",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxus festivals",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxus as a laboratory",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "john cage",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "zen buddhism",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "chance and indeterminacy",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "marcel duchamp",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxus events",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxfests",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "political stance",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "maciunas' agitprop approach",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "yoko ono",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxorchestra performance",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "collective authorship",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "flux communes",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxhousing co-operatives",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "role of women in fluxus",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "maciunas' death",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "jean brown",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxus movement timeline",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxwedding",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "jon hendricks",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "gilbert and lila silverman collection",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "post-fluxus community",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxlist",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "los angeles philharmonic fluxus festival",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "gutai group",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "avant-garde art in japan",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "post-war disenchantment",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "buddhism and zen",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "themes of decay and inadequacy of modernity",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxus challenge to representation",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "elimination of boundaries between art and life",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "joseph beuys",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "japanese culture",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "shibumi",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "pantonomic essence of japanese art",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "shock factor",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "henry cowell",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "do-it-yourself approach",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "nam june paik",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "something else press",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "performance art",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "collage",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "minimal performances",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "events",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "audience integration",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "found objects",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "simplicity",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "humor",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "unified history",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "resistance to pigeonholing",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "acts of excommunication",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "performative essence",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "shift towards publication",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "lack of leadership",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "discourse on failure",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "characteristics of fluxus artists",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "lack of consistent identity",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "inclusivity of fluxus",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "significance of female membership",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "abstract expressionism",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "unity in fluxus",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "accusations against maciunas",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "associated artists",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxus sound works",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "sub rosa records",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "fluxus & neofluxus / stolen symphony",
-                "frequency": 1,
-                "section_count": 1
+                "id": "competing syntactic representations"
             },
             {
-                "id": "cd release",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cognitive mechanisms"
             },
             {
-                "id": "2023",
-                "frequency": 1,
-                "section_count": 1
+                "id": "misinterpretation"
             }
         ]
     },
     "Mandelbrot set": {
         "category": "math/stats",
-        "total_entities": 81,
+        "total_entities": 75,
         "entities": [
             {
-                "id": "mandelbrot set",
-                "frequency": 8,
-                "section_count": 8
+                "id": "mandelbrot set"
             },
             {
-                "id": "julia set",
-                "frequency": 4,
-                "section_count": 4
+                "id": "julia set"
             },
             {
-                "id": "complex plane",
-                "frequency": 3,
-                "section_count": 3
+                "id": "benoit mandelbrot"
             },
             {
-                "id": "iteration",
-                "frequency": 3,
-                "section_count": 3
+                "id": "complex plane"
             },
             {
-                "id": "bounded sequence",
-                "frequency": 2,
-                "section_count": 2
+                "id": "iteration of the quadratic map"
             },
             {
-                "id": "complex dynamics",
-                "frequency": 2,
-                "section_count": 2
+                "id": "bifurcation locus"
             },
             {
-                "id": "quadratic polynomials",
-                "frequency": 2,
-                "section_count": 2
+                "id": "hyperbolic components"
             },
             {
-                "id": "benoit mandelbrot",
-                "frequency": 2,
-                "section_count": 2
+                "id": "fractals"
             },
             {
-                "id": "critical point",
-                "frequency": 2,
-                "section_count": 2
+                "id": "chaos theory"
             },
             {
-                "id": "bifurcation locus",
-                "frequency": 2,
-                "section_count": 2
+                "id": "complex dynamics"
             },
             {
-                "id": "bifurcation",
-                "frequency": 2,
-                "section_count": 2
+                "id": "fractal geometry"
             },
             {
-                "id": "hyperbolic components",
-                "frequency": 2,
-                "section_count": 2
+                "id": "robert w. brooks and peter matelski"
             },
             {
-                "id": "multibrot sets",
-                "frequency": 2,
-                "section_count": 2
+                "id": "adrien douady and john h. hubbard"
             },
             {
-                "id": "fractals",
-                "frequency": 2,
-                "section_count": 2
+                "id": "heinz-otto peitgen and peter richter"
             },
             {
-                "id": "chaos theory",
-                "frequency": 2,
-                "section_count": 2
+                "id": "scientific american"
             },
             {
-                "id": "function f_c(z)",
-                "frequency": 1,
-                "section_count": 1
+                "id": "algorithm for computing the mandelbrot set"
             },
             {
-                "id": "fractal curve",
-                "frequency": 1,
-                "section_count": 1
+                "id": "computer-graphics demo"
             },
             {
-                "id": "recursive detail",
-                "frequency": 1,
-                "section_count": 1
+                "id": "interest in complex dynamics and abstract mathematics"
             },
             {
-                "id": "threshold",
-                "frequency": 1,
-                "section_count": 1
+                "id": "bounded sequence"
             },
             {
-                "id": "mathematical visualization",
-                "frequency": 1,
-                "section_count": 1
+                "id": "example of c = 1"
             },
             {
-                "id": "fractal geometry",
-                "frequency": 1,
-                "section_count": 1
+                "id": "example of c = -1"
             },
             {
-                "id": "adrien douady and john h. hubbard",
-                "frequency": 1,
-                "section_count": 1
+                "id": "connectedness locus"
             },
             {
-                "id": "heinz-otto peitgen and peter richter",
-                "frequency": 1,
-                "section_count": 1
+                "id": "closed disk of radius 2"
             },
             {
-                "id": "scientific american",
-                "frequency": 1,
-                "section_count": 1
+                "id": "point c in mandelbrot set"
             },
             {
-                "id": "computer-graphics demo",
-                "frequency": 1,
-                "section_count": 1
+                "id": "escape to infinity"
             },
             {
-                "id": "parameter space",
-                "frequency": 1,
-                "section_count": 1
+                "id": "intersection of m with the real axis"
             },
             {
-                "id": "kleinian groups",
-                "frequency": 1,
-                "section_count": 1
+                "id": "logistic family"
             },
             {
-                "id": "example of c = 1",
-                "frequency": 1,
-                "section_count": 1
+                "id": "conformal isomorphism"
             },
             {
-                "id": "example of c = -1",
-                "frequency": 1,
-                "section_count": 1
+                "id": "connectedness of m"
             },
             {
-                "id": "connectedness locus",
-                "frequency": 1,
-                "section_count": 1
+                "id": "dynamical formula for uniformisation"
             },
             {
-                "id": "dynamic behavior",
-                "frequency": 1,
-                "section_count": 1
+                "id": "mandelbrot curves"
             },
             {
-                "id": "closed disk of radius 2",
-                "frequency": 1,
-                "section_count": 1
+                "id": "main cardioid"
             },
             {
-                "id": "point belonging to the mandelbrot set",
-                "frequency": 1,
-                "section_count": 1
+                "id": "attracting fixed point"
             },
             {
-                "id": "escape to infinity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "period-2 bulb"
             },
             {
-                "id": "intersection with the real axis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "period-q bulbs"
             },
             {
-                "id": "real logistic family",
-                "frequency": 1,
-                "section_count": 1
+                "id": "bifurcation"
             },
             {
-                "id": "conformal isomorphism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "density of hyperbolicity"
             },
             {
-                "id": "connectedness of the mandelbrot set",
-                "frequency": 1,
-                "section_count": 1
+                "id": "centers of hyperbolic components"
             },
             {
-                "id": "dynamical formula for uniformisation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "mandelbrot locally connected (mlc)"
             },
             {
-                "id": "mandelbrot curves",
-                "frequency": 1,
-                "section_count": 1
+                "id": "hausdorff dimension"
             },
             {
-                "id": "main cardioid",
-                "frequency": 1,
-                "section_count": 1
+                "id": "rational number"
             },
             {
-                "id": "attracting fixed point",
-                "frequency": 1,
-                "section_count": 1
+                "id": "p/q-limb"
             },
             {
-                "id": "period-2 bulb",
-                "frequency": 1,
-                "section_count": 1
+                "id": "yoccoz-inequality"
             },
             {
-                "id": "period-q bulbs",
-                "frequency": 1,
-                "section_count": 1
+                "id": "antennae"
             },
             {
-                "id": "density of hyperbolicity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "rotation number"
             },
             {
-                "id": "centers of hyperbolic components",
-                "frequency": 1,
-                "section_count": 1
+                "id": "quadratic polynomial"
             },
             {
-                "id": "mandelbrot locally connected (mlc)",
-                "frequency": 1,
-                "section_count": 1
+                "id": "farey addition"
             },
             {
-                "id": "hausdorff dimension",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fibonacci sequence"
             },
             {
-                "id": "rational numbers",
-                "frequency": 1,
-                "section_count": 1
+                "id": "satellite"
             },
             {
-                "id": "p/q-limb",
-                "frequency": 1,
-                "section_count": 1
+                "id": "gradient boundaries"
             },
             {
-                "id": "yoccoz-inequality",
-                "frequency": 1,
-                "section_count": 1
+                "id": "multibrot sets"
             },
             {
-                "id": "antennae",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cubic connectedness locus"
             },
             {
-                "id": "rotation number",
-                "frequency": 1,
-                "section_count": 1
+                "id": "critical points"
             },
             {
-                "id": "computer experiment",
-                "frequency": 1,
-                "section_count": 1
+                "id": "exponents in multibrot sets"
             },
             {
-                "id": "bulbs",
-                "frequency": 1,
-                "section_count": 1
+                "id": "epicycloid"
             },
             {
-                "id": "farey addition",
-                "frequency": 1,
-                "section_count": 1
+                "id": "hypocycloid"
             },
             {
-                "id": "fibonacci sequence",
-                "frequency": 1,
-                "section_count": 1
+                "id": "quaternions"
             },
             {
-                "id": "zooming",
-                "frequency": 1,
-                "section_count": 1
+                "id": "tricorn fractal"
             },
             {
-                "id": "gradient boundaries",
-                "frequency": 1,
-                "section_count": 1
+                "id": "burning ship fractal"
             },
             {
-                "id": "cubic connectedness locus",
-                "frequency": 1,
-                "section_count": 1
+                "id": "escape time algorithm"
             },
             {
-                "id": "epicycloid",
-                "frequency": 1,
-                "section_count": 1
+                "id": "escape condition"
             },
             {
-                "id": "hypocycloid",
-                "frequency": 1,
-                "section_count": 1
+                "id": "color representation"
             },
             {
-                "id": "quaternions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "pseudocode"
             },
             {
-                "id": "tricorn fractal",
-                "frequency": 1,
-                "section_count": 1
+                "id": "iteration limit"
             },
             {
-                "id": "burning ship fractal",
-                "frequency": 1,
-                "section_count": 1
+                "id": "color palette"
             },
             {
-                "id": "escape time algorithm",
-                "frequency": 1,
-                "section_count": 1
+                "id": "power variable"
             },
             {
-                "id": "escape condition",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cultural references"
             },
             {
-                "id": "color representation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "visual representations"
             },
             {
-                "id": "pseudocode",
-                "frequency": 1,
-                "section_count": 1
+                "id": "mathematical structure"
             },
             {
-                "id": "pixel",
-                "frequency": 1,
-                "section_count": 1
+                "id": "media adaptations"
             },
             {
-                "id": "iteration limit",
-                "frequency": 1,
-                "section_count": 1
+                "id": "dynamics in one complex variable"
             },
             {
-                "id": "color palette",
-                "frequency": 1,
-                "section_count": 1
+                "id": "complex functions"
             },
             {
-                "id": "cultural references",
-                "frequency": 1,
-                "section_count": 1
+                "id": "self-similarity"
             },
             {
-                "id": "visual representations",
-                "frequency": 1,
-                "section_count": 1
+                "id": "dynamical systems"
             },
             {
-                "id": "literary references",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "television references",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "artistic representations",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "dynamics in one complex variable",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "self-similarity",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "dynamical systems",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "mathematical models",
-                "frequency": 1,
-                "section_count": 1
+                "id": "mathematical studies"
             }
         ]
     },
     "Cryotherapy": {
         "category": "health/medicine",
-        "total_entities": 69,
+        "total_entities": 72,
         "entities": [
             {
-                "id": "cryotherapy",
-                "frequency": 8,
-                "section_count": 8
+                "id": "cryotherapy"
             },
             {
-                "id": "therapeutic health benefits",
-                "frequency": 7,
-                "section_count": 5
+                "id": "therapeutic health benefits"
             },
             {
-                "id": "recovery acceleration",
-                "frequency": 4,
-                "section_count": 4
+                "id": "swelling and edema"
             },
             {
-                "id": "muscle spasms and soreness reduction",
-                "frequency": 4,
-                "section_count": 4
+                "id": "treatment methods"
             },
             {
-                "id": "inflammatory response",
-                "frequency": 3,
-                "section_count": 3
+                "id": "range of motion"
             },
             {
-                "id": "electric cryotherapy chambers",
-                "frequency": 3,
-                "section_count": 3
+                "id": "inflammatory response"
             },
             {
-                "id": "range of motion",
-                "frequency": 3,
-                "section_count": 3
+                "id": "recovery acceleration"
             },
             {
-                "id": "blood flow reduction",
-                "frequency": 3,
-                "section_count": 2
+                "id": "muscle spasms"
             },
             {
-                "id": "swelling and edema",
-                "frequency": 2,
-                "section_count": 2
+                "id": "cold chambers"
             },
             {
-                "id": "vasoconstriction and vasodilation",
-                "frequency": 2,
-                "section_count": 2
+                "id": "vasoconstriction and vasodilation"
             },
             {
-                "id": "sports rehabilitation",
-                "frequency": 2,
-                "section_count": 2
+                "id": "contraindications"
             },
             {
-                "id": "contraindications",
-                "frequency": 2,
-                "section_count": 2
+                "id": "ice pack therapy"
             },
             {
-                "id": "adverse effects of ice pack therapy",
-                "frequency": 2,
-                "section_count": 2
+                "id": "efficacy of ice pack therapy"
             },
             {
-                "id": "effectiveness of cryotherapy",
-                "frequency": 2,
-                "section_count": 2
+                "id": "adverse effects of ice pack therapy"
             },
             {
-                "id": "cold therapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cold therapy"
             },
             {
-                "id": "musculoskeletal injury",
-                "frequency": 1,
-                "section_count": 1
+                "id": "musculoskeletal injury"
             },
             {
-                "id": "igf-1",
-                "frequency": 1,
-                "section_count": 1
+                "id": "igf-1"
             },
             {
-                "id": "temperature reduction",
-                "frequency": 1,
-                "section_count": 1
+                "id": "temperature reduction"
             },
             {
-                "id": "treatment methods",
-                "frequency": 1,
-                "section_count": 1
+                "id": "hypoxic cell death"
             },
             {
-                "id": "fight or flight response",
-                "frequency": 1,
-                "section_count": 1
+                "id": "ice packs and ice baths"
             },
             {
-                "id": "thermoregulation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "electric cryotherapy chambers"
             },
             {
-                "id": "refrigeration as a cooling agent",
-                "frequency": 1,
-                "section_count": 1
+                "id": "fight or flight response"
             },
             {
-                "id": "historical development of cryotherapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "thermoregulation"
             },
             {
-                "id": "extreme cooling",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cooling agent"
             },
             {
-                "id": "blood vessel constriction",
-                "frequency": 1,
-                "section_count": 1
+                "id": "historical development of cryotherapy"
             },
             {
-                "id": "anti-inflammatory proteins (il-10)",
-                "frequency": 1,
-                "section_count": 1
+                "id": "extreme cooling"
             },
             {
-                "id": "circulatory system activation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "blood vessel constriction"
             },
             {
-                "id": "mental health support",
-                "frequency": 1,
-                "section_count": 1
+                "id": "anti-inflammatory proteins (il-10)"
             },
             {
-                "id": "wellness",
-                "frequency": 1,
-                "section_count": 1
+                "id": "blood vessel expansion"
             },
             {
-                "id": "eczema symptom reduction",
-                "frequency": 1,
-                "section_count": 1
+                "id": "circulatory system activation"
             },
             {
-                "id": "cryosurgery",
-                "frequency": 1,
-                "section_count": 1
+                "id": "healing and muscle fiber regeneration"
             },
             {
-                "id": "extreme cold application",
-                "frequency": 1,
-                "section_count": 1
+                "id": "mental health support"
             },
             {
-                "id": "intracellular ice formation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "eczema symptom reduction"
             },
             {
-                "id": "degree of damage",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cryosurgery"
             },
             {
-                "id": "liquid nitrogen",
-                "frequency": 1,
-                "section_count": 1
+                "id": "extreme cold application"
             },
             {
-                "id": "applications of cryosurgery",
-                "frequency": 1,
-                "section_count": 1
+                "id": "intracellular ice formation"
             },
             {
-                "id": "procedure characteristics",
-                "frequency": 1,
-                "section_count": 1
+                "id": "degree of damage"
             },
             {
-                "id": "cancerous lesions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "liquid nitrogen"
             },
             {
-                "id": "precautions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "applications of cryosurgery"
             },
             {
-                "id": "ice pack therapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "procedure characteristics"
             },
             {
-                "id": "efficacy of ice pack therapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cancerous lesions"
             },
             {
-                "id": "conduction",
-                "frequency": 1,
-                "section_count": 1
+                "id": "precautions"
             },
             {
-                "id": "physiologic effects of cold application",
-                "frequency": 1,
-                "section_count": 1
+                "id": "conduction"
             },
             {
-                "id": "rice method",
-                "frequency": 1,
-                "section_count": 1
+                "id": "physiologic effects of cold application"
             },
             {
-                "id": "post-surgical management",
-                "frequency": 1,
-                "section_count": 1
+                "id": "vasoconstriction"
             },
             {
-                "id": "clinical trials",
-                "frequency": 1,
-                "section_count": 1
+                "id": "muscle recovery"
             },
             {
-                "id": "total knee arthroplasty",
-                "frequency": 1,
-                "section_count": 1
+                "id": "rice method"
             },
             {
-                "id": "continuous cryotherapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "post-surgical management"
             },
             {
-                "id": "traditional cryotherapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "clinical trials"
             },
             {
-                "id": "pain intensity",
-                "frequency": 1,
-                "section_count": 1
+                "id": "total knee arthroplasty"
             },
             {
-                "id": "analgesics consumption",
-                "frequency": 1,
-                "section_count": 1
+                "id": "efficacy and therapeutic outcomes"
             },
             {
-                "id": "blood loss",
-                "frequency": 1,
-                "section_count": 1
+                "id": "pain intensity"
             },
             {
-                "id": "length of hospital stay",
-                "frequency": 1,
-                "section_count": 1
+                "id": "analgesics consumption"
             },
             {
-                "id": "financial implications",
-                "frequency": 1,
-                "section_count": 1
+                "id": "blood loss"
             },
             {
-                "id": "cost-effectiveness",
-                "frequency": 1,
-                "section_count": 1
+                "id": "length of hospital stay"
             },
             {
-                "id": "cold aerosol sprays",
-                "frequency": 1,
-                "section_count": 1
+                "id": "financial implications"
             },
             {
-                "id": "physiological effects",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cost-effectiveness"
             },
             {
-                "id": "skin temperature vs. muscle temperature",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cold aerosol sprays"
             },
             {
-                "id": "evaporation cooling mechanism",
-                "frequency": 1,
-                "section_count": 1
+                "id": "physiological effects"
             },
             {
-                "id": "anesthetic alternatives",
-                "frequency": 1,
-                "section_count": 1
+                "id": "evaporation cooling mechanism"
             },
             {
-                "id": "short-term pain relief",
-                "frequency": 1,
-                "section_count": 1
+                "id": "tetrafluoroethane and dimethyl ether"
             },
             {
-                "id": "whole-body cryotherapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "trigger points"
             },
             {
-                "id": "exposure duration",
-                "frequency": 1,
-                "section_count": 1
+                "id": "short-term effect"
             },
             {
-                "id": "session frequency",
-                "frequency": 1,
-                "section_count": 1
+                "id": "whole-body cryotherapy"
             },
             {
-                "id": "recommended sessions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "muscle soreness"
             },
             {
-                "id": "cryotherapy methods",
-                "frequency": 1,
-                "section_count": 1
+                "id": "recovery time"
             },
             {
-                "id": "safety precautions",
-                "frequency": 1,
-                "section_count": 1
+                "id": "exposure duration"
             },
             {
-                "id": "adverse events",
-                "frequency": 1,
-                "section_count": 1
+                "id": "session frequency"
             },
             {
-                "id": "partial body cryotherapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "methods of achieving subzero temperatures"
+            },
+            {
+                "id": "safety precautions"
+            },
+            {
+                "id": "adverse events"
+            },
+            {
+                "id": "partial body cryotherapy"
             }
         ]
     },
     "Mandela effect": {
         "category": "general",
-        "total_entities": 63,
+        "total_entities": 61,
         "entities": [
             {
-                "id": "false memory",
-                "frequency": 8,
-                "section_count": 8
+                "id": "false memory"
             },
             {
-                "id": "fuzzy-trace theory",
-                "frequency": 3,
-                "section_count": 3
+                "id": "fuzzy-trace theory"
             },
             {
-                "id": "source misattribution",
-                "frequency": 2,
-                "section_count": 2
+                "id": "activation of associated information"
             },
             {
-                "id": "elizabeth loftus and john palmer study",
-                "frequency": 2,
-                "section_count": 2
+                "id": "source misattribution"
             },
             {
-                "id": "gist representation",
-                "frequency": 2,
-                "section_count": 2
+                "id": "dissociation"
             },
             {
-                "id": "verbatim representation",
-                "frequency": 2,
-                "section_count": 2
+                "id": "hypnosis"
             },
             {
-                "id": "therapeutic strategies",
-                "frequency": 2,
-                "section_count": 2
+                "id": "gist representation"
             },
             {
-                "id": "memory recall",
-                "frequency": 2,
-                "section_count": 2
+                "id": "verbatim representation"
             },
             {
-                "id": "suggestibility",
-                "frequency": 1,
-                "section_count": 1
+                "id": "memory recall"
             },
             {
-                "id": "activation of associated information",
-                "frequency": 1,
-                "section_count": 1
+                "id": "suggestibility"
             },
             {
-                "id": "incorporation of misinformation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "incorporation of misinformation"
             },
             {
-                "id": "pierre janet",
-                "frequency": 1,
-                "section_count": 1
+                "id": "memory research"
             },
             {
-                "id": "sigmund freud",
-                "frequency": 1,
-                "section_count": 1
+                "id": "loftus and palmer study"
             },
             {
-                "id": "car accident videos",
-                "frequency": 1,
-                "section_count": 1
+                "id": "car accident videos"
             },
             {
-                "id": "verb influence on memory",
-                "frequency": 1,
-                "section_count": 1
+                "id": "verb influence"
             },
             {
-                "id": "participant estimates",
-                "frequency": 1,
-                "section_count": 1
+                "id": "framing effects"
             },
             {
-                "id": "second experiment",
-                "frequency": 1,
-                "section_count": 1
+                "id": "presupposition"
             },
             {
-                "id": "broken glass question",
-                "frequency": 1,
-                "section_count": 1
+                "id": "true effect"
             },
             {
-                "id": "framing effects",
-                "frequency": 1,
-                "section_count": 1
+                "id": "false effect"
             },
             {
-                "id": "presupposition",
-                "frequency": 1,
-                "section_count": 1
+                "id": "semantic relatedness"
             },
             {
-                "id": "true effect",
-                "frequency": 1,
-                "section_count": 1
+                "id": "mandela effect"
             },
             {
-                "id": "false effect",
-                "frequency": 1,
-                "section_count": 1
+                "id": "social reinforcement"
             },
             {
-                "id": "semantic relatedness",
-                "frequency": 1,
-                "section_count": 1
+                "id": "memory retrieval"
             },
             {
-                "id": "mandela effect",
-                "frequency": 1,
-                "section_count": 1
+                "id": "strength hypothesis"
             },
             {
-                "id": "social reinforcement",
-                "frequency": 1,
-                "section_count": 1
+                "id": "construction hypothesis"
             },
             {
-                "id": "memory retrieval",
-                "frequency": 1,
-                "section_count": 1
+                "id": "skeleton theory"
             },
             {
-                "id": "word association",
-                "frequency": 1,
-                "section_count": 1
+                "id": "acquisition processes"
             },
             {
-                "id": "strength hypothesis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "retrieval processes"
             },
             {
-                "id": "construction hypothesis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "creative imagination"
             },
             {
-                "id": "skeleton theory",
-                "frequency": 1,
-                "section_count": 1
+                "id": "social desirability"
             },
             {
-                "id": "acquisition processes",
-                "frequency": 1,
-                "section_count": 1
+                "id": "perceived social pressure"
             },
             {
-                "id": "retrieval processes",
-                "frequency": 1,
-                "section_count": 1
+                "id": "individual difference factors"
             },
             {
-                "id": "memory regeneration",
-                "frequency": 1,
-                "section_count": 1
+                "id": "metamemory beliefs"
             },
             {
-                "id": "linking",
-                "frequency": 1,
-                "section_count": 1
+                "id": "false memory syndrome"
             },
             {
-                "id": "creative imagination",
-                "frequency": 1,
-                "section_count": 1
+                "id": "sleep deprivation"
             },
             {
-                "id": "dissociation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "trauma history"
             },
             {
-                "id": "social desirability",
-                "frequency": 1,
-                "section_count": 1
+                "id": "attachment styles"
             },
             {
-                "id": "perceived social pressure",
-                "frequency": 1,
-                "section_count": 1
+                "id": "source-monitoring failures"
             },
             {
-                "id": "individual difference factors",
-                "frequency": 1,
-                "section_count": 1
+                "id": "false recognition"
             },
             {
-                "id": "metamemory beliefs",
-                "frequency": 1,
-                "section_count": 1
+                "id": "repressed memory therapy"
             },
             {
-                "id": "trauma history",
-                "frequency": 1,
-                "section_count": 1
+                "id": "guided imagery"
             },
             {
-                "id": "attachment styles",
-                "frequency": 1,
-                "section_count": 1
+                "id": "dream interpretation"
             },
             {
-                "id": "sleep deprivation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "narco-analysis"
             },
             {
-                "id": "false memory syndrome",
-                "frequency": 1,
-                "section_count": 1
+                "id": "therapist suggestions"
             },
             {
-                "id": "repressed memory therapy",
-                "frequency": 1,
-                "section_count": 1
+                "id": "lost-in-the-mall technique"
             },
             {
-                "id": "hypnosis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "hypnotic state"
             },
             {
-                "id": "guided imagery",
-                "frequency": 1,
-                "section_count": 1
+                "id": "suggestion patterns"
             },
             {
-                "id": "dream interpretation",
-                "frequency": 1,
-                "section_count": 1
+                "id": "hypnotic suggestions"
             },
             {
-                "id": "narco-analysis",
-                "frequency": 1,
-                "section_count": 1
+                "id": "therapy-induced memory recovery"
             },
             {
-                "id": "lost-in-the-mall technique",
-                "frequency": 1,
-                "section_count": 1
+                "id": "memory enhancement techniques"
             },
             {
-                "id": "hypnotizability",
-                "frequency": 1,
-                "section_count": 1
+                "id": "legal cases involving false memories"
             },
             {
-                "id": "suggestion",
-                "frequency": 1,
-                "section_count": 1
+                "id": "emotional influence on memory"
             },
             {
-                "id": "therapy-induced memory recovery",
-                "frequency": 1,
-                "section_count": 1
+                "id": "memory implantation studies"
             },
             {
-                "id": "memory enhancement techniques",
-                "frequency": 1,
-                "section_count": 1
+                "id": "therapeutic strategies"
             },
             {
-                "id": "legal cases involving false memories",
-                "frequency": 1,
-                "section_count": 1
+                "id": "ethical issues of recovered-memory therapy"
             },
             {
-                "id": "gist memory",
-                "frequency": 1,
-                "section_count": 1
+                "id": "public attitudes towards false memory implantation"
             },
             {
-                "id": "emotional trauma",
-                "frequency": 1,
-                "section_count": 1
+                "id": "recovered memories"
             },
             {
-                "id": "recovered memories",
-                "frequency": 1,
-                "section_count": 1
+                "id": "eyewitness testimony"
             },
             {
-                "id": "eyewitness testimony",
-                "frequency": 1,
-                "section_count": 1
+                "id": "cognitive neuroscience"
             },
             {
-                "id": "cognitive neuroscience",
-                "frequency": 1,
-                "section_count": 1
+                "id": "psychological implications"
             },
             {
-                "id": "memory distortion",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "implications of false memories",
-                "frequency": 1,
-                "section_count": 1
-            },
-            {
-                "id": "research methodologies",
-                "frequency": 1,
-                "section_count": 1
+                "id": "research methodologies"
             }
         ]
     }

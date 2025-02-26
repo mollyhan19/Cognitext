@@ -1,0 +1,577 @@
+{
+    "Consociationalism": {
+        "category": "political_science",
+        "relations": [
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "balance of power"
+            },
+            {
+                "source": "decentralized government",
+                "relation_type": "promotes",
+                "target": "equality in cabinet"
+            },
+            {
+                "source": "international actors",
+                "relation_type": "play a role in",
+                "target": "power-sharing agreements"
+            },
+            {
+                "source": "stability",
+                "relation_type": "is a goal of",
+                "target": "democratic governance"
+            },
+            {
+                "source": "favourable conditions for consociationalism",
+                "relation_type": "includes",
+                "target": "socioeconomic equality"
+            },
+            {
+                "source": "motivation of elites",
+                "relation_type": "necessary for",
+                "target": "conflict regulation"
+            },
+            {
+                "source": "balkanised social structure",
+                "relation_type": "challenges",
+                "target": "stability"
+            },
+            {
+                "source": "leadership of deferential segments",
+                "relation_type": "necessary for",
+                "target": "democratic consociational power-sharing"
+            },
+            {
+                "source": "consociational democracy",
+                "relation_type": "differs from",
+                "target": "consensus democracy"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "proportional representation"
+            },
+            {
+                "source": "centripetalism",
+                "relation_type": "alternative to",
+                "target": "consociationalism"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "can lead to",
+                "target": "sectarianism"
+            },
+            {
+                "source": "self-interest",
+                "relation_type": "motivates",
+                "target": "political parties"
+            },
+            {
+                "source": "favourable conditions for consociationalism",
+                "relation_type": "includes",
+                "target": "small population size"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is exemplified by",
+                "target": "Dayton Agreement"
+            },
+            {
+                "source": "South African Constitution of 1983",
+                "relation_type": "applied",
+                "target": "consociationalism"
+            },
+            {
+                "source": "political science",
+                "relation_type": "studies",
+                "target": "democratic governance"
+            },
+            {
+                "source": "fractured societies",
+                "relation_type": "can benefit from",
+                "target": "stability"
+            },
+            {
+                "source": "favourable conditions for consociationalism",
+                "relation_type": "includes",
+                "target": "multiple balance of power"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "developed to reconcile",
+                "target": "societal fragmentation"
+            },
+            {
+                "source": "presence of external threats",
+                "relation_type": "necessitates",
+                "target": "overarching loyalties to the state"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "corporatism"
+            },
+            {
+                "source": "role of social elites",
+                "relation_type": "critical for",
+                "target": "political accommodation in the netherlands"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is characterized by",
+                "target": "internal divisions"
+            },
+            {
+                "source": "goals of consociationalism",
+                "relation_type": "include",
+                "target": "stability"
+            },
+            {
+                "source": "goals of consociationalism",
+                "relation_type": "supports",
+                "target": "stability"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is applied in",
+                "target": "post-conflict state-building"
+            },
+            {
+                "source": "economic corporatism",
+                "relation_type": "was designed to regulate",
+                "target": "class conflict"
+            },
+            {
+                "source": "external facilitation",
+                "relation_type": "enhances",
+                "target": "post-conflict state-building"
+            },
+            {
+                "source": "criticism of consociationalism",
+                "relation_type": "is related to",
+                "target": "applicability to democratic political systems"
+            },
+            {
+                "source": "consociation",
+                "relation_type": "describes",
+                "target": "self-governing congregational churches"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is organized along",
+                "target": "confessionalism"
+            },
+            {
+                "source": "favourable conditions for consociationalism",
+                "relation_type": "includes",
+                "target": "presence of external threats"
+            },
+            {
+                "source": "positive external regulating pressures",
+                "relation_type": "provides incentives for",
+                "target": "acceptance of consociation"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "leads to",
+                "target": "clientele politics"
+            },
+            {
+                "source": "internal divisions",
+                "relation_type": "challenges",
+                "target": "stability"
+            },
+            {
+                "source": "confessionalism",
+                "relation_type": "related to",
+                "target": "consociationalism"
+            },
+            {
+                "source": "favourable conditions for consociationalism",
+                "relation_type": "includes",
+                "target": "segmental isolation of ethnic communities"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "coalition cabinets"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "equality in cabinet"
+            },
+            {
+                "source": "corporatism",
+                "relation_type": "related to",
+                "target": "economic corporatism"
+            },
+            {
+                "source": "stability of subcultures",
+                "relation_type": "necessary for",
+                "target": "democratic consociational power-sharing"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "associated with",
+                "target": "fragile states"
+            },
+            {
+                "source": "role of social elites",
+                "relation_type": "focus of",
+                "target": "consociationalism"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "elements of direct democracy"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is argued to be",
+                "target": "more realistic option"
+            },
+            {
+                "source": "internal divisions",
+                "relation_type": "are addressed by",
+                "target": "goals of consociationalism"
+            },
+            {
+                "source": "netherlands",
+                "relation_type": "example of",
+                "target": "consociational state"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "proportional employment"
+            },
+            {
+                "source": "concurrent majority",
+                "relation_type": "is a principle of",
+                "target": "consensus democracy"
+            },
+            {
+                "source": "boston synod of 1662",
+                "relation_type": "debated",
+                "target": "consociation"
+            },
+            {
+                "source": "political parties",
+                "relation_type": "cross-cut",
+                "target": "divisions"
+            },
+            {
+                "source": "corporatism",
+                "relation_type": "complements",
+                "target": "economic corporatism"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "oversized cabinets"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "contrasts with",
+                "target": "integrationist approaches"
+            },
+            {
+                "source": "consociational state",
+                "relation_type": "characterized by",
+                "target": "power-sharing agreements"
+            },
+            {
+                "source": "criticism of consociationalism",
+                "relation_type": "highlights challenges in",
+                "target": "mixed results of consociational arrangements"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is analogous to",
+                "target": "corporatism"
+            },
+            {
+                "source": "myth of consociationalism",
+                "relation_type": "challenges the effectiveness of",
+                "target": "consociationalism"
+            },
+            {
+                "source": "decentralized government",
+                "relation_type": "promotes",
+                "target": "self-governing congregational churches"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is a form of",
+                "target": "democratic power sharing"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "neutral head of state"
+            },
+            {
+                "source": "internal divisions",
+                "relation_type": "contributes to",
+                "target": "stability"
+            },
+            {
+                "source": "concurrent majority",
+                "relation_type": "can be a precursor to",
+                "target": "consociationalism"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "focuses on",
+                "target": "divisions"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is criticized by",
+                "target": "African National Congress (ANC)"
+            },
+            {
+                "source": "non-territorial pillars",
+                "relation_type": "characterized by",
+                "target": "balkanised social structure"
+            },
+            {
+                "source": "peace agreements",
+                "relation_type": "often utilize",
+                "target": "consociationalism"
+            },
+            {
+                "source": "two-state solution",
+                "relation_type": "is an alternative to",
+                "target": "consociational democracy"
+            },
+            {
+                "source": "tradition of elite accommodation",
+                "relation_type": "supports",
+                "target": "transformative aspect of consociationalism"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "influences",
+                "target": "democratic power sharing"
+            },
+            {
+                "source": "post-conflict state-building",
+                "relation_type": "utilizes",
+                "target": "external facilitation"
+            },
+            {
+                "source": "external facilitation",
+                "relation_type": "enhances",
+                "target": "favourable conditions for consociationalism"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "decentralized government"
+            },
+            {
+                "source": "internal divisions",
+                "relation_type": "exacerbates",
+                "target": "sectarianism"
+            },
+            {
+                "source": "self-governing congregational churches",
+                "relation_type": "empowered by",
+                "target": "civil legislature and magistracy"
+            },
+            {
+                "source": "democracy",
+                "relation_type": "questioned by",
+                "target": "consociationalism"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "judicial review"
+            },
+            {
+                "source": "favourable conditions for consociationalism",
+                "relation_type": "includes",
+                "target": "moderate multi-party system"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "discussed by",
+                "target": "arend lijphart"
+            },
+            {
+                "source": "internal divisions",
+                "relation_type": "affects",
+                "target": "stability"
+            },
+            {
+                "source": "multiple balance of power",
+                "relation_type": "necessary for",
+                "target": "democratic consociational power-sharing"
+            },
+            {
+                "source": "external facilitation",
+                "relation_type": "is utilized by",
+                "target": "international actors"
+            },
+            {
+                "source": "Islamic Republic of Afghanistan",
+                "relation_type": "was described as",
+                "target": "consociational"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "referendums"
+            },
+            {
+                "source": "criticism of consociationalism",
+                "relation_type": "highlights",
+                "target": "mixed results of consociational arrangements"
+            },
+            {
+                "source": "political accommodation in the netherlands",
+                "relation_type": "influenced",
+                "target": "consociationalism"
+            },
+            {
+                "source": "transformative aspect of consociationalism",
+                "relation_type": "can lead to",
+                "target": "role of social elites"
+            },
+            {
+                "source": "power-sharing agreements",
+                "relation_type": "facilitates",
+                "target": "post-conflict state-building"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "incongruent bicameralism"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "enables",
+                "target": "democratic power sharing"
+            },
+            {
+                "source": "favourable conditions for consociationalism",
+                "relation_type": "includes",
+                "target": "tradition of elite accommodation"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "rigid constitution"
+            },
+            {
+                "source": "consociational state",
+                "relation_type": "includes",
+                "target": "political and economic representation"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "characterized by",
+                "target": "independent central bank"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is a form of",
+                "target": "power-sharing agreements"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "criticized for",
+                "target": "internal divisions"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "dependent on",
+                "target": "external support"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is exemplified by",
+                "target": "Good Friday Agreement"
+            },
+            {
+                "source": "mixed results of consociational arrangements",
+                "relation_type": "are observed in",
+                "target": "post-conflict state-building"
+            },
+            {
+                "source": "High Representative",
+                "relation_type": "is an example of",
+                "target": "international actors"
+            },
+            {
+                "source": "consociationalism",
+                "relation_type": "is exemplified by",
+                "target": "Ohrid Agreement"
+            },
+            {
+                "source": "international actors",
+                "relation_type": "support",
+                "target": "power-sharing agreements"
+            },
+            {
+                "source": "mixed results of consociational arrangements",
+                "relation_type": "reflects",
+                "target": "transformative aspect of consociationalism"
+            },
+            {
+                "source": "criticism of consociationalism",
+                "relation_type": "contrasts with",
+                "target": "majoritarian democracy"
+            },
+            {
+                "source": "economic corporatism",
+                "relation_type": "intersects with",
+                "target": "corporatism"
+            },
+            {
+                "source": "majoritarian democracy",
+                "relation_type": "is preferred over",
+                "target": "consociationalism"
+            },
+            {
+                "source": "role of social elites",
+                "relation_type": "influences",
+                "target": "motivation of elites"
+            },
+            {
+                "source": "South African government",
+                "relation_type": "attempted to reform",
+                "target": "apartheid into consociational democracy"
+            },
+            {
+                "source": "favourable conditions for consociationalism",
+                "relation_type": "includes",
+                "target": "overarching loyalties to the state"
+            },
+            {
+                "source": "gerhard lehmbruch",
+                "relation_type": "suggests",
+                "target": "precursors of consociationalism"
+            },
+            {
+                "source": "transformative aspect of consociationalism",
+                "relation_type": "contributes to",
+                "target": "stability for peace-building"
+            },
+            {
+                "source": "presence of external threats",
+                "relation_type": "necessitates",
+                "target": "multiple balance of power"
+            },
+            {
+                "source": "john mcgarry and brendan o'leary",
+                "relation_type": "trace back",
+                "target": "consociationalism"
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM-Enhanced Cyclic Concept Map Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LLM-Enhanced Cyclic Concept Map Viewer</h1>
+
+        <div class="alert alert-info">
+            This tool uses an LLM to analyze your concept relationships and automatically generate meaningful concept constellations.
+        </div>
+
+        <div class="section">
+            <div class="section-title">Input Concept Relation Data</div>
+            <textarea id="jsonInput" placeholder="Paste your concept relationship JSON data here..."></textarea>
+
+            <div class="file-input-container">
+                <input type="file" id="fileInput" accept=".json" style="display: none;" />
+                <button id="loadFileButton">Load JSON File</button>
+                <button id="sampleDataButton">Try Demo Data</button>
+            </div>
+            <p class="help-text">Select your JSON file from your computer to analyze.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Generate Concept Maps</div>
+            <button id="generateButton">Generate Constellation Maps</button>
+            <div id="loadingIndicator" class="loading-indicator">
+                <div class="spinner"></div>
+                <span>Processing with LLM... This may take a minute...</span>
+            </div>
+            <p id="status"></p>
+        </div>
+
+        <div id="constellation-container" style="display: none;">
+            <div class="constellation-title" id="constellation-title"></div>
+            <div class="constellation-description" id="constellation-description"></div>
+
+            <div id="canvas-container">
+                <canvas id="conceptMapCanvas" width="1000" height="600"></canvas>
+            </div>
+
+            <div class="navigation">
+                <button id="prevButton" disabled>&laquo; Previous</button>
+                <span class="page-indicator" id="pageIndicator">Constellation 1 of 1</span>
+                <button id="nextButton" disabled>Next &raquo;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load JavaScript modules -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
