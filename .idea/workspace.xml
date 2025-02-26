@@ -4,40 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13f3ee0b-fcc8-4e3c-afb6-f8709c84ae6e" name="Changes" comment="Update relation extraction implementation &amp; results for section level">
-      <change afterPath="$PROJECT_DIR$/data/categorization/scibert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/visualizations/sample_vis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/dbpedia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/dbpedia_stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/visualization/counting_priorities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/visualization/cyclic_concept_map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/visualization/relation_graph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Cognitext.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cognitext.iml" afterDir="false" />
+    <list default="true" id="13f3ee0b-fcc8-4e3c-afb6-f8709c84ae6e" name="Changes" comment="Update visualizations with frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/entities/cleaned_entity_paragraph_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/entities/cleaned_entity_paragraph_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/entities/cleaned_entity_section_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/entities/cleaned_entity_section_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/entities/entity_analysis_section_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/entities/entity_analysis_section_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/entity_analysis_section_results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/relations/global_relations_section.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/relations/global_relations_section.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/relations/local_relations_section.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/relations/local_relations_section.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/relations/master_relations_section.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/relations/master_relations_section.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/relationship_analysis_results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sample_analysis_output_openai_old.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sample_analysis_output_openai_raw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/text_sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/text_sample.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/concept_graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/dependency_analysis_openai.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/dependency_analysis_openai_old.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/entity_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/entity_extraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/entity_linking_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/entity_linking_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/relation_extraction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/text_processing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizations/concept_graph.gexf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizations/sample_graph_all.gexf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizations/sample_graph_top15.gexf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizations/sample_graph_top20.gexf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizations/sample_graph_top20.graphml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +204,7 @@
       <workItem from="1740129463575" duration="1113000" />
       <workItem from="1740458685417" duration="956000" />
       <workItem from="1740539453527" duration="1485000" />
-      <workItem from="1740541230498" duration="720000" />
+      <workItem from="1740541230498" duration="1482000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -366,7 +334,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736848535029</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update visualizations with frontend">
+      <option name="closed" value="true" />
+      <created>1740582005700</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740582005700</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update visualizations with frontend">
+      <option name="closed" value="true" />
+      <created>1740582124156</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740582124156</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +372,8 @@
     <MESSAGE value="Update entity extraction &amp; linking results, SpaCy comparison results" />
     <MESSAGE value="Update entity extraction &amp; linking results" />
     <MESSAGE value="Update relation extraction implementation &amp; results for section level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update relation extraction implementation &amp; results for section level" />
+    <MESSAGE value="Update visualizations with frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update visualizations with frontend" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Cognitext$fetch_articles.coverage" NAME="fetch_articles Coverage Results" MODIFIED="1727753071606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
